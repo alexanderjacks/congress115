@@ -133,7 +133,7 @@ const Page = ({ title }) => (
       <p className="App-intro mt-3">
         Another splendid hybrid
       </p>
-      <h2>Card Deck Bounce Yet?
+      <h2>Card Deck Bounces Now... But Enough, Yes?
       </h2>
       <div className="card-deck">
   <div className="card p-2 m-3">

@@ -2418,6 +2418,15 @@
   text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0;
   transition: all 0.1s linear; }
 
+.card {
+  outline: 1px solid transparent;
+  -webkit-animation: sway infinite 6.5s 0s none ease-in-out;
+  animation: sway infinite 6.5s 0s none ease-in-out; }
+  .card:hover {
+    outline: 1px solid transparent;
+    -webkit-animation: teeter 1s 0s none 1;
+    animation: teeter 1s 0s none 1; }
+
 .hyper {
   background-color: red;
   background-image: -webkit-linear-gradient(bottom, red, orange);
@@ -2427,7 +2436,6 @@
     animation: pulsate 3 1.5s 0s none;
     background-color: orange;
     background-image: -webkit-linear-gradient(bottom, orange, gold);
-    background-image: linear-gradient(to top,orange, gold);
-    transition: all 0.5s linear; }
+    background-image: linear-gradient(to top,orange, gold); }
 
 /*# sourceMappingURL=App.css.map */
