@@ -1,8 +1,8 @@
-# Font Awesome Sauce Box :tophat::nut_and_bolt::sparkles:
-## Toolkit for fa-icons
+# Font Awesome Notes :flower_playing_cards::dromedary_camel::sparkles:
+## Notecards via fa-icons & Saffron magic
 
-[View project live at https://fa-saucebox.firebaseapp.com](https://fa-saucebox.firebaseapp.com)
+[View project live at https://fa-notes.firebaseapp.com](https://fa-notes.firebaseapp.com)
 
-### Alexander Jacks
+### [Alexander Jacks SVC](https://alexanderjacks.com)
 
 _MIT License 2017_
