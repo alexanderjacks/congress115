@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.App-header {
+  background-color: indigo;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.mono {
+  font-family: monospace;
+}

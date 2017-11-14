@@ -1,0 +1,15 @@
+{
+  "short_name": "fa-notes",
+  "name": "Font Awesome Notes",
+  "icons": [
+    {
+      "src":"favicon.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "indigo",
+  "theme_color": "indigo",
+  "display": "standalone"
+}
