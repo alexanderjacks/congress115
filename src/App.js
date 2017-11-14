@@ -133,24 +133,24 @@ const Page = ({ title }) => (
       <p className="App-intro mt-3">
         Another splendid hybrid
       </p>
-      <h2>Card Deck?
+      <h2>Card Deck Bounce Yet?
       </h2>
       <div className="card-deck">
   <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Card title</h4>
+      <h4 className="card-title dramatic-drop-shadow">Prestigiditation</h4>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
   <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Card title</h4>
+      <h4 className="card-title dramatic-drop-shadow">Legerdemain</h4>
       <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
   <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Card title</h4>
+      <h4 className="card-title dramatic-drop-shadow">Ensorcellment</h4>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
   </div>
