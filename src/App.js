@@ -32,7 +32,7 @@ const Page = ({ title }) => (
         <ButtonGroup>
           <Button
             name='button'
-            className="btn-secondary btn-danger"
+            className="btn-secondary hyper"
           >Close <span className="fa-stack">
             <FontAwesome
               name='square'
@@ -50,7 +50,7 @@ const Page = ({ title }) => (
           </Button>
           <Button
             name='button'
-            className="btn-secondary btn-info"
+            className="btn-secondary hyper"
           >I/O <span className="fa-stack">
             <FontAwesome
               name='comment'
@@ -68,7 +68,7 @@ const Page = ({ title }) => (
           </Button>
           <Button
             name='button'
-            className="btn-secondary btn-warning"
+            className="btn-secondary hyper"
           >Rate <span className="fa-stack">
             <FontAwesome
               name='star'
@@ -86,7 +86,7 @@ const Page = ({ title }) => (
           </Button>
           <Button
             name='button'
-            className="btn-secondary btn-success"
+            className="btn-secondary hyper"
           >Spend <span className="fa-stack">
             <FontAwesome
               name='circle'
@@ -158,15 +158,9 @@ const Page = ({ title }) => (
 
       <h6>Font Awesome Notes
       </h6>
-      <Button
-        name='button'
-        className="btn-lg btn-secondary mono"
-
-      >Learn More
-      </Button>
       <p className="row justify-content-around">
         <Link className="fire" to="/">Home</Link>
-        <Link className="fire" to="/about">About</Link>
+        <a href="https://www.alexanderjacks.com"><span className="fire"> Author</span></a>
         <Link className="fire" to="/settings">Settings</Link>
       </p>
     </div>
