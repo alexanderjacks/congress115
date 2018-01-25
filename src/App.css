@@ -2413,6 +2413,26 @@
 .dramatic-drop-shadow {
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); }
 
+#root {
+  background: radial-gradient(circle, darkgreen, seagreen, springgreen, darkturquoise, powderblue);
+  height: 100vh; }
+
+Button {
+  background: linear-gradient(firebrick, rgba(255, 0, 255, 0.5), rgba(255, 255, 64, 0.1)); }
+
+.ledgerdemain {
+  background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }
+
+.ensorcellment {
+  background: linear-gradient(#e6aa3c, rgba(255, 180, 64, 0.4)); }
+
+.prestigiditation {
+  background: linear-gradient(#915ad2, rgba(105, 10, 180, 0.4)); }
+
+.App-header {
+  background: -webkit-linear-gradient(top, indigo, gold);
+  background: linear-gradient(bottom, indigo, gold); }
+
 .fire:hover {
   text-decoration: none;
   text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0;
@@ -2428,14 +2448,12 @@
     animation: teeter 1s 0s none 1; }
 
 .hyper {
-  background-color: red;
-  background-image: -webkit-linear-gradient(bottom, red, orange);
-  background-image: linear-gradient(to top,red, orange); }
+  background: -webkit-linear-gradient(top, red, orange);
+  background: linear-gradient(bottom, red, orange); }
   .hyper:hover {
     -webkit-animation: pulsate 3 1.5s 0s none;
     animation: pulsate 3 1.5s 0s none;
-    background-color: orange;
-    background-image: -webkit-linear-gradient(bottom, orange, gold);
-    background-image: linear-gradient(to top,orange, gold); }
+    background: -webkit-linear-gradient(top, orange, gold);
+    background: linear-gradient(bottom, orange, gold); }
 
 /*# sourceMappingURL=App.css.map */

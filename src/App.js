@@ -6,7 +6,7 @@ import FontAwesome from 'react-fontawesome';
 import './App.css';
 
 const Page = ({ title }) => (
-    <div className="App">
+    <div className="App" id="a3">
       <div className="App-header row justify-content-center">
           <h2 className="emboss">F<FontAwesome
             name='cog'
@@ -133,25 +133,43 @@ const Page = ({ title }) => (
       <p className="App-intro mt-3">
         Another splendid hybrid
       </p>
-      <h2>Card Deck Bounces Now... But Enough, Yes?
+      <h2>Shooting for stained glass over tie-dye
       </h2>
       <div className="card-deck">
-  <div className="card p-2 m-3">
+  <div className="card p-2 m-3 prestigiditation">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Prestigiditation</h4>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h4 className="card-title emboss d-inline">Prestigiditation</h4>
+      <FontAwesome
+            name='shower'
+            className='emboss d-inline pl-3'
+            size='3x'
+            style={{  }}
+       />
+      <p className="card-text">Magic tricks performed as entertainment.</p>
     </div>
   </div>
-  <div className="card p-2 m-3">
+  <div className="card p-2 m-3 ledgerdemain">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Legerdemain</h4>
-      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h4 className="card-title emboss d-inline">Legerdemain</h4>
+          <FontAwesome
+                name='handshake-o'
+                className='emboss d-inline pl-3'
+                size='3x'
+                style={{  }}
+           />
+      <p className="card-text">Skillful use of one's hands when performing conjuring tricks..</p>
     </div>
   </div>
-  <div className="card p-2 m-3">
+  <div className="card p-2 m-3 ensorcellment">
     <div className="card-body">
-      <h4 className="card-title dramatic-drop-shadow">Ensorcellment</h4>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h4 className="card-title emboss d-inline">Ensorcellment</h4>
+          <FontAwesome
+                name='eye-slash'
+                className='emboss d-inline pl-3'
+                size='3x'
+                style={{  }}
+           />
+      <p className="card-text">To enchant; bewitch. [French ensorceler, from Old French ensorcerer, ensorceler : en-, intensive pref.; see en-1 + sorcier, sorcerer; see sorcerer.] en·sor′cell·ment n</p>
     </div>
   </div>
 </div>
@@ -160,7 +178,7 @@ const Page = ({ title }) => (
       </h6>
       <p className="row justify-content-around">
         <Link className="fire" to="/">Home</Link>
-        <a href="https://www.alexanderjacks.com"><span className="fire"> Author</span></a>
+        <a href="https://www.alexanderjacks.biz"><span className="fire"> Author</span></a>
         <Link className="fire" to="/settings">Settings</Link>
       </p>
     </div>

@@ -1,12 +1,63 @@
 @import "../public/bourbon/bourbon";
 @import "../public/saffron/saffron";
+
 .emboss {
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
+
 .dramatic-drop-shadow {
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
+
+#root{
+    background: radial-gradient(circle,darkgreen,seagreen,springgreen,darkturquoise,powderblue);
+    height: 100vh;
+}
+
+@mixin down-gradient($start, $end){
+    background: -webkit-linear-gradient(top, $start, $end); // Safari 5.1+, Chrome
+    background: linear-gradient(bottom, $start, $end);
+}
+
+@mixin text-glow($color) {
+  text-shadow: 2px 2px 3px $color,
+  2px -2px 3px $color,
+  -2px 2px 3px $color,
+  -2px -2px 3px $color
+  ;
+}
+
+Button {
+    background: linear-gradient(firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.1));
+}
+
+@mixin white-caption {
+  color: white;
+  @include text-glow(black);
+}
+@mixin whitetext-rule($color) {
+  @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
+    @include white-caption;
+  }
+}
+
+.ledgerdemain {
+    background: linear-gradient(rgba(255,0,255,1),rgba(255,215,64,0.4));
+}
+.ensorcellment {
+    background: linear-gradient(rgba(230,170,60,1),rgba(255,180,64,0.4));
+}
+.prestigiditation {
+    background: linear-gradient(rgba(145,90,210,1),rgba(105,10,180,0.4));
+}
+
+
+.App-header {
+    @include down-gradient(indigo,gold);
+}
+
+
 .fire:hover {
     text-decoration: none;
     text-shadow: 2px 2px 4px #f00,
@@ -20,9 +71,9 @@
     &:hover { @include teeter(); }
 }
 .hyper {
-    @include linear-gradient(to top, red, orange);
+    @include down-gradient(red, orange);
     &:hover{
         @include pulsate();
-        @include linear-gradient(to top, orange, gold);
+        @include down-gradient(orange, gold);
     }
 }

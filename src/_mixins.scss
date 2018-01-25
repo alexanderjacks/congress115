@@ -1,0 +1,22 @@
+@mixin lin-gradient($start, $end){
+    background: -webkit-linear-gradient(top, $start, $end); // Safari 5.1+, Chrome
+    background: linear-gradient(bottom, $start, $end);
+}
+
+@mixin text-glow($color) {
+  text-shadow: 2px 2px 3px $color,
+  2px -2px 3px $color,
+  -2px 2px 3px $color,
+  -2px -2px 3px $color
+  ;
+}
+
+@mixin white-caption {
+  color: white;
+  @include text-glow(black);
+}
+@mixin whitetext-rule($color) {
+  @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
+    @include white-caption;
+  }
+}
