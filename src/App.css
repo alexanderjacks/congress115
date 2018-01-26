@@ -2413,21 +2413,73 @@
 .dramatic-drop-shadow {
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); }
 
-#root {
-  background: radial-gradient(circle, darkgreen, seagreen, springgreen, darkturquoise, powderblue);
-  height: 100vh; }
+.center {
+  text-align: center; }
 
-Button {
+#a {
+  background: radial-gradient(circle, snow, mediumslateblue, darkcyan, navy); }
+
+#a1 {
+  background: radial-gradient(circle, snow, beige, palegreen, olive, mediumslateblue, darkcyan, navy); }
+
+#a2 {
+  background: radial-gradient(circle, lightcyan, lightcoral, mediumvioletred, pink, mediumaquamarine, crimson, darkred); }
+
+#a3 {
+  background: radial-gradient(circle, darkgreen, seagreen, springgreen, peru, darkturquoise, aqua, powderblue); }
+
+.b1 {
+  background: linear-gradient(darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.1)); }
+
+.b2 {
   background: linear-gradient(firebrick, rgba(255, 0, 255, 0.5), rgba(255, 255, 64, 0.1)); }
 
-.ledgerdemain {
-  background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }
+.b3 {
+  background: linear-gradient(#004040, rgba(135, 206, 250, 0.5), rgba(255, 255, 64, 0.1)); }
 
-.ensorcellment {
-  background: linear-gradient(#e6aa3c, rgba(255, 180, 64, 0.4)); }
+.b4 {
+  background: linear-gradient(orange, rgba(255, 192, 0, 0.5), rgba(255, 255, 64, 0.1)); }
 
-.prestigiditation {
-  background: linear-gradient(#915ad2, rgba(105, 10, 180, 0.4)); }
+.b5 {
+  background: linear-gradient(navy, rgba(255, 0, 192, 0.5), rgba(255, 255, 64, 0.1)); }
+
+.b6 {
+  background: linear-gradient(tomato, rgba(192, 64, 190, 0.5), rgba(240, 100, 140, 0.1)); }
+
+.b7 {
+  background: linear-gradient(dimgray, rgba(192, 240, 64, 0.5), rgba(255, 255, 64, 0.1)); }
+
+.b8 {
+  background: linear-gradient(greenyellow, rgba(0, 80, 0, 0.5), rgba(0, 0, 255, 0.1)); }
+
+.b19 {
+  background: linear-gradient(rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
+
+.b9 {
+  background: linear-gradient(dimgray, rgba(30, 50, 70, 0.5), rgba(0, 50, 192, 0.1)); }
+
+.b10 {
+  background: linear-gradient(orange, rgba(113, 179, 113, 0.5), rgba(0, 0, 192, 0.1)); }
+
+.b11 {
+  background: linear-gradient(crimson, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+
+.b12 {
+  background: linear-gradient(darkcyan, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+
+.b13 {
+  background: linear-gradient(orangered, rgba(30, 40, 64, 0.5), rgba(20, 20, 20, 0.3)); }
+
+.b14 {
+  background: linear-gradient(darkslateblue, rgba(255, 10, 64, 0.5), rgba(72, 61, 139, 0.1)); }
+
+.b15 {
+  background: linear-gradient(maroon, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+
+.coinmarketcap-currency-widget {
+  padding: 25px;
+  border-radius: 7vw;
+  margin: 2em; }
 
 .App-header {
   background: -webkit-linear-gradient(top, indigo, gold);
@@ -2455,5 +2507,14 @@ Button {
     animation: pulsate 3 1.5s 0s none;
     background: -webkit-linear-gradient(top, orange, gold);
     background: linear-gradient(bottom, orange, gold); }
+
+.ledgerdemain {
+  background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }
+
+.ensorcellment {
+  background: linear-gradient(#e6aa3c, rgba(255, 180, 64, 0.4)); }
+
+.prestigiditation {
+  background: linear-gradient(#915ad2, rgba(105, 10, 180, 0.4)); }
 
 /*# sourceMappingURL=App.css.map */

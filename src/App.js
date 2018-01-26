@@ -6,7 +6,7 @@ import FontAwesome from 'react-fontawesome';
 import './App.css';
 
 const Page = ({ title }) => (
-    <div className="App" id="a3">
+    <div className="App">
       <div className="App-header row justify-content-center">
           <h2 className="emboss">F<FontAwesome
             name='cog'
@@ -17,169 +17,79 @@ const Page = ({ title }) => (
             className='fa-1x emboss'
             spin
           />
-            me N<FontAwesome
+      me Crypt<FontAwesome
+        name='cog'
+        className='fa-1x emboss'
+        spin
+      />  N<FontAwesome
             name='cog'
             className='fa-1x emboss'
             spin
           />
             tes</h2>
-    </div>
+      </div>
 
-    <p className="App-intro mt-3">
-    So we're building a machine
-    </p>
-
-      <p>
-        <ButtonGroup>
-          <Button
-            name='button'
-            className="btn-secondary hyper"
-          >Close <span className="fa-stack">
-            <FontAwesome
-              name='square'
-              className='fa-stack-2x'
-              size='2x'
-              style={{ color:'white' }}
-            />
-            <FontAwesome
-              name='window-close'
-              className='fa-stack-1x text-danger'
-              size='1x'
-              style={{  }}
-            />
-          </span>
-          </Button>
-          <Button
-            name='button'
-            className="btn-secondary hyper"
-          >I/O <span className="fa-stack">
-            <FontAwesome
-              name='comment'
-              className='fa-stack-2x'
-              size='2x'
-              style={{  }}
-            />
-            <FontAwesome
-              name='microchip'
-              className='fa-stack-1x text-info'
-              size='1x'
-              style={{  }}
-            />
-          </span>
-          </Button>
-          <Button
-            name='button'
-            className="btn-secondary hyper"
-          >Rate <span className="fa-stack">
-            <FontAwesome
-              name='star'
-              className='fa-stack-2x'
-              size='2x'
-              style={{  }}
-            />
-            <FontAwesome
-              name='star-o'
-              className='fa-stack-1x text-warning'
-              size='1x'
-              style={{  }}
-            />
-          </span>
-          </Button>
-          <Button
-            name='button'
-            className="btn-secondary hyper"
-          >Spend <span className="fa-stack">
-            <FontAwesome
-              name='circle'
-              className='fa-stack-2x'
-              size='2x'
-              style={{  }}
-            />
-            <FontAwesome
-              name='money'
-              className='fa-stack-1x text-success'
-              size='1x'
-              style={{  }}
-            />
-          </span>
-          </Button>
-          <DropdownButton
-            name='button'
-            className="btn-secondary"
-            title='Edit'
-
-            >
-            <span className="fa-stack">
-            <FontAwesome
-              name='cloud'
-              className='fa-stack-2x'
-              size='2x'
-              style={{  }}
-            />
-            <FontAwesome
-              name='terminal'
-              className='fa-stack-1x'
-              size='1x'
-              style={{ color: 'white' }}
-            />
-          </span>
-          <MenuItem eventKey="1">Action</MenuItem>
-          <MenuItem eventKey="2">Another action</MenuItem>
-          <MenuItem eventKey="3" active>Active Item</MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey="4">Separated link</MenuItem>
-        </DropdownButton>
-        </ButtonGroup>
-      </p>
       <p className="App-intro mt-3">
         Another splendid hybrid
       </p>
-      <h2>Shooting for stained glass over tie-dye
+
+      <h1 className="center">Font Awesome Notes on Crypto</h1>
+
+      <div className="coinmarketcap-currency-widget b1" data-currency="bitcoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b2" data-currency="ethereum" data-base="USD"  data-secondary="BTC"></div>
+
+      <div className="coinmarketcap-currency-widget b3" data-currency="ripple" data-base="ETH"  data-secondary="BTC"></div>
+
+      <div className="coinmarketcap-currency-widget b4" data-currency="bitcoin-cash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b5" data-currency="cardano" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b6" data-currency="stellar" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b7" data-currency="litecoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+
+      <div className="coinmarketcap-currency-widget b9" data-currency="eos" data-base="ETH"  data-secondary="BTC"></div>
+      <div className="coinmarketcap-currency-widget b8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
+      <div className="coinmarketcap-currency-widget b10" data-currency="nem" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b14" data-currency="iota" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b12" data-currency="dash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b13" data-currency="monero" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget b11" data-currency="tron" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <h2>Card Deck Bounces Now... But Enough, Yes?
       </h2>
       <div className="card-deck">
-  <div className="card p-2 m-3 prestigiditation">
+  <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title emboss d-inline">Prestigiditation</h4>
-      <FontAwesome
-            name='shower'
-            className='emboss d-inline pl-3'
-            size='3x'
-            style={{  }}
-       />
-      <p className="card-text">Magic tricks performed as entertainment.</p>
+      <h4 className="card-title dramatic-drop-shadow">Prestigiditation</h4>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
-  <div className="card p-2 m-3 ledgerdemain">
+  <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title emboss d-inline">Legerdemain</h4>
-          <FontAwesome
-                name='handshake-o'
-                className='emboss d-inline pl-3'
-                size='3x'
-                style={{  }}
-           />
-      <p className="card-text">Skillful use of one's hands when performing conjuring tricks..</p>
+      <h4 className="card-title dramatic-drop-shadow">Legerdemain</h4>
+      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
-  <div className="card p-2 m-3 ensorcellment">
+  <div className="card p-2 m-3">
     <div className="card-body">
-      <h4 className="card-title emboss d-inline">Ensorcellment</h4>
-          <FontAwesome
-                name='eye-slash'
-                className='emboss d-inline pl-3'
-                size='3x'
-                style={{  }}
-           />
-      <p className="card-text">To enchant; bewitch. [French ensorceler, from Old French ensorcerer, ensorceler : en-, intensive pref.; see en-1 + sorcier, sorcerer; see sorcerer.] en·sor′cell·ment n</p>
+      <h4 className="card-title dramatic-drop-shadow">Ensorcellment</h4>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
   </div>
 </div>
 
-      <h6>Font Awesome Notes on Crypto
+      <h6>Font Awesome Crypto Notes
       </h6>
       <p className="row justify-content-around">
         <Link className="fire" to="/">Home</Link>
-        <a href="https://www.alexanderjacks.biz"><span className="fire"> Author</span></a>
+        <a href="https://www.alexanderjacks.com"><span className="fire"> Author</span></a>
         <Link className="fire" to="/settings">Settings</Link>
       </p>
     </div>

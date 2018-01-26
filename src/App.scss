@@ -11,22 +11,13 @@
 }
 
 #root{
-    background: radial-gradient(circle,darkgreen,seagreen,springgreen,darkturquoise,powderblue);
-    height: 100vh;
 }
 
-@mixin down-gradient($start, $end){
-    background: -webkit-linear-gradient(top, $start, $end); // Safari 5.1+, Chrome
-    background: linear-gradient(bottom, $start, $end);
+.center{
+    text-align: center;
 }
 
-@mixin text-glow($color) {
-  text-shadow: 2px 2px 3px $color,
-  2px -2px 3px $color,
-  -2px 2px 3px $color,
-  -2px -2px 3px $color
-  ;
-}
+// bgs & prototypes
 #a{
     background: radial-gradient(circle,snow,mediumslateblue,darkcyan,navy);
     }
@@ -39,8 +30,10 @@
 #a3{
     background: radial-gradient(circle,darkgreen,seagreen,springgreen,peru,darkturquoise,aqua,powderblue);
     }
+
+// per currency
 .b1{
-    background: linear-gradient(gold,rgba(192,192,255,0.5),rgba(255,0,255,0.1));
+    background: linear-gradient(darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.1));
     }
 .b2{
     background: linear-gradient(firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.1));
@@ -55,46 +48,69 @@
     background: linear-gradient(navy,rgba(255,0,192,0.5),rgba(255,255,64,0.1));
     }
 .b6{
-    background: linear-gradient(rosybrown,rgba(192,64,190,0.5),rgba(240,100,140,0.1));
+    background: linear-gradient(tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.1));
     }
 .b7{
     background: linear-gradient(dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.1));
     }
 .b8{
-    background: linear-gradient(gold,rgba(0,192,255,0.5),rgba(0,0,255,0.1));
+    background: linear-gradient(greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.1));
+    }
+.b19{
+    background: linear-gradient(rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.1));
     }
 .b9{
-    background: linear-gradient(tomato,rgba(100,50,0,0.5),rgba(0,50,192,0.1));
+    background: linear-gradient(dimgray,rgba(30,50,70,0.5),rgba(0,50,192,0.1));
     }
 .b10{
-        background: linear-gradient(mediumspringgreen,rgba(222,184,135,0.5),rgba(0,0,192,0.1));
-    }
+    background: linear-gradient(orange,rgba(113,179,113,0.5),rgba(0,0,192,0.1));
+}
 .b11{
-        background: linear-gradient(crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
-    }
+    background: linear-gradient(crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+}
 .b12{
-        background: linear-gradient(darkcyan,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
-    }
+    background: linear-gradient(darkcyan,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+}
 .b13{
-        background: linear-gradient(orangered,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
-    }
+    background: linear-gradient(orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3));
+}
 .b14{
-    background: linear-gradient(darkslateblue,rgba(64,20,64,0.5),rgba(80,40,192,0.1));
-    }
+    background: linear-gradient(darkslateblue,rgba(255,10,64,0.5),rgba(72,61,139,0.1));
+}
 .b15{
     background: linear-gradient(maroon,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
-    }
+}
+
+// build pill around cmc widget
 .coinmarketcap-currency-widget{
-padding: 75px;
-border-radius: 10vw;
+    padding: 25px;
+    border-radius: 7vw;
+    margin: 2em;
 }
-.center{
-padding-left: 40vw;
-padding-right: 40vw;
-}
+
 Button {
-    background: linear-gradient(firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.1));
+
 }
+
+// old mixins, can reuse to interpolate bgs for pills & style over dark hues
+@mixin down-gradient($start, $end){
+    background: -webkit-linear-gradient(top, $start, $end); // Safari 5.1+, Chrome
+    background: linear-gradient(bottom, $start, $end);
+}
+
+@mixin text-glow($color) {
+  text-shadow: 2px 2px 3px $color,
+  2px -2px 3px $color,
+  -2px 2px 3px $color,
+  -2px -2px 3px $color
+  ;
+}
+
+// working
+.App-header {
+    @include down-gradient(indigo,gold);
+}
+
 
 @mixin white-caption {
   color: white;
@@ -106,21 +122,7 @@ Button {
   }
 }
 
-.ledgerdemain {
-    background: linear-gradient(rgba(255,0,255,1),rgba(255,215,64,0.4));
-}
-.ensorcellment {
-    background: linear-gradient(rgba(230,170,60,1),rgba(255,180,64,0.4));
-}
-.prestigiditation {
-    background: linear-gradient(rgba(145,90,210,1),rgba(105,10,180,0.4));
-}
-
-
-.App-header {
-    @include down-gradient(indigo,gold);
-}
-
+// nifty fire text for links
 
 .fire:hover {
     text-decoration: none;
@@ -140,4 +142,16 @@ Button {
         @include pulsate();
         @include down-gradient(orange, gold);
     }
+}
+
+
+// prototypes, tiedye bgs
+.ledgerdemain {
+    background: linear-gradient(rgba(255,0,255,1),rgba(255,215,64,0.4));
+}
+.ensorcellment {
+    background: linear-gradient(rgba(230,170,60,1),rgba(255,180,64,0.4));
+}
+.prestigiditation {
+    background: linear-gradient(rgba(145,90,210,1),rgba(105,10,180,0.4));
 }
