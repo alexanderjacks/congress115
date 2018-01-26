@@ -23,10 +23,11 @@ const Page = ({ title }) => (
             spin
           />
             tes</h2>
-      </div>
-      <p className="App-intro mt-3">
-        So we're building a machine
-      </p>
+    </div>
+
+    <p className="App-intro mt-3">
+    So we're building a machine
+    </p>
 
       <p>
         <ButtonGroup>
@@ -174,7 +175,7 @@ const Page = ({ title }) => (
   </div>
 </div>
 
-      <h6>Font Awesome Notes
+      <h6>Font Awesome Notes on Crypto
       </h6>
       <p className="row justify-content-around">
         <Link className="fire" to="/">Home</Link>

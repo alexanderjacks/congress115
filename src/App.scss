@@ -27,7 +27,71 @@
   -2px -2px 3px $color
   ;
 }
-
+#a{
+    background: radial-gradient(circle,snow,mediumslateblue,darkcyan,navy);
+    }
+#a1{
+    background: radial-gradient(circle,snow,beige,palegreen,olive,mediumslateblue,darkcyan,navy);
+    }
+#a2{
+    background: radial-gradient(circle,lightcyan,lightcoral,mediumvioletred,pink,mediumaquamarine,crimson,darkred);
+    }
+#a3{
+    background: radial-gradient(circle,darkgreen,seagreen,springgreen,peru,darkturquoise,aqua,powderblue);
+    }
+.b1{
+    background: linear-gradient(gold,rgba(192,192,255,0.5),rgba(255,0,255,0.1));
+    }
+.b2{
+    background: linear-gradient(firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.1));
+    }
+.b3{
+    background: linear-gradient(rgb(0,64,64),rgba(135,206,250,0.5),rgba(255,255,64,0.1));
+    }
+.b4{
+    background: linear-gradient(orange,rgba(255,192,0,0.5),rgba(255,255,64,0.1));
+    }
+.b5{
+    background: linear-gradient(navy,rgba(255,0,192,0.5),rgba(255,255,64,0.1));
+    }
+.b6{
+    background: linear-gradient(rosybrown,rgba(192,64,190,0.5),rgba(240,100,140,0.1));
+    }
+.b7{
+    background: linear-gradient(dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.1));
+    }
+.b8{
+    background: linear-gradient(gold,rgba(0,192,255,0.5),rgba(0,0,255,0.1));
+    }
+.b9{
+    background: linear-gradient(tomato,rgba(100,50,0,0.5),rgba(0,50,192,0.1));
+    }
+.b10{
+        background: linear-gradient(mediumspringgreen,rgba(222,184,135,0.5),rgba(0,0,192,0.1));
+    }
+.b11{
+        background: linear-gradient(crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+    }
+.b12{
+        background: linear-gradient(darkcyan,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+    }
+.b13{
+        background: linear-gradient(orangered,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+    }
+.b14{
+    background: linear-gradient(darkslateblue,rgba(64,20,64,0.5),rgba(80,40,192,0.1));
+    }
+.b15{
+    background: linear-gradient(maroon,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
+    }
+.coinmarketcap-currency-widget{
+padding: 75px;
+border-radius: 10vw;
+}
+.center{
+padding-left: 40vw;
+padding-right: 40vw;
+}
 Button {
     background: linear-gradient(firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.1));
 }
