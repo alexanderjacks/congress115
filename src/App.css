@@ -2413,10 +2413,13 @@
 .dramatic-drop-shadow {
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); }
 
+.hybrid {
+  text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3); }
+
 .center {
   text-align: center; }
 
-#a {
+#a0 {
   background: radial-gradient(circle, snow, mediumslateblue, darkcyan, navy); }
 
 #a1 {
@@ -2427,6 +2430,9 @@
 
 #a3 {
   background: radial-gradient(circle, darkgreen, seagreen, springgreen, peru, darkturquoise, aqua, powderblue); }
+
+#root {
+  background: linear-gradient(snow, rgba(192, 192, 192, 0.7), rgba(192, 192, 192, 0.5), rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.1)); }
 
 .b1 {
   background: linear-gradient(darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.1)); }
@@ -2476,37 +2482,28 @@
 .b15 {
   background: linear-gradient(maroon, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
 
+.coinmarketcap-currency-widget > div > div > div > img {
+  border: 10px groove rgba(30, 50, 70, 0.5); }
+
+.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::after {
+  content: url(https://d30y9cdsu7xlg0.cloudfront.net/png/105782-200.png); }
+
 .coinmarketcap-currency-widget {
   padding: 25px;
   border-radius: 7vw;
   margin: 2em; }
 
-.App-header {
-  background: -webkit-linear-gradient(top, indigo, gold);
-  background: linear-gradient(bottom, indigo, gold); }
+span a {
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0; }
 
 .fire:hover {
   text-decoration: none;
   text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0;
   transition: all 0.1s linear; }
 
-.card {
-  outline: 1px solid transparent;
-  -webkit-animation: sway infinite 6.5s 0s none ease-in-out;
-  animation: sway infinite 6.5s 0s none ease-in-out; }
-  .card:hover {
-    outline: 1px solid transparent;
-    -webkit-animation: teeter 1s 0s none 1;
-    animation: teeter 1s 0s none 1; }
-
-.hyper {
-  background: -webkit-linear-gradient(top, red, orange);
-  background: linear-gradient(bottom, red, orange); }
-  .hyper:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none;
-    background: -webkit-linear-gradient(top, orange, gold);
-    background: linear-gradient(bottom, orange, gold); }
+.App-header {
+  background: linear-gradient(indigo, gold); }
 
 .ledgerdemain {
   background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }

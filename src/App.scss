@@ -10,7 +10,8 @@
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
-#root{
+.hybrid{
+    text-shadow: 8px 8px 0px rgba(0,0,0,0.3);
 }
 
 .center{
@@ -18,7 +19,7 @@
 }
 
 // bgs & prototypes
-#a{
+#a0{
     background: radial-gradient(circle,snow,mediumslateblue,darkcyan,navy);
     }
 #a1{
@@ -31,6 +32,10 @@
     background: radial-gradient(circle,darkgreen,seagreen,springgreen,peru,darkturquoise,aqua,powderblue);
     }
 
+#root{
+    background: linear-gradient(snow,rgba(192,192,192,0.7),rgba(192,192,192,0.5),rgba(192,192,192,0.3),rgba(192,192,192,0.1));
+
+    }
 // per currency
 .b1{
     background: linear-gradient(darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.1));
@@ -81,45 +86,32 @@
     background: linear-gradient(maroon,rgba(0,0,64,0.5),rgba(0,0,192,0.1));
 }
 
-// build pill around cmc widget
+// // style in situ widgets! // //
+
+// coin icon test border
+.coinmarketcap-currency-widget>div>div>div>img {
+    border: 10px groove rgba(30,50,70,0.5);
+}
+%noun-bathtub{
+    content: url(https://d30y9cdsu7xlg0.cloudfront.net/png/105782-200.png);
+}
+.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::after{
+    @extend %noun-bathtub;
+}
+// entire widget build pill
 .coinmarketcap-currency-widget{
     padding: 25px;
     border-radius: 7vw;
     margin: 2em;
 }
 
-Button {
-
-}
-
-// old mixins, can reuse to interpolate bgs for pills & style over dark hues
-@mixin down-gradient($start, $end){
-    background: -webkit-linear-gradient(top, $start, $end); // Safari 5.1+, Chrome
-    background: linear-gradient(bottom, $start, $end);
-}
-
-@mixin text-glow($color) {
-  text-shadow: 2px 2px 3px $color,
-  2px -2px 3px $color,
-  -2px 2px 3px $color,
-  -2px -2px 3px $color
-  ;
-}
-
-// working
-.App-header {
-    @include down-gradient(indigo,gold);
-}
-
-
-@mixin white-caption {
-  color: white;
-  @include text-glow(black);
-}
-@mixin whitetext-rule($color) {
-  @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
-    @include white-caption;
-  }
+// widget text alteration? possible?
+span a {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #f00,
+    -2px -2px 4px #f00,
+    -2px 2px 4px #ff0,
+    2px -2px 4px #ff0;
 }
 
 // nifty fire text for links
@@ -132,16 +124,26 @@ Button {
     2px -2px 4px #ff0;
     transition: all 0.1s linear;
 }
-.card {
-    @include sway();
-    &:hover { @include teeter(); }
+
+// in progress
+.App-header {
+    background: linear-gradient(indigo,gold);
 }
-.hyper {
-    @include down-gradient(red, orange);
-    &:hover{
-        @include pulsate();
-        @include down-gradient(orange, gold);
-    }
+
+
+
+
+
+
+// text coloration, by bg: needs reworking
+@mixin white-caption {
+  color: white;
+  @include text-glow(black);
+}
+@mixin whitetext-rule($color) {
+  @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
+    @include white-caption;
+  }
 }
 
 
