@@ -2419,73 +2419,103 @@
 .center {
   text-align: center; }
 
-#a0 {
-  background: radial-gradient(circle, snow, mediumslateblue, darkcyan, navy); }
+.bg21 {
+  background: linear-gradient(snow, mediumslateblue, darkcyan, navy); }
 
-#a1 {
-  background: radial-gradient(circle, snow, beige, palegreen, olive, mediumslateblue, darkcyan, navy); }
+.bg22 {
+  background: linear-gradient(lightcyan, lightcoral, mediumvioletred, pink, mediumaquamarine, crimson, darkred); }
 
-#a2 {
-  background: radial-gradient(circle, lightcyan, lightcoral, mediumvioletred, pink, mediumaquamarine, crimson, darkred); }
+.bg23 {
+  background: linear-gradient(darkgreen, seagreen, springgreen, peru, darkturquoise, aqua, powderblue); }
 
-#a3 {
-  background: radial-gradient(circle, darkgreen, seagreen, springgreen, peru, darkturquoise, aqua, powderblue); }
+.bg24 {
+  background: linear-gradient(snow, beige, palegreen, olive, mediumslateblue, darkcyan, navy); }
 
 #root {
   background: linear-gradient(snow, rgba(192, 192, 192, 0.7), rgba(192, 192, 192, 0.5), rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.1)); }
 
 .bg1 {
-  background: linear-gradient(darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.1)); }
+  background: linear-gradient(darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.3)); }
 
 .bg2 {
-  background: linear-gradient(firebrick, rgba(255, 0, 255, 0.5), rgba(255, 255, 64, 0.1)); }
+  background: linear-gradient(firebrick, rgba(255, 0, 255, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg3 {
-  background: linear-gradient(#004040, rgba(135, 206, 250, 0.5), rgba(255, 255, 64, 0.1)); }
+  background: linear-gradient(#004040, rgba(135, 206, 250, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg4 {
-  background: linear-gradient(orange, rgba(255, 192, 0, 0.5), rgba(255, 255, 64, 0.1)); }
+  background: linear-gradient(orange, rgba(255, 192, 0, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg5 {
-  background: linear-gradient(navy, rgba(255, 0, 192, 0.5), rgba(255, 255, 64, 0.1)); }
+  background: linear-gradient(navy, rgba(255, 0, 192, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg6 {
-  background: linear-gradient(tomato, rgba(192, 64, 190, 0.5), rgba(240, 100, 140, 0.1)); }
+  background: linear-gradient(tomato, rgba(192, 64, 190, 0.5), rgba(240, 100, 140, 0.3)); }
 
 .bg7 {
-  background: linear-gradient(dimgray, rgba(192, 240, 64, 0.5), rgba(255, 255, 64, 0.1)); }
+  background: linear-gradient(dimgray, rgba(192, 240, 64, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg8 {
-  background: linear-gradient(greenyellow, rgba(0, 80, 0, 0.5), rgba(0, 0, 255, 0.1)); }
-
-.bg19 {
-  background: linear-gradient(rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
+  background: linear-gradient(greenyellow, rgba(0, 80, 0, 0.5), rgba(0, 0, 255, 0.3)); }
 
 .bg9 {
-  background: linear-gradient(dimgray, rgba(30, 50, 70, 0.5), rgba(0, 50, 192, 0.1)); }
+  background: linear-gradient(dimgray, rgba(30, 50, 70, 0.5), rgba(0, 50, 192, 0.3)); }
 
 .bg10 {
-  background: linear-gradient(orange, rgba(113, 179, 113, 0.5), rgba(0, 0, 192, 0.1)); }
+  background: linear-gradient(orange, rgba(113, 179, 113, 0.5), rgba(0, 0, 192, 0.3)); }
 
 .bg11 {
-  background: linear-gradient(crimson, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+  background: linear-gradient(crimson, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.3)); }
 
 .bg12 {
-  background: linear-gradient(darkcyan, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+  background: linear-gradient(darkcyan, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.3)); }
 
 .bg13 {
   background: linear-gradient(orangered, rgba(30, 40, 64, 0.5), rgba(20, 20, 20, 0.3)); }
 
 .bg14 {
-  background: linear-gradient(darkslateblue, rgba(255, 10, 64, 0.5), rgba(72, 61, 139, 0.1)); }
+  background: linear-gradient(darkslateblue, rgba(255, 10, 64, 0.5), rgba(72, 61, 139, 0.3)); }
 
 .bg15 {
-  background: linear-gradient(maroon, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.1)); }
+  background: linear-gradient(maroon, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.3)); }
+
+.bg16 {
+  background: linear-gradient(darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
+
+.bg17 {
+  background: linear-gradient(salmon, rgba(205, 92, 92, 0.5), rgba(205, 92, 92, 0.1)); }
+
+.bg18 {
+  background: linear-gradient(darkviolet, rgba(218, 112, 214, 0.5), rgba(218, 112, 214, 0.1)); }
+
+.bg19 {
+  background: linear-gradient(rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
+
+.bg20 {
+  background: linear-gradient(cadetblue, rgba(72, 209, 204, 0.5), rgba(72, 209, 204, 0.1)); }
+
+.bg21 {
+  background: linear-gradient(deeppink, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.1)); }
+
+.bg22 {
+  background: linear-gradient(peru, rgba(244, 164, 96, 0.5), rgba(244, 164, 96, 0.1)); }
+
+.bg23 {
+  background: linear-gradient(mediumblue, rgba(30, 144, 255, 0.5), rgba(30, 144, 255, 0.1)); }
+
+.bg24 {
+  background: linear-gradient(forestgreen, rgba(127, 255, 0, 0.5), rgba(127, 255, 0, 0.1)); }
+
+.bg25 {
+  background: linear-gradient(darkkhaki, rgba(255, 215, 0, 0.5), rgba(255, 215, 0, 0.1)); }
 
 .coinmarketcap-currency-widget {
   padding: 25px;
   border-radius: 7vw;
   margin: 2em; }
+
+.coinmarketcap-currency-widget > div::before {
+  border: 10px groove rgba(30, 50, 70, 0.5); }
 
 .coinmarketcap-currency-widget > div > div > div > img {
   border: 10px groove rgba(30, 50, 70, 0.5); }

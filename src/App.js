@@ -55,6 +55,8 @@ const Page = ({ title }) => (
 
 {/* begin list of widgets */}
 
+{/* top 10 */}
+
       <div className="coinmarketcap-currency-widget bg1" data-currency="bitcoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg2" data-currency="ethereum" data-base="USD"  data-secondary="BTC"></div>
@@ -67,27 +69,54 @@ const Page = ({ title }) => (
 
       <div className="coinmarketcap-currency-widget bg6" data-currency="stellar" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
+      <div className="coinmarketcap-currency-widget bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
+
       <div className="coinmarketcap-currency-widget bg7" data-currency="litecoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg9" data-currency="eos" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
-
       <div className="coinmarketcap-currency-widget bg10" data-currency="nem" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg14" data-currency="iota" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+{/* 11 - 20 */}
 
-      <div className="coinmarketcap-currency-widget bg12" data-currency="dash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg12" data-currency="iota" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg14" data-currency="dash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg13" data-currency="monero" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
+      <div className="coinmarketcap-currency-widget bg15" data-currency="icon" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg16" data-currency="qtum" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg17" data-currency="ethereum-classic" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg18" data-currency="vechain" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+      <div className="coinmarketcap-currency-widget bg20" data-currency="lisk" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+{/* 21 - 25*/}
+
+<div className="coinmarketcap-currency-widget bg21" data-currency="populous" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<div className="coinmarketcap-currency-widget bg22" data-currency="raiblocks" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<div className="coinmarketcap-currency-widget bg24" data-currency="tether" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volumze="true" data-stats="USD" data-statsticker="false"></div>
+
+<div className="coinmarketcap-currency-widget bg23" data-currency="omisego" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<div className="coinmarketcap-currency-widget bg25" data-currency="steem" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+
      <h6>Font Awesome Crypto Notes
      </h6>
      <p className="row justify-content-around">
        <Link className="fire" to="/">Home</Link>
-       <a href="https://www.alexanderjacks.com"><span className="fire"> Author</span></a>
+       <a href="http://alexanderjacks.biz"><span className="fire"> Author</span></a>
        <Link className="fire" to="/settings">Settings</Link>
      </p>
    </div>
