@@ -87,11 +87,11 @@ const Page = ({ title }) => (
 
       <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg15" data-currency="icon" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg16" data-currency="icon" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg16" data-currency="qtum" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg17" data-currency="qtum" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg17" data-currency="ethereum-classic" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg15" data-currency="ethereum-classic" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 

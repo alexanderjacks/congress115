@@ -1,13 +1,18 @@
 @import "../public/bourbon/bourbon";
 @import "../public/saffron/saffron";
 
+
+.App-header {
+    background: linear-gradient(indigo,peru);
+}
+
 // text enhancement
 // letterpressy
 .emboss {
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
-.dramatic-drop-shadow {
+%dramatic-drop-shadow {
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
@@ -64,7 +69,7 @@
 // entire widget build pill
 .coinmarketcap-currency-widget{
     padding: 25px;
-    border-radius: 7vw;
+    border-radius: 8vw;
     margin: 2em;
 }
 
@@ -75,15 +80,22 @@
 
 // coin icon test border
 .coinmarketcap-currency-widget>div>div>div>img {
-    border: 10px groove rgba(30,50,70,0.5);
+    border: 6px groove rgba(30,50,70,0.5);
 }
 
-// fa icons injected here
-%noun-bathtub{
-    content: url(https://d30y9cdsu7xlg0.cloudfront.net/png/105782-200.png);
+
+
+// image injected here
+%sparkline {
+    content: url(https://files.coinmarketcap.com/generated/sparklines/1.png);
+    background: linear-gradient(mediumblue,rgba(30,144,255,0.5),rgba(30,144,255,0.1));
+}
+
+%sparkline::after {
+    content: url(https://files.coinmarketcap.com/generated/sparklines/1.png);
 }
 .coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::after{
-    @extend %noun-bathtub;
+    @extend %sparkline;
 }
 
 // widget title text enhancement
@@ -101,8 +113,15 @@ span a {
     @extend %bigger-title;
 }
 
-// nifty fire text for links
 
+span a + span {
+    font-size: 1.3em;
+    font-family: 'Droid Sans';
+    @extend %dramatic-drop-shadow;
+}
+
+
+// nifty fire text for links
 .fire:hover {
     text-decoration: none;
     text-shadow: 2px 2px 4px #f00,
@@ -110,11 +129,6 @@ span a {
     -2px 2px 4px #ff0,
     2px -2px 4px #ff0;
     transition: all 0.1s linear;
-}
-
-// in progress
-.App-header {
-    background: linear-gradient(indigo,gold);
 }
 
 

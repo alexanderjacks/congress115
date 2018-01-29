@@ -2406,11 +2406,14 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
+.App-header {
+  background: linear-gradient(indigo, peru); }
+
 .emboss {
   color: rgba(0, 0, 0, 0.6);
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
-.dramatic-drop-shadow {
+span a + span {
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); }
 
 .hybrid {
@@ -2511,17 +2514,21 @@
 
 .coinmarketcap-currency-widget {
   padding: 25px;
-  border-radius: 7vw;
+  border-radius: 8vw;
   margin: 2em; }
 
 .coinmarketcap-currency-widget > div::before {
   border: 10px groove rgba(30, 50, 70, 0.5); }
 
 .coinmarketcap-currency-widget > div > div > div > img {
-  border: 10px groove rgba(30, 50, 70, 0.5); }
+  border: 6px groove rgba(30, 50, 70, 0.5); }
 
 .coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::after {
-  content: url(https://d30y9cdsu7xlg0.cloudfront.net/png/105782-200.png); }
+  content: url(https://files.coinmarketcap.com/generated/sparklines/1.png);
+  background: linear-gradient(mediumblue, rgba(30, 144, 255, 0.5), rgba(30, 144, 255, 0.1)); }
+
+.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::after {
+  content: url(https://files.coinmarketcap.com/generated/sparklines/1.png); }
 
 span a {
   font-size: 2.2em;
@@ -2531,13 +2538,14 @@ span a {
   text-decoration: none;
   text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0; }
 
+span a + span {
+  font-size: 1.3em;
+  font-family: 'Droid Sans'; }
+
 .fire:hover {
   text-decoration: none;
   text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0;
   transition: all 0.1s linear; }
-
-.App-header {
-  background: linear-gradient(indigo, gold); }
 
 .ledgerdemain {
   background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }
