@@ -37,6 +37,9 @@ const Page = ({ title }) => (
     tes
     </span>
 </h1>
+<h6 className="emboss">
+    Created for educational purposes only. Not intended as a replacement for professional investment advice-- this is only a hobby of mine. :)
+</h6>
 
 </div>
 
@@ -63,7 +66,7 @@ const Page = ({ title }) => (
 
       <div className="coinmarketcap-currency-widget bg3" data-currency="ripple" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg4" data-currency="bitcoin-cash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg4" data-currency="bitcoin-cash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg5" data-currency="cardano" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
@@ -71,45 +74,45 @@ const Page = ({ title }) => (
 
       <div className="coinmarketcap-currency-widget bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg7" data-currency="litecoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg7" data-currency="litecoin" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
       <div className="coinmarketcap-currency-widget bg9" data-currency="eos" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg10" data-currency="nem" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg10" data-currency="nem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 {/* 11 - 20 */}
 
-      <div className="coinmarketcap-currency-widget bg12" data-currency="iota" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg12" data-currency="iota" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg14" data-currency="dash" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg14" data-currency="dash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg13" data-currency="monero" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg13" data-currency="monero" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg16" data-currency="icon" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg16" data-currency="icon" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg17" data-currency="qtum" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg17" data-currency="qtum" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg15" data-currency="ethereum-classic" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg15" data-currency="ethereum-classic" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg18" data-currency="vechain" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg18" data-currency="vechain" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg20" data-currency="lisk" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+      <div className="coinmarketcap-currency-widget bg20" data-currency="lisk" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 {/* 21 - 25*/}
 
-<div className="coinmarketcap-currency-widget bg21" data-currency="populous" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+<div className="coinmarketcap-currency-widget bg22" data-currency="populous" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg22" data-currency="raiblocks" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+<div className="coinmarketcap-currency-widget bg21" data-currency="raiblocks" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg24" data-currency="tether" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volumze="true" data-stats="USD" data-statsticker="false"></div>
+<div className="coinmarketcap-currency-widget bg24" data-currency="tether" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volumze="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg23" data-currency="omisego" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+<div className="coinmarketcap-currency-widget bg23" data-currency="omisego" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg25" data-currency="steem" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+<div className="coinmarketcap-currency-widget bg25" data-currency="steem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 
      <h6>Font Awesome Crypto Notes
