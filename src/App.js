@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Router, browserHistory, Route, Link } from 'react-router';
 import {  } from 'react-bootstrap';
+import * as Icon from 'react-cryptocoins';
 import FontAwesome from 'react-fontawesome';
+
 
 import './App.css';
 
@@ -43,86 +45,93 @@ const Page = ({ title }) => (
 
 </div>
 
-{/* quips, under dev */}
+{/* more info links, under dev */}
 
-      <p className="App-intro mt-3">
-        Here's a site built around a widget lifted graciously from my favorite crypto currency research resource, <a href="https://coinmarketcap.com/?utm_medium=widget&utm_campaign=cmcwidget&utm_source=localhost&utm_content=bitcoin">coinmarketcap</a>. I've had to index the currencies by current market cap by hand so they may be stale-- I can't yet grok how to 'listen' to the widget data using React and Sass, so as to automatically rank them descending. Eventually I'll figure it out, or perhaps source it from a different service and mush them both together.
-      </p>
-      <p className="App-intro mt-3">
-        Leveraging a site widget without relying on an API seems like a useful technique. I'm surprised it's possible with only this small amount of finesse with Sass and React.
-      </p>
+    <p className="row justify-content-around">
+        <h6>Dev Notes</h6>
+        <Link className="fire" to="/settings">Settings</Link>
 
+        {/*
+            <p className="App-intro mt-3">
+              Here's a site built around a widget lifted graciously from my favorite crypto currency research resource, <a href="https://coinmarketcap.com/?utm_medium=widget&utm_campaign=cmcwidget&utm_source=localhost&utm_content=bitcoin">coinmarketcap</a>. I've had to index the currencies by current market cap by hand so they may be stale-- I can't yet grok how to 'listen' to the widget data using React and Sass, so as to automatically rank them descending. Eventually I'll figure it out, or perhaps source it from a different service and mush them both together.
+            </p>
+            <p className="App-intro mt-3">
+              Leveraging a site widget without relying on an API seems like a useful technique. I'm surprised it's possible with only this small amount of finesse with Sass and React.
+            </p>
+        */}
 
-      <h1 className="center">Font Awesome Crypto Notes</h1>
-      <h3 className="center">Icon key will go here, in small table</h3>
+        <h6>App</h6>
+        {/* will have icon key in place of info text; app ought to load in all 3 btns tho*/}
+        <Link className="fire" to="/">Home</Link>
+
+        <h6>About</h6>
+        <a href="http://alexanderjacks.biz"><span className="fire"> Portfolio</span></a>
+    </p>
+
+    <h3 className="center">Icon key will go here, in small table</h3>
 
 {/* begin list of widgets */}
 
 {/* top 10 */}
 
-      <div className="coinmarketcap-currency-widget bg1" data-currency="bitcoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg1" data-currency="bitcoin" data-base="ETH" data-secondary="USD" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg2" data-currency="ethereum" data-base="USD"  data-secondary="BTC"></div>
+    <div className="coinmarketcap-currency-widget bg2" data-currency="ethereum" data-base="USD"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg3" data-currency="ripple" data-base="ETH"  data-secondary="BTC"></div>
+    <div className="coinmarketcap-currency-widget bg3" data-currency="ripple" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg4" data-currency="bitcoin-cash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg4" data-currency="bitcoin-cash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg5" data-currency="cardano" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg5" data-currency="cardano" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg6" data-currency="stellar" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
 
-      <div className="coinmarketcap-currency-widget bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
+    <div className="coinmarketcap-currency-widget bg6" data-currency="stellar" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg7" data-currency="litecoin" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg9" data-currency="eos" data-base="ETH"  data-secondary="BTC"></div>
+    <div className="coinmarketcap-currency-widget bg7" data-currency="litecoin" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg10" data-currency="nem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg9" data-currency="eos" data-base="ETH"  data-secondary="BTC"></div>
+
+    <div className="coinmarketcap-currency-widget bg10" data-currency="nem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 {/* 11 - 20 */}
 
-      <div className="coinmarketcap-currency-widget bg12" data-currency="iota" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg12" data-currency="iota" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg14" data-currency="dash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg14" data-currency="dash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg13" data-currency="monero" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg13" data-currency="monero" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg11" data-currency="tron" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg16" data-currency="icon" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg16" data-currency="icon" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg17" data-currency="qtum" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg15" data-currency="ethereum-classic" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg15" data-currency="ethereum-classic" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg17" data-currency="qtum" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg18" data-currency="vechain" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg18" data-currency="vechain" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-      <div className="coinmarketcap-currency-widget bg20" data-currency="lisk" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg20" data-currency="lisk" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 {/* 21 - 25*/}
 
-<div className="coinmarketcap-currency-widget bg22" data-currency="populous" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg21" data-currency="raiblocks" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg21" data-currency="raiblocks" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg22" data-currency="populous" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg24" data-currency="tether" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volumze="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg24" data-currency="tether" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volumze="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg23" data-currency="omisego" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg23" data-currency="omisego" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-<div className="coinmarketcap-currency-widget bg25" data-currency="steem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="coinmarketcap-currency-widget bg25" data-currency="stratis" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 
-     <h6>Font Awesome Crypto Notes
-     </h6>
-     <p className="row justify-content-around">
-       <Link className="fire" to="/">Home</Link>
-       <a href="http://alexanderjacks.biz"><span className="fire"> Author</span></a>
-       <Link className="fire" to="/settings">Settings</Link>
-     </p>
-   </div>
+
+</div>
 );
 
 
@@ -139,6 +148,12 @@ const Settings = (props) => (
  <Page title="Settings"/>
 );
 
+const TestComponent = () => (
+    <div>Test test test
+    </div>
+
+)
+
 class App extends Component {
  render() {
    return (
@@ -147,6 +162,7 @@ class App extends Component {
        <Route path="/about" component={About}/>
        <Route path="/settings" component={Settings}/>
      </Router>
+
    );
  }
 }
