@@ -41,16 +41,16 @@
 // bgs per currency
 .bg1{background: radial-gradient(circle,darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.3));    }
 .bg2{background: radial-gradient(circle,firebrick,rgba(255,0,255,0.5),rgba(255,255,64,0.3));    }
-.bg3{background: radial-gradient(circle,rgb(0,64,64),rgba(135,206,250,0.5),rgba(255,255,64,0.3));    }
+.bg3{background: radial-gradient(circle,darkcyan,rgba(135,206,250,0.5),rgba(255,255,64,0.3));    }
 .bg4{background: radial-gradient(circle,orange,rgba(255,192,0,0.5),rgba(255,255,64,0.3));    }
-.bg5{background: radial-gradient(circle,navy,rgba(255,0,192,0.5),rgba(255,255,64,0.3));    }
+.bg5{background: radial-gradient(circle,mediumblue,rgba(255,0,192,0.5),rgba(255,255,64,0.3));    }
 .bg6{background: radial-gradient(circle,tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.3));    }
 .bg7{background: radial-gradient(circle,dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.3));    }
 .bg8{background: radial-gradient(circle,greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.3));    }
-.bg9{background: radial-gradient(circle,dimgray,rgba(30,50,70,0.5),rgba(0,50,192,0.3));    }
+.bg9{background: radial-gradient(circle,honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.3));    }
 .bg10{background: radial-gradient(circle,orange,rgba(113,179,113,0.5),rgba(0,0,192,0.3));    }
 .bg11{background: radial-gradient(circle,crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.3));    }
-.bg12{background: radial-gradient(circle,darkcyan,rgba(0,0,64,0.5),rgba(0,0,192,0.3));    }
+.bg12{background: radial-gradient(circle,aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.3));    }
 .bg13{background: radial-gradient(circle,orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3));    }
 .bg14{background: radial-gradient(circle,darkslateblue,rgba(255,10,64,0.5),rgba(72,61,139,0.3));    }
 .bg15{background: radial-gradient(circle,maroon,rgba(0,64,64,0.5),rgba(0,100,192,0.3));    }
@@ -73,46 +73,40 @@
     margin: 2em;
 }
 
-// erase original border
-.coinmarketcap-currency-widget>div::before {
-    border: 10px groove rgba(30,50,70,0.5);
-}
-
-// coin icon test border
+// coin icon border
 .coinmarketcap-currency-widget>div>div>div>img {
     border: 6px groove rgba(30,50,70,0.5);
 }
 
 
-
-// image injected here
-%sparkline {
-    content: url(https://files.coinmarketcap.com/generated/sparklines/1.png);
-    border: 6px groove rgba(30,50,70,0.5);
-
-}
-
-%sparktext {
+// imposes label for BTC value
+%labelBTCtext {
     content: "Value in Bitcoin: ";
-}
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::after{
-    @extend %sparkline;
 }
 .coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::before{
     color: black;
-    @extend %sparktext;
+    @extend %labelBTCtext;
 }
 
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5) {
-    color: black;
+
+// attempt to enhance up/down text
+span span {
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000,
+    -2px -2px 3px #000,
+    -2px 2px 3px #000,
+    2px -2px 3px #000;
 }
 
-// widget title text enhancement
+
+
+// widget title text embiggening
 %bigger-title {
-    font-size: 2.0em;
+    font-size: 1.6em;
     font-family: 'Droid Sans';
 }
 
+// title fire effect
 span a {
     text-decoration: none;
     text-shadow: 2px 2px 4px #f00,
@@ -121,10 +115,6 @@ span a {
     2px -2px 4px #ff0;
     @extend %bigger-title;
 }
-
-
-
-
 
 // nifty fire text for links
 .fire:hover {
@@ -140,6 +130,19 @@ span a {
 
 // // u n u s e d // //
 
+// erase original border?? not yet
+.coinmarketcap-currency-widget>div::before {
+    border: 10px groove rgba(30,50,70,0.5);
+}
+
+// attempt to match red text anywhere, enhance w cyan shadows
+*[style="color:d14836"] {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #00f,
+    -2px -2px 4px #00f,
+    -2px 2px 4px #0ff,
+    2px -2px 4px #0ff;
+}
 
 // text coloration, by bg: needs reworking
 @mixin white-caption {
