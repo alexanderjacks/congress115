@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { Router, browserHistory, Route, Link } from 'react-router'
 import {  } from 'react-bootstrap'
-import * as Icon from 'react-cryptocoins'
 import FontAwesome from 'react-fontawesome'
-import { BespokeCog } from './BespokeCog'
+import { MyFa } from './MyFa'
 
 import './App.css';
 
@@ -15,27 +14,9 @@ const Page = ({ title }) => (
 
 <h1 className="emboss">
     {/* line 1 */}
-    <span className="d-block">F<FontAwesome
-        name='cog'
-        className='fa-1x emboss'
-        spin
-    />nt Awes<FontAwesome
-        name='cog'
-        className='fa-1x emboss'
-        spin
-    />me</span>
+    <span className="d-block">F<MyFa fa='cog' />nt Awes<MyFa fa='cog' />me</span>
     {/* line 2 */}
-    <span className="d-block">Crypt<FontAwesome
-        name='cog'
-        className='fa-1x emboss'
-        spin
-    />  N<FontAwesome
-        name='cog'
-        className='fa-1x emboss'
-        spin
-    />
-    tes
-    </span>
+    <span className="d-block">Crypt<MyFa fa='cog' />  N<MyFa fa='cog' />tes</span>
 </h1>
 <h6 className="emboss">
     Created for educational purposes only. Not intended as a replacement for professional investment advice-- this is only a hobby of mine. :)
@@ -70,19 +51,19 @@ const Page = ({ title }) => (
     {/* clip to next comment per pill, remove middle div 2nd row */}
     <div className="icontray">
         <div className="row justify-content-around">
-            <span><FontAwesome name='stop-circle' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
-            <span><FontAwesome name='stop' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Infinite</h6></span>
-            <span><FontAwesome name='file-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Fungible</h6></span>
-            <span><FontAwesome name='file-text-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
-            <span><FontAwesome name='chain' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Original</h6></span>
-            <span><FontAwesome name='unlink' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Altcoin</h6></span>
+            <span className='p-2'><FontAwesome name='stop-circle' className='fa-2x emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
+            <span className='p-2'><FontAwesome name='stop' className='fa-2x emboss d-inline' /><br/><h6 className="center">Infinite</h6></span>
+            <span className='p-2'><FontAwesome name='file-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Fungible</h6></span>
+            <span className='p-2'><FontAwesome name='file-text-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
+            <span className='p-2'><FontAwesome name='chain' className='fa-2x emboss d-inline' /><br/><h6 className="center">Original</h6></span>
+            <span className='p-2'><FontAwesome name='unlink' className='fa-2x emboss d-inline' /><br/><h6 className="center">Altcoin</h6></span>
         </div>
         <div className="row justify-content-around">
-            <span><FontAwesome name='shower' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
-            <span><FontAwesome name='tv' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Best GPU</h6></span>
-            <span><FontAwesome name='microchip' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Any mining</h6></span>
-            <span><FontAwesome name='question-circle-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Anonymous</h6></span>
-            <span><FontAwesome name='hand-spock-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Non-profit</h6></span>
+            <span className='p-2'><FontAwesome name='shower' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
+            <span className='p-2'><FontAwesome name='tv' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best GPU</h6></span>
+            <span className='p-2'><FontAwesome name='microchip' className='fa-2x emboss d-inline' /><br/><h6 className="center">Any mining</h6></span>
+            <span className='p-2'><FontAwesome name='question-circle-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Anonymous</h6></span>
+            <span className='p-2'><FontAwesome name='hand-spock-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Non-profit</h6></span>
         </div>
     </div>
 
@@ -95,10 +76,10 @@ const Page = ({ title }) => (
         </div>
         <div className="icontray">
             <div className="row justify-content-around">
-                <span><FontAwesome name='stop-circle' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
-                <span><FontAwesome name='file-text-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
-                <span><FontAwesome name='chain' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Original</h6></span>
-                <span><FontAwesome name='shower' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
+                <span className='p-2'><FontAwesome name='stop-circle' className='fa-2x emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
+                <span className='p-2'><FontAwesome name='file-text-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
+                <span className='p-2'><FontAwesome name='chain' className='fa-2x emboss d-inline' /><br/><h6 className="center">Original</h6></span>
+                <span className='p-2'><FontAwesome name='shower' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
             </div>
         </div>
     </div>
@@ -107,11 +88,11 @@ const Page = ({ title }) => (
     <div className="coinmarketcap-currency-widget" data-currency="ethereum" data-base="USD"  data-secondary="BTC"></div>
         <div className="icontray">
             <div className="row justify-content-around">
-                <span><FontAwesome name='stop' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Infinite</h6></span>
-                <span><FontAwesome name='file-text-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
-                <span><FontAwesome name='unlink' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Altcoin</h6></span>
-                <span><FontAwesome name='microchip' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Any mining</h6></span>
-                <span><FontAwesome name='hand-spock-o' className='fa-3x p-2 emboss d-inline' /><br/><h6 className="center">Non-profit</h6></span>
+                <span className='p-2'><FontAwesome name='stop' className='fa-2x emboss d-inline' /><br/><h6 className="center">Infinite</h6></span>
+                <span className='p-2'><FontAwesome name='file-text-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
+                <span className='p-2'><FontAwesome name='unlink' className='fa-2x emboss d-inline' /><br/><h6 className="center">Altcoin</h6></span>
+                <span className='p-2'><FontAwesome name='microchip' className='fa-2x emboss d-inline' /><br/><h6 className="center">Any mining</h6></span>
+                <span className='p-2'><FontAwesome name='hand-spock-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Non-profit</h6></span>
             </div>
         </div>
     </div>
@@ -124,9 +105,9 @@ const Page = ({ title }) => (
 
     <div className="coinmarketcap-currency-widget bg bg8" data-currency="neo" data-base="ETH"  data-secondary="BTC"></div>
 
-    <div className="coinmarketcap-currency-widget bg bg7" data-currency="litecoin" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
-
     <div className="coinmarketcap-currency-widget bg bg6" data-currency="stellar" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
+
+    <div className="coinmarketcap-currency-widget bg bg7" data-currency="litecoin" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="ETH" data-statsticker="false"></div>
 
     <div className="coinmarketcap-currency-widget bg bg10" data-currency="nem" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
@@ -138,9 +119,23 @@ const Page = ({ title }) => (
 
     <div className="coinmarketcap-currency-widget bg bg14" data-currency="dash" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
-    <div className="coinmarketcap-currency-widget bg bg13" data-currency="monero" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+    <div className="bg bg13">
+        <div className="coinmarketcap-currency-widget" data-currency="monero" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+        <div className="icontray">
+            <div className="row justify-content-around">
+                <span className='p-2'><FontAwesome name='stop-circle' className='fa-2x emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
+                <span className='p-2'><FontAwesome name='file-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Fungible</h6></span>
+                <span className='p-2'><FontAwesome name='chain' className='fa-2x emboss d-inline' /><br/><h6 className="center">Original</h6></span>
+                <span className='p-2'><FontAwesome name='tv' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best GPU</h6></span>
+                <span className='p-2'><FontAwesome name='question-circle-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Anonymous</h6></span>
+            </div>
+        </div>
+    </div>
+
 
     <div className="coinmarketcap-currency-widget bg bg11" data-currency="tron" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+    <div className="coinmarketcap-currency-widget bg bg20" data-currency="lisk" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
     <div className="coinmarketcap-currency-widget bg bg16" data-currency="icon" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
@@ -151,8 +146,6 @@ const Page = ({ title }) => (
     <div className="coinmarketcap-currency-widget bg bg19" data-currency="bitcoin-gold" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
     <div className="coinmarketcap-currency-widget bg bg22" data-currency="populous" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
-
-    <div className="coinmarketcap-currency-widget bg bg20" data-currency="lisk" data-base="ETH" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
 
 {/* 21 - 30*/}
 
@@ -194,12 +187,6 @@ const About = (props) => (
 const Settings = (props) => (
  <Page title="Settings"/>
 );
-
-const TestComponent = () => (
-    <div>Test test test
-    </div>
-
-)
 
 class App extends Component {
  render() {
