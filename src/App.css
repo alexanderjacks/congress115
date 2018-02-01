@@ -2477,7 +2477,7 @@ span h6 {
   background: radial-gradient(circle, maroon, rgba(165, 62, 92, 0.5), rgba(205, 92, 92, 0.3)); }
 
 .bg16 {
-  background: radial-gradient(circle, darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
+  background: radial-gradient(circle, darkgoldenrod, rgba(200, 100, 100, 0.5), rgba(200, 100, 100, 0.1)); }
 
 .bg17 {
   background: radial-gradient(circle, lightskyblue, rgba(192, 0, 192, 0.5), rgba(255, 64, 255, 0.3)); }
@@ -2501,7 +2501,7 @@ span h6 {
   background: radial-gradient(circle, mediumblue, rgba(30, 144, 255, 0.5), rgba(30, 144, 255, 0.1)); }
 
 .bg24 {
-  background: radial-gradient(circle, forestgreen, rgba(127, 255, 0, 0.5), rgba(127, 255, 0, 0.1)); }
+  background: radial-gradient(circle, darkslategrey, rgba(11, 61, 46, 0.5), rgba(11, 61, 46, 0.1)); }
 
 .bg25 {
   background: radial-gradient(circle, darkkhaki, rgba(155, 100, 100, 0.5), rgba(64, 215, 255, 0.1)); }
@@ -2510,7 +2510,7 @@ span h6 {
   background: radial-gradient(circle, silver, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .bg27 {
-  background: radial-gradient(circle, lightblue, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
+  background: radial-gradient(circle, darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
 
 .bg28 {
   background: radial-gradient(circle, palevioletred, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
@@ -2520,6 +2520,9 @@ span h6 {
 
 .bg30 {
   background: radial-gradient(circle, brown, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
+
+.bg31 {
+  background: radial-gradient(circle, lightblue, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .icontray {
   border: 2px solid #E4E6EB;

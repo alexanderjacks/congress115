@@ -223,11 +223,37 @@ const Page = ({ title }) => (
         </div>
 
 
-        <div className="bg bg11"><Widget currency='tron' /></div>
+        <div className="bg bg11"><Widget currency='tron' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg17"><Widget currency='qtum' /></div>
+        <div className="bg bg17"><Widget currency='qtum' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg20"><Widget currency='lisk' /></div>
+        <div className="bg bg20"><Widget currency='lisk' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='microchip' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
         <div className="bg bg15">
             <Widget currency='ethereum-classic' />
@@ -242,32 +268,147 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="bg bg24"><Widget currency='tether' /></div>
+        <div className="bg bg24"><Widget currency='tether' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='money' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg19"><Widget currency='bitcoin-gold' /></div>
+        <div className="bg bg19"><Widget currency='bitcoin-gold' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='microchip' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
     {/* 21 - 30*/}
-        <div className="bg bg16"><Widget currency='icon' /></div>
+        <div className="bg bg16"><Widget currency='icon' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg21"><Widget currency='raiblocks' /></div>
+        <div className="bg bg21"><Widget currency='raiblocks' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='microchip' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg22"><Widget currency='populous' /></div>
+        <div className="bg bg22"><Widget currency='populous' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg23"><Widget currency='omisego' /></div>
+        <div className="bg bg23"><Widget currency='omisego' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='circle-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg18"><Widget currency='zcash' /></div>
+        <div className="bg bg18"><Widget currency='zcash' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='shower' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='question-circle-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg25"><Widget currency='stratis' /></div>
+        <div className="bg bg25"><Widget currency='stratis' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='windows' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg27"><Widget currency='bytecoin-bcn' /></div>
+        <div className="bg bg27"><Widget currency='bytecoin-bcn' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='tv' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='question-circle-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg28"><Widget currency='siacoin' /></div>
+        <div className="bg bg28"><Widget currency='siacoin' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='shower' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='server' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg29"><Widget currency='verge' /></div>
+        <div className="bg bg29"><Widget currency='verge' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='shower' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='hand-spock-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg30"><Widget currency='ardor' /></div>
+        <div className="bg bg30"><Widget currency='ardor' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='circle-o' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='chain' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
-        <div className="bg bg26"><Widget currency='binance-coin' /></div>
+        <div className="bg bg26"><Widget currency='binance-coin' />
+            <div className="icontray py-3 px-5">
+                <div className="row justify-content-around">
+                    <div className='justify-content-center m-2'><MyFa size={2} name='stop' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='unlink' /></div>
+                    <div className='justify-content-center m-2'><MyFa size={2} name='file-text-o' /></div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
