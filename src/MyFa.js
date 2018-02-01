@@ -1,10 +1,10 @@
 import React from 'react'
 import FontAwesome from 'react-fontawesome';
 
-export const MyFa = ({fa}) => (
+export const MyFa = ({name, size}) => (
     <FontAwesome
-        name={fa}
-        className='fa-1x emboss'
+        name={name}
+        className={ `fa-${size}x emboss` }
         spin
     />
 )

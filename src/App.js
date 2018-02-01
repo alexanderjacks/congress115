@@ -14,9 +14,9 @@ const Page = ({ title }) => (
 
 <h1 className="emboss">
     {/* line 1 */}
-    <span className="d-block">F<MyFa fa='cog' />nt Awes<MyFa fa='cog' />me</span>
+    <span className="d-block">F<MyFa name='cog' size={1} />nt Awes<MyFa name='cog' size={2} />me</span>
     {/* line 2 */}
-    <span className="d-block">Crypt<MyFa fa='cog' />  N<MyFa fa='cog' />tes</span>
+    <span className="d-block">Crypt<MyFa name='cog' size={3} />  N<MyFa name='cog' size={4} />tes</span>
 </h1>
 <h6 className="emboss">
     Created for educational purposes only. Not intended as a replacement for professional investment advice-- this is only a hobby of mine. :)
@@ -51,19 +51,19 @@ const Page = ({ title }) => (
     {/* clip to next comment per pill, remove middle div 2nd row */}
     <div className="icontray">
         <div className="row justify-content-around">
-            <span className='p-2'><FontAwesome name='stop-circle' className='fa-2x emboss d-inline' /><br/><h6 className="center">Finite</h6></span>
-            <span className='p-2'><FontAwesome name='stop' className='fa-2x emboss d-inline' /><br/><h6 className="center">Infinite</h6></span>
-            <span className='p-2'><FontAwesome name='file-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Fungible</h6></span>
-            <span className='p-2'><FontAwesome name='file-text-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Traceable</h6></span>
-            <span className='p-2'><FontAwesome name='chain' className='fa-2x emboss d-inline' /><br/><h6 className="center">Original</h6></span>
-            <span className='p-2'><FontAwesome name='unlink' className='fa-2x emboss d-inline' /><br/><h6 className="center">Altcoin</h6></span>
+            <span className='p-2'><MyFa size={2} name='stop-circle' className='d-inline' /><br/><h6 className="center">Finite</h6></span>
+            <span className='p-2'><MyFa size={2} name='stop' className='d-inline' /><br/><h6 className="center">Infinite</h6></span>
+            <span className='p-2'><MyFa size={2} name='file-o' className='d-inline' /><br/><h6 className="center">Fungible</h6></span>
+            <span className='p-2'><MyFa size={2} name='file-text-o' className='d-inline' /><br/><h6 className="center">Traceable</h6></span>
+            <span className='p-2'><MyFa size={2} name='chain' className='d-inline' /><br/><h6 className="center">Original</h6></span>
+            <span className='p-2'><MyFa size={2} name='unlink' className='d-inline' /><br/><h6 className="center">Altcoin</h6></span>
         </div>
         <div className="row justify-content-around">
-            <span className='p-2'><FontAwesome name='shower' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
-            <span className='p-2'><FontAwesome name='tv' className='fa-2x emboss d-inline' /><br/><h6 className="center">Best GPU</h6></span>
-            <span className='p-2'><FontAwesome name='microchip' className='fa-2x emboss d-inline' /><br/><h6 className="center">Any mining</h6></span>
-            <span className='p-2'><FontAwesome name='question-circle-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Anonymous</h6></span>
-            <span className='p-2'><FontAwesome name='hand-spock-o' className='fa-2x emboss d-inline' /><br/><h6 className="center">Non-profit</h6></span>
+            <span className='p-2'><MyFa size={2} name='shower' className='d-inline' /><br/><h6 className="center">Best ASIC</h6></span>
+            <span className='p-2'><MyFa size={2} name='tv' className='d-inline' /><br/><h6 className="center">Best GPU</h6></span>
+            <span className='p-2'><MyFa size={2} name='microchip' className='d-inline' /><br/><h6 className="center">Any mining</h6></span>
+            <span className='p-2'><MyFa size={2} name='question-circle-o' className='d-inline' /><br/><h6 className="center">Anonymous</h6></span>
+            <span className='p-2'><MyFa size={2} name='hand-spock-o' className='d-inline' /><br/><h6 className="center">Non-profit</h6></span>
         </div>
     </div>
 
