@@ -10,17 +10,42 @@ import './App.css';
 const Page = ({ title }) => (
     <div className="App">
     {/* title, gears for Ohs */}
-        <div className="App-header row justify-content-center">
-            <h1 className="emboss">
-            {/* line 1 */}
-            <span className="d-block">F<MyFa name='cog' size={1} spin />nt Awes<MyFa name='cog' size={1} spin />me</span>
-            {/* line 2 */}
-            <span className="d-block">Crypt<MyFa name='cog' size={1} spin />  N<MyFa name='cog' size={1} spin />tes</span>
-            </h1>
-            <h6 className="emboss">
-                Created for educational purposes only. Not intended as a replacement for professional investment advice.
-            </h6>
+        <div className="App-header row justify-content-around">
+            <div>
+                <h1 className="emboss">
+                    {/* line 1 */}
+                    <span className="d-block">F<MyFa name='cog' size={1} spin />nt Awes<MyFa name='cog' size={1} spin />me</span>
+                    {/* line 2 */}
+                    <span className="d-block">Crypt<MyFa name='cog' size={1} spin />  N<MyFa name='cog' size={1} spin />tes</span>
+                </h1>
+                <h6 className="emboss">
+                    Created for educational purposes only.
+                </h6>
+                <h6 className="emboss">
+                    Not intended as a replacement for professional investment advice.
+                </h6>
+            </div>
+            <div className="icontray py-3 px-5">
+                <h5>Font Awesome Icon Key</h5>
+                <div className="row justify-content-around">
+                    <span className='p-2'><MyFa size={2} name='stop-circle' /><h6>Finite</h6></span>
+                    <span className='p-2'><MyFa size={2} name='stop' /><h6>Infinite</h6></span>
+                    <span className='p-2'><MyFa size={2} name='file-o' /><h6>Fungible</h6></span>
+                    <span className='p-2'><MyFa size={2} name='file-text-o' /><h6>Traceable</h6></span>
+                    <span className='p-2'><MyFa size={2} name='chain' /><h6>Original</h6></span>
+                    <span className='p-2'><MyFa size={2} name='unlink' /><h6>Altcoin</h6></span>
+                </div>
+                <div className="row justify-content-around">
+                    <span className='p-2'><MyFa size={2} name='shower' /><h6>Best ASIC</h6></span>
+                    <span className='p-2'><MyFa size={2} name='tv' /><h6>Best GPU</h6></span>
+                    <span className='p-2'><MyFa size={2} name='microchip' /><h6>Any mining</h6></span>
+                    <span className='p-2'><MyFa size={2} name='question-circle-o' /><h6>Anonymous</h6></span>
+                    <span className='p-2'><MyFa size={2} name='hand-spock-o' /><h6>Non-profit</h6></span>
+                </div>
+            </div>
+
         </div>
+
     {/* more info links, under dev */}
 
         <p className="row justify-content-around">
@@ -43,25 +68,6 @@ const Page = ({ title }) => (
             <a href="http://alexanderjacks.biz"><span className="fire"> Portfolio</span></a>
         </p>
 
-        <h5>Font Awesome Icon Key</h5>
-        {/* clip to next comment per pill, remove middle div 2nd row */}
-        <div className="icontray">
-            <div className="row justify-content-around">
-                <span className='p-2'><MyFa size={2} name='stop-circle' /><h6>Finite</h6></span>
-                <span className='p-2'><MyFa size={2} name='stop' /><h6>Infinite</h6></span>
-                <span className='p-2'><MyFa size={2} name='file-o' /><h6>Fungible</h6></span>
-                <span className='p-2'><MyFa size={2} name='file-text-o' /><h6>Traceable</h6></span>
-                <span className='p-2'><MyFa size={2} name='chain' /><h6>Original</h6></span>
-                <span className='p-2'><MyFa size={2} name='unlink' /><h6>Altcoin</h6></span>
-            </div>
-            <div className="row justify-content-around">
-                <span className='p-2'><MyFa size={2} name='shower' /><h6>Best ASIC</h6></span>
-                <span className='p-2'><MyFa size={2} name='tv' /><h6>Best GPU</h6></span>
-                <span className='p-2'><MyFa size={2} name='microchip' /><h6>Any mining</h6></span>
-                <span className='p-2'><MyFa size={2} name='question-circle-o' /><h6>Anonymous</h6></span>
-                <span className='p-2'><MyFa size={2} name='hand-spock-o' /><h6>Non-profit</h6></span>
-            </div>
-        </div>
 
 {/* begin list of widgets */}
 
