@@ -2413,34 +2413,20 @@
   color: rgba(0, 0, 0, 0.6);
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
-.hybrid {
-  text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3); }
-
 .center {
   text-align: center; }
 
 span h6 {
-  text-align: center; }
-
-span h6 {
-  color: #333; }
+  color: #111;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
 .bg {
-  padding: 25px;
+  padding: 30px;
   border-radius: 8vw;
-  margin: 2em; }
+  margin: 1em; }
 
-.bg21 {
-  background: linear-gradient(snow, mediumslateblue, darkcyan, navy); }
-
-.bg22 {
-  background: linear-gradient(lightcyan, lightcoral, mediumvioletred, pink, mediumaquamarine, crimson, darkred); }
-
-.bg23 {
-  background: linear-gradient(darkgreen, seagreen, springgreen, peru, darkturquoise, aqua, powderblue); }
-
-.bg24 {
-  background: linear-gradient(snow, beige, palegreen, olive, mediumslateblue, darkcyan, navy); }
+.bg {
+  border: 6px groove rgba(30, 50, 70, 0.5); }
 
 #root {
   background: linear-gradient(snow, rgba(192, 192, 192, 0.7), rgba(192, 192, 192, 0.5), rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.1)); }
@@ -2458,7 +2444,7 @@ span h6 {
   background: radial-gradient(circle, orange, rgba(255, 192, 0, 0.5), rgba(255, 255, 64, 0.3)); }
 
 .bg5 {
-  background: radial-gradient(circle, mediumblue, rgba(255, 0, 192, 0.5), rgba(255, 255, 64, 0.3)); }
+  background: radial-gradient(circle, slateblue, rgba(100, 192, 255, 0.5), rgba(64, 200, 255, 0.1)); }
 
 .bg6 {
   background: radial-gradient(circle, tomato, rgba(192, 64, 190, 0.5), rgba(240, 100, 140, 0.3)); }
@@ -2494,7 +2480,7 @@ span h6 {
   background: radial-gradient(circle, darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
 
 .bg17 {
-  background: radial-gradient(circle, slateblue, rgba(100, 192, 255, 0.5), rgba(64, 200, 255, 0.1)); }
+  background: radial-gradient(circle, lightskyblue, rgba(192, 0, 192, 0.5), rgba(255, 64, 255, 0.3)); }
 
 .bg18 {
   background: radial-gradient(circle, darkviolet, rgba(218, 112, 214, 0.5), rgba(218, 112, 214, 0.1)); }
@@ -2524,7 +2510,7 @@ span h6 {
   background: radial-gradient(circle, silver, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .bg27 {
-  background: radial-gradient(circle, lightskyblue, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
+  background: radial-gradient(circle, lightblue, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .bg28 {
   background: radial-gradient(circle, palevioletred, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
@@ -2537,6 +2523,8 @@ span h6 {
 
 .icontray {
   border: 2px solid #E4E6EB;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   min-width: 285px; }
@@ -2545,7 +2533,7 @@ span h6 {
   border: 6px groove rgba(30, 50, 70, 0.5); }
 
 .coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  content: "Value in Bitcoin: "; }
+  content: "Fiat Value $US: "; }
 
 .coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
   color: ivory; }
@@ -2573,18 +2561,5 @@ span a {
 
 .coinmarketcap-currency-widget > div::before {
   border: 10px groove rgba(30, 50, 70, 0.5); }
-
-*[style="color:d14836"] {
-  text-decoration: none;
-  text-shadow: 2px 2px 4px #00f, -2px -2px 4px #00f, -2px 2px 4px #0ff, 2px -2px 4px #0ff; }
-
-.ledgerdemain {
-  background: linear-gradient(magenta, rgba(255, 215, 64, 0.4)); }
-
-.ensorcellment {
-  background: linear-gradient(#e6aa3c, rgba(255, 180, 64, 0.4)); }
-
-.prestigiditation {
-  background: linear-gradient(#915ad2, rgba(105, 10, 180, 0.4)); }
 
 /*# sourceMappingURL=App.css.map */
