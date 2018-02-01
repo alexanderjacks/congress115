@@ -21,10 +21,12 @@
 }
 
 // positioning
-.center{
-    text-align: center;
+.center{ text-align: center; }
+%center{ text-align: center; }
+span h6 {
+    color: #333;
+    @extend %center;
 }
-
 
 // entire widget build pill
 //.coinmarketcap-currency-widget{

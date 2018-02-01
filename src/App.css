@@ -2419,6 +2419,12 @@
 .center {
   text-align: center; }
 
+span h6 {
+  text-align: center; }
+
+span h6 {
+  color: #333; }
+
 .bg {
   padding: 25px;
   border-radius: 8vw;
