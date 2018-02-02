@@ -22,6 +22,12 @@ const Page = ({ title }) => (
                 <h6 className="emboss">
                     Not intended as a replacement for professional investment advice.
                 </h6>
+                <h6 className="emboss">
+                    Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
+                </h6>
+                <h6 className="emboss">
+                    Donate LTC: LNJ9mQn5FLWmKhvDTwkbiEKBVdiMbGCEaV
+                </h6>
                 <p>
                 </p>
             </div>
@@ -47,19 +53,12 @@ const Page = ({ title }) => (
 
         </div>
 
-    {/* more info links, under dev */}
+    {/* room for more info links, under dev */}
 
         <p className="row justify-content-around">
-
-            <h6>
-
-            </h6>
-
-            <h6>App</h6>
-            {/* will have icon key in place of info text; app ought to load in all 3 btns tho*/}
-
-            <h6>About</h6>
-            <a href="http://alexanderjacks.biz"><span className="fire"> Portfolio</span></a>
+            <h5>
+            <a href="http://alexanderjacks.biz"><span className="fire">Learn more about this App, visit my Portfolio</span></a>
+            </h5>
         </p>
 
 
