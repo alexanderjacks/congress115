@@ -11,9 +11,9 @@ const Page = ({ title }) => (
         <div className="App-header row justify-content-around">
             <div>
                 <h1 className="emboss">
-                    {/* line 1 */}
+    {/* line 1 */}
                     <span className="d-block">F<MyFa name='cog' size={1} spin />nt Awes<MyFa name='cog' size={1} spin />me</span>
-                    {/* line 2 */}
+    {/* line 2 */}
                     <span className="d-block">Crypt<MyFa name='cog' size={1} spin />  N<MyFa name='cog' size={1} spin />tes</span>
                 </h1>
                 <h6 className="emboss">
@@ -22,6 +22,8 @@ const Page = ({ title }) => (
                 <h6 className="emboss">
                     Not intended as a replacement for professional investment advice.
                 </h6>
+                <p>
+                </p>
             </div>
             <div className="icontray py-3 px-5">
                 <h5>Font Awesome Icon Key</h5>
@@ -48,15 +50,10 @@ const Page = ({ title }) => (
     {/* more info links, under dev */}
 
         <p className="row justify-content-around">
-            <h6>Dev Notes</h6>
-        {/*
-            <p className="App-intro mt-3">
-              Here's a site built around a widget from my favorite crypto currency research resource, <a href="https://coinmarketcap.com/?utm_medium=widget&utm_campaign=cmcwidget&utm_source=localhost&utm_content=bitcoin">coinmarketcap</a>. I've ranked the currencies by current market cap manually according to a more scholarly resource, <a href="https://cci30.com/">CCI30 Crypto Currencies Index</a>. Since I can't yet grok how to 'listen' to the widget data using React and Sass, they're not automatically ranked  descending according to either service. Eventually I'll figure this out, or perhaps source it from a third source and further blend all this together.
-            </p>
-            <p className="App-intro mt-3">
-              Leveraging a site widget without relying on an API seems like a useful technique. I'm surprised it's possible with only this small amount of finesse with Sass and React.
-            </p>
-        */}
+
+            <h6>
+
+            </h6>
 
             <h6>App</h6>
             {/* will have icon key in place of info text; app ought to load in all 3 btns tho*/}
@@ -217,7 +214,7 @@ const Page = ({ title }) => (
 
 
         <div className="bg bg11"><Widget currency='tron' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='chain' /></div>
@@ -227,7 +224,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg17"><Widget currency='qtum' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='unlink' /></div>
@@ -238,7 +235,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg20"><Widget currency='lisk' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop' /></div>
                     <div className='p-2'><MyFa size={2} name='microchip' /></div>
@@ -261,7 +258,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg24"><Widget currency='tether' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='money' /></div>
@@ -272,7 +269,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg19"><Widget currency='bitcoin-gold' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='microchip' /></div>
@@ -284,7 +281,7 @@ const Page = ({ title }) => (
 
     {/* 21 - 30*/}
         <div className="bg bg16"><Widget currency='icon' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='chain' /></div>
@@ -294,7 +291,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg21"><Widget currency='raiblocks' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop' /></div>
                     <div className='p-2'><MyFa size={2} name='microchip' /></div>
@@ -305,7 +302,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg22"><Widget currency='populous' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='unlink' /></div>
@@ -315,7 +312,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg23"><Widget currency='omisego' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='circle-o' /></div>
                     <div className='p-2'><MyFa size={2} name='unlink' /></div>
@@ -325,7 +322,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg18"><Widget currency='zcash' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='shower' /></div>
@@ -337,7 +334,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg25"><Widget currency='stratis' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop' /></div>
                     <div className='p-2'><MyFa size={2} name='chain' /></div>
@@ -348,7 +345,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg27"><Widget currency='bytecoin-bcn' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='tv' /></div>
@@ -360,7 +357,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg28"><Widget currency='siacoin' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop' /></div>
                     <div className='p-2'><MyFa size={2} name='shower' /></div>
@@ -371,7 +368,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg29"><Widget currency='verge' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop-circle' /></div>
                     <div className='p-2'><MyFa size={2} name='shower' /></div>
@@ -383,7 +380,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg30"><Widget currency='ardor' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='circle-o' /></div>
                     <div className='p-2'><MyFa size={2} name='chain' /></div>
@@ -393,7 +390,7 @@ const Page = ({ title }) => (
         </div>
 
         <div className="bg bg26"><Widget currency='binance-coin' />
-            <div className="icontray py-3 px-5">
+            <div className="icontray">
                 <div className="row justify-content-around">
                     <div className='p-2'><MyFa size={2} name='stop' /></div>
                     <div className='p-2'><MyFa size={2} name='unlink' /></div>
@@ -432,6 +429,4 @@ class App extends Component {
    );
  }
 }
-
-
 export default App;
