@@ -1,37 +1,50 @@
-# Font Awesome Notes :flower_playing_cards::dromedary_camel::sparkles:
-### a Notecard app & progressive web app boilerplate in React
-**Font Awesome**, **Bootstrap4** & **Saffron** magic
+1) Style widget in situ.scss
 
-## [View project live at https://fa-notes.firebaseapp.com](https://fa-notes.firebaseapp.com)
+// // stlye widget in situ! // //
+// coin icon border
+.coinmarketcap-currency-widget>div>div>div>img {
+    border: 6px groove rgba(30,50,70,0.5);
+}
 
-#### :construction: Reconstitute this, to develop it in a new direction:
-- [Fork this project](https://help.github.com/articles/fork-a-repo/)
-- [clone to your local machine](https://help.github.com/articles/cloning-a-repository/)
-- ```cd fa-icons/```
-- ```yarn start```
- - _In a new Terminal_
- ```cd src && sass --watch App.scss:App.css```
+// imposes label for BTC value
+%labelBTCtext {
+    content: "Fiat Value $US: ";
+}
+.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::before{
+    color: ivory;
+    @extend %labelBTCtext;
+}
 
-You now have the Sass compiler running, and Boostrap, Bourbon and Saffron all set to leverage in a React/Webpack/React-Router boilerplate. Enjoy.
+// shadows BTC exchange value
+.coinmarketcap-currency-widget>div>div>div>span:nth-child(5){
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000,
+    -2px -2px 3px #000,
+    -2px 2px 3px #000,
+    2px -2px 3px #000;
+}
 
-#### :rocket: If you wish to deploy this sandbox to firebase:
-- follow the ':construction:' steps
-- create a new project at [console.firebase.google.com](firebase) called my_trendy_app_name
-- ```npm install firebase-tools && firebase login```
-- login to firebase
-- ```firebase init```
-- Current as of FirebaseCLI 3.15: Using Spacebar & Enter, choose
- - Hosting
- - my_trendy_app_name
-- Now back to typing
- - ```build``` as directory
- - ```N``` to Single Page App?
- - ```N``` to erase build dir?
-- ```npm run build && firebase deploy```
-- [View your trendy app project live at https://my_trendy_app_name.firebaseapp.com](https://my_trendy_app_name.firebaseapp.com)
+// somewhat imprecise targeting to enhance market change value
+span span {
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #000,
+    -2px -2px 3px #000,
+    -2px 2px 3px #000,
+    2px -2px 3px #000;
+}
 
-That's all for now. Enjoy React and Sass.
-
-#### [Alexander Jacks SVC](http://alexanderjacks.biz)
-
-_MIT License 2017_
+// // widget title
+// text embiggening
+%bigger-title {
+    font-size: 1.6em;
+    font-family: 'Droid Sans';
+}
+// fire shadow effect
+span a {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #f00,
+    -2px -2px 4px #f00,
+    -2px 2px 4px #ff0,
+    2px -2px 4px #ff0;
+    @extend %bigger-title;
+}
