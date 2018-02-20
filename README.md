@@ -1,5 +1,5 @@
-# Font Awesome Notes :flower_playing_cards::dromedary_camel::sparkles:
-### a Notecard app & progressive web app boilerplate in React
+# Font Awesome Notes :flower_playing_cards::money_with_wings::sparkles:
+### a progressive web app boilerplate in React
 **Font Awesome**, **Bootstrap4** & **Saffron** magic
 
 ## [View project live at https://fa-notes.firebaseapp.com](https://fa-notes.firebaseapp.com)

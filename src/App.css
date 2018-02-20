@@ -2410,7 +2410,11 @@
   background: linear-gradient(indigo, peru); }
 
 .emboss {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(250, 255, 200, 0.9);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
+
+.emboss-dark {
+  color: rgba(0, 0, 0, 0.9);
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
 .center {
@@ -2431,98 +2435,101 @@ span h6 {
 #root {
   background: linear-gradient(snow, rgba(192, 192, 192, 0.7), rgba(192, 192, 192, 0.5), rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.1)); }
 
-.bg1 {
+.bg-bitcoin {
   background: radial-gradient(circle, darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.3)); }
 
-.bg2 {
+.bg-ethereum {
   background: radial-gradient(circle, firebrick, rgba(255, 0, 255, 0.5), rgba(255, 255, 64, 0.3)); }
 
-.bg3 {
+.bg-ripple {
   background: radial-gradient(circle, darkcyan, rgba(135, 206, 250, 0.5), rgba(255, 255, 64, 0.3)); }
 
-.bg4 {
+.bg-bitcoin-cash {
   background: radial-gradient(circle, orange, rgba(255, 192, 0, 0.5), rgba(255, 255, 64, 0.3)); }
 
-.bg5 {
+.bg-cardano {
   background: radial-gradient(circle, slateblue, rgba(100, 192, 255, 0.5), rgba(64, 200, 255, 0.1)); }
 
-.bg6 {
+.bg-stellar {
   background: radial-gradient(circle, tomato, rgba(192, 64, 190, 0.5), rgba(240, 100, 140, 0.3)); }
 
-.bg7 {
+.bg-litecoin {
   background: radial-gradient(circle, dimgray, rgba(192, 240, 64, 0.5), rgba(255, 255, 64, 0.3)); }
 
-.bg8 {
+.bg-neo {
   background: radial-gradient(circle, greenyellow, rgba(0, 80, 0, 0.5), rgba(0, 0, 255, 0.3)); }
 
-.bg9 {
+.bg-eos {
   background: radial-gradient(circle, honeydew, rgba(30, 50, 70, 0.5), rgba(0, 50, 192, 0.3)); }
 
-.bg10 {
+.bg-nem {
   background: radial-gradient(circle, orange, rgba(113, 179, 113, 0.5), rgba(0, 0, 192, 0.3)); }
 
-.bg11 {
+.bg-tron {
   background: radial-gradient(circle, crimson, rgba(0, 0, 64, 0.5), rgba(0, 0, 192, 0.3)); }
 
-.bg12 {
+.bg-iota {
   background: radial-gradient(circle, aquamarine, rgba(0, 64, 124, 0.5), rgba(0, 90, 192, 0.3)); }
 
-.bg13 {
+.bg-monero {
   background: radial-gradient(circle, orangered, rgba(30, 40, 64, 0.5), rgba(20, 20, 20, 0.3)); }
 
-.bg14 {
-  background: radial-gradient(circle, darkslateblue, rgba(255, 10, 64, 0.5), rgba(72, 61, 139, 0.3)); }
+.bg-dash {
+  background: radial-gradient(circle, darkslateblue, rgba(55, 10, 64, 0.5), rgba(72, 61, 139, 0.3)); }
 
-.bg15 {
+.bg-vechain {
+  background: radial-gradient(circle, violet, rgba(0, 160, 255, 0.5), rgba(72, 61, 139, 0.3)); }
+
+.bg-ethereum-classic {
   background: radial-gradient(circle, maroon, rgba(165, 62, 92, 0.5), rgba(205, 92, 92, 0.3)); }
 
-.bg16 {
+.bg-icon {
   background: radial-gradient(circle, darkgoldenrod, rgba(200, 100, 100, 0.5), rgba(200, 100, 100, 0.1)); }
 
-.bg17 {
+.bg-qtum {
   background: radial-gradient(circle, lightskyblue, rgba(192, 0, 192, 0.5), rgba(255, 64, 255, 0.3)); }
 
-.bg18 {
+.bg-zcash {
   background: radial-gradient(circle, darkviolet, rgba(218, 112, 214, 0.5), rgba(218, 112, 214, 0.1)); }
 
-.bg19 {
+.bg-bitcoin-gold {
   background: radial-gradient(circle, rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
 
-.bg20 {
+.bg-lisk {
   background: radial-gradient(circle, cadetblue, rgba(72, 209, 204, 0.5), rgba(72, 209, 204, 0.1)); }
 
-.bg21 {
+.bg-nano {
   background: radial-gradient(circle, deeppink, rgba(192, 0, 0, 0.5), rgba(0, 128, 255, 0.1)); }
 
-.bg22 {
+.bg-populous {
   background: radial-gradient(circle, peru, rgba(244, 164, 96, 0.5), rgba(244, 164, 96, 0.1)); }
 
-.bg23 {
+.bg-omisego {
   background: radial-gradient(circle, mediumblue, rgba(30, 144, 255, 0.5), rgba(30, 144, 255, 0.1)); }
 
-.bg24 {
+.bg-steem {
+  background: radial-gradient(circle, cornflowerblue, rgba(60, 100, 255, 0.5), rgba(30, 144, 255, 0.1)); }
+
+.bg-tether {
   background: radial-gradient(circle, darkslategrey, rgba(11, 61, 46, 0.5), rgba(11, 61, 46, 0.1)); }
 
-.bg25 {
-  background: radial-gradient(circle, darkkhaki, rgba(100, 100, 100, 0.5), rgba(0, 100, 255, 0.1)); }
-
-.bg26 {
+.bg-binance-coin {
   background: radial-gradient(circle, silver, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
-.bg27 {
+.bg-bytecoin-bcn {
   background: radial-gradient(circle, darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
 
-.bg28 {
-  background: radial-gradient(circle, palevioletred, rgba(100, 100, 192, 0.5), rgba(0, 255, 100, 0.1)); }
+.bg-siacoin {
+  background: radial-gradient(circle, palegreen, rgba(100, 100, 192, 0.5), rgba(0, 255, 100, 0.1)); }
 
-.bg29 {
-  background: radial-gradient(circle, lightblue, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
+.bg-verge {
+  background: radial-gradient(circle, lightblue, rgba(20, 100, 200, 0.5), rgba(100, 100, 100, 0.1)); }
 
-.bg30 {
+.bg-stratis {
   background: radial-gradient(circle, steelblue, rgba(80, 150, 200, 0.5), rgba(0, 0, 128, 0.1)); }
 
-.bg31 {
-  background: radial-gradient(circle, sandybrown, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
+.bg-ardor {
+  background: radial-gradient(circle, darkkhaki, rgba(100, 100, 100, 0.5), rgba(0, 100, 255, 0.1)); }
 
 .icontray {
   border: 2px solid #E4E6EB;
@@ -2539,11 +2546,11 @@ span h6 {
   content: "Fiat Value $US: "; }
 
 .coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  color: ivory; }
+  color: navy; }
 
 .coinmarketcap-currency-widget > div > div > div > span:nth-child(5) {
   text-decoration: none;
-  text-shadow: 2px 2px 3px #000, -2px -2px 3px #000, -2px 2px 3px #000, 2px -2px 3px #000; }
+  text-shadow: 1px 1px 2px gold, -1px -1px 2px gold, -1px 1px 2px gold, 1px -1px 2px gold; }
 
 span span {
   text-decoration: none;
@@ -2555,7 +2562,7 @@ span a {
 
 span a {
   text-decoration: none;
-  text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0; }
+  text-shadow: 1px 1px 3px #000, -1px -1px 3px #000, -1px 1px 3px #000, 1px -1px 3px #000; }
 
 .fire:hover {
   text-decoration: none;
