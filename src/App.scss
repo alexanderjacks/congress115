@@ -1,9 +1,12 @@
 @import "../public/bourbon/bourbon";
 @import "../public/saffron/saffron";
 
+body {
+    background: linear-gradient(snow, seashell, gainsboro, silver);
+}
 
 .App-header {
-    background: linear-gradient(indigo,peru);
+    background: linear-gradient(indigo, peru);
 }
 
 // header text
@@ -28,21 +31,28 @@ span h6 {
 %pill-scale {
     @media screen and (max-width: 600px) and (min-width: 10px) {
         max-width: 95vw;
+        border-radius: 8vw;
+
     }
     @media screen and (max-width: 1280px) and (min-width: 601px) {
         max-width: 46vw;
+        border-radius: 4vw;
+
     }
     @media screen and (max-width: 2000px) and (min-width: 1281px) {
         max-width: 30vw;
+        border-radius: 2vw;
+
     }
     @media screen and (max-width: 4096px) and (min-width: 2001px) {
         max-width: 20vw;
+        border-radius: 1vw;
+
     }
 }
 
 %pill-padding {
     padding: 15px;
-    border-radius: 8vw;
     margin: 0.5em;
 }
 .pill {
@@ -72,7 +82,7 @@ span h6 {
 .bg-dash{background: radial-gradient(circle,darkslateblue,rgba(55,10,64,0.5),rgba(72,61,139,0.3));    }
 .bg-vechain{background: radial-gradient(circle,violet,rgba(0,160,255,0.5),rgba(72,61,139,0.3));    }
 .bg-ethereum-classic{background: radial-gradient(circle,maroon,rgba(165,62,92,0.5),rgba(205,92,92,0.3));    }
-.bg-icon{background: radial-gradient(circle,darkgoldenrod,rgba(200,100,100,0.5),rgba(200,100,100,0.1));     }
+.bg-icon{background: radial-gradient(circle,ivory,rgba(200,100,100,0.5),rgba(200,100,100,0.1));     }
 .bg-qtum{background: radial-gradient(circle,lightskyblue,rgba(192,0,192,0.5),rgba(255,64,255,0.3));    }
 .bg-zcash{background: radial-gradient(circle,darkviolet,rgba(218,112,214,0.5),rgba(218,112,214,0.1));     }
 .bg-bitcoin-gold{background: radial-gradient(circle,rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.1));    }
@@ -146,23 +156,22 @@ span span {
     font-size: 1.6em;
     font-family: 'Droid Sans';
 }
-// fire shadow effect
+// title text effect
 span a {
     text-decoration: none;
-    text-shadow: 1px 1px 3px #000,
-    -1px -1px 3px #000,
-    -1px 1px 3px #000,
-    1px -1px 3px #000;
+    text-shadow: 1px 1px 2px navy,
+    -1px -1px 2px navy,
+    -1px 1px 2px navy,
+    1px -1px 2px navy;
     @extend %bigger-title;
 }
 
 // nifty fire text for links
 .fire:hover {
-    text-decoration: none;
-    text-shadow: 2px 2px 4px #f00,
-    -2px -2px 4px #f00,
-    -2px 2px 4px #ff0,
-    2px -2px 4px #ff0;
+    text-shadow: 1px 1px 3px #f00,
+    -1px -1px 3px #f00,
+    -1px 1px 3px #ff0,
+    1px -1px 3px #ff0;
     transition: all 0.1s linear;
 }
 

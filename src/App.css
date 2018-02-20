@@ -2406,6 +2406,9 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
+body {
+  background: linear-gradient(snow, seashell, gainsboro, silver); }
+
 .App-header {
   background: linear-gradient(indigo, peru); }
 
@@ -2426,20 +2429,23 @@ span h6 {
 
 @media screen and (max-width: 600px) and (min-width: 10px) {
   .pill, .coinmarketcap-currency-widget {
-    max-width: 95vw; } }
+    max-width: 95vw;
+    border-radius: 8vw; } }
 @media screen and (max-width: 1280px) and (min-width: 601px) {
   .pill, .coinmarketcap-currency-widget {
-    max-width: 46vw; } }
+    max-width: 46vw;
+    border-radius: 4vw; } }
 @media screen and (max-width: 2000px) and (min-width: 1281px) {
   .pill, .coinmarketcap-currency-widget {
-    max-width: 30vw; } }
+    max-width: 30vw;
+    border-radius: 2vw; } }
 @media screen and (max-width: 4096px) and (min-width: 2001px) {
   .pill, .coinmarketcap-currency-widget {
-    max-width: 20vw; } }
+    max-width: 20vw;
+    border-radius: 1vw; } }
 
 .pill {
   padding: 15px;
-  border-radius: 8vw;
   margin: 0.5em; }
 
 .pill {
@@ -2497,7 +2503,7 @@ span h6 {
   background: radial-gradient(circle, maroon, rgba(165, 62, 92, 0.5), rgba(205, 92, 92, 0.3)); }
 
 .bg-icon {
-  background: radial-gradient(circle, darkgoldenrod, rgba(200, 100, 100, 0.5), rgba(200, 100, 100, 0.1)); }
+  background: radial-gradient(circle, ivory, rgba(200, 100, 100, 0.5), rgba(200, 100, 100, 0.1)); }
 
 .bg-qtum {
   background: radial-gradient(circle, lightskyblue, rgba(192, 0, 192, 0.5), rgba(255, 64, 255, 0.3)); }
@@ -2575,11 +2581,10 @@ span a {
 
 span a {
   text-decoration: none;
-  text-shadow: 1px 1px 3px #000, -1px -1px 3px #000, -1px 1px 3px #000, 1px -1px 3px #000; }
+  text-shadow: 1px 1px 2px navy, -1px -1px 2px navy, -1px 1px 2px navy, 1px -1px 2px navy; }
 
 .fire:hover {
-  text-decoration: none;
-  text-shadow: 2px 2px 4px #f00, -2px -2px 4px #f00, -2px 2px 4px #ff0, 2px -2px 4px #ff0;
+  text-shadow: 1px 1px 3px #f00, -1px -1px 3px #f00, -1px 1px 3px #ff0, 1px -1px 3px #ff0;
   transition: all 0.1s linear; }
 
 .coinmarketcap-currency-widget > div::before {
