@@ -8,11 +8,11 @@
 - [Fork this project](https://help.github.com/articles/fork-a-repo/)
 - [clone to your local machine](https://help.github.com/articles/cloning-a-repository/)
 - ```cd fa-icons/```
-- ```yarn start```
+- ```npm i && yarn start```
  - _In a new Terminal_
  ```cd src && sass --watch App.scss:App.css```
 
-You now have the Sass compiler running, and Boostrap, Bourbon and Saffron all set to leverage in a React/Webpack/React-Router boilerplate. Enjoy.
+You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all set to leverage in a React/Webpack/React-Router boilerplate. Enjoy.
 
 #### :rocket: If you wish to deploy this sandbox to firebase:
 - follow the ':construction:' steps
@@ -34,4 +34,4 @@ That's all for now. Enjoy React and Sass.
 
 #### [Alexander Jacks SVC](http://alexanderjacks.biz)
 
-_MIT License 2017_
+_MIT License 2018_

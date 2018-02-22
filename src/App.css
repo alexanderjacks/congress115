@@ -2410,22 +2410,25 @@ body {
   background: linear-gradient(snow, seashell, gainsboro, silver); }
 
 .App-header {
-  background: linear-gradient(indigo, peru); }
+  background: linear-gradient(indigo, peru);
+  margin-right: 0px;
+  padding-right: 0px; }
 
-.emboss {
-  color: rgba(250, 255, 200, 0.9);
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
+h1 {
+  font-size: 2rem; }
+
+h6 {
+  color: rgba(250, 255, 200, 0.9); }
 
 .emboss-dark {
   color: rgba(0, 0, 0, 0.9);
   text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
+.donate {
+  font-size: 13px; }
+
 .center {
   text-align: center; }
-
-span h6 {
-  color: #111;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
 
 @media screen and (max-width: 600px) and (min-width: 10px) {
   .pill, .coinmarketcap-currency-widget {
