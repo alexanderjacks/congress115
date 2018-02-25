@@ -37,7 +37,7 @@ const Page = ({ title }) => (
                 <div className='justify-content-center m-2'><MyFa size={2} name='credit-card' /><h6>Pre-mined</h6></div>
                 <div className='justify-content-center m-2'><MyFa size={2} name='stop-circle' /><h6>Finite</h6></div>
                 <div className='justify-content-center m-2'><MyFa size={2} name='circle-o' /><h6>Infinite</h6></div>
-                <div className='justify-content-center m-2'><MyFa size={2} name='cog' /><h6>Best ASIC</h6></div>
+                <div className='justify-content-center m-2'><MyFa size={2} name='cog' spin /><h6>Best ASIC</h6></div>
                 <div className='justify-content-center m-2'><MyFa size={2} name='tv' /><h6>Best GPU</h6></div>
                 <div className='justify-content-center m-2'><MyFa size={2} name='microchip' /><h6>Any mining</h6></div>
             </div>
@@ -62,7 +62,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
@@ -95,7 +95,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
@@ -106,7 +106,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
@@ -171,7 +171,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
@@ -316,7 +316,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-o' /></span>
                     <span><MyFa size={2} name='question-circle-o' /></span>
@@ -338,7 +338,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                     <span><MyFa size={2} name='hand-spock-o' /></span>
@@ -350,7 +350,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                     <span><MyFa size={2} name='hand-spock-o' /></span>
@@ -395,7 +395,7 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='circle-o' /></span>
-                    <span><MyFa size={2} name='cog' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
                     <span><MyFa size={2} name='file-o' /></span>
                     <span><MyFa size={2} name='server' /></span>
                 </div>
