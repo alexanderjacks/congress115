@@ -2562,29 +2562,37 @@ h6 {
   min-width: 285px; }
 
 .coinmarketcap-currency-widget > div > div > div > img {
-  border: 6px groove rgba(30, 50, 70, 0.5); }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  content: "Fiat Value $US: "; }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  color: navy; }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5) {
-  text-decoration: none;
-  text-shadow: 1px 1px 2px #eee, -1px -1px 2px #eee, -1px 1px 2px #eee, 1px -1px 2px #eee; }
-
-span span {
-  text-decoration: none;
-  text-shadow: 1px 1px 2px #eee, -1px -1px 2px #eee, -1px 1px 2px #eee, 1px -1px 2px #eee; }
+  border: 6px groove rgba(30, 50, 70, 0.5);
+  border-radius: 3px; }
 
 span a {
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-family: 'Droid Sans'; }
 
 span a {
   text-decoration: none;
   text-shadow: 1px 1px 2px navy, -1px -1px 2px navy, -1px 1px 2px navy, 1px -1px 2px navy; }
+
+.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
+  content: "Fiat Value: $";
+  font-size: 1.2em; }
+
+.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
+  color: gray; }
+
+.coinmarketcap-currency-widget > div > div > div > span:nth-child(5) {
+  font-size: 1.4em;
+  background-color: black;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 3px; }
+
+span span {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #eee, -1px -1px 2px #eee, -1px 1px 2px #eee, 1px -1px 2px #eee; }
+
+.pill > div > .row > span {
+  padding: 6px; }
 
 .fire:hover {
   text-shadow: 1px 1px 3px #f00, -1px -1px 3px #f00, -1px 1px 3px #ff0, 1px -1px 3px #ff0;

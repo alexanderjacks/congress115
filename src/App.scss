@@ -113,7 +113,7 @@ h6 {
 }
 
 
-// // stlye widget in situ! // //
+// // style widget in situ! // //
 
 // responsive to screen resolution
 .coinmarketcap-currency-widget{
@@ -123,42 +123,15 @@ h6 {
 // coin icon border
 .coinmarketcap-currency-widget>div>div>div>img {
     border: 6px groove rgba(30,50,70,0.5);
+    border-radius: 3px;
 }
 
-// imposes label for USD value
-%labelBTCtext {
-    content: "Fiat Value $US: ";
-}
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::before{
-    color: navy;
-    @extend %labelBTCtext;
-}
-
-// shadows BTC exchange value
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5){
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #eee,
-    -1px -1px 2px #eee,
-    -1px 1px 2px #eee,
-    1px -1px 2px #eee;
-}
-
-// enhance market change value
-span span {
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #eee,
-    -1px -1px 2px #eee,
-    -1px 1px 2px #eee,
-    1px -1px 2px #eee;
-}
-
-// // widget title
-// text embiggening
+// widget title
 %bigger-title {
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-family: 'Droid Sans';
 }
-// title text effect
+// text glow
 span a {
     text-decoration: none;
     text-shadow: 1px 1px 2px navy,
@@ -167,6 +140,41 @@ span a {
     1px -1px 2px navy;
     @extend %bigger-title;
 }
+
+
+// imposes label for USD value
+%labelBTCtext {
+    content: "Fiat Value: $";
+    font-size: 1.2em;
+}
+.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::before{
+    color: gray;
+    @extend %labelBTCtext;
+}
+
+// highlights USD exchange value
+.coinmarketcap-currency-widget>div>div>div>span:nth-child(5){
+    font-size: 1.4em;
+    background-color: black;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+// market change value enhancement
+span span {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #eee,
+    -1px -1px 2px #eee,
+    -1px 1px 2px #eee,
+    1px -1px 2px #eee;
+}
+
+// fa-icon spacing
+.pill>div>.row>span {
+    padding: 6px;
+}
+
 
 // nifty fire text for links
 .fire:hover {
@@ -181,7 +189,7 @@ span a {
 
 // // u n u s e d // //
 
-// erase original border?? not yet
+// erase original border?? unlikely
 .coinmarketcap-currency-widget>div::before {
     border: 10px groove rgba(30,50,70,0.5);
 }
