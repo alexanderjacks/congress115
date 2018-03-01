@@ -2514,6 +2514,9 @@ h6 {
 .bg-zcash {
   background: radial-gradient(circle, darkviolet, rgba(218, 112, 214, 0.5), rgba(218, 112, 214, 0.1)); }
 
+.bg-digixdao {
+  background: radial-gradient(circle, navajowhite, rgba(128, 122, 214, 0.5), rgba(208, 122, 224, 0.1)); }
+
 .bg-bitcoin-gold {
   background: radial-gradient(circle, rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
 
