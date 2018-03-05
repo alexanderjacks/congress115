@@ -101,6 +101,7 @@ h6 {
 .bg-verge{background: radial-gradient(circle,lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.1));     }
 .bg-stratis{background: radial-gradient(circle,steelblue,rgba(80,150,200,0.5),rgba(0,0,128,0.1));     }
 .bg-ardor{background: radial-gradient(circle,darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.1));     }
+.bg-waves{background: radial-gradient(circle,gray,rgba(0,100,255,0.5),rgba(0,0,255,0.1));     }
 
 
 // zone below widget, copies border style and adds icons
@@ -143,6 +144,16 @@ span a {
 }
 
 
+// market change value enhancement
+span span {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #eee,
+    -1px -1px 2px #eee,
+    -1px 1px 2px #eee,
+    1px -1px 2px #eee;
+    
+}
+
 // imposes label for USD value
 %labelBTCtext {
     content: "Fiat Value: $";
@@ -159,16 +170,7 @@ span a {
     background-color: black;
     text-decoration: none;
     padding: 3px;
-    border-radius: 3px;
-}
-
-// market change value enhancement
-span span {
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #eee,
-    -1px -1px 2px #eee,
-    -1px 1px 2px #eee,
-    1px -1px 2px #eee;
+    border-radius: 4px;
 }
 
 // fa-icon spacing
