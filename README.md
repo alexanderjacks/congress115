@@ -1,13 +1,13 @@
-# Font Awesome Notes :flower_playing_cards::money_with_wings::sparkles:
+# Colors of Crypto :flower_playing_cards::money_with_wings::sparkles:
 ### a progressive web app boilerplate in React
-**Font Awesome**, **Bootstrap4** & **Saffron** magic
+### featuring **Font Awesome** & **Bootstrap4** magic
 
 ## [View project live at https://fa-notes.firebaseapp.com](https://fa-notes.firebaseapp.com)
 
 #### :construction: Reconstitute this, to develop it in a new direction:
 - [Fork this project](https://help.github.com/articles/fork-a-repo/)
 - [clone to your local machine](https://help.github.com/articles/cloning-a-repository/)
-- ```cd fa-icons/```
+- ```cd colors-crypto/```
 - ```npm i && yarn start```
  - _In a new Terminal_
  ```cd src && sass --watch App.scss:App.css```
