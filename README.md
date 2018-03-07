@@ -1,8 +1,11 @@
 # Colors of Crypto :flower_playing_cards::money_with_wings::sparkles:
 ### a progressive web app boilerplate in React
+### widget data courtesy of [coinmarketcap.com](https://coinmarketcap.com/all/views/all/)
 ### featuring **Font Awesome** & **Bootstrap4** magic
 
-## [View project live at https://fa-notes.firebaseapp.com](https://fa-notes.firebaseapp.com)
+![screenshot](/public/images/sshot2018Feb.png)
+
+## [View project live at colors-crypto.firebaseapp.com/](https://colors-crypto.firebaseapp.com/)
 
 #### :construction: Reconstitute this, to develop it in a new direction:
 - [Fork this project](https://help.github.com/articles/fork-a-repo/)
