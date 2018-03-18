@@ -20,7 +20,7 @@ You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all s
 #### :rocket: If you wish to deploy this sandbox to firebase:
 - follow the ':construction:' steps
 
-- DELETE the .firebaserc file in this project's root directory
+- ➡️ DELETE the .firebaserc file in this project's root directory
 
 - create a new project at [console.firebase.google.com](firebase) called my_trendy_app_name
 - ```npm install firebase-tools && firebase login```
