@@ -25,6 +25,10 @@ const Page = ({ title }) => (
             <h6 className="">
                 Not intended as a replacement for professional investment advice.
             </h6>
+            <h4>
+                Want a crypto guide?
+                <a href="https://how-to-crypto.herokuapp.com/"> Check this out.</a>
+            </h4>
             <h6 className="donate">
                 Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
             </h6>
@@ -324,7 +328,7 @@ const Page = ({ title }) => (
                 </div>
             </div>
         </div>
-        
+
         <div className="pill bg-zcash"><Widget currency='zcash' />
             <div className="icontray">
                 <div className="row justify-content-around">
