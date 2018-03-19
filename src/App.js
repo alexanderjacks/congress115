@@ -116,6 +116,16 @@ const Page = ({ title }) => (
             </div>
         </div>
 
+        <div className="pill bg-cardano"><Widget currency='cardano' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='credit-card' /></span>
+                    <span><MyFa size={2} name='chain' /></span>
+                    <span><MyFa size={2} name='file-text-o' /></span>
+                </div>
+            </div>
+        </div>
+
         <div className="pill bg-neo"><Widget currency='neo' />
             <div className="icontray">
                 <div className="row justify-content-around">
@@ -123,16 +133,6 @@ const Page = ({ title }) => (
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                     <span><MyFa size={2} name='hand-spock-o' /></span>
-                </div>
-            </div>
-        </div>
-
-        <div className="pill bg-cardano"><Widget currency='cardano' />
-            <div className="icontray">
-                <div className="row justify-content-around">
-                    <span><MyFa size={2} name='credit-card' /></span>
-                    <span><MyFa size={2} name='chain' /></span>
-                    <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
             </div>
         </div>
@@ -148,21 +148,21 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="pill bg-iota"><Widget currency='iota' />
-            <div className="icontray">
-                <div className="row justify-content-around">
-                    <span><MyFa size={2} name='credit-card' /></span>
-                    <span><MyFa size={2} name='chain' /></span>
-                    <span><MyFa size={2} name='file-text-o' /></span>
-                </div>
-            </div>
-        </div>
-
         <div className="pill bg-eos"><Widget currency='eos' />
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='credit-card' /></span>
                     <span><MyFa size={2} name='unlink' /></span>
+                    <span><MyFa size={2} name='file-text-o' /></span>
+                </div>
+            </div>
+        </div>
+
+        <div className="pill bg-iota"><Widget currency='iota' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='credit-card' /></span>
+                    <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
             </div>
@@ -195,23 +195,23 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="pill bg-tether"><Widget currency='tether' />
-            <div className="icontray">
-                <div className="row justify-content-around">
-                    <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='money' /></span>
-                    <span><MyFa size={2} name='unlink' /></span>
-                    <span><MyFa size={2} name='file-text-o' /></span>
-                </div>
-            </div>
-        </div>
-
         <div className="pill bg-nem"><Widget currency='nem' />
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
                     <span><MyFa size={2} name='tv' /></span>
                     <span><MyFa size={2} name='chain' /></span>
+                    <span><MyFa size={2} name='file-text-o' /></span>
+                </div>
+            </div>
+        </div>
+
+        <div className="pill bg-tether"><Widget currency='tether' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='stop-circle' /></span>
+                    <span><MyFa size={2} name='money' /></span>
+                    <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
             </div>
@@ -250,6 +250,17 @@ const Page = ({ title }) => (
             </div>
         </div>
 
+        <div className="pill bg-qtum"><Widget currency='qtum' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='stop-circle' /></span>
+                    <span><MyFa size={2} name='unlink' /></span>
+                    <span><MyFa size={2} name='unlink' /></span>
+                    <span><MyFa size={2} name='file-text-o' /></span>
+                </div>
+            </div>
+        </div>
+
         <div className="pill bg-lisk"><Widget currency='lisk' />
             <div className="icontray">
                 <div className="row justify-content-around">
@@ -261,6 +272,7 @@ const Page = ({ title }) => (
             </div>
         </div>
 
+    {/* 21 - 30*/}
         <div className="pill bg-omisego"><Widget currency='omisego' />
             <div className="icontray">
                 <div className="row justify-content-around">
@@ -271,7 +283,6 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-    {/* 21 - 30*/}
         <div className="pill bg-nano"><Widget currency='nano' />
             <div className="icontray">
                 <div className="row justify-content-around">
@@ -294,25 +305,12 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="pill bg-qtum"><Widget currency='qtum' />
+        <div className="pill bg-binance-coin"><Widget currency='binance-coin' />
             <div className="icontray">
                 <div className="row justify-content-around">
-                    <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='unlink' /></span>
-                    <span><MyFa size={2} name='unlink' /></span>
-                    <span><MyFa size={2} name='file-text-o' /></span>
-                </div>
-            </div>
-        </div>
-
-        <div className="pill bg-zcash"><Widget currency='zcash' />
-            <div className="icontray">
-                <div className="row justify-content-around">
-                    <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' spin /></span>
-                    <span><MyFa size={2} name='chain' /></span>
-                    <span><MyFa size={2} name='file-o' /></span>
-                    <span><MyFa size={2} name='question-circle-o' /></span>
+                <span><MyFa size={2} name='circle-o' /></span>
+                <span><MyFa size={2} name='unlink' /></span>
+                <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
             </div>
         </div>
@@ -323,6 +321,18 @@ const Page = ({ title }) => (
                     <span><MyFa size={2} name='stop-circle' /></span>
                     <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
+                </div>
+            </div>
+        </div>
+        
+        <div className="pill bg-zcash"><Widget currency='zcash' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='stop-circle' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
+                    <span><MyFa size={2} name='chain' /></span>
+                    <span><MyFa size={2} name='file-o' /></span>
+                    <span><MyFa size={2} name='question-circle-o' /></span>
                 </div>
             </div>
         </div>
@@ -347,14 +357,14 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="pill bg-bytecoin-bcn"><Widget currency='bytecoin-bcn' />
+        <div className="pill bg-steem"><Widget currency='steem' />
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='tv' /></span>
-                    <span><MyFa size={2} name='chain' /></span>
-                    <span><MyFa size={2} name='file-o' /></span>
-                    <span><MyFa size={2} name='question-circle-o' /></span>
+                    <span><MyFa size={2} name='cog' spin /></span>
+                    <span><MyFa size={2} name='unlink' /></span>
+                    <span><MyFa size={2} name='file-text-o' /></span>
+                    <span><MyFa size={2} name='hand-spock-o' /></span>
                 </div>
             </div>
         </div>
@@ -370,14 +380,25 @@ const Page = ({ title }) => (
             </div>
         </div>
 
-        <div className="pill bg-steem"><Widget currency='steem' />
+        <div className="pill bg-bytecoin-bcn"><Widget currency='bytecoin-bcn' />
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='stop-circle' /></span>
-                    <span><MyFa size={2} name='cog' spin /></span>
-                    <span><MyFa size={2} name='unlink' /></span>
+                    <span><MyFa size={2} name='tv' /></span>
+                    <span><MyFa size={2} name='chain' /></span>
+                    <span><MyFa size={2} name='file-o' /></span>
+                    <span><MyFa size={2} name='question-circle-o' /></span>
+                </div>
+            </div>
+        </div>
+
+        <div className="pill bg-stratis"><Widget currency='stratis' />
+            <div className="icontray">
+                <div className="row justify-content-around">
+                    <span><MyFa size={2} name='circle-o' /></span>
+                    <span><MyFa size={2} name='chain' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
-                    <span><MyFa size={2} name='hand-spock-o' /></span>
+                    <span><MyFa size={2} name='windows' /></span>
                 </div>
             </div>
         </div>
@@ -390,17 +411,6 @@ const Page = ({ title }) => (
                     <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                     <span><MyFa size={2} name='hand-spock-o' /></span>
-                </div>
-            </div>
-        </div>
-
-        <div className="pill bg-stratis"><Widget currency='stratis' />
-            <div className="icontray">
-                <div className="row justify-content-around">
-                    <span><MyFa size={2} name='circle-o' /></span>
-                    <span><MyFa size={2} name='chain' /></span>
-                    <span><MyFa size={2} name='file-text-o' /></span>
-                    <span><MyFa size={2} name='windows' /></span>
                 </div>
             </div>
         </div>
