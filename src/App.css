@@ -2524,7 +2524,7 @@ a {
   background: radial-gradient(circle, rosybrown, rgba(100, 50, 0, 0.5), rgba(0, 50, 192, 0.1)); }
 
 .bg-lisk {
-  background: radial-gradient(circle, steelblue, rgba(0, 120, 60, 0.5), rgba(0, 60, 0, 0.1)); }
+  background: radial-gradient(circle, white, rgba(106, 195, 219, 0.5), rgba(0, 26, 86, 0.8)); }
 
 .bg-nano {
   background: radial-gradient(circle, deeppink, rgba(192, 0, 0, 0.5), rgba(0, 128, 255, 0.1)); }
@@ -2545,7 +2545,7 @@ a {
   background: radial-gradient(circle, goldenrod, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .bg-bytecoin-bcn {
-  background: radial-gradient(circle, darkolivegreen, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
+  background: radial-gradient(circle, snow, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
 
 .bg-siacoin {
   background: radial-gradient(circle, palegreen, rgba(100, 100, 192, 0.5), rgba(0, 255, 100, 0.1)); }
@@ -2561,6 +2561,18 @@ a {
 
 .bg-waves {
   background: radial-gradient(circle, gray, rgba(0, 100, 255, 0.5), rgba(0, 0, 255, 0.1)); }
+
+.bg-ontology {
+  background: radial-gradient(circle, steelblue, rgba(40, 40, 40, 0.5), rgba(255, 255, 255, 0.1)); }
+
+.bg-bytom {
+  background: radial-gradient(circle, darkgray, rgba(60, 60, 60, 0.5), rgba(0, 0, 0, 0.1)); }
+
+.bg-bitshares {
+  background: radial-gradient(circle, cadetblue, rgba(60, 102, 118, 0.7), rgba(60, 60, 84, 0.7)); }
+
+.bg-status {
+  background: radial-gradient(circle, white, rgba(104, 192, 248, 0.5), rgba(73, 87, 184, 0.7)); }
 
 .icontray {
   border: 2px solid #E4E6EB;
