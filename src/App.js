@@ -435,7 +435,6 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='credit-card' /></span>
-                    <span><MyFa size={2} name='circle-o' /></span>
                     <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
                 </div>
@@ -457,9 +456,9 @@ const Page = ({ title }) => (
             <div className="icontray">
                 <div className="row justify-content-around">
                     <span><MyFa size={2} name='circle-o' /></span>
-                    <span><MyFa size={2} name='chain' /></span>
+                    <span><MyFa size={2} name='unlink' /></span>
                     <span><MyFa size={2} name='file-text-o' /></span>
-                    <span><MyFa size={2} name='windows' /></span>
+                    <span><MyFa size={2} name='comment' /></span>
                 </div>
             </div>
         </div>
