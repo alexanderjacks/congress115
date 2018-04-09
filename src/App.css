@@ -2574,6 +2574,12 @@ a {
 .bg-status {
   background: radial-gradient(circle, white, rgba(104, 192, 248, 0.5), rgba(73, 87, 184, 0.7)); }
 
+.bg-bitcoin-diamond {
+  background: radial-gradient(circle, white, rgba(255, 225, 208, 0.7), rgba(35, 50, 85, 0.7)); }
+
+.bg-decred {
+  background: radial-gradient(circle, lightseagreen, rgba(58, 151, 191, 0.7), rgba(2, 26, 133, 0.7)); }
+
 .icontray {
   border: 2px solid #E4E6EB;
   padding-left: 20px;
