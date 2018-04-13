@@ -2464,7 +2464,7 @@ a {
   background: radial-gradient(circle, darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.3)); }
 
 .bg-ethereum {
-  background: radial-gradient(circle, forestgreen, rgba(100, 255, 100, 0.5), rgba(0, 100, 64, 0.3)); }
+  background: radial-gradient(circle, lightsteelblue, rgba(100, 255, 100, 0.5), rgba(0, 100, 64, 0.3)); }
 
 .bg-ripple {
   background: radial-gradient(circle, dodgerblue, rgba(135, 206, 250, 0.5), rgba(205, 205, 64, 0.3)); }
@@ -2530,7 +2530,7 @@ a {
   background: radial-gradient(circle, deeppink, rgba(192, 0, 0, 0.5), rgba(0, 128, 255, 0.1)); }
 
 .bg-populous {
-  background: radial-gradient(circle, peru, rgba(244, 164, 96, 0.5), rgba(44, 64, 196, 0.1)); }
+  background: radial-gradient(circle, peru, rgba(244, 164, 96, 0.5), rgba(17, 43, 68, 0.7)); }
 
 .bg-omisego {
   background: radial-gradient(circle, white, rgba(0, 144, 255, 0.5), rgba(0, 0, 255, 0.1)); }
@@ -2560,7 +2560,7 @@ a {
   background: radial-gradient(circle, darkkhaki, rgba(100, 100, 100, 0.5), rgba(0, 100, 255, 0.1)); }
 
 .bg-waves {
-  background: radial-gradient(circle, gray, rgba(0, 100, 255, 0.5), rgba(0, 0, 255, 0.1)); }
+  background: radial-gradient(circle, mediumblue, rgba(0, 100, 255, 0.5), rgba(0, 0, 255, 0.1)); }
 
 .bg-ontology {
   background: radial-gradient(circle, steelblue, rgba(40, 40, 40, 0.5), rgba(255, 255, 255, 0.1)); }
@@ -2579,6 +2579,27 @@ a {
 
 .bg-decred {
   background: radial-gradient(circle, lightseagreen, rgba(58, 151, 191, 0.7), rgba(2, 26, 133, 0.7)); }
+
+.bg-rchain {
+  background: radial-gradient(circle, crimson, rgba(255, 151, 91, 0.7), rgba(192, 126, 33, 0.7)); }
+
+.bg-aeternity {
+  background: radial-gradient(circle, deeppink, rgba(192, 100, 128, 0.7), rgba(255, 220, 220, 0.7)); }
+
+.bg-dogecoin {
+  background: radial-gradient(circle, peru, rgba(128, 128, 128, 0.7), rgba(255, 255, 233, 0.7)); }
+
+.bg-maker {
+  background: radial-gradient(circle, mediumaquamarine, rgba(128, 128, 128, 0.7), rgba(48, 48, 48, 0.7)); }
+
+.bg-zilliqa {
+  background: radial-gradient(circle, mediumturquoise, rgba(31, 144, 156, 0.7), rgba(48, 48, 48, 0.7)); }
+
+.bg-wanchain {
+  background: radial-gradient(circle, #d0e8f5, rgba(39, 45, 99, 0.7), rgba(78, 143, 249, 0.7)); }
+
+.bg-bitcoin-private {
+  background: radial-gradient(circle, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
 .icontray {
   border: 2px solid #E4E6EB;
