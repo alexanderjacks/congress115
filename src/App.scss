@@ -12,7 +12,10 @@ li {
     color: blue;
 }
 
-
+li > img {
+    width: 64px;
+    height: 64px;
+}
 
 
 
@@ -99,7 +102,7 @@ a { color: black; }
 .bg-monero{background: radial-gradient(circle,orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3));    }
 .bg-dash{background: radial-gradient(circle,dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.3));    }
 .bg-vechain{background: radial-gradient(circle,violet,rgba(0,160,255,0.5),rgba(72,61,139,0.3));    }
-.bg-ethereum-classic{background: radial-gradient(circle,gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.3));    }
+.bg-tether{background: radial-gradient(circle,gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.3));    }
 .bg-icon{background: radial-gradient(circle,ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.1));     }
 .bg-qtum{background: radial-gradient(circle,deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.3));    }
 .bg-zcash{background: radial-gradient(circle,darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.1));     }
@@ -110,9 +113,9 @@ a { color: black; }
 .bg-populous{background: radial-gradient(circle,peru,rgba(244,164,96,0.5),rgba(17,43,68,0.7));     }
 .bg-omisego{background: radial-gradient(circle,white,rgba(0,144,255,0.5),rgba(0,0,255,0.1));     }
 .bg-steem{background: radial-gradient(circle,cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.1));     }
-.bg-tether{background: radial-gradient(circle,darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.1));     }
+.bg-ethereum-classic{background: radial-gradient(circle,darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.1));     }
 .bg-binance-coin{background: radial-gradient(circle,goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.1));     }
-.bg-bytecoin-bcn{background: radial-gradient(circle,snow,rgba(50,205,50,0.5),rgba(50,205,50,0.1));     }
+.bg-bytecoin-bcn{background: radial-gradient(circle,snow,rgba(240,65,134,0.3),rgba(240,65,134,0.6));     }
 .bg-siacoin{background: radial-gradient(circle,palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.1));     }
 .bg-verge{background: radial-gradient(circle,lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.1));     }
 .bg-stratis{background: radial-gradient(circle,azure,rgba(80,150,200,0.5),rgba(0,0,128,0.1));     }

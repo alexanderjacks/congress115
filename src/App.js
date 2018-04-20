@@ -50,6 +50,7 @@ class App extends React.Component {
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
                     <li className={"card bg-" + coin.id}>
                         {/* title zone */}
+                        <img src={"/images/"+ coin.symbol +".png"} />
                         <span className="h2">#{coin.rank} {coin.name}</span>
                         <span className="h3">{coin.symbol}</span>
                         {/* metadata zone */}

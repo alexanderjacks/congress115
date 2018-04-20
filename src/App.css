@@ -2414,6 +2414,10 @@ li {
   margin: 3px;
   color: blue; }
 
+li > img {
+  width: 64px;
+  height: 64px; }
+
 .App-header {
   background: linear-gradient(indigo, peru);
   margin-right: 0px;
@@ -2510,7 +2514,7 @@ a {
 .bg-vechain {
   background: radial-gradient(circle, violet, rgba(0, 160, 255, 0.5), rgba(72, 61, 139, 0.3)); }
 
-.bg-ethereum-classic {
+.bg-tether {
   background: radial-gradient(circle, gainsboro, rgba(61, 255, 192, 0.5), rgba(160, 255, 192, 0.3)); }
 
 .bg-icon {
@@ -2543,14 +2547,14 @@ a {
 .bg-steem {
   background: radial-gradient(circle, cornflowerblue, rgba(60, 100, 255, 0.5), rgba(30, 144, 255, 0.1)); }
 
-.bg-tether {
+.bg-ethereum-classic {
   background: radial-gradient(circle, darkslategrey, rgba(11, 61, 46, 0.5), rgba(11, 61, 46, 0.1)); }
 
 .bg-binance-coin {
   background: radial-gradient(circle, goldenrod, rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.1)); }
 
 .bg-bytecoin-bcn {
-  background: radial-gradient(circle, snow, rgba(50, 205, 50, 0.5), rgba(50, 205, 50, 0.1)); }
+  background: radial-gradient(circle, snow, rgba(240, 65, 134, 0.3), rgba(240, 65, 134, 0.6)); }
 
 .bg-siacoin {
   background: radial-gradient(circle, palegreen, rgba(100, 100, 192, 0.5), rgba(0, 255, 100, 0.1)); }
