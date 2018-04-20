@@ -2409,6 +2409,11 @@
 body {
   background: linear-gradient(snow, seashell, gainsboro, silver); }
 
+li {
+  padding: 10px;
+  margin: 3px;
+  color: blue; }
+
 .App-header {
   background: linear-gradient(indigo, peru);
   margin-right: 0px;

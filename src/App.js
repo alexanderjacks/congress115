@@ -24,10 +24,17 @@ class App extends React.Component {
 
     render() {
         return (
-            <ul>
+            <ul className="card-deck">
                 { this.state.coins.map(coin =>
-                    <li>{coin.name}</li>)
-                }
+                    <li className={"card bg-" + coin.id}>
+                        <span className="h2">#{coin.rank} {coin.name}</span>
+                        <span className="h3">{coin.symbol}</span>
+                        <span className="h5">
+                            Percent change, past 7 days: 
+                            <span className="h4">{coin.percent_change_7d}</span>
+                        </span>
+                    </li>
+                )}
             </ul>
         );
     }
