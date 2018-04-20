@@ -57,9 +57,18 @@ class App extends React.Component {
                         <span className="h5">
                             Value in USD $ 
                             <span className="h4">{coin.price_usd}</span>
-                        </span><span className="h5">
+                        </span>
+                        <span className="h6">
+                            Hourly Change:
+                            <span className="h6"> {coin.percent_change_1h}%</span>
+                        </span>
+                        <span className="h6">
+                            Daily Change:
+                            <span className="h6"> {coin.percent_change_24h}%</span>
+                        </span>
+                        <span className="h6">
                             Weekly Change:
-                            <span className="h4"> {coin.percent_change_7d}%</span>
+                            <span className="h5"> {coin.percent_change_7d}%</span>
                         </span>
                     </li>
                     </a>
