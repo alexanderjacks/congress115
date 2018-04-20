@@ -47,6 +47,7 @@ class App extends React.Component {
             <ul className="card-deck">
 {/* iterate thru the array list gathered from the API*/}
                 { this.state.coins.map(coin =>
+                    <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
                     <li className={"card bg-" + coin.id}>
                         {/* title zone */}
                         <span className="h2">#{coin.rank} {coin.name}</span>
@@ -56,10 +57,11 @@ class App extends React.Component {
                             Value in USD $ 
                             <span className="h4">{coin.price_usd}</span>
                         </span><span className="h5">
-                            Weekly Change: 
-                            <span className="h4">{coin.percent_change_7d}%</span>
+                            Weekly Change:
+                            <span className="h4"> {coin.percent_change_7d}%</span>
                         </span>
                     </li>
+                    </a>
                 )}
             </ul>
         </div>
