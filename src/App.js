@@ -25,12 +25,13 @@ class App extends React.Component {
     render() {
         return (
         <div>
-            <div className="ml-3 circuitboard">
+            <div className="circuitboard">
+            <div className="ml-3 header-text">
                 <h1 className="display-5">Top 99 Crypto Currencies</h1>
-                <h6 className="">
+                <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
                 </h6>
-                <h6 className="">
+                <h6>
                     Not intended as a replacement for professional investment advice.
                 </h6>
                 <h4>
@@ -41,6 +42,7 @@ class App extends React.Component {
                     Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
                 </h6>
             </div>
+            </div>
 
 
 
@@ -48,11 +50,14 @@ class App extends React.Component {
 {/* iterate thru the array list gathered from the API*/}
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <li className={"card bg-" + coin.id}>
+                    <li className={"card card-bg-img bg-" + coin.id}
+                    >
+                        
                         {/* title zone */}
                         <img src={"./images/" + coin.id + ".png"} />
                         <span className="h3">{coin.symbol}</span>
                         <span className="h2">#{coin.rank} {coin.name}</span>
+                        
                         {/* metadata zone */}
                         <span className="h6">
                             Value in USD $ 
@@ -66,7 +71,7 @@ class App extends React.Component {
                             Daily Change:
                             <span className="h6"> {coin.percent_change_24h}%</span>
                         </span>
-                        <span className="h6">
+                        <span className="h6 weekly">
                             Weekly Change:
                             <span className="h5"> {coin.percent_change_7d}%</span>
                         </span>

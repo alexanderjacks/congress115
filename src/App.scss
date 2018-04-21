@@ -2,7 +2,7 @@
 @import "../public/saffron/saffron";
 
 body {
-    background: linear-gradient(snow, seashell, gainsboro, silver);
+    background: (snow, seashell, gainsboro, silver);
 }
 
 
@@ -19,39 +19,24 @@ li > img {
 
 .circuitboard {
     background-image: url("https://github.com/Adjectival/colors-crypto/blob/master/public/images/pale_circuit_board.png?raw=true");
+    height: 25vh;
 }
 
 
-
-
-// original styling, revising into above classes
-.App-header {
-    background: linear-gradient(indigo, peru);
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-// header text
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 h6 {
     color: firebrick;
 }
-.emboss-dark {
-    color: rgba(0,0,0,0.9);
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-}
-.donate {
-    font-size: 13px;
-}
+
 a { color: black; }
 
 // positioning
 .center{ text-align: center; }
 
-// entire widget build pill
-%pill-scale {
+// responsive build pill
+%media-shift {
     @media screen and (max-width: 600px) and (min-width: 10px) {
         max-width: 95vw;
         border-radius: 8vw;
@@ -74,206 +59,309 @@ a { color: black; }
     }
 }
 
+
 %pill-padding {
     padding: 15px;
     margin: 0.5em;
 }
-.pill {
-    @extend %pill-padding;
-    @extend %pill-scale;
-    border: 6px groove rgba(30,50,70,0.5);
-}
 
 // bgs
 // entire screen of app
-#root{background: linear-gradient(snow,rgba(192,192,192,0.7),rgba(192,192,192,0.5),rgba(192,192,192,0.3),rgba(192,192,192,0.1));    }
+#root{background: linear-gradient(snow, rgba(192,192,192,0.8),rgba(192,192,192,0.6),rgba(192,192,192,0.4),rgba(192,192,192,0.1));    }
+
+// hover effect
+.card-bg-img {
+    opacity: 0.8;
+    background: url();
+}
+.card-bg-img:hover {
+    opacity: 1.0;
+}
+// emphasis
+.weekly:hover {
+    @include pulsate();
+}
 
 // bgs per currency
-.bg-bitcoin{background: linear-gradient(to top, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.3)); }
-.bg-ethereum{background: linear-gradient(to top, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.3));    }
-.bg-ripple{background: linear-gradient(to top, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.3));    }
-.bg-bitcoin-cash{background: linear-gradient(to top, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.3));    }
-.bg-cardano{background: linear-gradient(to top, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.1));     }
-.bg-stellar{background: linear-gradient(to top, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.3));    }
-.bg-litecoin{background: linear-gradient(to top, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.3));    }
-.bg-neo{background: linear-gradient(to top, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.3));    }
-.bg-eos{background: linear-gradient(to top, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.3));    }
-.bg-nem{background: linear-gradient(to top, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.3));    }
-.bg-tron{background: linear-gradient(to top, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.3));    }
-.bg-iota{background: linear-gradient(to top, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.3));    }
-.bg-monero{background: linear-gradient(to top, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3));    }
-.bg-dash{background: linear-gradient(to top, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.3));    }
-.bg-vechain{background: linear-gradient(to top, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.3));    }
-.bg-tether{background: linear-gradient(to top, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.3));    }
-.bg-icon{background: linear-gradient(to top, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.1));     }
-.bg-qtum{background: linear-gradient(to top, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.3));    }
-.bg-zcash{background: linear-gradient(to top, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.1));     }
-.bg-digixdao{background: linear-gradient(to top, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.1));     }
-.bg-bitcoin-gold{background: linear-gradient(to top, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.1));    }
-.bg-lisk{background: linear-gradient(to top, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8));     }
-.bg-nano{background: linear-gradient(to top, deeppink,rgba(192,0,0,0.5),rgba(0,128,255,0.1));     }
-.bg-populous{background: linear-gradient(to top, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.7));     }
-.bg-omisego{background: linear-gradient(to top, white,rgba(0,144,255,0.5),rgba(0,0,255,0.1));     }
-.bg-steem{background: linear-gradient(to top, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.1));     }
-.bg-ethereum-classic{background: linear-gradient(to top, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.1));     }
-.bg-binance-coin{background: linear-gradient(to top, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.1));     }
-.bg-bytecoin-bcn{background: linear-gradient(to top, snow,rgba(240,65,134,0.3),rgba(240,65,134,0.6));     }
-.bg-siacoin{background: linear-gradient(to top, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.1));     }
-.bg-verge{background: linear-gradient(to top, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.1));     }
-.bg-stratis{background: linear-gradient(to top, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.1));     }
-.bg-ardor{background: linear-gradient(to top, darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.1));     }
-.bg-waves{background: linear-gradient(to top, mediumblue,rgba(0,100,255,0.5),rgba(0,0,255,0.1));     }
-.bg-ontology{background: linear-gradient(to top, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.1));     }
-.bg-bytom{background: linear-gradient(to top, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.1));     }
-.bg-bitshares{background: linear-gradient(to top, cadetblue,rgba(60,102,118,0.7),rgba(60,60,84,0.7));     }
-.bg-status{background: linear-gradient(to top, white,rgba(104,192,248,0.5),rgba(73,87,184,0.7));     }
-.bg-bitcoin-diamond{background: linear-gradient(to top, white,rgba(255,225,208,0.7),rgba(35,50,85,0.7));     }
-.bg-decred{background: linear-gradient(to top, lightseagreen,rgba(58,151,191,0.7),rgba(2,26,133,0.7));     }
-.bg-rchain{background: linear-gradient(to top, crimson,rgba(255,151,91,0.7),rgba(192,126,33,0.7));     }
-.bg-aeternity{background: linear-gradient(to top, deeppink,rgba(192,100,128,0.7),rgba(255,220,220,0.7));     }
-.bg-dogecoin{background: linear-gradient(to top, peru,rgba(128,128,128,0.7),rgba(255,255,233,0.7));     }
-.bg-maker{background: linear-gradient(to top, mediumaquamarine,rgba(128,128,128,0.7),rgba(48,48,48,0.7));     }
-.bg-zilliqa{background: linear-gradient(to top, mediumturquoise,rgba(31,144,156,0.7),rgba(48,48,48,0.7));     }
-.bg-wanchain{background: linear-gradient(to top, #d0e8f5,rgba(39,45,99,0.7),rgba(78,143,249,0.7));     }
-.bg-bitcoin-private{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-kucoin-shares{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-iostoken{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-digibyte{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-hshare{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-mithril{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-ark{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-pivx{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-dragonchain{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-aelf{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-substratum{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-qash{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-cryptonex{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-kucoin-shares{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-factom{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-veritaseum{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-dentacoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-gas{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-centrality{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-monacoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-storm{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-syscoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-ethos{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-pundi-x{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-reddcoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-gxchain{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-elastos{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-kyber-network{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-nebulas-token{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-funfair{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-mixin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-monaco{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-wax{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-revain{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-nxt{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-salt{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-power-ledger{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-enigma-project{background: linear-gradient(to top, white,rgba(234,128,185,0.7),rgba(18,51,173,0.5));     }
-.bg-smartcash{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-zcoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-kin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-bancor{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-byteball{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-maidsafecoin{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-electroneum{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-tenx{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-chainlink{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-.bg-{background: linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));     }
-
-
-// zone below widget, copies border style and adds icons
-.icontray {
-    border: 2px solid #E4E6EB;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    min-width:285px;
+.bg-bitcoin {
+    background:  linear-gradient(to top, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.3));
 }
-
-
-// // style widget in situ! // //
-
-// responsive to screen resolution
-.coinmarketcap-currency-widget{
-    @extend %pill-scale;
+.bg-ethereum {
+    background:  linear-gradient(to top, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.3));
 }
-
-// coin icon border
-.coinmarketcap-currency-widget>div>div>div>img {
-    border: 6px groove rgba(30,50,70,0.5);
-    border-radius: 3px;
+.bg-ripple {
+    background:  linear-gradient(to top, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.3));
 }
-
-// widget title
-%bigger-title {
-    font-size: 1.3em;
-    font-family: 'Droid Sans';
+.bg-bitcoin-cash {
+    background:  linear-gradient(to top, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.3));
 }
-// text glow
-span a {
-    text-decoration: none;
-    text-shadow: 1px 1px 2px navy,
-    -1px -1px 2px navy,
-    -1px 1px 2px navy,
-    1px -1px 2px navy;
-    @extend %bigger-title;
+.bg-cardano {
+    background:  linear-gradient(to top, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.1));
 }
-
-
-// market change value enhancement
-span span {
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #eee,
-    -1px -1px 2px #eee,
-    -1px 1px 2px #eee,
-    1px -1px 2px #eee;
-
+.bg-stellar {
+    background:  linear-gradient(to top, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.3));
 }
-
-// imposes label for USD value
-%labelBTCtext {
-    content: "Fiat Value: $";
-    font-size: 1.2em;
+.bg-litecoin {
+    background:  linear-gradient(to top, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.3));
 }
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5)::before{
-    color: gray;
-    @extend %labelBTCtext;
+.bg-neo {
+    background:  linear-gradient(to top, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.3));
 }
-
-// highlights USD exchange value
-.coinmarketcap-currency-widget>div>div>div>span:nth-child(5){
-    font-size: 1.4em;
-    background-color: black;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 4px;
+.bg-eos {
+    background:  linear-gradient(to top, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.3));
 }
-
-// fa-icon spacing
-.pill>div>.row>span {
-    padding: 6px;
+.bg-nem {
+    background:  linear-gradient(to top, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.3));
 }
-
-
-// nifty fire text for links
-.fire:hover {
-    text-shadow: 1px 1px 3px #f00,
-    -1px -1px 3px #f00,
-    -1px 1px 3px #ff0,
-    1px -1px 3px #ff0;
-    transition: all 0.1s linear;
+.bg-tron {
+    background:  linear-gradient(to top, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.3));
 }
-
-
-
-// // u n u s e d // //
-
-// erase original border?? unlikely
-.coinmarketcap-currency-widget>div::before {
-    border: 10px groove rgba(30,50,70,0.5);
+.bg-iota {
+    background:  linear-gradient(to top, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.3));
+}
+.bg-monero {
+    background:  linear-gradient(to top, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3));
+}
+.bg-dash {
+    background:  linear-gradient(to top, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.3));
+}
+.bg-vechain {
+    background:  linear-gradient(to top, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.3));
+}
+.bg-tether {
+    background:  linear-gradient(to top, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.3));
+}
+.bg-icon {
+    background:  linear-gradient(to top, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.1));
+}
+.bg-qtum {
+    background:  linear-gradient(to top, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.3));
+}
+.bg-zcash {
+    background:  linear-gradient(to top, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.1));
+}
+.bg-digixdao {
+    background:  linear-gradient(to top, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.1));
+}
+.bg-bitcoin-gold {
+    background:  linear-gradient(to top, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.1));
+}
+.bg-lisk {
+    background:  linear-gradient(to top, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8));
+}
+.bg-nano {
+    background:  linear-gradient(to top, deeppink,rgba(192,0,0,0.5),rgba(0,128,255,0.1));
+}
+.bg-populous {
+    background:  linear-gradient(to top, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.7));
+}
+.bg-omisego {
+    background:  linear-gradient(to top, white,rgba(0,144,255,0.5),rgba(0,0,255,0.1));
+}
+.bg-steem {
+    background:  linear-gradient(to top, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.1));
+}
+.bg-ethereum-classic {
+    background:  linear-gradient(to top, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.1));
+}
+.bg-binance-coin {
+    background:  linear-gradient(to top, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.1));
+}
+.bg-bytecoin-bcn {
+    background:  linear-gradient(to top, snow,rgba(240,65,134,0.3),rgba(240,65,134,0.6));
+}
+.bg-siacoin {
+    background:  linear-gradient(to top, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.1));
+}
+.bg-verge {
+    background:  linear-gradient(to top, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.1));
+}
+.bg-stratis {
+    background:  linear-gradient(to top, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.1));
+}
+.bg-ardor {
+    background:  linear-gradient(to top, darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.1));
+}
+.bg-waves {
+    background:  linear-gradient(to top, mediumblue,rgba(0,100,255,0.5),rgba(0,0,255,0.1));
+}
+.bg-ontology {
+    background:  linear-gradient(to top, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.1));
+}
+.bg-bytom {
+    background:  linear-gradient(to top, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.1));
+}
+.bg-bitshares {
+    background:  linear-gradient(to top, cadetblue,rgba(60,102,118,0.7),rgba(60,60,84,0.7));
+}
+.bg-status {
+    background:  linear-gradient(to top, white,rgba(104,192,248,0.5),rgba(73,87,184,0.7));
+}
+.bg-bitcoin-diamond {
+    background:  linear-gradient(to top, white,rgba(255,225,208,0.7),rgba(35,50,85,0.7));
+}
+.bg-decred {
+    background:  linear-gradient(to top, lightseagreen,rgba(58,151,191,0.7),rgba(2,26,133,0.7));
+}
+.bg-rchain {
+    background:  linear-gradient(to top, crimson,rgba(255,151,91,0.7),rgba(192,126,33,0.7));
+}
+.bg-aeternity {
+    background:  linear-gradient(to top, deeppink,rgba(192,100,128,0.7),rgba(255,220,220,0.7));
+}
+.bg-dogecoin {
+    background:  linear-gradient(to top, peru,rgba(128,128,128,0.7),rgba(255,255,233,0.7));
+}
+.bg-maker {
+    background:  linear-gradient(to top, mediumaquamarine,rgba(128,128,128,0.7),rgba(48,48,48,0.7));
+}
+.bg-zilliqa {
+    background:  linear-gradient(to top, mediumturquoise,rgba(31,144,156,0.7),rgba(48,48,48,0.7));
+}
+.bg-wanchain {
+    background:  linear-gradient(to top, #d0e8f5,rgba(39,45,99,0.7),rgba(78,143,249,0.7));
+}
+.bg-bitcoin-private {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-kucoin-shares {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-iostoken {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-digibyte {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-hshare {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-mithril {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-ark {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-pivx {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-dragonchain {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-aelf {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-substratum {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-qash {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-cryptonex {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-kucoin-shares {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-factom {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-veritaseum {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-dentacoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-gas {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-centrality {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-monacoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-storm {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-syscoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-ethos {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-pundi-x {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-reddcoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-gxchain {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-elastos {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-kyber-network {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-nebulas-token {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-funfair {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-mixin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-monaco {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-wax {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-revain {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-nxt {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-salt {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-power-ledger {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-enigma-project {
+    background:  linear-gradient(to top, white,rgba(234,128,185,0.7),rgba(18,51,173,0.5));
+}
+.bg-smartcash {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-zcoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-kin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-bancor {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-byteball {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-maidsafecoin {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-electroneum {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-tenx {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-chainlink {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
+}
+.bg-golem-network-token {
+    background:  linear-gradient(to top, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5));
 }

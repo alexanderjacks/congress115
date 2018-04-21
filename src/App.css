@@ -2407,7 +2407,7 @@
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 body {
-  background: linear-gradient(snow, seashell, gainsboro, silver); }
+  background: snow, seashell, gainsboro, silver; }
 
 li {
   padding: 10px;
@@ -2419,25 +2419,14 @@ li > img {
   height: 64px; }
 
 .circuitboard {
-  background-image: url("https://github.com/Adjectival/colors-crypto/blob/master/public/images/pale_circuit_board.png?raw=true"); }
-
-.App-header {
-  background: linear-gradient(indigo, peru);
-  margin-right: 0px;
-  padding-right: 0px; }
+  background-image: url("https://github.com/Adjectival/colors-crypto/blob/master/public/images/pale_circuit_board.png?raw=true");
+  height: 25vh; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 h6 {
   color: firebrick; }
-
-.emboss-dark {
-  color: rgba(0, 0, 0, 0.9);
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1); }
-
-.donate {
-  font-size: 13px; }
 
 a {
   color: black; }
@@ -2445,32 +2434,19 @@ a {
 .center {
   text-align: center; }
 
-@media screen and (max-width: 600px) and (min-width: 10px) {
-  .pill, .coinmarketcap-currency-widget {
-    max-width: 95vw;
-    border-radius: 8vw; } }
-@media screen and (max-width: 1280px) and (min-width: 601px) {
-  .pill, .coinmarketcap-currency-widget {
-    max-width: 46vw;
-    border-radius: 4vw; } }
-@media screen and (max-width: 2000px) and (min-width: 1281px) {
-  .pill, .coinmarketcap-currency-widget {
-    max-width: 30vw;
-    border-radius: 2vw; } }
-@media screen and (max-width: 4096px) and (min-width: 2001px) {
-  .pill, .coinmarketcap-currency-widget {
-    max-width: 20vw;
-    border-radius: 1vw; } }
-
-.pill {
-  padding: 15px;
-  margin: 0.5em; }
-
-.pill {
-  border: 6px groove rgba(30, 50, 70, 0.5); }
-
 #root {
-  background: linear-gradient(snow, rgba(192, 192, 192, 0.7), rgba(192, 192, 192, 0.5), rgba(192, 192, 192, 0.3), rgba(192, 192, 192, 0.1)); }
+  background: linear-gradient(snow, rgba(192, 192, 192, 0.8), rgba(192, 192, 192, 0.6), rgba(192, 192, 192, 0.4), rgba(192, 192, 192, 0.1)); }
+
+.card-bg-img {
+  opacity: 0.8;
+  background: url(); }
+
+.card-bg-img:hover {
+  opacity: 1.0; }
+
+.weekly:hover {
+  -webkit-animation: pulsate 3 1.5s 0s none;
+  animation: pulsate 3 1.5s 0s none; }
 
 .bg-bitcoin {
   background: linear-gradient(to top, darkorange, rgba(192, 192, 255, 0.5), rgba(255, 0, 255, 0.3)); }
@@ -2751,55 +2727,7 @@ a {
 .bg-chainlink {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
-.bg- {
+.bg-golem-network-token {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
-
-.icontray {
-  border: 2px solid #E4E6EB;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-  min-width: 285px; }
-
-.coinmarketcap-currency-widget > div > div > div > img {
-  border: 6px groove rgba(30, 50, 70, 0.5);
-  border-radius: 3px; }
-
-span a {
-  font-size: 1.3em;
-  font-family: 'Droid Sans'; }
-
-span a {
-  text-decoration: none;
-  text-shadow: 1px 1px 2px navy, -1px -1px 2px navy, -1px 1px 2px navy, 1px -1px 2px navy; }
-
-span span {
-  text-decoration: none;
-  text-shadow: 1px 1px 2px #eee, -1px -1px 2px #eee, -1px 1px 2px #eee, 1px -1px 2px #eee; }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  content: "Fiat Value: $";
-  font-size: 1.2em; }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5)::before {
-  color: gray; }
-
-.coinmarketcap-currency-widget > div > div > div > span:nth-child(5) {
-  font-size: 1.4em;
-  background-color: black;
-  text-decoration: none;
-  padding: 3px;
-  border-radius: 4px; }
-
-.pill > div > .row > span {
-  padding: 6px; }
-
-.fire:hover {
-  text-shadow: 1px 1px 3px #f00, -1px -1px 3px #f00, -1px 1px 3px #ff0, 1px -1px 3px #ff0;
-  transition: all 0.1s linear; }
-
-.coinmarketcap-currency-widget > div::before {
-  border: 10px groove rgba(30, 50, 70, 0.5); }
 
 /*# sourceMappingURL=App.css.map */
