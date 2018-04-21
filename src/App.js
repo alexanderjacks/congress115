@@ -27,7 +27,7 @@ class App extends React.Component {
         <div>
             <div className="circuitboard">
             <div className="ml-3 header-text">
-                <h1 className="display-5">Top 99 Crypto Currencies</h1>
+                <h2 className="display-5">Top 99 Crypto Currencies</h2>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
                 </h6>

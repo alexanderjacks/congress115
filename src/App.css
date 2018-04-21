@@ -2548,7 +2548,7 @@ a {
   background: linear-gradient(to top, darkkhaki, rgba(100, 100, 100, 0.5), rgba(0, 100, 255, 0.1)); }
 
 .bg-waves {
-  background: linear-gradient(to top, mediumblue, rgba(0, 100, 255, 0.5), rgba(0, 0, 255, 0.1)); }
+  background: linear-gradient(to top, cornflowerblue, rgba(0, 100, 255, 0.5), rgba(0, 0, 255, 0.1)); }
 
 .bg-ontology {
   background: linear-gradient(to top, steelblue, rgba(40, 40, 40, 0.5), rgba(255, 255, 255, 0.1)); }
@@ -2601,11 +2601,32 @@ a {
 .bg-hshare {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
+.bg-loopring {
+  background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(81, 143, 244, 0.5)); }
+
+.bg-0x {
+  background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
+
+.bg-aion {
+  background: linear-gradient(to top, white, rgba(116, 233, 193, 0.7), rgba(96, 82, 241, 0.5)); }
+
 .bg-mithril {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
 .bg-ark {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
+
+.bg-basic-attention-token {
+  background: linear-gradient(to top, tomato, rgba(170, 68, 122, 0.7), rgba(129, 81, 165, 0.5)); }
+
+.bg-komodo {
+  background: linear-gradient(to top, sandybrown, rgba(117, 146, 147, 0.7), rgba(83, 123, 124, 0.5)); }
+
+.bg-waltonchain {
+  background: linear-gradient(to top, white, rgba(43, 248, 219, 0.7), rgba(147, 43, 248, 0.5)); }
+
+.bg-augur {
+  background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(113, 66, 102, 0.5)); }
 
 .bg-pivx {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
@@ -2727,7 +2748,10 @@ a {
 .bg-chainlink {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
-.bg-golem-network-token {
+.bg-golem-network-tokens {
+  background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
+
+.bg-loom-network {
   background: linear-gradient(to top, white, rgba(209, 220, 224, 0.7), rgba(39, 45, 99, 0.5)); }
 
 /*# sourceMappingURL=App.css.map */
