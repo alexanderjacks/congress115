@@ -15,7 +15,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://api.coinmarketcap.com/v1/ticker/?start=0&limit=77')
+        axios.get('https://api.coinmarketcap.com/v1/ticker/?start=0&limit=99')
             .then(res => {
                 const coins = res.data;
                 this.setState({ coins });
