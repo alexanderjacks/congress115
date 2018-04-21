@@ -51,8 +51,8 @@ class App extends React.Component {
                     <li className={"card bg-" + coin.id}>
                         {/* title zone */}
                         <img src={"https://github.com/Adjectival/colors-crypto/blob/master/public/images/" + coin.id + ".png?raw=true"} />
-                        <span className="h2">#{coin.rank} {coin.name}</span>
                         <span className="h3">{coin.symbol}</span>
+                        <span className="h2">#{coin.rank} {coin.name}</span>
                         {/* metadata zone */}
                         <span className="h5">
                             Value in USD $ 
