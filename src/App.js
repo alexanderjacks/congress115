@@ -26,7 +26,7 @@ class App extends React.Component {
         return (
         <div>
             <div className="ml-3 circuitboard">
-                <h1 className="display-4">Crypto by Colors</h1>
+                <h1 className="display-5">Top 99 Crypto Currencies</h1>
                 <h6 className="">
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
                 </h6>
@@ -50,11 +50,11 @@ class App extends React.Component {
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
                     <li className={"card bg-" + coin.id}>
                         {/* title zone */}
-                        <img src={"https://github.com/Adjectival/colors-crypto/blob/master/public/images/" + coin.id + ".png?raw=true"} />
+                        <img src={"./images/" + coin.id + ".png"} />
                         <span className="h3">{coin.symbol}</span>
                         <span className="h2">#{coin.rank} {coin.name}</span>
                         {/* metadata zone */}
-                        <span className="h5">
+                        <span className="h6">
                             Value in USD $ 
                             <span className="h4">{coin.price_usd}</span>
                         </span>
