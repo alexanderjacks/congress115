@@ -25,7 +25,7 @@ class App extends React.Component {
     render() {
         return (
         <div>
-            <div className="ml-3">
+            <div className="ml-3 circuitboard">
                 <h1 className="display-4">Crypto by Colors</h1>
                 <h6 className="">
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
