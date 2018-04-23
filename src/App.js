@@ -24,7 +24,7 @@ class App extends React.Component {
         return (
         <div>
             <div className="">
-            <div className="ml-3">
+            <div className="header-shading p-3">
                 <h2 className="display-5">Top 99 Crypto Currencies</h2>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
@@ -48,35 +48,37 @@ class App extends React.Component {
             <div className="card-deck">
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <div className={"card container-fluid m-2 card-bg-img bg-" + coin.id}>
+                    <div className="card-frame m-2 ">
+                    <div className={"card container-fluid card-bg-img bg-" + coin.id}>
                         
                         {/* title zone */}
-                        <div>
-                            <span className="h3 ">#{coin.rank} </span>
-                            <span className="h3 ">({coin.symbol}) </span>
+                        <div className="mt-2 card-header ">
+                            <span className="h3">#{coin.rank} </span>
+                            <span className="h3">({coin.symbol}) </span>
                             <span className="h3">{coin.name}</span>
                         </div>
 
                         
                         {/* metadata zone */}
                         <ul>
-                            <li className="h6">
+                            <li className="h5">
                                 Value in USD $ 
                                 <span className="h4">{coin.price_usd}</span>
                             </li>
-                            <li className="h6">
+                            <li className="h5">
                                 Hourly Change:
-                                <span className="h6"> {coin.percent_change_1h}%</span>
+                                <span className="h5"> {coin.percent_change_1h}%</span>
                             </li>
-                            <li className="h6">
+                            <li className="h5">
                                 Daily Change:
-                                <span className="h6"> {coin.percent_change_24h}%</span>
+                                <span className="h5"> {coin.percent_change_24h}%</span>
                             </li>
-                            <li className="h6 weekly">
+                            <li className="h5 weekly">
                                 Weekly Change:
-                                <span className="h5"> {coin.percent_change_7d}%</span>
+                                <span className="h4"> {coin.percent_change_7d}%</span>
                             </li>
                         </ul>
+                    </div>
                     </div>
                     </a>
                 )}

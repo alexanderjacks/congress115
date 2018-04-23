@@ -1,39 +1,10 @@
 @import "../public/bourbon/bourbon";
 @import "../public/saffron/saffron";
 
-body {
-    background-image: (snow, seashell, gainsboro, silver);
+#root {
+    background-image:  linear-gradient(to bottom,rgba(255,0,255,0.5),rgba(255,255,0,0.5),rgba(0,255,0,0.5),rgba(0,255,255,0.5)), url("./images/pale-circuit-board.png");
+    font-family: serif, arial;
 }
-
-
-li {
-    padding: 10px;
-    margin: 3px;
-    color: blue;
-}
-
-li > img {
-    width: 64px;
-    height: 64px;
-}
-
-.circuitboard {
-    background-image: url("https://github.com/Adjectival/colors-crypto/blob/master/public/images/pale-circuit-board.png?raw=true");
-    height: 25vh;
-}
-
-
-h1 {
-    font-size: 1.5rem;
-}
-h6 {
-    color: firebrick;
-}
-
-a { color: black; }
-
-// positioning
-.center{ text-align: center; }
 
 // responsive build pill
 %media-shift {
@@ -59,337 +30,372 @@ a { color: black; }
     }
 }
 
-
 %pill-padding {
     padding: 15px;
     margin: 0.5em;
 }
 
-// bgs
-// entire screen of app
-#root{
-    background-image: linear-gradient(snow, rgba(192,192,192,0.8),rgba(192,192,192,0.6),rgba(192,192,192,0.4),rgba(192,192,192,0.1));
+
+// text
+
+.header-shading {
+    color: snow;
+    background-image:  linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.85));
+}
+.card-frame {
+    padding: 10px;
+    background-color: rgba(238,233,233,1.0);
+}
+.card-header {
+    color: black;
+    background-color: snow;
+    border: 2px solid black;
+}
+.card {
+    border: 1px solid black;
 }
 
-// hover effect
-.card-bg-img {
-    opacity: 0.8;
+li {
+    padding: 10px;
+    margin: 3px;
 }
-.card-bg-img:hover {
-    opacity: 1.0;
+
+.h3, .h4, .h5 {
+    color: black;
+    text-shadow: 2px 2px 4px white,
+        -2px -2px 4px white,
+        -2px 2px 4px white,
+        2px -2px 4px white;
 }
+
+.h3 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.h4 { font-size: 1.3rem; }
+.h5 { font-size: 1.15rem; }
+
+
+// bgs
+
 // emphasis
+.card:hover {
+    @include pulsate();
+}
 .weekly:hover {
     @include pulsate();
 }
 
+
+
+
 // bgs per currency
 .bg-bitcoin {
-    background-image:  linear-gradient(to bottom, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.3)), url("./images/bitcoin.png");
+    background-image:  linear-gradient(to bottom, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.5)), url("./images/bitcoin.png");
 }
 .bg-ethereum {
-    background-image:  linear-gradient(to bottom, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.3)), url("./images/ethereum.png");
+    background-image:  linear-gradient(to bottom, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.5)), url("./images/ethereum.png");
 }
 .bg-ripple {
-    background-image:  linear-gradient(to bottom, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.3)), url("./images/ripple.png");
+    background-image:  linear-gradient(to bottom, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.5)), url("./images/ripple.png");
 }
 .bg-bitcoin-cash {
-    background-image:  linear-gradient(to bottom, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.3)), url("./images/bitcoin-cash.png");
+    background-image:  linear-gradient(to bottom, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.5)), url("./images/bitcoin-cash.png");
 }
 .bg-cardano {
-    background-image:  linear-gradient(to bottom, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.1)), url("./images/cardano.png");
+    background-image:  linear-gradient(to bottom, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.3)), url("./images/cardano.png");
 }
 .bg-stellar {
-    background-image:  linear-gradient(to bottom, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.3)), url("./images/stellar.png");
+    background-image:  linear-gradient(to bottom, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.5)), url("./images/stellar.png");
 }
 .bg-litecoin {
-    background-image:  linear-gradient(to bottom, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.3)), url("./images/litecoin.png");
+    background-image:  linear-gradient(to bottom, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.5)), url("./images/litecoin.png");
 }
 .bg-neo {
-    background-image:  linear-gradient(to bottom, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.3)), url("./images/neo.png");
+    background-image:  linear-gradient(to bottom, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.5)), url("./images/neo.png");
 }
 .bg-eos {
-    background-image:  linear-gradient(to bottom, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.3)), url("./images/eos.png");
+    background-image:  linear-gradient(to bottom, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.5)), url("./images/eos.png");
 }
 .bg-nem {
-    background-image:  linear-gradient(to bottom, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.3)), url("./images/nem.png");
+    background-image:  linear-gradient(to bottom, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.5)), url("./images/nem.png");
 }
 .bg-tron {
-    background-image:  linear-gradient(to bottom, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.3)), url("./images/tron.png");
+    background-image:  linear-gradient(to bottom, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.5)), url("./images/tron.png");
 }
 .bg-iota {
-    background-image:  linear-gradient(to bottom, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.3)), url("./images/iota.png");
+    background-image:  linear-gradient(to bottom, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.5)), url("./images/iota.png");
 }
 .bg-monero {
-    background-image:  linear-gradient(to bottom, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.3)), url("./images/monero.png");
+    background-image:  linear-gradient(to bottom, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.5)), url("./images/monero.png");
 }
 .bg-dash {
-    background-image:  linear-gradient(to bottom, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.3)), url("./images/dash.png");
+    background-image:  linear-gradient(to bottom, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.5)), url("./images/dash.png");
 }
 .bg-vechain {
-    background-image:  linear-gradient(to bottom, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.3)), url("./images/vechain.png");
+    background-image:  linear-gradient(to bottom, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.5)), url("./images/vechain.png");
 }
 .bg-tether {
-    background-image:  linear-gradient(to bottom, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.3)), url("./images/tether.png");
+    background-image:  linear-gradient(to bottom, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.5)), url("./images/tether.png");
 }
 .bg-icon {
-    background-image:  linear-gradient(to bottom, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.1)), url("./images/icon.png");
+    background-image:  linear-gradient(to bottom, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.3)), url("./images/icon.png");
 }
 .bg-qtum {
-    background-image:  linear-gradient(to bottom, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.3)), url("./images/qtum.png");
+    background-image:  linear-gradient(to bottom, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.5)), url("./images/qtum.png");
 }
 .bg-zcash {
-    background-image:  linear-gradient(to bottom, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.1)), url("./images/zcash.png");
+    background-image:  linear-gradient(to bottom, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.3)), url("./images/zcash.png");
 }
 .bg-digixdao {
-    background-image:  linear-gradient(to bottom, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.1)), url("./images/digixdao.png");
+    background-image:  linear-gradient(to bottom, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.3)), url("./images/digixdao.png");
 }
 .bg-bitcoin-gold {
-    background-image:  linear-gradient(to bottom, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.1)), url("./images/bitcoin-gold.png");
+    background-image:  linear-gradient(to bottom, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.3)), url("./images/bitcoin-gold.png");
 }
 .bg-lisk {
     background-image:  linear-gradient(to bottom, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8)), url("./images/lisk.png");
 }
 .bg-nano {
-    background-image:  linear-gradient(to bottom, deeppink,rgba(192,0,0,0.5),rgba(0,128,255,0.1)), url("./images/nano.png");
+    background-image:  linear-gradient(to bottom, deeppink,rgba(192,0,0,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");
 }
 .bg-populous {
-    background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.7)), url("./images/populous.png");
+    background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.8)), url("./images/populous.png");
 }
 .bg-omisego {
-    background-image:  linear-gradient(to bottom, white,rgba(0,144,255,0.5),rgba(0,0,255,0.1)), url("./images/omisego.png");
+    background-image:  linear-gradient(to bottom, white,rgba(0,144,255,0.5),rgba(0,0,255,0.3)), url("./images/omisego.png");
 }
 .bg-steem {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.1)), url("./images/steem.png");
+    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.3)), url("./images/steem.png");
 }
 .bg-ethereum-classic {
-    background-image:  linear-gradient(to bottom, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.1)), url("./images/ethereum-classic.png");
+    background-image:  linear-gradient(to bottom, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.3)), url("./images/ethereum-classic.png");
 }
 .bg-binance-coin {
-    background-image:  linear-gradient(to bottom, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.1)), url("./images/binance-coin.png");
+    background-image:  linear-gradient(to bottom, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.3)), url("./images/binance-coin.png");
 }
 .bg-bytecoin-bcn {
-    background-image:  linear-gradient(to bottom, snow,rgba(240,65,134,0.3),rgba(240,65,134,0.6)), url("./images/bytecoin-bcn.png");
+    background-image:  linear-gradient(to bottom, snow,rgba(240,65,134,0.5),rgba(240,65,134,0.6)), url("./images/bytecoin-bcn.png");
 }
 .bg-siacoin {
-    background-image:  linear-gradient(to bottom, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.1)), url("./images/siacoin.png");
+    background-image:  linear-gradient(to bottom, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.3)), url("./images/siacoin.png");
 }
 .bg-verge {
-    background-image:  linear-gradient(to bottom, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.1)), url("./images/verge.png");
+    background-image:  linear-gradient(to bottom, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.3)), url("./images/verge.png");
 }
 .bg-stratis {
-    background-image:  linear-gradient(to bottom, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.1)), url("./images/stratis.png");
+    background-image:  linear-gradient(to bottom, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.3)), url("./images/stratis.png");
 }
 .bg-ardor {
-    background-image:  linear-gradient(to bottom, darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.1)), url("./images/ardor.png");
+    background-image:  linear-gradient(to bottom, darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.3)), url("./images/ardor.png");
 }
 .bg-waves {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(0,100,255,0.5),rgba(0,0,255,0.1)), url("./images/waves.png");
+    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(0,100,255,0.5),rgba(0,0,255,0.3)), url("./images/waves.png");
 }
 .bg-ontology {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.1)), url("./images/ontology.png");
+    background-image:  linear-gradient(to bottom, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.3)), url("./images/ontology.png");
 }
 .bg-bytom {
-    background-image:  linear-gradient(to bottom, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.1)), url("./images/bytom.png");
+    background-image:  linear-gradient(to bottom, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.3)), url("./images/bytom.png");
 }
 .bg-bitshares {
-    background-image:  linear-gradient(to bottom, cadetblue,rgba(60,102,118,0.7),rgba(60,60,84,0.7)), url("./images/bitshares.png");
+    background-image:  linear-gradient(to bottom, cadetblue,rgba(60,102,118,0.8),rgba(60,60,84,0.8)), url("./images/bitshares.png");
 }
 .bg-status {
-    background-image:  linear-gradient(to bottom, white,rgba(104,192,248,0.5),rgba(73,87,184,0.7)), url("./images/status.png");
+    background-image:  linear-gradient(to bottom, white,rgba(104,192,248,0.5),rgba(73,87,184,0.8)), url("./images/status.png");
 }
 .bg-bitcoin-diamond {
-    background-image:  linear-gradient(to bottom, white,rgba(255,225,208,0.7),rgba(35,50,85,0.7)), url("./images/bitcoin-diamond.png");
+    background-image:  linear-gradient(to bottom, white,rgba(255,225,208,0.8),rgba(35,50,85,0.8)), url("./images/bitcoin-diamond.png");
 }
 .bg-decred {
-    background-image:  linear-gradient(to bottom, lightseagreen,rgba(58,151,191,0.7),rgba(2,26,133,0.7)), url("./images/decred.png");
+    background-image:  linear-gradient(to bottom, lightseagreen,rgba(58,151,191,0.8),rgba(2,26,133,0.8)), url("./images/decred.png");
 }
 .bg-rchain {
-    background-image:  linear-gradient(to bottom, crimson,rgba(255,151,91,0.7),rgba(192,126,33,0.7)), url("./images/rchain.png");
+    background-image:  linear-gradient(to bottom, crimson,rgba(255,151,91,0.8),rgba(192,126,33,0.8)), url("./images/rchain.png");
 }
 .bg-aeternity {
-    background-image:  linear-gradient(to bottom, deeppink,rgba(192,100,128,0.7),rgba(255,220,220,0.7)), url("./images/aeternity.png");
+    background-image:  linear-gradient(to bottom, deeppink,rgba(192,100,128,0.8),rgba(255,220,220,0.8)), url("./images/aeternity.png");
 }
 .bg-dogecoin {
-    background-image:  linear-gradient(to bottom, peru,rgba(128,128,128,0.7),rgba(255,255,233,0.7)), url("./images/dogecoin.png");
+    background-image:  linear-gradient(to bottom, peru,rgba(128,128,128,0.8),rgba(255,255,233,0.8)), url("./images/dogecoin.png");
 }
 .bg-maker {
-    background-image:  linear-gradient(to bottom, mediumaquamarine,rgba(128,128,128,0.7),rgba(48,48,48,0.7)), url("./images/maker.png");
+    background-image:  linear-gradient(to bottom, mediumaquamarine,rgba(128,128,128,0.8),rgba(48,48,48,0.8)), url("./images/maker.png");
 }
 .bg-zilliqa {
-    background-image:  linear-gradient(to bottom, mediumturquoise,rgba(31,144,156,0.7),rgba(48,48,48,0.7)), url("./images/zilliqa.png");
+    background-image:  linear-gradient(to bottom, mediumturquoise,rgba(31,144,156,0.8),rgba(48,48,48,0.8)), url("./images/zilliqa.png");
 }
 .bg-wanchain {
-    background-image:  linear-gradient(to bottom, #d0e8f5,rgba(39,45,99,0.7),rgba(78,143,249,0.7)), url("./images/wanchain.png");
+    background-image:  linear-gradient(to bottom, #d0e8f5,rgba(39,45,99,0.8),rgba(78,143,249,0.8)), url("./images/wanchain.png");
 }
 .bg-bitcoin-private {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/bitcoin-private.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bitcoin-private.png");
 }
 .bg-kucoin-shares {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
 }
 .bg-iostoken {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/iostoken.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/iostoken.png");
 }
 .bg-digibyte {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/digibyte.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/digibyte.png");
 }
 .bg-hshare {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/hshare.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/hshare.png");
 }
 .bg-loopring {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(81,143,244,0.5)), url("./images/loopring.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(81,143,244,0.5)), url("./images/loopring.png");
 }
 .bg-0x {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/0x.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/0x.png");
 }
 .bg-aion {
-    background-image:  linear-gradient(to bottom, white,rgba(116,233,193,0.7),rgba(96,82,241,0.5)), url("./images/aion.png");
+    background-image:  linear-gradient(to bottom, white,rgba(116,233,193,0.8),rgba(96,82,241,0.5)), url("./images/aion.png");
 }
 .bg-mithril {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/mithril.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mithril.png");
 }
 .bg-ark {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/ark.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ark.png");
 }
 .bg-basic-attention-token {
-    background-image:  linear-gradient(to bottom, tomato,rgba(170,68,122,0.7),rgba(129,81,165,0.5)), url("./images/basic-attention-token.png");
+    background-image:  linear-gradient(to bottom, tomato,rgba(170,68,122,0.8),rgba(129,81,165,0.5)), url("./images/basic-attention-token.png");
 }
 .bg-komodo {
-    background-image:  linear-gradient(to bottom, sandybrown,rgba(117,146,147,0.7),rgba(83,123,124,0.5)), url("./images/komodo.png");
+    background-image:  linear-gradient(to bottom, sandybrown,rgba(117,146,147,0.8),rgba(83,123,124,0.5)), url("./images/komodo.png");
 }
 .bg-waltonchain {
-    background-image:  linear-gradient(to bottom, white,rgba(43,248,219,0.7),rgba(147,43,248,0.5)), url("./images/waltonchain.png");
+    background-image:  linear-gradient(to bottom, white,rgba(43,248,219,0.8),rgba(147,43,248,0.5)), url("./images/waltonchain.png");
 }
 .bg-augur {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(113,66,102,0.5)), url("./images/augur.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(113,66,102,0.5)), url("./images/augur.png");
 }
 .bg-pivx {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/pivx.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pivx.png");
 }
 .bg-dragonchain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/dragonchain.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dragonchain.png");
 }
 .bg-aelf {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/aelf.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/aelf.png");
 }
 .bg-substratum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/substratum.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/substratum.png");
 }
 .bg-qash {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/qash.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/qash.png");
 }
 .bg-cryptonex {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/cryptonex.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cryptonex.png");
 }
 .bg-kucoin-shares {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
 }
 .bg-factom {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(231,186,59,0.7),rgba(212,131,76,0.5)), url("./images/factom.png");
+    background-image:  linear-gradient(to bottom, steelblue,rgba(231,186,59,0.8),rgba(212,131,76,0.5)), url("./images/factom.png");
 }
 .bg-veritaseum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/veritaseum.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/veritaseum.png");
 }
 .bg-dentacoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/dentacoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dentacoin.png");
 }
 .bg-gas {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/gas.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gas.png");
 }
 .bg-centrality {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/centrality.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/centrality.png");
 }
 .bg-monacoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/monacoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monacoin.png");
 }
 .bg-storm {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/storm.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/storm.png");
 }
 .bg-syscoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/syscoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/syscoin.png");
 }
 .bg-ethos {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/ethos.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ethos.png");
 }
 .bg-pundi-x {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/pundi-x.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pundi-x.png");
 }
 .bg-reddcoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/reddcoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/reddcoin.png");
 }
 .bg-gxchain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/gxchain.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gxchain.png");
 }
 .bg-elastos {
-    background-image:  linear-gradient(to bottom, skyblue,rgba(127,191,83,0.7),rgba(189,213,49,0.5)), url("./images/elastos.png");
+    background-image:  linear-gradient(to bottom, skyblue,rgba(127,191,83,0.8),rgba(189,213,49,0.5)), url("./images/elastos.png");
 }
 .bg-kyber-network {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/kyber-network.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kyber-network.png");
 }
 .bg-nebulas-token {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/nebulas-token.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nebulas-token.png");
 }
 .bg-funfair {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/funfair.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/funfair.png");
 }
 .bg-mixin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/mixin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mixin.png");
 }
 .bg-monaco {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/monaco.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monaco.png");
 }
 .bg-wax {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/wax.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/wax.png");
 }
 .bg-revain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/revain.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/revain.png");
 }
 .bg-nxt {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/nxt.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nxt.png");
 }
 .bg-salt {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/salt.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/salt.png");
 }
 .bg-power-ledger {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/power-ledger.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/power-ledger.png");
 }
 .bg-enigma-project {
-    background-image:  linear-gradient(to bottom, white,rgba(234,128,185,0.7),rgba(18,51,173,0.5)), url("./images/enigma-project.png");
+    background-image:  linear-gradient(to bottom, white,rgba(234,128,185,0.8),rgba(18,51,173,0.5)), url("./images/enigma-project.png");
 }
 .bg-smartcash {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/smartcash.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/smartcash.png");
 }
 .bg-zcoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/zcoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/zcoin.png");
 }
 .bg-kin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/kin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kin.png");
 }
 .bg-bancor {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/bancor.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bancor.png");
 }
 .bg-byteball {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/byteball.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/byteball.png");
 }
 .bg-maidsafecoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/maidsafecoin.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/maidsafecoin.png");
 }
 .bg-electroneum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/electroneum.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/electroneum.png");
 }
 .bg-tenx {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/tenx.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/tenx.png");
 }
 .bg-chainlink {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/chainlink.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/chainlink.png");
 }
 .bg-golem-network-tokens {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/golem-network-tokens.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/golem-network-tokens.png");
 }
 .bg-loom-network {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/loom-network.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/loom-network.png");
 }
 .bg-nucleus-vision {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.7),rgba(39,45,99,0.5)), url("./images/nucleus-vision.png");
+    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nucleus-vision.png");
 }
