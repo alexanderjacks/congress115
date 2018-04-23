@@ -2430,8 +2430,7 @@
 .card {
   border: 1px solid black; }
 
-.h3, .h4, .h5 {
-  color: black;
+.price {
   text-shadow: 2px 2px 4px white, -2px -2px 4px white, -2px 2px 4px white, 2px -2px 4px white; }
 
 .h3 {

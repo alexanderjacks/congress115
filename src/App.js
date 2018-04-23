@@ -25,7 +25,7 @@ class App extends React.Component {
         <div>
             <div className="">
             <div className="header-shading p-3">
-                <h2 className="display-5">Top 99 Crypto Currencies</h2>
+                <h1 className="display-5">Top 99 Crypto Currencies</h1>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
                 </h6>
@@ -55,18 +55,17 @@ class App extends React.Component {
                         <div className="mt-2 card-header align-items-center justify-content-around">
                             <span className="h3">#{coin.rank} </span>
 
-                            <img className="sm-icon" src={"./images/"+ coin.id +".png"} />
-
-                            <span className="h3">({coin.symbol}) </span>
-                            <span className="h3">{coin.name}</span>
+                            <img className="sm-icon" src={"./images/"+coin.id+".png"} />
+                            <span className="h3"> {coin.name} </span>
+                            <span className="h3">({coin.symbol})</span>
                         </div>
 
                         
                         {/* metadata zone */}
-                        <h3 className="h5 text-center">
+                        <span className="text-center h3 price">
                             Value in USD $ 
-                            <span className="h4">{coin.price_usd}</span>
-                        </h3>
+                            <span className="h2">{coin.price_usd}</span>
+                        </span>
 
                         <div className="list-group flex-column">
                             <div className="list-group-item justify-content-around hourly">
