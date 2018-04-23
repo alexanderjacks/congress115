@@ -42,6 +42,7 @@
     color: snow;
     background-image:  linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.85));
 }
+
 .card-frame {
     padding: 10px;
     background-color: rgba(238,233,233,1.0);
@@ -51,15 +52,14 @@
     background-color: snow;
     border: 2px solid black;
 }
+.sm-icon {
+    max-width: 32px;
+    max-height: 32px;
+}
+
 .card {
     border: 1px solid black;
 }
-
-li {
-    padding: 10px;
-    margin: 3px;
-}
-
 .h3, .h4, .h5 {
     color: black;
     text-shadow: 2px 2px 4px white,
@@ -80,9 +80,6 @@ li {
 
 // emphasis
 .card:hover {
-    @include pulsate();
-}
-.weekly:hover {
     @include pulsate();
 }
 

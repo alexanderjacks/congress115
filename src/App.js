@@ -48,36 +48,41 @@ class App extends React.Component {
             <div className="card-deck">
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <div className="card-frame m-2 ">
+                    <div className="card-frame m-2 d-sm-flex">
                     <div className={"card container-fluid card-bg-img bg-" + coin.id}>
                         
                         {/* title zone */}
-                        <div className="mt-2 card-header ">
+                        <div className="mt-2 card-header align-items-center justify-content-around">
                             <span className="h3">#{coin.rank} </span>
+
+                            <img className="sm-icon" src={"./images/"+ coin.id +".png"} />
+
                             <span className="h3">({coin.symbol}) </span>
                             <span className="h3">{coin.name}</span>
                         </div>
 
                         
                         {/* metadata zone */}
-                        <ul>
-                            <li className="h5">
-                                Value in USD $ 
-                                <span className="h4">{coin.price_usd}</span>
-                            </li>
-                            <li className="h5">
-                                Hourly Change:
+                        <h3 className="h5 text-center">
+                            Value in USD $ 
+                            <span className="h4">{coin.price_usd}</span>
+                        </h3>
+
+                        <div className="list-group flex-column">
+                            <div className="list-group-item justify-content-around hourly">
+                                <span>Hourly Change:</span>
                                 <span className="h5"> {coin.percent_change_1h}%</span>
-                            </li>
-                            <li className="h5">
-                                Daily Change:
+                            </div>
+                            <div className="list-group-item justify-content-around daily">
+                                <span>Daily Change:</span>
                                 <span className="h5"> {coin.percent_change_24h}%</span>
-                            </li>
-                            <li className="h5 weekly">
-                                Weekly Change:
+                            </div>
+                            <div className="list-group-item justify-content-around weekly">
+                                <span>Weekly Change:</span>
                                 <span className="h4"> {coin.percent_change_7d}%</span>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+
                     </div>
                     </div>
                     </a>

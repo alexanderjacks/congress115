@@ -2423,12 +2423,12 @@
   background-color: snow;
   border: 2px solid black; }
 
+.sm-icon {
+  max-width: 32px;
+  max-height: 32px; }
+
 .card {
   border: 1px solid black; }
-
-li {
-  padding: 10px;
-  margin: 3px; }
 
 .h3, .h4, .h5 {
   color: black;
@@ -2445,10 +2445,6 @@ li {
   font-size: 1.15rem; }
 
 .card:hover {
-  -webkit-animation: pulsate 3 1.5s 0s none;
-  animation: pulsate 3 1.5s 0s none; }
-
-.weekly:hover {
   -webkit-animation: pulsate 3 1.5s 0s none;
   animation: pulsate 3 1.5s 0s none; }
 
