@@ -1,8 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 
-import { MyFa } from './MyFa';
-import { Widget } from './Widget';
 import { Crypto } from './Crypto';
 
 import './App.css';
@@ -25,8 +23,8 @@ class App extends React.Component {
     render() {
         return (
         <div>
-            <div className="circuitboard">
-            <div className="ml-3 header-text">
+            <div className="">
+            <div className="ml-3">
                 <h2 className="display-5">Top 99 Crypto Currencies</h2>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
@@ -46,39 +44,45 @@ class App extends React.Component {
 
 
 
-            <ul className="card-deck">
 {/* iterate thru the array list gathered from the API*/}
+            <div className="card-deck">
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <li className={"card card-bg-img bg-" + coin.id}
-                    >
+                    <div className={"card container-fluid m-2 card-bg-img bg-" + coin.id}>
                         
                         {/* title zone */}
-                        <img src={"./images/" + coin.id + ".png"} />
-                        <span className="h3">{coin.symbol}</span>
-                        <span className="h2">#{coin.rank} {coin.name}</span>
+                        <div>
+                            <span className="h3 ">#{coin.rank} </span>
+                            <span className="h3 ">({coin.symbol}) </span>
+                            <span className="h3">{coin.name}</span>
+                        </div>
+
                         
                         {/* metadata zone */}
-                        <span className="h6">
-                            Value in USD $ 
-                            <span className="h4">{coin.price_usd}</span>
-                        </span>
-                        <span className="h6">
-                            Hourly Change:
-                            <span className="h6"> {coin.percent_change_1h}%</span>
-                        </span>
-                        <span className="h6">
-                            Daily Change:
-                            <span className="h6"> {coin.percent_change_24h}%</span>
-                        </span>
-                        <span className="h6 weekly">
-                            Weekly Change:
-                            <span className="h5"> {coin.percent_change_7d}%</span>
-                        </span>
-                    </li>
+                        <ul>
+                            <li className="h6">
+                                Value in USD $ 
+                                <span className="h4">{coin.price_usd}</span>
+                            </li>
+                            <li className="h6">
+                                Hourly Change:
+                                <span className="h6"> {coin.percent_change_1h}%</span>
+                            </li>
+                            <li className="h6">
+                                Daily Change:
+                                <span className="h6"> {coin.percent_change_24h}%</span>
+                            </li>
+                            <li className="h6 weekly">
+                                Weekly Change:
+                                <span className="h5"> {coin.percent_change_7d}%</span>
+                            </li>
+                        </ul>
+                    </div>
                     </a>
                 )}
-            </ul>
+            </div>
+            {/* end iteration */}
+
         </div>
         );
     }
