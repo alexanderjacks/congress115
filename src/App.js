@@ -8,9 +8,16 @@ import './App.css';
 
 class App extends React.Component {
 
-    state = {
-        coins: []
+    constructor(props) {   
+        super(props)
+        this.state = { coins: [] }
+        this.sortByRankDesc = this.sortByRankDesc.bind(this);
+        this.sortByPriceAsc = this.sortByPriceAsc.bind(this);
+        this.sortByChangeHour = this.sortByChangeHour.bind(this);
+        this.sortByChangeDay = this.sortByChangeDay.bind(this);
+        this.sortByChangeWeek = this.sortByChangeWeek.bind(this);
     }
+
 
     componentDidMount() {
         axios.get('https://api.coinmarketcap.com/v1/ticker/?start=0&limit=99')
@@ -20,11 +27,42 @@ class App extends React.Component {
             })
     }
 
+    sortByRankDesc() {
+        this.setState(prevState => {
+            this.state.coins.sort((a,b) => (a.rank - b.rank))
+        });
+        console.log("Sort Rank Desc");
+    }
+    sortByPriceAsc() {
+        this.setState(prevState => {
+            this.state.coins.sort((a,b) => (a.price_usd - b.price_usd))
+        });
+        console.log("Sort USD Asc");
+    }
+    sortByChangeHour() {
+        this.setState(prevState => {
+            this.state.coins.sort((a,b) => (b.percent_change_1h - a.percent_change_1h))
+        });
+        console.log("Sort Change Hour");
+    }
+    sortByChangeDay() {
+        this.setState(prevState => {
+            this.state.coins.sort((a,b) => (b.percent_change_24h - a.percent_change_24h))
+        });
+        console.log("Sort Change Day");
+    }
+    sortByChangeWeek() {
+        this.setState(prevState => {
+            this.state.coins.sort((a,b) => (b.percent_change_7d - a.percent_change_7d))
+        });
+        console.log("Sort Change Week");
+    }
+
     render() {
         return (
-        <div>
-            <div className="">
-            <div className="header-shading p-3">
+        <div className="container-fluid">
+            <div className="header-shading p-3 row">
+            <div className="col-8">
                 <h1 className="display-5">Top 99 Crypto Currencies</h1>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
@@ -40,15 +78,37 @@ class App extends React.Component {
                     Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
                 </h6>
             </div>
+
+            <div className="col-4">
+                <h4>
+                    Sort By:
+                </h4>
+                <button onClick={this.sortByRankDesc}>
+                    Top Ranked
+                </button>
+                <button onClick={this.sortByPriceAsc}>
+                    Lowest Price USD
+                </button>
+                <button onClick={this.sortByChangeHour}>
+                    By Change Hour
+                </button>
+                <button onClick={this.sortByChangeDay}>
+                    By Change Day
+                </button>
+                <button onClick={this.sortByChangeWeek}>
+                    By Change Week
+                </button>
+            </div>
+
             </div>
 
 
 
 {/* iterate thru the array list gathered from the API*/}
-            <div className="card-deck">
+            <div className="card-deck justify-content-around">
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <div className="card-frame m-2 d-sm-flex">
+                    <div className="card-frame m-2">
                     <div className={"card container-fluid card-bg-img bg-" + coin.id}>
                         
                         {/* title zone */}
