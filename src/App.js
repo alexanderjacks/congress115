@@ -61,7 +61,7 @@ class App extends React.Component {
         return (
         <div className="container-fluid">
             <div className="header-shading p-3 row">
-            <div className="col-8">
+
                 <h1 className="display-5">Top 99 Crypto Currencies</h1>
                 <h2 className="display-6">Updated every 5 minutes <a href="https://coinmarketcap.com/all/views/all/">via</a></h2>
                 <h6>
@@ -77,40 +77,44 @@ class App extends React.Component {
                 <h6 className="donate">
                     Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
                 </h6>
-            </div>
 
-            <div className="col-4">
-                <h4>
-                    Sort By:
-                </h4>
-                <nav className="btn-group-vertical">
-                    <button type="button" className="btn active" onClick={this.sortByRankDesc}>
+                <ul className="nav nav-pills">
+                    <li className="nav-item">
+                    <a className="nav-link" href="#!" onClick={this.sortByRankDesc}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-sync fa-spin"></i>
                         <span> Market Cap</span>
-                    </button>
-                    <button type="button" className="btn" onClick={this.sortByPriceAsc}>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#!" onClick={this.sortByPriceAsc}>
                         <i className="fas fa-sort-amount-down fa-flip-vertical"></i>
                         <i className="fas fa-dollar-sign"></i>
                         <span> Lowest Price USD</span>
-                    </button>
-                    <button type="button" className="btn" onClick={this.sortByChangeHour}>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#!" onClick={this.sortByChangeHour}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="far fa-clock"></i>
                         <span> 1hr Most Change</span>
-                    </button>
-                    <button type="button" className="btn" onClick={this.sortByChangeDay}>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#!" onClick={this.sortByChangeDay}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-sun"></i>
                          <span> 24hr Most Change</span>
-                    </button>
-                    <button type="button" className="btn" onClick={this.sortByChangeWeek}>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#!" onClick={this.sortByChangeWeek}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-calendar-alt"></i>
                         <span> Weekly Most Change</span>
-                    </button>
-                </nav>
-            </div>
+                    </a>
+                    </li>
+                </ul>
 
             </div>
 
@@ -141,15 +145,18 @@ class App extends React.Component {
 
                         <div className="list-group flex-column">
                             <div className="list-group-item justify-content-around hourly">
-                                <span>Hourly Change:</span>
+                                <i className="far fa-clock"></i>
+                                <span> Hourly Change:</span>
                                 <span className="h5"> {coin.percent_change_1h}%</span>
                             </div>
                             <div className="list-group-item justify-content-around daily">
-                                <span>Daily Change:</span>
+                                <i className="fas fa-sun"></i>
+                                <span> Daily Change:</span>
                                 <span className="h5"> {coin.percent_change_24h}%</span>
                             </div>
                             <div className="list-group-item justify-content-around weekly">
-                                <span>Weekly Change:</span>
+                                <i className="fas fa-calendar-alt"></i>
+                                <span> Weekly Change:</span>
                                 <span className="h4"> {coin.percent_change_7d}%</span>
                             </div>
                         </div>
@@ -161,7 +168,7 @@ class App extends React.Component {
             </div>
             {/* end iteration */}
 
-        </div>
+    </div>
         );
     }
 }
