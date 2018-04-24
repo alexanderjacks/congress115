@@ -83,36 +83,32 @@ class App extends React.Component {
                 <h4>
                     Sort By:
                 </h4>
-                <nav className="nav flex-column">
-                    <a className="nav-link button active" onClick={this.sortByRankDesc}>
+                <nav className="btn-group-vertical">
+                    <button type="button" className="btn active" onClick={this.sortByRankDesc}>
                         <i className="fas fa-sort-amount-up"></i>
-                        <i className="fas fa-sync faa-spin"></i>
-                        Top Ranked
-                    </a>
-                    <a className="nav-link button" onClick={this.sortByPriceAsc}>
-                        <i className="fas fa-sort-amount-down"></i>
+                        <i className="fas fa-sync fa-spin"></i>
+                        <span> Market Cap</span>
+                    </button>
+                    <button type="button" className="btn" onClick={this.sortByPriceAsc}>
+                        <i className="fas fa-sort-amount-down fa-flip-vertical"></i>
                         <i className="fas fa-dollar-sign"></i>
-                        Lowest Price USD
-
-                    </a>
-                    <a className="nav-link button" onClick={this.sortByChangeHour}>
+                        <span> Lowest Price USD</span>
+                    </button>
+                    <button type="button" className="btn" onClick={this.sortByChangeHour}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="far fa-clock"></i>
-                        1hr Most Change
-
-                    </a>
-                    <a className="nav-link button" onClick={this.sortByChangeDay}>
+                        <span> 1hr Most Change</span>
+                    </button>
+                    <button type="button" className="btn" onClick={this.sortByChangeDay}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-sun"></i>
-                        24hr Most Change
-
-                    </a>
-                    <a className="nav-link button" onClick={this.sortByChangeWeek}>
+                         <span> 24hr Most Change</span>
+                    </button>
+                    <button type="button" className="btn" onClick={this.sortByChangeWeek}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-calendar-alt"></i>
-                        Weekly Most Change
-
-                    </a>
+                        <span> Weekly Most Change</span>
+                    </button>
                 </nav>
             </div>
 
