@@ -18,7 +18,6 @@ class App extends React.Component {
         this.sortByChangeWeek = this.sortByChangeWeek.bind(this);
     }
 
-
     componentDidMount() {
         axios.get('https://api.coinmarketcap.com/v1/ticker/?start=0&limit=99')
             .then(res => {
@@ -64,6 +63,7 @@ class App extends React.Component {
             <div className="header-shading p-3 row">
             <div className="col-8">
                 <h1 className="display-5">Top 99 Crypto Currencies</h1>
+                <h2 className="display-6">Updated every 5 minutes <a href="https://coinmarketcap.com/all/views/all/">via</a></h2>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
                 </h6>
@@ -83,21 +83,37 @@ class App extends React.Component {
                 <h4>
                     Sort By:
                 </h4>
-                <button onClick={this.sortByRankDesc}>
-                    Top Ranked
-                </button>
-                <button onClick={this.sortByPriceAsc}>
-                    Lowest Price USD
-                </button>
-                <button onClick={this.sortByChangeHour}>
-                    By Change Hour
-                </button>
-                <button onClick={this.sortByChangeDay}>
-                    By Change Day
-                </button>
-                <button onClick={this.sortByChangeWeek}>
-                    By Change Week
-                </button>
+                <nav className="nav flex-column">
+                    <a className="nav-link button active" onClick={this.sortByRankDesc}>
+                        <i className="fas fa-sort-amount-up"></i>
+                        <i className="fas fa-sync faa-spin"></i>
+                        Top Ranked
+                    </a>
+                    <a className="nav-link button" onClick={this.sortByPriceAsc}>
+                        <i className="fas fa-sort-amount-down"></i>
+                        <i className="fas fa-dollar-sign"></i>
+                        Lowest Price USD
+
+                    </a>
+                    <a className="nav-link button" onClick={this.sortByChangeHour}>
+                        <i className="fas fa-sort-amount-up"></i>
+                        <i className="far fa-clock"></i>
+                        1hr Most Change
+
+                    </a>
+                    <a className="nav-link button" onClick={this.sortByChangeDay}>
+                        <i className="fas fa-sort-amount-up"></i>
+                        <i className="fas fa-sun"></i>
+                        24hr Most Change
+
+                    </a>
+                    <a className="nav-link button" onClick={this.sortByChangeWeek}>
+                        <i className="fas fa-sort-amount-up"></i>
+                        <i className="fas fa-calendar-alt"></i>
+                        Weekly Most Change
+
+                    </a>
+                </nav>
             </div>
 
             </div>
@@ -122,9 +138,9 @@ class App extends React.Component {
 
                         
                         {/* metadata zone */}
-                        <span className="text-center h3 price">
+                        <span className="text-center h4 price">
                             Value in USD $ 
-                            <span className="h2">{coin.price_usd}</span>
+                            <span className="h3">{coin.price_usd}</span>
                         </span>
 
                         <div className="list-group flex-column">
