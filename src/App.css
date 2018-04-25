@@ -2414,9 +2414,8 @@
   color: snow;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)); }
 
-.card-frame {
-  padding: 12px;
-  background-color: #eee9e9; }
+.card {
+  border: 12px solid white; }
 
 .card-header {
   color: black;
@@ -2428,28 +2427,29 @@
   max-height: 32px; }
 
 .price {
-  text-shadow: 2px 2px 4px white, -2px -2px 4px white, -2px 2px 4px white, 2px -2px 4px white; }
+  text-shadow: 2px 2px 4px white, -2px -2px 4px white, -2px 2px 4px white, 2px -2px 4px white;
+  color: black; }
 
 .h1 {
-  font-size: 1.45rem; }
+  font-size: 1.3rem; }
 
 .h2 {
-  font-size: 1.35rem; }
+  font-size: 1.2rem; }
 
 .h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-family: sans-serif; }
 
 .h4 {
-  font-size: 1.1rem; }
+  font-size: 0.95rem; }
 
 .h5 {
-  font-size: 1.0rem; }
+  font-size: 0.8rem; }
 
 .list-group {
   border: 1px solid black; }
 
-.card:hover {
+.card-frame:hover {
   -webkit-animation: pulsate 3 1.5s 0s none;
   animation: pulsate 3 1.5s 0s none; }
 

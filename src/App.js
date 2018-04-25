@@ -59,8 +59,8 @@ class App extends React.Component {
 
     render() {
         return (
-        <div className="container-fluid">
-            <div className="header-shading p-3 row">
+        <div className="">
+            <div className="header-shading p-3 text-center">
 
                 <h1 className="display-5">Top 99 Crypto Currencies</h1>
                 <h2 className="display-6">Updated every 5 minutes <a href="https://coinmarketcap.com/all/views/all/">via</a></h2>
@@ -77,6 +77,10 @@ class App extends React.Component {
                 <h6 className="donate">
                     Donate ETH: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855
                 </h6>
+
+
+                
+
 
                 <ul className="nav nav-pills">
                     <li className="nav-item">
@@ -116,6 +120,10 @@ class App extends React.Component {
                     </li>
                 </ul>
 
+
+
+
+
             </div>
 
 
@@ -124,8 +132,8 @@ class App extends React.Component {
             <div className="card-deck justify-content-around">
                 { this.state.coins.map(coin =>
                     <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    <div className="card-frame m-2">
-                    <div className={"card container-fluid card-bg-img bg-" + coin.id}>
+
+                    <div className={"media-shift card m-4 container-fluid card-bg-img bg-" + coin.id}>
                         
                         {/* title zone */}
                         <div className="mt-2 card-header align-items-center justify-content-around">
@@ -144,25 +152,25 @@ class App extends React.Component {
                         </span>
 
                         <div className="list-group flex-column">
-                            <div className="list-group-item justify-content-around hourly">
+                            <div className="list-group-item d-flex justify-content-between align-items-center hourly">
                                 <i className="far fa-clock"></i>
                                 <span> Hourly Change:</span>
-                                <span className="h5"> {coin.percent_change_1h}%</span>
+                                <h5> {coin.percent_change_1h}%</h5>
                             </div>
-                            <div className="list-group-item justify-content-around daily">
+                            <div className="list-group-item d-flex justify-content-between align-items-center daily">
                                 <i className="fas fa-sun"></i>
                                 <span> Daily Change:</span>
-                                <span className="h5"> {coin.percent_change_24h}%</span>
+                                <h5> {coin.percent_change_24h}%</h5>
                             </div>
-                            <div className="list-group-item justify-content-around weekly">
+                            <div className="list-group-item d-flex justify-content-between align-items-center weekly">
                                 <i className="fas fa-calendar-alt"></i>
                                 <span> Weekly Change:</span>
-                                <span className="h4"> {coin.percent_change_7d}%</span>
+                                <h4> {coin.percent_change_7d}%</h4>
                             </div>
                         </div>
 
                     </div>
-                    </div>
+
                     </a>
                 )}
             </div>

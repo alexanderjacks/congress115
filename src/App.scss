@@ -8,14 +8,14 @@
 
 // responsive build pill
 %media-shift {
-    @media screen and (max-width: 600px) and (min-width: 10px) {
-        max-width: 95vw;
+    @media screen and (max-width: 400px) and (min-width: 10px) {
+        max-width: 90vw;
         border-radius: 8vw;
 
     }
-    @media screen and (max-width: 1280px) and (min-width: 601px) {
-        max-width: 46vw;
-        border-radius: 4vw;
+    @media screen and (max-width: 1280px) and (min-width: 401px) {
+        max-width: 42vw;
+        border-radius: 6vw;
 
     }
     @media screen and (max-width: 2000px) and (min-width: 1281px) {
@@ -43,9 +43,8 @@
     background-image:  linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.85));
 }
 
-.card-frame {
-    padding: 12px;
-    background-color: rgba(238,233,233,1.0);
+.card {
+    border: 12px solid white;
 }
 .card-header {
     color: black;
@@ -62,16 +61,17 @@
                 -2px -2px 4px white,
                 -2px 2px 4px white,
                 2px -2px 4px white;
+    color: black;
 }
 
-.h1 { font-size: 1.45rem; }
-.h2 { font-size: 1.35rem; }
+.h1 { font-size: 1.3rem; }
+.h2 { font-size: 1.2rem; }
 .h3 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-family: sans-serif;
 }
-.h4 { font-size: 1.1rem; }
-.h5 { font-size: 1.0rem; }
+.h4 { font-size: 0.95rem; }
+.h5 { font-size: 0.8rem; }
 
 .list-group {
     border: 1px solid black;
@@ -81,7 +81,7 @@
 // bgs
 
 // emphasis
-.card:hover {
+.card-frame:hover {
     @include pulsate();
 }
 
