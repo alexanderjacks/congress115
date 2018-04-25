@@ -79,40 +79,37 @@ class App extends React.Component {
                 </h6>
 
 
-                
-
-
                 <ul className="nav nav-pills">
                     <li className="nav-item">
-                    <a className="nav-link" href="#!" onClick={this.sortByRankDesc}>
+                    <a className="nav-link" href="#Market_Cap_Descending" onClick={this.sortByRankDesc}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-sync fa-spin"></i>
                         <span> Market Cap</span>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#!" onClick={this.sortByPriceAsc}>
+                    <a className="nav-link" href="#Price_Ascending" onClick={this.sortByPriceAsc}>
                         <i className="fas fa-sort-amount-down fa-flip-vertical"></i>
                         <i className="fas fa-dollar-sign"></i>
                         <span> Lowest Price USD</span>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#!" onClick={this.sortByChangeHour}>
+                    <a className="nav-link" href="#One_Hour_Change_Descending" onClick={this.sortByChangeHour}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="far fa-clock"></i>
                         <span> 1hr Most Change</span>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#!" onClick={this.sortByChangeDay}>
+                    <a className="nav-link" href="#24-Hour_Change_Descending" onClick={this.sortByChangeDay}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-sun"></i>
                          <span> 24hr Most Change</span>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#!" onClick={this.sortByChangeWeek}>
+                    <a className="nav-link" href="#Week_Change_Descending" onClick={this.sortByChangeWeek}>
                         <i className="fas fa-sort-amount-up"></i>
                         <i className="fas fa-calendar-alt"></i>
                         <span> Weekly Most Change</span>
@@ -154,17 +151,17 @@ class App extends React.Component {
                         <div className="list-group flex-column">
                             <div className="list-group-item d-flex justify-content-between align-items-center hourly">
                                 <i className="far fa-clock"></i>
-                                <span> Hourly Change:</span>
+                                <span> Hourly:</span>
                                 <h5> {coin.percent_change_1h}%</h5>
                             </div>
                             <div className="list-group-item d-flex justify-content-between align-items-center daily">
                                 <i className="fas fa-sun"></i>
-                                <span> Daily Change:</span>
+                                <span> Daily:</span>
                                 <h5> {coin.percent_change_24h}%</h5>
                             </div>
                             <div className="list-group-item d-flex justify-content-between align-items-center weekly">
                                 <i className="fas fa-calendar-alt"></i>
-                                <span> Weekly Change:</span>
+                                <span> Weekly:</span>
                                 <h4> {coin.percent_change_7d}%</h4>
                             </div>
                         </div>

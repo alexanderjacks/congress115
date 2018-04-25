@@ -2446,6 +2446,9 @@
 .h5 {
   font-size: 0.8rem; }
 
+.nav-item {
+  border: 1px deepskyblue solid; }
+
 .list-group {
   border: 1px solid black; }
 
