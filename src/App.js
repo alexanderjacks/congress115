@@ -150,18 +150,24 @@ class App extends React.Component {
 
                         <div className="list-group flex-column">
                             <div className="list-group-item d-flex justify-content-between align-items-center hourly">
-                                <i className="far fa-clock"></i>
-                                <span> Hourly:</span>
+                                <span>
+                                    <i className="pr-2 far fa-clock"></i>
+                                     Hourly:
+                                </span>
                                 <h5> {coin.percent_change_1h}%</h5>
                             </div>
                             <div className="list-group-item d-flex justify-content-between align-items-center daily">
-                                <i className="fas fa-sun"></i>
-                                <span> Daily:</span>
+                                <span>
+                                    <i className="pr-2 fas fa-sun"></i>
+                                     Daily:
+                                </span>
                                 <h5> {coin.percent_change_24h}%</h5>
                             </div>
                             <div className="list-group-item d-flex justify-content-between align-items-center weekly">
-                                <i className="fas fa-calendar-alt"></i>
-                                <span> Weekly:</span>
+                                <span>
+                                    <i className="pr-2 fas fa-calendar-alt"></i>
+                                     Weekly:
+                                </span>
                                 <h4> {coin.percent_change_7d}%</h4>
                             </div>
                         </div>
