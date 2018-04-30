@@ -11,41 +11,49 @@
     @media screen and (max-width: 400px) and (min-width: 10px) {
         max-width: 90vw;
         border-radius: 8vw;
-
     }
     @media screen and (max-width: 1280px) and (min-width: 401px) {
         max-width: 42vw;
         border-radius: 6vw;
-
     }
     @media screen and (max-width: 2000px) and (min-width: 1281px) {
         max-width: 30vw;
         border-radius: 2vw;
-
     }
     @media screen and (max-width: 4096px) and (min-width: 2001px) {
         max-width: 20vw;
         border-radius: 1vw;
-
     }
 }
 
 %pill-padding {
-    padding: 15px;
+    padding: 10px;
     margin: 0.5em;
 }
 
 
-// text
+// layout
 
 .header-shading {
     color: snow;
     background-image:  linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.85));
 }
 
-.card {
-    border: 12px solid white;
+.fixed-top {
+    margin-left: 85%;
 }
+
+.nav-link {
+    font-family: serif;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.65);
+    font-size: 24px;
+}
+
+.card {
+    border: white 10px solid;
+}
+
 .card-header {
     color: black;
     background-color: snow;
@@ -55,6 +63,13 @@
     max-width: 32px;
     max-height: 32px;
 }
+
+.list-group-item {
+    border: 1px solid black;
+}
+
+
+// text
 
 .price {
     text-shadow: 2px 2px 4px white,
@@ -72,16 +87,6 @@
 }
 .h4 { font-size: 0.95rem; }
 .h5 { font-size: 0.8rem; }
-
-
-.nav-item {
-    border: 1px deepskyblue solid;
-}
-
-.list-group {
-    border: 1px solid black;
-}
-
 
 // bgs
 
@@ -161,7 +166,7 @@
     background-image:  linear-gradient(to bottom, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8)), url("./images/lisk.png");
 }
 .bg-nano {
-    background-image:  linear-gradient(to bottom, deeppink,rgba(192,0,0,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");
+    background-image:  linear-gradient(to bottom, limegreen,rgba(0,192,128,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");
 }
 .bg-populous {
     background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.8)), url("./images/populous.png");
@@ -191,7 +196,7 @@
     background-image:  linear-gradient(to bottom, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.3)), url("./images/stratis.png");
 }
 .bg-ardor {
-    background-image:  linear-gradient(to bottom, darkkhaki,rgba(100,100,100,0.5),rgba(0,100,255,0.3)), url("./images/ardor.png");
+    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(100,100,100,0.5),rgba(0,100,255,0.3)), url("./images/ardor.png");
 }
 .bg-waves {
     background-image:  linear-gradient(to bottom, cornflowerblue,rgba(0,100,255,0.5),rgba(0,0,255,0.3)), url("./images/waves.png");
@@ -281,7 +286,7 @@
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dragonchain.png");
 }
 .bg-aelf {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/aelf.png");
+    background-image:  linear-gradient(to bottom, steelblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/aelf.png");
 }
 .bg-substratum {
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/substratum.png");
@@ -311,7 +316,7 @@
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/centrality.png");
 }
 .bg-monacoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monacoin.png");
+    background-image:  linear-gradient(to bottom, firebrick,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monacoin.png");
 }
 .bg-storm {
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/storm.png");
@@ -320,13 +325,13 @@
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/syscoin.png");
 }
 .bg-ethos {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ethos.png");
+    background-image:  linear-gradient(to bottom, darkturquoise,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ethos.png");
 }
 .bg-pundi-x {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pundi-x.png");
+    background-image:  linear-gradient(to bottom, black,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pundi-x.png");
 }
 .bg-reddcoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/reddcoin.png");
+    background-image:  linear-gradient(to bottom, red,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/reddcoin.png");
 }
 .bg-gxchain {
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gxchain.png");
@@ -347,7 +352,7 @@
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mixin.png");
 }
 .bg-monaco {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monaco.png");
+    background-image:  linear-gradient(to bottom, navy,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monaco.png");
 }
 .bg-wax {
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/wax.png");
@@ -405,4 +410,7 @@
 }
 .bg-request-network {
     background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/request-network.png");
+}
+.bg-cortex {
+    background-image:  linear-gradient(to bottom, deepskyblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cortex.png");
 }

@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "bourbon": "^4.3.4",
     "firebase-tools": "^3.17.3",
+    "mdbreact": "^4.3.0",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-cryptocoins": "^1.0.11",
