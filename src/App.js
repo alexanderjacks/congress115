@@ -86,7 +86,7 @@ class App extends React.Component {
                 </h6>
 
 
-                <ul className="nav nav-pills fixed-top">
+                <ul className="nav nav-pills fixed-top justify-content-center">
 
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle btn" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">Filters</a>
