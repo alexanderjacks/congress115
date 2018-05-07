@@ -95,7 +95,7 @@ class App extends React.Component {
                 </h4>
                 <h6 className="donate">
                     
-                    <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xd74cb5c0e868B06DaEA6Bb25364dCF1f2C096855</span>
+                    <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xb93310db3ad5900494438cc1a5ae5300e86f7023</span>
                 </h6>
                 <h6 className="donate">
                     <span> Donate BTC <i className="fab fa-bitcoin"></i>: 12YpKeoQ7VToosj9MoQpcM6srAbnxs42gq</span>
@@ -214,15 +214,6 @@ class App extends React.Component {
                                      Weekly:
                                 </span>
                                 <h4> {coin.percent_change_7d}%</h4>
-                            </div>
-                            <div className="list-group-item d-flex flex-row justify-content-between align-items-center weekly">
-                                <span className="">
-                                    <i className="pr-2 fab fa-fort-awesome"></i>
-                                     Fortnightly:
-                                </span>
-
-                                <h5>{coin.symbol + FortnightlyBeforeNow}</h5>
-
                             </div>
                         </div>
                     

@@ -2814,4 +2814,19 @@
 .bg-neblio {
   background-image: linear-gradient(to bottom, teal, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/neblio.png"); }
 
+.bg-all-sports {
+  background-image: linear-gradient(to bottom, lime, rgba(209, 220, 224, 0.8), rgba(39, 45, 99, 0.5)), url("./images/all-sports.png"); }
+
+.bg-matrix-ai-network {
+  background-image: linear-gradient(to bottom, cornflowerblue, rgba(90, 51, 181, 0.8), rgba(39, 45, 99, 0.5)), url("./images/matrix-ai-network.png"); }
+
+.bg-cybermiles {
+  background-image: linear-gradient(to bottom, violet, rgba(42, 105, 161, 0.8), rgba(39, 45, 99, 0.5)), url("./images/cybermiles.png"); }
+
+.bg-bitcoindark {
+  background-image: linear-gradient(to bottom, orange, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/bitcoindark.png"); }
+
+.bg-decentraland {
+  background-image: linear-gradient(to bottom, orange, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/decentraland.png"); }
+
 /*# sourceMappingURL=App.css.map */
