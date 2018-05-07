@@ -7,6 +7,8 @@
 }
 
 // responsive build pill
+
+
 %media-shift {
     @media screen and (max-width: 400px) and (min-width: 10px) {
         max-width: 90vw;
@@ -46,8 +48,48 @@
     font-size: 24px;
 }
 
+.dropdown-item {
+    border: 1px solid #999;
+    padding: 14px;
+    font-family: sans-serif, arial;
+}
+
+.dropdown-item > * {
+    font-size: 20px;
+    padding-top: 10px;
+    color: black;
+}
+.btn-lg {
+    background-color: #777;
+}
+.arrow-btn {
+    text-shadow:
+        2px 2px 4px black,
+        -2px -2px 4px black,
+        -2px 2px 4px black,
+        2px -2px 4px black;
+}
+.top-btn {
+    color: #e770e9;
+    text-decoration: none;
+}
+.bottom-btn {
+    color: #67edea;
+    text-decoration: none;    
+}
+
+.flip-vertical-fix {
+   padding-bottom: 10px;    
+}
+
 .card {
     border: white 10px solid;
+}
+
+.card-shadow {
+    box-shadow:
+    0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
 }
 
 .card-header {
