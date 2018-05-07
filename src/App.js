@@ -37,8 +37,9 @@ class App extends React.Component {
 
         const fortnight_element = <h5>fortnite test</h5>;
         ReactDOM.render(fortnight_element, document.getElementById('fortnight'));
-    }
 
+        var NumberFormat = require('react-number-format');
+    }
 
     sortByRankDesc() {
         this.setState(prevState => {
@@ -173,11 +174,17 @@ class App extends React.Component {
                             <span className="h3">#{coin.rank} </span>
 
                             <img className="sm-icon" src={"./images/" + coin.id + ".png"} />
-                            <span className="h3"> {coin.name} </span>
+                            <span className="h2"> {coin.name} </span>
                             <span className="h3">({coin.symbol})</span>
-                            <p className="text-right mb-0">
-                                MktCapUSD: {coin.market_cap_usd}
-                            </p>
+                            <span className="text-right mb-0 d-block">
+                                MktCapUSD: 
+                                <NumberFormat 
+                                value={coin.market_cap_usd} 
+                                displayType={'text'} 
+                                thousandSeparator={true} 
+                                decimalSeparator={false} 
+                                prefix={'$'} />
+                            </span>
                         </div>
 
                         {/* metadata zone */}
