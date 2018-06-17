@@ -1,6 +1,9 @@
 @import "../public/bourbon/bourbon";
 @import "../public/saffron/saffron";
 
+
+
+
 #root {
     background-image:  linear-gradient(to bottom,rgba(255,0,255,0.5),rgba(255,255,0,0.5),rgba(0,255,0,0.5),rgba(0,255,255,0.5)), url("./images/pale-circuit-board.png");
     font-family: serif, arial;
@@ -38,7 +41,7 @@
 
 .header-shading {
     color: snow;
-    background-image:  linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.85));
+    background-image:  linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0.9));
 }
 
 .nav-link {
@@ -84,6 +87,7 @@
 
 .card {
     border: white 10px solid;
+    max-width: 40vw;
 }
 
 .card-shadow {
@@ -98,8 +102,10 @@
     border: 1px solid black;
 }
 .sm-icon {
-    max-width: 32px;
-    max-height: 32px;
+    max-width: 64px;
+    min-width: 64px;
+    max-height: 64px;
+    min-height: 64px;
 }
 
 .list-group-item {
@@ -139,343 +145,230 @@
 
 
 
-// bgs per currency
-.bg-bitcoin {
-    background-image:  linear-gradient(to bottom, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.5)), url("./images/bitcoin.png");
-}
-.bg-ethereum {
-    background-image:  linear-gradient(to bottom, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.5)), url("./images/ethereum.png");
-}
-.bg-ripple {
-    background-image:  linear-gradient(to bottom, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.5)), url("./images/ripple.png");
-}
-.bg-bitcoin-cash {
-    background-image:  linear-gradient(to bottom, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.5)), url("./images/bitcoin-cash.png");
-}
-.bg-cardano {
-    background-image:  linear-gradient(to bottom, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.3)), url("./images/cardano.png");
-}
-.bg-stellar {
-    background-image:  linear-gradient(to bottom, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.5)), url("./images/stellar.png");
-}
-.bg-litecoin {
-    background-image:  linear-gradient(to bottom, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.5)), url("./images/litecoin.png");
-}
-.bg-neo {
-    background-image:  linear-gradient(to bottom, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.5)), url("./images/neo.png");
-}
-.bg-eos {
-    background-image:  linear-gradient(to bottom, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.5)), url("./images/eos.png");
-}
-.bg-nem {
-    background-image:  linear-gradient(to bottom, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.5)), url("./images/nem.png");
-}
-.bg-tron {
-    background-image:  linear-gradient(to bottom, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.5)), url("./images/tron.png");
-}
-.bg-iota {
-    background-image:  linear-gradient(to bottom, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.5)), url("./images/iota.png");
-}
-.bg-monero {
-    background-image:  linear-gradient(to bottom, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.5)), url("./images/monero.png");
-}
-.bg-dash {
-    background-image:  linear-gradient(to bottom, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.5)), url("./images/dash.png");
-}
-.bg-vechain {
-    background-image:  linear-gradient(to bottom, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.5)), url("./images/vechain.png");
-}
-.bg-tether {
-    background-image:  linear-gradient(to bottom, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.5)), url("./images/tether.png");
-}
-.bg-icon {
-    background-image:  linear-gradient(to bottom, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.3)), url("./images/icon.png");
-}
-.bg-qtum {
-    background-image:  linear-gradient(to bottom, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.5)), url("./images/qtum.png");
-}
-.bg-zcash {
-    background-image:  linear-gradient(to bottom, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.3)), url("./images/zcash.png");
-}
-.bg-digixdao {
-    background-image:  linear-gradient(to bottom, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.3)), url("./images/digixdao.png");
-}
-.bg-bitcoin-gold {
-    background-image:  linear-gradient(to bottom, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.3)), url("./images/bitcoin-gold.png");
-}
-.bg-lisk {
-    background-image:  linear-gradient(to bottom, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8)), url("./images/lisk.png");
-}
-.bg-nano {
-    background-image:  linear-gradient(to bottom, limegreen,rgba(0,192,128,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");
-}
-.bg-populous {
-    background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.8)), url("./images/populous.png");
-}
-.bg-omisego {
-    background-image:  linear-gradient(to bottom, white,rgba(0,144,255,0.5),rgba(0,0,255,0.3)), url("./images/omisego.png");
-}
-.bg-steem {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.3)), url("./images/steem.png");
-}
-.bg-ethereum-classic {
-    background-image:  linear-gradient(to bottom, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.3)), url("./images/ethereum-classic.png");
-}
-.bg-binance-coin {
-    background-image:  linear-gradient(to bottom, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.3)), url("./images/binance-coin.png");
-}
-.bg-bytecoin-bcn {
-    background-image:  linear-gradient(to bottom, snow,rgba(240,65,134,0.5),rgba(240,65,134,0.6)), url("./images/bytecoin-bcn.png");
-}
-.bg-siacoin {
-    background-image:  linear-gradient(to bottom, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.3)), url("./images/siacoin.png");
-}
-.bg-verge {
-    background-image:  linear-gradient(to bottom, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.3)), url("./images/verge.png");
-}
-.bg-stratis {
-    background-image:  linear-gradient(to bottom, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.3)), url("./images/stratis.png");
-}
-.bg-ardor {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(100,100,100,0.5),rgba(0,100,255,0.3)), url("./images/ardor.png");
-}
-.bg-waves {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(0,100,255,0.5),rgba(0,0,255,0.3)), url("./images/waves.png");
-}
-.bg-ontology {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.3)), url("./images/ontology.png");
-}
-.bg-bytom {
-    background-image:  linear-gradient(to bottom, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.3)), url("./images/bytom.png");
-}
-.bg-bitshares {
-    background-image:  linear-gradient(to bottom, cadetblue,rgba(60,102,118,0.8),rgba(60,60,84,0.8)), url("./images/bitshares.png");
-}
-.bg-status {
-    background-image:  linear-gradient(to bottom, white,rgba(104,192,248,0.5),rgba(73,87,184,0.8)), url("./images/status.png");
-}
-.bg-bitcoin-diamond {
-    background-image:  linear-gradient(to bottom, white,rgba(255,225,208,0.8),rgba(35,50,85,0.8)), url("./images/bitcoin-diamond.png");
-}
-.bg-decred {
-    background-image:  linear-gradient(to bottom, lightseagreen,rgba(58,151,191,0.8),rgba(2,26,133,0.8)), url("./images/decred.png");
-}
-.bg-rchain {
-    background-image:  linear-gradient(to bottom, crimson,rgba(255,151,91,0.8),rgba(192,126,33,0.8)), url("./images/rchain.png");
-}
-.bg-aeternity {
-    background-image:  linear-gradient(to bottom, deeppink,rgba(192,100,128,0.8),rgba(255,220,220,0.8)), url("./images/aeternity.png");
-}
-.bg-dogecoin {
-    background-image:  linear-gradient(to bottom, peru,rgba(128,128,128,0.8),rgba(255,255,233,0.8)), url("./images/dogecoin.png");
-}
-.bg-maker {
-    background-image:  linear-gradient(to bottom, mediumaquamarine,rgba(128,128,128,0.8),rgba(48,48,48,0.8)), url("./images/maker.png");
-}
-.bg-zilliqa {
-    background-image:  linear-gradient(to bottom, mediumturquoise,rgba(31,144,156,0.8),rgba(48,48,48,0.8)), url("./images/zilliqa.png");
-}
-.bg-wanchain {
-    background-image:  linear-gradient(to bottom, #d0e8f5,rgba(39,45,99,0.8),rgba(78,143,249,0.8)), url("./images/wanchain.png");
-}
-.bg-bitcoin-private {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bitcoin-private.png");
-}
-.bg-kucoin-shares {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
-}
-.bg-iostoken {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/iostoken.png");
-}
-.bg-digibyte {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/digibyte.png");
-}
-.bg-hshare {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/hshare.png");
-}
-.bg-loopring {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(81,143,244,0.5)), url("./images/loopring.png");
-}
-.bg-0x {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/0x.png");
-}
-.bg-aion {
-    background-image:  linear-gradient(to bottom, white,rgba(116,233,193,0.8),rgba(96,82,241,0.5)), url("./images/aion.png");
-}
-.bg-mithril {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mithril.png");
-}
-.bg-ark {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ark.png");
-}
-.bg-basic-attention-token {
-    background-image:  linear-gradient(to bottom, tomato,rgba(170,68,122,0.8),rgba(129,81,165,0.5)), url("./images/basic-attention-token.png");
-}
-.bg-komodo {
-    background-image:  linear-gradient(to bottom, sandybrown,rgba(117,146,147,0.8),rgba(83,123,124,0.5)), url("./images/komodo.png");
-}
-.bg-waltonchain {
-    background-image:  linear-gradient(to bottom, white,rgba(43,248,219,0.8),rgba(147,43,248,0.5)), url("./images/waltonchain.png");
-}
-.bg-augur {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(113,66,102,0.5)), url("./images/augur.png");
-}
-.bg-pivx {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pivx.png");
-}
-.bg-dragonchain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dragonchain.png");
-}
-.bg-aelf {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/aelf.png");
-}
-.bg-substratum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/substratum.png");
-}
-.bg-qash {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/qash.png");
-}
-.bg-cryptonex {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cryptonex.png");
-}
-.bg-kucoin-shares {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");
-}
-.bg-factom {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(231,186,59,0.8),rgba(212,131,76,0.5)), url("./images/factom.png");
-}
-.bg-veritaseum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/veritaseum.png");
-}
-.bg-dentacoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dentacoin.png");
-}
-.bg-gas {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gas.png");
-}
-.bg-centrality {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/centrality.png");
-}
-.bg-monacoin {
-    background-image:  linear-gradient(to bottom, firebrick,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monacoin.png");
-}
-.bg-storm {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/storm.png");
-}
-.bg-syscoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/syscoin.png");
-}
-.bg-ethos {
-    background-image:  linear-gradient(to bottom, darkturquoise,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ethos.png");
-}
-.bg-pundi-x {
-    background-image:  linear-gradient(to bottom, black,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pundi-x.png");
-}
-.bg-reddcoin {
-    background-image:  linear-gradient(to bottom, red,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/reddcoin.png");
-}
-.bg-gxchain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gxchain.png");
-}
-.bg-elastos {
-    background-image:  linear-gradient(to bottom, skyblue,rgba(127,191,83,0.8),rgba(189,213,49,0.5)), url("./images/elastos.png");
-}
-.bg-kyber-network {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kyber-network.png");
-}
-.bg-nebulas-token {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nebulas-token.png");
-}
-.bg-funfair {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/funfair.png");
-}
-.bg-mixin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mixin.png");
-}
-.bg-monaco {
-    background-image:  linear-gradient(to bottom, navy,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monaco.png");
-}
-.bg-wax {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/wax.png");
-}
-.bg-revain {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/revain.png");
-}
-.bg-nxt {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nxt.png");
-}
-.bg-salt {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/salt.png");
-}
-.bg-power-ledger {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/power-ledger.png");
-}
-.bg-enigma-project {
-    background-image:  linear-gradient(to bottom, white,rgba(234,128,185,0.8),rgba(18,51,173,0.5)), url("./images/enigma-project.png");
-}
-.bg-smartcash {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/smartcash.png");
-}
-.bg-zcoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/zcoin.png");
-}
-.bg-kin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kin.png");
-}
-.bg-bancor {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bancor.png");
-}
-.bg-byteball {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/byteball.png");
-}
-.bg-maidsafecoin {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/maidsafecoin.png");
-}
-.bg-electroneum {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/electroneum.png");
-}
-.bg-tenx {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/tenx.png");
-}
-.bg-chainlink {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/chainlink.png");
-}
-.bg-golem-network-tokens {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/golem-network-tokens.png");
-}
-.bg-loom-network {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/loom-network.png");
-}
-.bg-nucleus-vision {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nucleus-vision.png");
-}
-.bg-request-network {
-    background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/request-network.png");
-}
-.bg-cortex {
-    background-image:  linear-gradient(to bottom, deepskyblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cortex.png");
-}
-.bg-gifto {
-    background-image:  linear-gradient(to bottom, darkslateblue,rgba(90,51,181,0.8),rgba(39,45,99,0.5)), url("./images/gifto.png");
-}
-.bg-fusion {
-    background-image:  linear-gradient(to bottom, steelblue,rgba(42,105,161,0.8),rgba(39,45,99,0.5)), url("./images/fusion.png");
-}
-.bg-neblio {
-    background-image:  linear-gradient(to bottom, teal,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/neblio.png");
-}
-.bg-all-sports {
-    background-image:  linear-gradient(to bottom, lime,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/all-sports.png");
-}
-.bg-matrix-ai-network {
-    background-image:  linear-gradient(to bottom, cornflowerblue,rgba(90,51,181,0.8),rgba(39,45,99,0.5)), url("./images/matrix-ai-network.png");
-}
-.bg-cybermiles {
-    background-image:  linear-gradient(to bottom, violet,rgba(42,105,161,0.8),rgba(39,45,99,0.5)), url("./images/cybermiles.png");
-}
-.bg-bitcoindark {
-    background-image:  linear-gradient(to bottom, orange,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/bitcoindark.png");
-}
-.bg-decentraland {
-    background-image:  linear-gradient(to bottom, orange,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/decentraland.png");
-}
+// icons & bgs per currency
+.icon-bitcoin {background-image:  url("./images/bitcoin.png");}
+.bg-bitcoin {background-image:  linear-gradient(to bottom, darkorange,rgba(192,192,255,0.5),rgba(255,0,255,0.5)), url("./images/bitcoin.png");}
+.icon-ethereum {background-image:  url("./images/ethereum.png");}
+.bg-ethereum {background-image:  linear-gradient(to bottom, lightsteelblue,rgba(100,255,100,0.5),rgba(0,100,64,0.5)), url("./images/ethereum.png");}
+.icon-ripple {background-image:  url("./images/ripple.png");}
+.bg-ripple {background-image:  linear-gradient(to bottom, dodgerblue,rgba(135,206,250,0.5),rgba(205,205,64,0.5)), url("./images/ripple.png");}
+.icon-bitcoin-cash {background-image: url("./images/bitcoin-cash.png");}
+.bg-bitcoin-cash {background-image:  linear-gradient(to bottom, ivory,rgba(255,192,0,0.5),rgba(255,255,64,0.5)), url("./images/bitcoin-cash.png");}
+.icon-cardano {background-image:  url("./images/cardano.png");}
+.bg-cardano {background-image:  linear-gradient(to bottom, slateblue,rgba(100,192,255,0.5),rgba(64,200,255,0.3)), url("./images/cardano.png");}
+.icon-stellar {background-image:   url("./images/stellar.png");}
+.bg-stellar {background-image:  linear-gradient(to bottom, tomato,rgba(192,64,190,0.5),rgba(240,100,140,0.5)), url("./images/stellar.png");}
+.icon-litecoin {background-image:  url("./images/litecoin.png");}
+.bg-litecoin {background-image:  linear-gradient(to bottom, dimgray,rgba(192,240,64,0.5),rgba(255,255,64,0.5)), url("./images/litecoin.png");}
+.icon-neo {background-image:   url("./images/neo.png");}
+.bg-neo {background-image:  linear-gradient(to bottom, greenyellow,rgba(0,80,0,0.5),rgba(0,0,255,0.5)), url("./images/neo.png");}
+.icon-eos {background-image:  url("./images/eos.png");}
+.bg-eos {background-image:  linear-gradient(to bottom, honeydew,rgba(30,50,70,0.5),rgba(0,50,192,0.5)), url("./images/eos.png");}
+.icon-nem {background-image:  url("./images/nem.png");}
+.bg-nem {background-image:  linear-gradient(to bottom, orange,rgba(113,179,113,0.5),rgba(0,0,192,0.5)), url("./images/nem.png");}
+.icon-tron {background-image:  url("./images/tron.png");}
+.bg-tron {background-image:  linear-gradient(to bottom, crimson,rgba(0,0,64,0.5),rgba(0,0,192,0.5)), url("./images/tron.png");}
+.icon-iota {background-image: url("./images/iota.png");}
+.bg-iota {background-image:  linear-gradient(to bottom, aquamarine,rgba(0,64,124,0.5),rgba(0,90,192,0.5)), url("./images/iota.png");}
+.icon-monero {background-image: url("./images/monero.png");}
+.bg-monero {background-image:  linear-gradient(to bottom, orangered,rgba(30,40,64,0.5),rgba(20,20,20,0.5)), url("./images/monero.png");}
+.icon-dash {background-image: url("./images/dash.png");}
+.bg-dash {background-image:  linear-gradient(to bottom, dodgerblue,rgba(92,0,120,0.5),rgba(100,64,220,0.5)), url("./images/dash.png");}
+.icon-vechain {background-image: url("./images/vechain.png");}
+.bg-vechain {background-image:  linear-gradient(to bottom, violet,rgba(0,160,255,0.5),rgba(72,61,139,0.5)), url("./images/vechain.png");}
+.icon-tether {background-image: url("./images/tether.png");}
+.bg-tether {background-image:  linear-gradient(to bottom, gainsboro,rgba(61,255,192,0.5),rgba(160,255,192,0.5)), url("./images/tether.png");}
+.icon-icon {background-image:  url("./images/icon.png");}
+.bg-icon {background-image:  linear-gradient(to bottom, ivory,rgba(0,100,100,0.5),rgba(0,230,230,0.3)), url("./images/icon.png");}
+.icon-qtum {background-image: url("./images/qtum.png");}
+.bg-qtum {background-image:  linear-gradient(to bottom, deepskyblue,rgba(155,00,64,0.5),rgba(0,0,50,0.5)), url("./images/qtum.png");}
+.icon-zcash {background-image:  url("./images/zcash.png");}
+.bg-zcash {background-image:  linear-gradient(to bottom, darkviolet,rgba(218,112,214,0.5),rgba(218,212,0,0.3)), url("./images/zcash.png");}
+.icon-digixdao {background-image:  url("./images/digixdao.png");}
+.bg-digixdao {background-image:  linear-gradient(to bottom, navajowhite,rgba(128,122,214,0.5),rgba(208,122,224,0.3)), url("./images/digixdao.png");}
+.icon-bitcoin-gold {background-image:  url("./images/bitcoin-gold.png");}
+.bg-bitcoin-gold {background-image:  inear-gradient(to bottom, rosybrown,rgba(100,50,0,0.5),rgba(0,50,192,0.3)), url("./images/bitcoin-gold.png");}
+.icon-lisk {background-image:   url("./images/lisk.png");}
+.bg-lisk {background-image:  linear-gradient(to bottom, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8)), url("./images/lisk.png");}
+.icon-nano {background-image:   url("./images/nano.png");}
+.bg-nano {background-image:  linear-gradient(to bottom, limegreen,rgba(0,192,128,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");}
+.icon-populous {background-image:  url("./images/populous.png");}
+.bg-populous {background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.8)), url("./images/populous.png");}
+.icon-omisego {background-image:  url("./images/omisego.png");}
+.bg-omisego {background-image:  linear-gradient(to bottom, white,rgba(0,144,255,0.5),rgba(0,0,255,0.3)), url("./images/omisego.png");}
+.icon-steem {background-image:   url("./images/steem.png");}
+.bg-steem {background-image:  linear-gradient(to bottom, cornflowerblue,rgba(60,100,255,0.5),rgba(30,144,255,0.3)), url("./images/steem.png");}
+.icon-ethereum-classic {background-image:  url("./images/ethereum-classic.png");}
+.bg-ethereum-classic {background-image:  linear-gradient(to bottom, darkslategrey,rgba(11,61,46,0.5),rgba(11,61,46,0.3)), url("./images/ethereum-classic.png");}
+.icon-binance-coin {background-image:  url("./images/binance-coin.png");}
+.bg-binance-coin {background-image:  linear-gradient(to bottom, goldenrod,rgba(100,100,100,0.5),rgba(100,100,100,0.3)), url("./images/binance-coin.png");}
+.icon-bytecoin-bcn {background-image:  url("./images/bytecoin-bcn.png");}
+.bg-bytecoin-bcn {background-image:  linear-gradient(to bottom, snow,rgba(240,65,134,0.5),rgba(240,65,134,0.6)), url("./images/bytecoin-bcn.png");}
+.icon-siacoin {background-image:   url("./images/siacoin.png");}
+.bg-siacoin {background-image:  linear-gradient(to bottom, palegreen,rgba(100,100,192,0.5),rgba(0,255,100,0.3)), url("./images/siacoin.png");}
+.icon-verge {background-image:   url("./images/verge.png");}
+.bg-verge {background-image:  linear-gradient(to bottom, lightblue,rgba(20,100,200,0.5),rgba(100,100,100,0.3)), url("./images/verge.png");}
+.icon-stratis {background-image:   url("./images/stratis.png");}
+.bg-stratis {background-image:  linear-gradient(to bottom, azure,rgba(80,150,200,0.5),rgba(0,0,128,0.3)), url("./images/stratis.png");}
+.icon-ardor {background-image:   url("./images/ardor.png");}
+.bg-ardor {background-image:  linear-gradient(to bottom, cornflowerblue,rgba(100,100,100,0.5),rgba(0,100,255,0.3)), url("./images/ardor.png");}
+.icon-waves {background-image:   url("./images/waves.png");}
+.bg-waves {background-image:  linear-gradient(to bottom, cornflowerblue,rgba(0,100,255,0.5),rgba(0,0,255,0.3)), url("./images/waves.png");}
+.icon-ontology {background-image:   url("./images/ontology.png");}
+.bg-ontology {background-image:  linear-gradient(to bottom, steelblue,rgba(40,40,40,0.5),rgba(255,255,255,0.3)), url("./images/ontology.png");}
+.icon-bytom {background-image:   url("./images/bytom.png");}
+.bg-bytom {background-image:  linear-gradient(to bottom, darkgray,rgba(60,60,60,0.5),rgba(0,0,0,0.3)), url("./images/bytom.png");}
+.icon-bitshares {background-image:   url("./images/bitshares.png");}
+.bg-bitshares {background-image:  linear-gradient(to bottom, cadetblue,rgba(60,102,118,0.8),rgba(60,60,84,0.8)), url("./images/bitshares.png");}
+.icon-status {background-image:   url("./images/status.png");}
+.bg-status {background-image:  linear-gradient(to bottom, white,rgba(104,192,248,0.5),rgba(73,87,184,0.8)), url("./images/status.png");}
+.icon-bitcoin-diamond {background-image:  url("./images/bitcoin-diamond.png");}
+.bg-bitcoin-diamond {background-image:  linear-gradient(to bottom, white,rgba(255,225,208,0.8),rgba(35,50,85,0.8)), url("./images/bitcoin-diamond.png");}
+.icon-decred {background-image:  url("./images/decred.png");}
+.bg-decred {background-image:  linear-gradient(to bottom, lightseagreen,rgba(58,151,191,0.8),rgba(2,26,133,0.8)), url("./images/decred.png");}
+.icon-rchain {background-image:   url("./images/rchain.png");}
+.bg-rchain {background-image:  linear-gradient(to bottom, crimson,rgba(255,151,91,0.8),rgba(192,126,33,0.8)), url("./images/rchain.png");}
+.icon-aeternity {background-image:   url("./images/aeternity.png");}
+.bg-aeternity {background-image:  linear-gradient(to bottom, deeppink,rgba(192,100,128,0.8),rgba(255,220,220,0.8)), url("./images/aeternity.png");}
+.icon-dogecoin {background-image:   url("./images/dogecoin.png");}
+.bg-dogecoin {background-image:  linear-gradient(to bottom, peru,rgba(128,128,128,0.8),rgba(255,255,233,0.8)), url("./images/dogecoin.png");}
+.icon-maker {background-image:  url("./images/maker.png");}
+.bg-maker {background-image:  linear-gradient(to bottom, mediumaquamarine,rgba(128,128,128,0.8),rgba(48,48,48,0.8)), url("./images/maker.png");}
+.icon-zilliqa {background-image:   url("./images/zilliqa.png");}
+.bg-zilliqa {background-image:  linear-gradient(to bottom, mediumturquoise,rgba(31,144,156,0.8),rgba(48,48,48,0.8)), url("./images/zilliqa.png");}
+.icon-wanchain {background-image:  url("./images/wanchain.png");}
+.bg-wanchain {background-image:  linear-gradient(to bottom, #d0e8f5,rgba(39,45,99,0.8),rgba(78,143,249,0.8)), url("./images/wanchain.png");}
+.icon-bitcoin-private {background-image:  url("./images/bitcoin-private.png");}
+.bg-bitcoin-private {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bitcoin-private.png");}
+.icon-kucoin-shares {background-image:  url("./images/kucoin-shares.png");}
+.bg-kucoin-shares {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");}
+.icon-iostoken {background-image:   url("./images/iostoken.png");}
+.bg-iostoken {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/iostoken.png");}
+.icon-digibyte {background-image:   url("./images/digibyte.png");}
+.bg-digibyte {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/digibyte.png");}
+.icon-hshare {background-image:   url("./images/hshare.png");}
+.bg-hshare {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/hshare.png");}
+.icon-loopring {background-image:   url("./images/loopring.png");}
+.bg-loopring {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(81,143,244,0.5)), url("./images/loopring.png");}
+.icon-0x {background-image:   url("./images/0x.png");}
+.bg-0x {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/0x.png");}
+.icon-aion {background-image:   url("./images/aion.png");}
+.bg-aion {background-image:  linear-gradient(to bottom, white,rgba(116,233,193,0.8),rgba(96,82,241,0.5)), url("./images/aion.png");}
+.icon-mithril {background-image:  url("./images/mithril.png");}
+.bg-mithril {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mithril.png");}
+.icon-ark {background-image:   url("./images/ark.png");}
+.bg-ark {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ark.png");}
+.icon-basic-attention-token {background-image: url("./images/basic-attention-token.png");}
+.bg-basic-attention-token {background-image:  linear-gradient(to bottom, tomato,rgba(170,68,122,0.8),rgba(129,81,165,0.5)), url("./images/basic-attention-token.png");}
+.icon-komodo {background-image:   url("./images/komodo.png");}
+.bg-komodo {background-image:  linear-gradient(to bottom, sandybrown,rgba(117,146,147,0.8),rgba(83,123,124,0.5)), url("./images/komodo.png");}
+.icon-waltonchain {background-image:   url("./images/waltonchain.png");}
+.bg-waltonchain {background-image:  linear-gradient(to bottom, white,rgba(43,248,219,0.8),rgba(147,43,248,0.5)), url("./images/waltonchain.png");}
+.icon-augur {background-image:   url("./images/augur.png");}
+.bg-augur {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(113,66,102,0.5)), url("./images/augur.png");}
+.icon-pivx {background-image:   url("./images/pivx.png");}
+.bg-pivx {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pivx.png");}
+.icon-dragonchain {background-image:   url("./images/dragonchain.png");}
+.bg-dragonchain {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dragonchain.png");}
+.icon-aelf {background-image:   url("./images/aelf.png");}
+.bg-aelf {background-image:  linear-gradient(to bottom, steelblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/aelf.png");}
+.icon-substratum {background-image:   url("./images/substratum.png");}
+.bg-substratum {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/substratum.png");}
+.icon-qash {background-image:   url("./images/qash.png");}
+.bg-qash {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/qash.png");}
+.icon-cryptonex {background-image:   url("./images/cryptonex.png");}
+.bg-cryptonex {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cryptonex.png");}
+.icon-kucoin-shares {background-image:  url("./images/kucoin-shares.png");}
+.bg-kucoin-shares {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kucoin-shares.png");}
+.icon-factom {background-image:   url("./images/factom.png");}
+.bg-factom {background-image:  linear-gradient(to bottom, steelblue,rgba(231,186,59,0.8),rgba(212,131,76,0.5)), url("./images/factom.png");}
+.icon-veritaseum {background-image:   url("./images/veritaseum.png");}
+.bg-veritaseum {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/veritaseum.png");}
+.icon-dentacoin {background-image:   url("./images/dentacoin.png");}
+.bg-dentacoin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/dentacoin.png");}
+.icon-gas {background-image:   url("./images/gas.png");}
+.bg-gas {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gas.png");}
+.icon-centrality {background-image:   url("./images/centrality.png");}
+.bg-centrality {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/centrality.png");}
+.icon-monacoin {background-image:   url("./images/monacoin.png");}
+.bg-monacoin {background-image:  linear-gradient(to bottom, firebrick,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monacoin.png");}
+.icon-storm {background-image:   url("./images/storm.png");}
+.bg-storm {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/storm.png");}
+.icon-syscoin {background-image:   url("./images/syscoin.png");}
+.bg-syscoin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/syscoin.png");}
+.icon-ethos {background-image:   url("./images/ethos.png");}
+.bg-ethos {background-image:  linear-gradient(to bottom, darkturquoise,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/ethos.png");}
+.icon-pundi-x {background-image:  url("./images/pundi-x.png");}
+.bg-pundi-x {background-image:  linear-gradient(to bottom, black,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/pundi-x.png");}
+.icon-reddcoin {background-image:   url("./images/reddcoin.png");}
+.bg-reddcoin {background-image:  linear-gradient(to bottom, red,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/reddcoin.png");}
+.icon-gxchain {background-image:   url("./images/gxchain.png");}
+.bg-gxchain {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/gxchain.png");}
+.icon-elastos {background-image:   url("./images/elastos.png");}
+.bg-elastos {background-image:  linear-gradient(to bottom, skyblue,rgba(127,191,83,0.8),rgba(189,213,49,0.5)), url("./images/elastos.png");}
+.icon-kyber-network {background-image:  url("./images/kyber-network.png");}
+.bg-kyber-network {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kyber-network.png");}
+.icon-nebulas-token {background-image:  url("./images/nebulas-token.png");}
+.bg-nebulas-token {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nebulas-token.png");}
+.icon-funfair {background-image:   url("./images/funfair.png");}
+.bg-funfair {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/funfair.png");}
+.icon-mixin {background-image:   url("./images/mixin.png");}
+.bg-mixin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/mixin.png");}
+.icon-monaco {background-image:   url("./images/monaco.png");}
+.bg-monaco {background-image:  linear-gradient(to bottom, navy,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/monaco.png");}
+.icon-wax {background-image:   url("./images/wax.png");}
+.bg-wax {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/wax.png");}
+.icon-revain {background-image:   url("./images/revain.png");}
+.bg-revain {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/revain.png");}
+.icon-nxt {background-image:   url("./images/nxt.png");}
+.bg-nxt {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nxt.png");}
+.icon-salt {background-image:   url("./images/salt.png");}
+.bg-salt {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/salt.png");}
+.icon-power-ledger {background-image:  url("./images/power-ledger.png");}
+.bg-power-ledger {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/power-ledger.png");}
+.icon-enigma-project {background-image:  url("./images/enigma-project.png");}
+.bg-enigma-project {background-image:  linear-gradient(to bottom, white,rgba(234,128,185,0.8),rgba(18,51,173,0.5)), url("./images/enigma-project.png");}
+.icon-smartcash {background-image:   url("./images/smartcash.png");}
+.bg-smartcash {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/smartcash.png");}
+.icon-zcoin {background-image:   url("./images/zcoin.png");}
+.bg-zcoin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/zcoin.png");}
+.icon-kin {background-image:   url("./images/kin.png");}
+.bg-kin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/kin.png");}
+.icon-bancor {background-image:   url("./images/bancor.png");}
+.bg-bancor {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/bancor.png");}
+.icon-byteball {background-image:   url("./images/byteball.png");}
+.bg-byteball {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/byteball.png");}
+.icon-maidsafecoin {background-image:   url("./images/maidsafecoin.png");}
+.bg-maidsafecoin {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/maidsafecoin.png");}
+.icon-electroneum {background-image:   url("./images/electroneum.png");}
+.bg-electroneum {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/electroneum.png");}
+.icon-tenx {background-image:   url("./images/tenx.png");}
+.bg-tenx {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/tenx.png");}
+.icon-chainlink {background-image:   url("./images/chainlink.png");}
+.bg-chainlink {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/chainlink.png");}
+.icon-golem-network-tokens {background-image: url("./images/golem-network-tokens.png");}
+.bg-golem-network-tokens {background-image:  linear-gradient(to bottom, brown,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/golem-network-tokens.png");}
+.icon-loom-network {background-image: url("./images/loom-network.png");}
+.bg-loom-network {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/loom-network.png");}
+.icon-nucleus-vision {background-image: url("./images/nucleus-vision.png");}
+.bg-nucleus-vision {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/nucleus-vision.png");}
+.icon-request-network {background-image: url("./images/request-network.png");}
+.bg-request-network {background-image:  linear-gradient(to bottom, white,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/request-network.png");}
+.icon-cortex {background-image:  url("./images/cortex.png");}
+.bg-cortex {background-image:  linear-gradient(to bottom, deepskyblue,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/cortex.png");}
+.icon-gifto {background-image:  url("./images/gifto.png");}
+.bg-gifto {background-image:  linear-gradient(to bottom, darkslateblue,rgba(90,51,181,0.8),rgba(39,45,99,0.5)), url("./images/gifto.png");}
+.icon-fusion {background-image:  url("./images/fusion.png");}
+.bg-fusion {background-image:  linear-gradient(to bottom, steelblue,rgba(42,105,161,0.8),rgba(39,45,99,0.5)), url("./images/fusion.png");}
+.icon-neblio {background-image:  url("./images/neblio.png");}
+.bg-neblio {background-image:  linear-gradient(to bottom, teal,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/neblio.png");}
+.icon-all-sports {background-image: url("./images/all-sports.png");}
+.bg-all-sports {background-image:  linear-gradient(to bottom, lime,rgba(209,220,224,0.8),rgba(39,45,99,0.5)), url("./images/all-sports.png");}
+.icon-matrix-ai-network {background-image: url("./images/matrix-ai-network.png");}
+.bg-matrix-ai-network {background-image:  linear-gradient(to bottom, cornflowerblue,rgba(90,51,181,0.8),rgba(39,45,99,0.5)), url("./images/matrix-ai-network.png");}
+.icon-cybermiles {background-image:  url("./images/cybermiles.png");}
+.bg-cybermiles {background-image:  linear-gradient(to bottom, violet,rgba(42,105,161,0.8),rgba(39,45,99,0.5)), url("./images/cybermiles.png");}
+.icon-bitcoindark {background-image:  url("./images/bitcoindark.png");}
+.bg-bitcoindark {background-image:  linear-gradient(to bottom, orange,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/bitcoindark.png");}
+.icon-decentraland {background-image:  url("./images/decentraland.png");}
+.bg-decentraland {background-image:  linear-gradient(to bottom, orange,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/decentraland.png");}

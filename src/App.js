@@ -5,7 +5,7 @@ import NumberFormat from 'react-number-format';
 
 import './App.css';
 
-class App extends React.Component {
+export default class App extends React.Component {
 
     constructor(props) {   
         super(props)
@@ -79,6 +79,7 @@ class App extends React.Component {
             <div className="header-shading p-3 text-left" id="top">
 
                 <h1 className="pt-5">Top 200 Crypto Currencies</h1>
+
                 <h3 className="">Updated every 5 minutes <a href="https://coinmarketcap.com/all/views/all/">via coinmarketcap.com</a></h3>
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
@@ -171,20 +172,27 @@ class App extends React.Component {
                     <div className={"media-shift card card-shadow m-4 container-fluid card-bg-img bg-" + coin.id}>
                         {/* title zone */}
                         <div className="mt-2 card-header align-items-center justify-content-around">
-                            <span className="h3">#{coin.rank} </span>
+                            
+                            <div className="align-items-center justify-content-around">
+                                <div className={"sm-icon icon-" + coin.id}></div>
 
-                            <img className="sm-icon" src={"./images/" + coin.id + ".png"} />
-                            <span className="h2"> {coin.name} </span>
-                            <span className="h3">({coin.symbol})</span>
-                            <span className="text-right mb-0 d-block">
-                                MktCapUSD: 
-                                <NumberFormat 
-                                value={coin.market_cap_usd} 
-                                displayType={'text'} 
-                                thousandSeparator={true} 
-                                decimalSeparator={false} 
-                                prefix={'$'} />
-                            </span>
+                                <span className="h2"> {coin.name} </span>
+                                <span className="h3">({coin.symbol})</span>
+                                
+                                <span className="h3"> #{coin.rank} </span>
+                                <span className="text-right mb-0 d-block">
+                                    MktCapUSD: 
+                                </span>
+                                <span>
+                                    <NumberFormat 
+                                    value={coin.market_cap_usd} 
+                                    displayType={'text'} 
+                                    thousandSeparator={true} 
+                                    decimalSeparator={false} 
+                                    prefix={'$'} />
+                                </span>
+                            </div>
+
                         </div>
 
                         {/* metadata zone */}
@@ -228,5 +236,3 @@ class App extends React.Component {
         );
     }
 }
-
-export default App;
