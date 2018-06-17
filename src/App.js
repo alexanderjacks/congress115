@@ -165,7 +165,7 @@ export default class App extends React.Component {
 {/* iterate thru the array list gathered from the API*/}
             <div className="card-deck justify-content-around">
                 { coins.map(coin =>
-                    <a href={"https://coinmarketcap.com/currencies/" + coin.id}>
+                    <a className="card-link" href={"https://coinmarketcap.com/currencies/" + coin.id}>
 
 
                     {/* each card */}
@@ -173,7 +173,7 @@ export default class App extends React.Component {
                         {/* title zone */}
                         <div className="my-3 card-header align-items-left justify-content-around">
                             
-                            <div className="align-items-center justify-content-around">
+                            <div className="justify-content-between">
                                 <div className={"sm-icon icon-" + coin.id}></div>
                                 <span className="outline-digit"> #{coin.rank} </span>
                             </div>
@@ -191,7 +191,7 @@ export default class App extends React.Component {
                                     prefix={'$'} />
                                 </span>
                                 <span className="text-center h4 price">
-                                    1 {coin.symbol} = USD<i className="fas fa-dollar-sign"></i>
+                                    1 {coin.symbol} = <i className="fas fa-dollar-sign"></i>
                                     <span className="h3">
                                     {coin.price_usd}
                                     </span>
