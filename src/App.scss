@@ -106,6 +106,7 @@
     min-width: 64px;
     max-height: 64px;
     min-height: 64px;
+    display: inline-block;
 }
 
 .list-group-item {
@@ -115,12 +116,12 @@
 
 // text
 
-.price {
-    text-shadow: 2px 2px 4px white,
-                -2px -2px 4px white,
-                -2px 2px 4px white,
-                2px -2px 4px white;
-    color: black;
+.outline-digit {
+    text-shadow: 0px 1px 1px rgba(255,255,2555,0.75), 0px -1px 1px rgba(0,0,0,.75);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-transform:uppercase;
+    color: #999;
 }
 
 .h1 { font-size: 1.3rem; }
@@ -191,7 +192,7 @@
 .icon-lisk {background-image:   url("./images/lisk.png");}
 .bg-lisk {background-image:  linear-gradient(to bottom, white,rgba(106,195,219,0.5),rgba(0,26,86,0.8)), url("./images/lisk.png");}
 .icon-nano {background-image:   url("./images/nano.png");}
-.bg-nano {background-image:  linear-gradient(to bottom, limegreen,rgba(0,192,128,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");}
+.bg-nano {background-image:  linear-gradient(to bottom, deepskyblue,rgba(0,192,128,0.5),rgba(0,128,255,0.3)), url("./images/nano.png");}
 .icon-populous {background-image:  url("./images/populous.png");}
 .bg-populous {background-image:  linear-gradient(to bottom, peru,rgba(244,164,96,0.5),rgba(17,43,68,0.8)), url("./images/populous.png");}
 .icon-omisego {background-image:  url("./images/omisego.png");}

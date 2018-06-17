@@ -171,19 +171,18 @@ export default class App extends React.Component {
                     {/* each card */}
                     <div className={"media-shift card card-shadow m-4 container-fluid card-bg-img bg-" + coin.id}>
                         {/* title zone */}
-                        <div className="mt-2 card-header align-items-center justify-content-around">
+                        <div className="my-3 card-header align-items-left justify-content-around">
                             
                             <div className="align-items-center justify-content-around">
                                 <div className={"sm-icon icon-" + coin.id}></div>
-
+                                <span className="outline-digit"> #{coin.rank} </span>
+                            </div>
+                            <div className="align-items-center justify-content-around">
                                 <span className="h2"> {coin.name} </span>
                                 <span className="h3">({coin.symbol})</span>
-                                
-                                <span className="h3"> #{coin.rank} </span>
-                                <span className="text-right mb-0 d-block">
-                                    MktCapUSD: 
-                                </span>
-                                <span>
+
+                                <span className="text-left mb-0 d-block">
+                                    <i className="fas fa-sync mr-2"></i> 
                                     <NumberFormat 
                                     value={coin.market_cap_usd} 
                                     displayType={'text'} 
@@ -191,15 +190,17 @@ export default class App extends React.Component {
                                     decimalSeparator={false} 
                                     prefix={'$'} />
                                 </span>
+                                <span className="text-center h4 price">
+                                    1 {coin.symbol} = USD<i className="fas fa-dollar-sign"></i>
+                                    <span className="h3">
+                                    {coin.price_usd}
+                                    </span>
+                                </span>
                             </div>
 
                         </div>
 
-                        {/* metadata zone */}
-                        <span className="text-center h4 price">
-                            Value in USD $ 
-                            <span className="h3">{coin.price_usd}</span>
-                        </span>
+                        {/* filter data zone */}
 
                         <div className="list-group flex-column">
                             <div className="list-group-item d-flex flex-row justify-content-between align-items-center hourly">
