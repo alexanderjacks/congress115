@@ -3171,4 +3171,73 @@
 .bg-decentraland {
   background-image: linear-gradient(to bottom, orange, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/decentraland.png"); }
 
+.icon-gifto {
+  background-image: url("./images/gifto.png"); }
+
+.icon-skycoin {
+  background-image: url("./images/skycoin.png"); }
+
+.bg-skycoin {
+  background-image: linear-gradient(to bottom, darkslateblue, rgba(90, 51, 181, 0.8), rgba(39, 45, 99, 0.5)), url("./images/skycoin.png"); }
+
+.icon-nuls {
+  background-image: url("./images/nuls.png"); }
+
+.bg-nuls {
+  background-image: linear-gradient(to bottom, steelblue, rgba(42, 105, 161, 0.8), rgba(39, 45, 99, 0.5)), url("./images/nuls.png"); }
+
+.icon-theta-token {
+  background-image: url("./images/theta-token.png"); }
+
+.bg-theta-token {
+  background-image: linear-gradient(to bottom, teal, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/theta-token.png"); }
+
+.icon-scryinfo {
+  background-image: url("./images/scryinfo.png"); }
+
+.bg-scryinfo {
+  background-image: linear-gradient(to bottom, lime, rgba(209, 220, 224, 0.8), rgba(39, 45, 99, 0.5)), url("./images/scryinfo.png"); }
+
+.icon-polymath-network {
+  background-image: url("./images/polymath-network.png"); }
+
+.bg-polymath-network {
+  background-image: linear-gradient(to bottom, cornflowerblue, rgba(90, 51, 181, 0.8), rgba(39, 45, 99, 0.5)), url("./images/polymath-network.png"); }
+
+.icon-emercoin {
+  background-image: url("./images/emercoin.png"); }
+
+.bg-emercoin {
+  background-image: linear-gradient(to bottom, violet, rgba(42, 105, 161, 0.8), rgba(39, 45, 99, 0.5)), url("./images/emercoin.png"); }
+
+.icon-dropil {
+  background-image: url("./images/dropil.png"); }
+
+.bg-dropil {
+  background-image: linear-gradient(to bottom, orange, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/dropil.png"); }
+
+.icon-bibox-token {
+  background-image: url("./images/bibox-token.png"); }
+
+.bg-bibox-token {
+  background-image: linear-gradient(to bottom, orange, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/bibox-token.png"); }
+
+.icon-waykichain {
+  background-image: url("./images/waykichain.png"); }
+
+.bg-waykichain {
+  background-image: linear-gradient(to bottom, darkslateblue, rgba(90, 51, 181, 0.8), rgba(39, 45, 99, 0.5)), url("./images/waykichain.png"); }
+
+.icon-moac {
+  background-image: url("./images/moac.png"); }
+
+.bg-moac {
+  background-image: linear-gradient(to bottom, steelblue, rgba(42, 105, 161, 0.8), rgba(39, 45, 99, 0.5)), url("./images/moac.png"); }
+
+.icon-huobi-token {
+  background-image: url("./images/huobi-token.png"); }
+
+.bg-huobi-token {
+  background-image: linear-gradient(to bottom, teal, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/huobi-token.png"); }
+
 /*# sourceMappingURL=App.css.map */
