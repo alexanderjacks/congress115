@@ -86,7 +86,7 @@
 }
 
 .card {
-    border: white 10px solid;
+    border: black 1px solid;
 }
 
 .card-shadow {
@@ -97,6 +97,10 @@
 
 .card-link {
     text-decoration: none;
+}
+
+.semi-opaque {
+    background-image: linear-gradient(to right,rgba(255,255,255,0.3), rgba(255,255,255,0.7),rgba(255,255,255,0.9));
 }
 
 .card-header {
@@ -124,7 +128,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 42px;
     text-transform:uppercase;
-    color: #999;
+    color: #666;
 }
 
 .h1 { font-size: 1.3rem; }

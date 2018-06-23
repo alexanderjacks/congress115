@@ -163,20 +163,16 @@ export default class App extends React.Component {
 
 
 {/* iterate thru the array list gathered from the API*/}
-            <div className="card-deck justify-content-around">
+            <div className="table">
+
                 { coins.map(coin =>
                     <a className="card-link" href={"https://coinmarketcap.com/currencies/" + coin.id}>
-
-
                     {/* each card */}
-                    <div className={"media-shift card card-shadow m-4 container-fluid card-bg-img bg-" + coin.id}>
-                        {/* title zone */}
-                        <div className="my-3 card-header align-items-left justify-content-around">
-                            
-                            <div className="justify-content-between">
-                                <div className={"sm-icon icon-" + coin.id}></div>
-                                <span className="outline-digit"> #{coin.rank} </span>
-                            </div>
+                    <div className={"container-fluid my-0 justify-content-between card-bg-img bg-" + coin.id}>
+                        {/* title cell */}
+                        <div className="d-flex row semi-opaque justify-content-around align-items-center">
+                            <div className={"sm-icon icon-" + coin.id}></div>
+                            <div className="outline-digit"> #{coin.rank} </div>
                             <div className="align-items-center justify-content-around">
                                 <span className="h2"> {coin.name} </span>
                                 <span className="h3">({coin.symbol})</span>
@@ -198,38 +194,39 @@ export default class App extends React.Component {
                                 </span>
                             </div>
 
-                        </div>
+
 
                         {/* filter data zone */}
 
-                        <div className="list-group flex-column">
-                            <div className="list-group-item d-flex flex-row justify-content-between align-items-center hourly">
-                                <span className="">
+
+                            <div className="justify-content-between align-items-center hourly">
+                                <h2> {coin.percent_change_1h}%</h2>
+                                <span className="h2">
                                     <i className="pr-2 far fa-clock"></i>
-                                     Hourly:
+                                     Hourly
                                 </span>
-                                <h5> {coin.percent_change_1h}%</h5>
                             </div>
-                            <div className="list-group-item d-flex flex-row justify-content-between align-items-center daily">
-                                <span className="" >
+                            <div className="justify-content-between align-items-center daily">
+                                <h2> {coin.percent_change_24h}%</h2>
+                                <span className="h2">
                                     <i className="pr-2 fas fa-sun"></i>
-                                     Daily:
+                                     Daily
                                 </span>
-                                <h5> {coin.percent_change_24h}%</h5>
                             </div>
-                            <div className="list-group-item d-flex flex-row justify-content-between align-items-center weekly">
-                                <span className="">
+                            <div className="justify-content-between align-items-center weekly">
+                                <h2> {coin.percent_change_7d}%</h2>
+                                <span className="h2">
                                     <i className="pr-2 fas fa-calendar-alt"></i>
-                                     Weekly:
+                                     Weekly
                                 </span>
-                                <h4> {coin.percent_change_7d}%</h4>
                             </div>
+
                         </div>
-                    
                     </div>
                     {/* end card */}
                     </a>
                 )}
+
             </div>
             {/* end iteration */}
         <span id="bottom"></span>
