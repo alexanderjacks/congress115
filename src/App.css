@@ -2410,6 +2410,11 @@
   background-image: linear-gradient(to bottom, rgba(255, 0, 255, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 255, 255, 0.5)), url("./images/pale-circuit-board.png");
   font-family: serif, arial; }
 
+a {
+  color: black; }
+  a:hover {
+    color: blue; }
+
 .header-shading {
   color: snow;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)); }
@@ -2419,6 +2424,9 @@
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.65);
   font-size: 24px; }
+
+.arrow-btn {
+  text-decoration: none; }
 
 .dropdown-item {
   border: 1px solid #999;
@@ -3728,5 +3736,47 @@
 
 .bg-peercoin {
   background-image: linear-gradient(to bottom, forestgreen, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/peercoin.png"); }
+
+.icon-odem {
+  background-image: url("./images/odem.png"); }
+
+.bg-odem {
+  background-image: linear-gradient(to bottom, teal, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/odem.png"); }
+
+.icon-nkn {
+  background-image: url("./images/nkn.png"); }
+
+.bg-nkn {
+  background-image: linear-gradient(to bottom, cornflowerblue, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/nkn.png"); }
+
+.icon-ubiq {
+  background-image: url("./images/ubiq.png"); }
+
+.bg-ubiq {
+  background-image: linear-gradient(to bottom, seagreen, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/ubiq.png"); }
+
+.icon-nanjcoin {
+  background-image: url("./images/nanjcoin.png"); }
+
+.bg-nanjcoin {
+  background-image: linear-gradient(to bottom, steelblue, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/nanjcoin.png"); }
+
+.icon-endor-protocol {
+  background-image: url("./images/endor-protocol.png"); }
+
+.bg-endor-protocol {
+  background-image: linear-gradient(to bottom, midnightblue, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/endor-protocol.png"); }
+
+.icon-apex {
+  background-image: url("./images/apex.png"); }
+
+.bg-apex {
+  background-image: linear-gradient(to bottom, deepskyblue, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/apex.png"); }
+
+.icon-educare {
+  background-image: url("./images/educare.png"); }
+
+.bg-educare {
+  background-image: linear-gradient(to bottom, lime, rgba(88, 126, 191, 0.8), rgba(39, 45, 99, 0.5)), url("./images/educare.png"); }
 
 /*# sourceMappingURL=App.css.map */

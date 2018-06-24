@@ -108,7 +108,7 @@ export default class App extends React.Component {
                     <button type="button" className="btn-lg">
                     <a href="#top" className="arrow-btn top-btn">
                         <i className="fas fa-arrow-up"></i>
-                        <span> Top of List</span>
+                        <span> Top</span>
                     </a>
                     </button>
 
@@ -148,7 +148,7 @@ export default class App extends React.Component {
                     <button type="button" className="btn-lg">
                     <a href="#bottom" className="bottom-btn arrow-btn">
                         <i className="fas fa-arrow-down"></i>
-                        <span> Bottom of List</span>
+                        <span> Bottom</span>
                     </a>
                     </button>
 
@@ -162,66 +162,72 @@ export default class App extends React.Component {
 
 
 
-{/* iterate thru the array list gathered from the API*/}
-            <div className="table">
+{/* iterate thru the array list gathered from the API, create item for each array member*/}
+            <div className="">
 
                 { coins.map(coin =>
                     <a className="card-link" href={"https://coinmarketcap.com/currencies/" + coin.id}>
-                    {/* each card */}
+                    {/* each crypto item */}
                     <div className={"container-fluid my-0 justify-content-between card-bg-img bg-" + coin.id}>
                         {/* title cell */}
                         <div className="d-flex row semi-opaque justify-content-around align-items-center">
-                            <div className={"sm-icon icon-" + coin.id}></div>
-                            <div className="outline-digit"> #{coin.rank} </div>
-                            <div className="align-items-center justify-content-around">
-                                <span className="h2"> {coin.name} </span>
-                                <span className="h3">({coin.symbol})</span>
+                            
+                        {/* extra layout column, reactive UI for mobile  */}
+                            <div className="col-12 col-md-6 d-flex flex-row justify-content-around ">
 
-                                <span className="text-left mb-0 d-block">
-                                    <i className="fas fa-sync mr-2"></i> 
-                                    <NumberFormat 
-                                    value={coin.market_cap_usd} 
-                                    displayType={'text'} 
-                                    thousandSeparator={true} 
-                                    decimalSeparator={false} 
-                                    prefix={'$'} />
-                                </span>
-                                <span className="text-center h4 price">
-                                    1 {coin.symbol} = <i className="fas fa-dollar-sign"></i>
-                                    <span className="h3">
-                                    {coin.price_usd}
+                                <div className={"sm-icon icon-" + coin.id}></div>
+                                <div className="outline-digit"> #{coin.rank} </div>
+                                <div className="align-items-center justify-content-around">
+                                    <span className="h2"> {coin.name} </span>
+                                    <span className="h3">({coin.symbol})</span>
+                                    <span className="text-left mb-0 d-block">
+                                        <i className="fas fa-sync mr-2"></i> 
+                                        <NumberFormat 
+                                        value={coin.market_cap_usd} 
+                                        displayType={'text'} 
+                                        thousandSeparator={true} 
+                                        decimalSeparator={false} 
+                                        prefix={'$'} />
                                     </span>
-                                </span>
+                                    <span className="text-center h4 price">
+                                        1 {coin.symbol} = <i className="fas fa-dollar-sign"></i>
+                                        <span className="h3">
+                                        {coin.price_usd}
+                                        </span>
+                                    </span>
+                                </div>
+
                             </div>
 
 
-
-                        {/* filter data zone */}
-
-
-                            <div className="justify-content-between align-items-center hourly">
-                                <h2> {coin.percent_change_1h}%</h2>
-                                <span className="h2">
-                                    <i className="pr-2 far fa-clock"></i>
-                                     Hourly
-                                </span>
+                        {/* filtered metadata area of crypto items */}
+                        {/* extra layout column, reactive UI for mobile  */}
+                            <div className="col-12 col-md-6 d-flex flex-row justify-content-around ">
+                                <div className="justify-content-between align-items-center hourly">
+                                    <h2> {coin.percent_change_1h}%</h2>
+                                    <span className="h2">
+                                        <i className="pr-2 far fa-clock"></i>
+                                         Hourly
+                                    </span>
+                                </div>
+                                <div className="justify-content-between align-items-center daily">
+                                    <h2> {coin.percent_change_24h}%</h2>
+                                    <span className="h2">
+                                        <i className="pr-2 fas fa-sun"></i>
+                                         Daily
+                                    </span>
+                                </div>
+                                <div className="justify-content-between align-items-center weekly">
+                                    <h2> {coin.percent_change_7d}%</h2>
+                                    <span className="h2">
+                                        <i className="pr-2 fas fa-calendar-alt"></i>
+                                         Weekly
+                                    </span>
+                                </div>
                             </div>
-                            <div className="justify-content-between align-items-center daily">
-                                <h2> {coin.percent_change_24h}%</h2>
-                                <span className="h2">
-                                    <i className="pr-2 fas fa-sun"></i>
-                                     Daily
-                                </span>
-                            </div>
-                            <div className="justify-content-between align-items-center weekly">
-                                <h2> {coin.percent_change_7d}%</h2>
-                                <span className="h2">
-                                    <i className="pr-2 fas fa-calendar-alt"></i>
-                                     Weekly
-                                </span>
-                            </div>
-
+                        
                         </div>
+
                     </div>
                     {/* end card */}
                     </a>
