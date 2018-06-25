@@ -36,6 +36,12 @@
     margin: 0.5em;
 }
 
+// link styling
+a {
+    color: black;
+    &:hover { color: blue; } 
+}
+
 
 // layout
 
@@ -50,6 +56,7 @@
     background-color: rgba(255,255,255,0.65);
     font-size: 24px;
 }
+.arrow-btn { text-decoration: none; }
 
 .dropdown-item {
     border: 1px solid #999;
@@ -86,7 +93,7 @@
 }
 
 .card {
-    border: white 10px solid;
+    border: black 1px solid;
 }
 
 .card-shadow {
@@ -97,6 +104,10 @@
 
 .card-link {
     text-decoration: none;
+}
+
+.semi-opaque {
+    background-image: linear-gradient(to right,rgba(255,255,255,0.3), rgba(255,255,255,0.7),rgba(255,255,255,0.9));
 }
 
 .card-header {
@@ -124,7 +135,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 42px;
     text-transform:uppercase;
-    color: #999;
+    color: midnightblue;
 }
 
 .h1 { font-size: 1.3rem; }
@@ -565,3 +576,18 @@
 .bg-nav-coin {background-image:  linear-gradient(to bottom, darkmagenta,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/nav-coin.png");}
 .icon-peercoin {background-image:  url("./images/peercoin.png");}
 .bg-peercoin {background-image:  linear-gradient(to bottom, forestgreen,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/peercoin.png");}
+
+.icon-odem {background-image:  url("./images/odem.png");}
+.bg-odem {background-image:  linear-gradient(to bottom, teal,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/odem.png");}
+.icon-nkn {background-image:  url("./images/nkn.png");}
+.bg-nkn {background-image:  linear-gradient(to bottom, cornflowerblue,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/nkn.png");}
+.icon-ubiq {background-image:  url("./images/ubiq.png");}
+.bg-ubiq {background-image:  linear-gradient(to bottom, seagreen,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/ubiq.png");}
+.icon-nanjcoin {background-image:  url("./images/nanjcoin.png");}
+.bg-nanjcoin {background-image:  linear-gradient(to bottom, steelblue,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/nanjcoin.png");}
+.icon-endor-protocol {background-image:  url("./images/endor-protocol.png");}
+.bg-endor-protocol {background-image:  linear-gradient(to bottom, midnightblue,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/endor-protocol.png");}
+.icon-apex {background-image:  url("./images/apex.png");}
+.bg-apex {background-image:  linear-gradient(to bottom, deepskyblue,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/apex.png");}
+.icon-educare {background-image:  url("./images/educare.png");}
+.bg-educare {background-image:  linear-gradient(to bottom, lime,rgba(88,126,191,0.8),rgba(39,45,99,0.5)), url("./images/educare.png");}
