@@ -13,7 +13,7 @@
 - ```cd colors-crypto/```
 - ```npm i && yarn start```
  - _In a new Terminal_
- ```cd src && sass --watch App.scss:App.css```
+ ```sass --watch src/App.scss:src/App.css```
 
 You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all set to leverage in a React/Webpack/React-Router boilerplate. Enjoy.
 

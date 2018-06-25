@@ -173,13 +173,15 @@ export default class App extends React.Component {
                         <div className="d-flex row semi-opaque justify-content-around align-items-center">
                             
                         {/* extra layout column, reactive UI for mobile  */}
-                            <div className="col-12 col-md-6 d-flex flex-row justify-content-around ">
+                            <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
 
                                 <div className={"sm-icon icon-" + coin.id}></div>
-                                <div className="outline-digit"> #{coin.rank} </div>
+                                <div className="outline-digit">
+                                    #{coin.rank}
+                                    <div className="h3 d-block">({coin.symbol})</div>
+                                </div>
                                 <div className="align-items-center justify-content-around">
                                     <span className="h2"> {coin.name} </span>
-                                    <span className="h3">({coin.symbol})</span>
                                     <span className="text-left mb-0 d-block">
                                         <i className="fas fa-sync mr-2"></i> 
                                         <NumberFormat 
@@ -202,7 +204,7 @@ export default class App extends React.Component {
 
                         {/* filtered metadata area of crypto items */}
                         {/* extra layout column, reactive UI for mobile  */}
-                            <div className="col-12 col-md-6 d-flex flex-row justify-content-around ">
+                            <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
                                 <div className="justify-content-between align-items-center hourly">
                                     <h2> {coin.percent_change_1h}%</h2>
                                     <span className="h2">
