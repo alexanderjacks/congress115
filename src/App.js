@@ -176,11 +176,11 @@ export default class App extends React.Component {
                             <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
 
                                 <div className={"sm-icon icon-" + coin.id}></div>
-                                <div className="outline-digit">
+                                <div className="outline-digit pl-2">
                                     #{coin.rank}
                                     <div className="h3 d-block">({coin.symbol})</div>
                                 </div>
-                                <div className="align-items-center justify-content-around">
+                                <div className="align-items-center justify-content-around pl-2">
                                     <span className="h2"> {coin.name} </span>
                                     <span className="text-left mb-0 d-block">
                                         <i className="fas fa-sync mr-2"></i> 
