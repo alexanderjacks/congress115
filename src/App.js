@@ -90,12 +90,8 @@ export default class App extends React.Component {
                 <h5>
                     Upcoming coins may not have proper images yet-- helps flag them as climbers! 
                 </h5>
-                <h4>
-                    Want a crypto guide?
-                    <a href="https://how-to-crypto.herokuapp.com/"> Check this out.</a>
-                </h4>
-                <h6 className="donate">
-                    
+                
+                <h6 className="donate">    
                     <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xb93310db3ad5900494438cc1a5ae5300e86f7023</span>
                 </h6>
                 <h6 className="donate">
