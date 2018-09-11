@@ -11,8 +11,7 @@ export default class App extends React.Component {
         super(props)
         this.state = {
             coins: [],
-            NowTS: Date.now(),
-            FortnightlyBeforeNow: Date.now()-1382434
+            NowTS: Date.now()
         }
         this.sortByRankDesc = this.sortByRankDesc.bind(this);
         this.sortByPriceAsc = this.sortByPriceAsc.bind(this);
@@ -24,7 +23,6 @@ export default class App extends React.Component {
     componentDidMount() {
         
         console.log("Now TS: "+ this.state.NowTS);
-        console.log("2 weeks ago TS: "+ this.state.FortnightlyBeforeNow);
         
         Promise.all([
             axios.get('https://api.coinmarketcap.com/v1/ticker/?start=0&limit=200')
@@ -78,18 +76,15 @@ export default class App extends React.Component {
         <div className="">
             <div className="header-shading p-3 text-left" id="top">
 
-                <h1 className="pt-5">Top 200 Crypto Currencies</h1>
+                <h1 className="pt-5">115th US Congress</h1>
 
-                <h3 className="">Updated every 5 minutes <a href="https://coinmarketcap.com/all/views/all/">via coinmarketcap.com</a></h3>
+                <h3 className="">From this public resource: <a href="https://www.congress.gov/">congress.gov</a></h3>
                 <h6>
-                    Created for educational purposes only by <a href="https://github.com/Adjectival">Alexander Jacks</a>.
+                    Created for educational purposes only by <a href="https://github.com/alexanderjacks">Alexander Jacks</a>.
                 </h6>
                 <h6>
-                    Not intended as a replacement for professional investment advice.
+                    Remember to <strong>V O T E</strong>
                 </h6>
-                <h5>
-                    Upcoming coins may not have proper images yet-- helps flag them as climbers! 
-                </h5>
                 
                 <h6 className="donate">    
                     <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xb93310db3ad5900494438cc1a5ae5300e86f7023</span>
