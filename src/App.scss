@@ -148,8 +148,19 @@ a {
 .h5 { font-size: 0.8rem; }
 
 // special icon classes
-.office-icon-senator {background-image: url("./images/senate_logo.png");}
-.office-icon-representative {background-image: url("./images/house_logo.png");}
+.sm-icon {
+    min-width: 104px;
+    min-height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.office-icon-Senator {
+    background-image: url("./images/senate_logo.png");
+}
+.office-icon-Representative {
+    background-image: url("./images/house_logo.png");
+    width: 50%;
+}
 
 
 // emphasis
