@@ -124,10 +124,12 @@ export default class App extends React.Component {
                             <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
                                 <div className={"sm-icon office-icon-" + congressperson.Office}></div>
                                 <div className="align-items-center justify-content-around pl-2">
-                                    <span className="h3"> {congressperson.Party} </span>
-                                    <span className="h3"> {congressperson.Office} </span>
-                                    <span className="h1"> {congressperson.Name}, </span>
-                                    <span className="h2"> {congressperson.State} </span>
+                                    <h3>{congressperson.Name} </h3>
+                                    <h4>{congressperson.Party} {congressperson.Office} </h4>
+                                    <h4>{congressperson.State}</h4>
+                                </div>
+                                <div className={"pic-frame p-2"}>
+                                    <div className="biopic" id={"biopic-" + congressperson.ID}></div>
                                 </div>
                             </div>
                         
