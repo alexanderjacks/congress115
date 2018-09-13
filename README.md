@@ -1,16 +1,15 @@
-# Colors of Crypto :flower_playing_cards::money_with_wings::sparkles:
-### a progressive web app boilerplate in React
-### widget data courtesy of [coinmarketcap.com](https://coinmarketcap.com/all/views/all/)
-### featuring **Font Awesome** & **Bootstrap4** magic
+# US Congress, 115th 🐍🇺🇸🤓
+## progressive web app in React, CSS3
+### data courtesy of [congress.gov](https://www.congress.gov)
 
 ![screenshot](/public/images/sshot2018Feb.png)
 
-## [View project live at colors-crypto.firebaseapp.com/](https://colors-crypto.firebaseapp.com/)
+## [View project live at us-congress.firebaseapp.com/](https://us-congress.firebaseapp.com//)
 
 #### :construction: Reconstitute this, to develop it in a new direction:
 - [Fork this project](https://help.github.com/articles/fork-a-repo/)
 - [clone to your local machine](https://help.github.com/articles/cloning-a-repository/)
-- ```cd colors-crypto/```
+- ```cd congress115/```
 - ```npm i && yarn start```
  - _In a new Terminal_
  ```sass --watch src/App.scss:src/App.css```
@@ -36,8 +35,7 @@ You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all s
 - ```npm run build && firebase deploy```
 - [View your trendy app project live at https://my_trendy_app_name.firebaseapp.com](https://my_trendy_app_name.firebaseapp.com)
 
-That's all for now. Enjoy React and Sass.
 
-#### [Alexander Jacks SVC](http://alexanderjacks.biz)
+#### [Alexander Jacks SVC](https://alexanderjacks.info)
 
 _MIT License 2018_

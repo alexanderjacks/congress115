@@ -122,12 +122,12 @@ export default class App extends React.Component {
                             
                         {/* extra layout column, reactive UI for mobile  */}
                             <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
-                                <div className={"sm-icon office-icon-" + congressperson.office}></div>
+                                <div className={"sm-icon office-icon-" + congressperson.Office}></div>
                                 <div className="align-items-center justify-content-around pl-2">
-                                    <span className="h3"> {congressperson.party} </span>
-                                    <span className="h3"> {congressperson.office} </span>
-                                    <span className="h1"> {congressperson.last_name}, </span>
-                                    <span className="h2"> {congressperson.first_name} </span>
+                                    <span className="h3"> {congressperson.Party} </span>
+                                    <span className="h3"> {congressperson.Office} </span>
+                                    <span className="h1"> {congressperson.Name}, </span>
+                                    <span className="h2"> {congressperson.State} </span>
                                 </div>
                             </div>
                         
