@@ -35,7 +35,11 @@ You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all s
 - ```npm run build && firebase deploy```
 - [View your trendy app project live at https://my_trendy_app_name.firebaseapp.com](https://my_trendy_app_name.firebaseapp.com)
 
+### Attribution = Some data and resources from:
+- [www.congress.gov](www.congress.gov)
+- [www.csvjson.com](https://www.csvjson.com/csv2json)
+- [www.amcharts.com/](https://www.amcharts.com/)
 
-#### [Alexander Jacks SVC](https://alexanderjacks.info)
+## [Alexander Jacks SVC](https://alexanderjacks.info)
 
 _MIT License 2018_

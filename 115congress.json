@@ -5,6 +5,7 @@
     "URL": "https://www.congress.gov/member/ralph-abraham/A000374",
     "ID": "A000374",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -15,6 +16,7 @@
     "URL": "https://www.congress.gov/member/alma-adams/A000370",
     "ID": "A000370",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 12,
     "Party": "Democratic",
     "Terms": "House: 2014-Present"
@@ -25,6 +27,7 @@
     "URL": "https://www.congress.gov/member/robert-aderholt/A000055",
     "ID": "A000055",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 1997-Present"
@@ -35,6 +38,7 @@
     "URL": "https://www.congress.gov/member/pete-aguilar/A000371",
     "ID": "A000371",
     "State": "California",
+    "Abbr": "CA",
     "District": 31,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -45,6 +49,7 @@
     "URL": "https://www.congress.gov/member/lamar-alexander/A000360",
     "ID": "A000360",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2003-Present"
@@ -55,6 +60,7 @@
     "URL": "https://www.congress.gov/member/rick-allen/A000372",
     "ID": "A000372",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -65,6 +71,7 @@
     "URL": "https://www.congress.gov/member/justin-amash/A000367",
     "ID": "A000367",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -75,6 +82,7 @@
     "URL": "https://www.congress.gov/member/mark-amodei/A000369",
     "ID": "A000369",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -85,6 +93,7 @@
     "URL": "https://www.congress.gov/member/jodey-arrington/A000375",
     "ID": "A000375",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 19,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -95,6 +104,7 @@
     "URL": "https://www.congress.gov/member/brian-babin/B001291",
     "ID": "B001291",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 36,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -105,6 +115,7 @@
     "URL": "https://www.congress.gov/member/don-bacon/B001298",
     "ID": "B001298",
     "State": "Nebraska",
+    "Abbr": "NE",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -115,6 +126,7 @@
     "URL": "https://www.congress.gov/member/troy-balderson/B001306",
     "ID": "B001306",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2018-Present"
@@ -125,6 +137,7 @@
     "URL": "https://www.congress.gov/member/tammy-baldwin/B001230",
     "ID": "B001230",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 1999-2013"
@@ -135,6 +148,7 @@
     "URL": "https://www.congress.gov/member/jim-banks/B001299",
     "ID": "B001299",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -145,6 +159,7 @@
     "URL": "https://www.congress.gov/member/lou-barletta/B001269",
     "ID": "B001269",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -155,6 +170,7 @@
     "URL": "https://www.congress.gov/member/andy-barr/B001282",
     "ID": "B001282",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -165,6 +181,7 @@
     "URL": "https://www.congress.gov/member/nanette-barragan/B001300",
     "ID": "B001300",
     "State": "California",
+    "Abbr": "CA",
     "District": 44,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -175,6 +192,7 @@
     "URL": "https://www.congress.gov/member/john-barrasso/B001261",
     "ID": "B001261",
     "State": "Wyoming",
+    "Abbr": "WY",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2007-Present"
@@ -185,6 +203,7 @@
     "URL": "https://www.congress.gov/member/joe-barton/B000213",
     "ID": "B000213",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 1985-Present"
@@ -195,6 +214,7 @@
     "URL": "https://www.congress.gov/member/karen-bass/B001270",
     "ID": "B001270",
     "State": "California",
+    "Abbr": "CA",
     "District": 37,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -205,6 +225,7 @@
     "URL": "https://www.congress.gov/member/joyce-beatty/B001281",
     "ID": "B001281",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -215,6 +236,7 @@
     "URL": "https://www.congress.gov/member/xavier-becerra/B000287",
     "ID": "B000287",
     "State": "California",
+    "Abbr": "CA",
     "District": 34,
     "Party": "Democratic",
     "Terms": "House: 1993-2017"
@@ -225,6 +247,7 @@
     "URL": "https://www.congress.gov/member/michael-bennet/B001267",
     "ID": "B001267",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present"
@@ -235,6 +258,7 @@
     "URL": "https://www.congress.gov/member/ami-bera/B001287",
     "ID": "B001287",
     "State": "California",
+    "Abbr": "CA",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -245,6 +269,7 @@
     "URL": "https://www.congress.gov/member/jack-bergman/B001301",
     "ID": "B001301",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -255,6 +280,7 @@
     "URL": "https://www.congress.gov/member/donald-beyer/B001292",
     "ID": "B001292",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -265,6 +291,7 @@
     "URL": "https://www.congress.gov/member/andy-biggs/B001302",
     "ID": "B001302",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -275,6 +302,7 @@
     "URL": "https://www.congress.gov/member/gus-bilirakis/B001257",
     "ID": "B001257",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -285,6 +313,7 @@
     "URL": "https://www.congress.gov/member/mike-bishop/B001293",
     "ID": "B001293",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -295,6 +324,7 @@
     "URL": "https://www.congress.gov/member/rob-bishop/B001250",
     "ID": "B001250",
     "State": "Utah",
+    "Abbr": "UT",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -305,6 +335,7 @@
     "URL": "https://www.congress.gov/member/sanford-bishop/B000490",
     "ID": "B000490",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -315,6 +346,7 @@
     "URL": "https://www.congress.gov/member/diane-black/B001273",
     "ID": "B001273",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -325,6 +357,7 @@
     "URL": "https://www.congress.gov/member/marsha-blackburn/B001243",
     "ID": "B001243",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -335,6 +368,7 @@
     "URL": "https://www.congress.gov/member/rod-blum/B001294",
     "ID": "B001294",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -345,6 +379,7 @@
     "URL": "https://www.congress.gov/member/earl-blumenauer/B000574",
     "ID": "B000574",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -355,6 +390,7 @@
     "URL": "https://www.congress.gov/member/richard-blumenthal/B001277",
     "ID": "B001277",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2011-Present"
@@ -365,6 +401,7 @@
     "URL": "https://www.congress.gov/member/lisa-blunt-rochester/B001303",
     "ID": "B001303",
     "State": "Delaware",
+    "Abbr": "DE",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -375,6 +412,7 @@
     "URL": "https://www.congress.gov/member/roy-blunt/B000575",
     "ID": "B000575",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 1997-2011"
@@ -385,6 +423,7 @@
     "URL": "https://www.congress.gov/member/suzanne-bonamici/B001278",
     "ID": "B001278",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2012-Present"
@@ -395,6 +434,7 @@
     "URL": "https://www.congress.gov/member/cory-booker/B001288",
     "ID": "B001288",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present"
@@ -405,6 +445,7 @@
     "URL": "https://www.congress.gov/member/john-boozman/B001236",
     "ID": "B001236",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 2001-2011"
@@ -415,6 +456,7 @@
     "URL": "https://www.congress.gov/member/madeleine-bordallo/B001245",
     "ID": "B001245",
     "State": "Guam",
+    "Abbr": "GU",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -425,6 +467,7 @@
     "URL": "https://www.congress.gov/member/mike-bost/B001295",
     "ID": "B001295",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -435,6 +478,7 @@
     "URL": "https://www.congress.gov/member/david-bowen/B000682",
     "ID": "B000682",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 1973-1983"
@@ -445,6 +489,7 @@
     "URL": "https://www.congress.gov/member/brendan-boyle/B001296",
     "ID": "B001296",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -455,6 +500,7 @@
     "URL": "https://www.congress.gov/member/kevin-brady/B000755",
     "ID": "B000755",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 1997-Present"
@@ -465,6 +511,7 @@
     "URL": "https://www.congress.gov/member/robert-brady/B001227",
     "ID": "B001227",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -475,6 +522,7 @@
     "URL": "https://www.congress.gov/member/dave-brat/B001290",
     "ID": "B001290",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2014-Present"
@@ -485,6 +533,7 @@
     "URL": "https://www.congress.gov/member/jim-bridenstine/B001283",
     "ID": "B001283",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2013-2018"
@@ -495,6 +544,7 @@
     "URL": "https://www.congress.gov/member/mo-brooks/B001274",
     "ID": "B001274",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -505,6 +555,7 @@
     "URL": "https://www.congress.gov/member/susan-brooks/B001284",
     "ID": "B001284",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -515,6 +566,7 @@
     "URL": "https://www.congress.gov/member/anthony-brown/B001304",
     "ID": "B001304",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -525,6 +577,7 @@
     "URL": "https://www.congress.gov/member/sherrod-brown/B000944",
     "ID": "B000944",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present | House: 1993-2007"
@@ -535,6 +588,7 @@
     "URL": "https://www.congress.gov/member/julia-brownley/B001285",
     "ID": "B001285",
     "State": "California",
+    "Abbr": "CA",
     "District": 26,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -545,6 +599,7 @@
     "URL": "https://www.congress.gov/member/vern-buchanan/B001260",
     "ID": "B001260",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 16,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -555,6 +610,7 @@
     "URL": "https://www.congress.gov/member/ken-buck/B001297",
     "ID": "B001297",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -565,6 +621,7 @@
     "URL": "https://www.congress.gov/member/larry-bucshon/B001275",
     "ID": "B001275",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -575,6 +632,7 @@
     "URL": "https://www.congress.gov/member/ted-budd/B001305",
     "ID": "B001305",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 13,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -585,6 +643,7 @@
     "URL": "https://www.congress.gov/member/michael-burgess/B001248",
     "ID": "B001248",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 26,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -595,6 +654,7 @@
     "URL": "https://www.congress.gov/member/richard-burr/B001135",
     "ID": "B001135",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2005-Present | House: 1995-2005"
@@ -605,6 +665,7 @@
     "URL": "https://www.congress.gov/member/cheri-bustos/B001286",
     "ID": "B001286",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 17,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -615,6 +676,7 @@
     "URL": "https://www.congress.gov/member/g-k-butterfield/B001251",
     "ID": "B001251",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2004-Present"
@@ -625,6 +687,7 @@
     "URL": "https://www.congress.gov/member/bradley-byrne/B001289",
     "ID": "B001289",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2014-Present"
@@ -635,6 +698,7 @@
     "URL": "https://www.congress.gov/member/ken-calvert/C000059",
     "ID": "C000059",
     "State": "California",
+    "Abbr": "CA",
     "District": 42,
     "Party": "Republican",
     "Terms": "House: 1993-Present"
@@ -645,6 +709,7 @@
     "URL": "https://www.congress.gov/member/maria-cantwell/C000127",
     "ID": "C000127",
     "State": "Washington",
+    "Abbr": "WA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2001-Present | House: 1993-1995"
@@ -655,6 +720,7 @@
     "URL": "https://www.congress.gov/member/shelley-capito/C001047",
     "ID": "C001047",
     "State": "West Virginia",
+    "Abbr": "WV",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2001-2015"
@@ -665,6 +731,7 @@
     "URL": "https://www.congress.gov/member/michael-capuano/C001037",
     "ID": "C001037",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -675,6 +742,7 @@
     "URL": "https://www.congress.gov/member/salud-carbajal/C001112",
     "ID": "C001112",
     "State": "California",
+    "Abbr": "CA",
     "District": 24,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -685,6 +753,7 @@
     "URL": "https://www.congress.gov/member/tony-cardenas/C001097",
     "ID": "C001097",
     "State": "California",
+    "Abbr": "CA",
     "District": 29,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -695,6 +764,7 @@
     "URL": "https://www.congress.gov/member/benjamin-cardin/C000141",
     "ID": "C000141",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present | House: 1987-2007"
@@ -705,6 +775,7 @@
     "URL": "https://www.congress.gov/member/thomas-carper/C000174",
     "ID": "C000174",
     "State": "Delaware",
+    "Abbr": "DE",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2001-Present | House: 1983-1993"
@@ -715,6 +786,7 @@
     "URL": "https://www.congress.gov/member/andre-carson/C001072",
     "ID": "C001072",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2008-Present"
@@ -725,6 +797,7 @@
     "URL": "https://www.congress.gov/member/earl-carter/C001103",
     "ID": "C001103",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -735,6 +808,7 @@
     "URL": "https://www.congress.gov/member/john-carter/C001051",
     "ID": "C001051",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 31,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -745,6 +819,7 @@
     "URL": "https://www.congress.gov/member/matt-cartwright/C001090",
     "ID": "C001090",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 17,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -755,6 +830,7 @@
     "URL": "https://www.congress.gov/member/bob-casey/C001070",
     "ID": "C001070",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present"
@@ -765,6 +841,7 @@
     "URL": "https://www.congress.gov/member/bill-cassidy/C001075",
     "ID": "C001075",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2009-2015"
@@ -775,6 +852,7 @@
     "URL": "https://www.congress.gov/member/kathy-castor/C001066",
     "ID": "C001066",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 14,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -785,6 +863,7 @@
     "URL": "https://www.congress.gov/member/joaquin-castro/C001091",
     "ID": "C001091",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 20,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -795,6 +874,7 @@
     "URL": "https://www.congress.gov/member/steve-chabot/C000266",
     "ID": "C000266",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 1995-2009, 2011-Present"
@@ -805,6 +885,7 @@
     "URL": "https://www.congress.gov/member/jason-chaffetz/C001076",
     "ID": "C001076",
     "State": "Utah",
+    "Abbr": "UT",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2009-2017"
@@ -815,6 +896,7 @@
     "URL": "https://www.congress.gov/member/liz-cheney/C001109",
     "ID": "C001109",
     "State": "Wyoming",
+    "Abbr": "WY",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -825,6 +907,7 @@
     "URL": "https://www.congress.gov/member/judy-chu/C001080",
     "ID": "C001080",
     "State": "California",
+    "Abbr": "CA",
     "District": 27,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -835,6 +918,7 @@
     "URL": "https://www.congress.gov/member/david-cicilline/C001084",
     "ID": "C001084",
     "State": "Rhode Island",
+    "Abbr": "RI",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -845,6 +929,7 @@
     "URL": "https://www.congress.gov/member/katherine-clark/C001101",
     "ID": "C001101",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -855,6 +940,7 @@
     "URL": "https://www.congress.gov/member/yvette-clarke/C001067",
     "ID": "C001067",
     "State": "New York",
+    "Abbr": "NY",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -865,6 +951,7 @@
     "URL": "https://www.congress.gov/member/wm-clay/C001049",
     "ID": "C001049",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -875,6 +962,7 @@
     "URL": "https://www.congress.gov/member/emanuel-cleaver/C001061",
     "ID": "C001061",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -885,6 +973,7 @@
     "URL": "https://www.congress.gov/member/michael-cloud/C001115",
     "ID": "C001115",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 27,
     "Party": "Republican",
     "Terms": "House: 2018-Present"
@@ -895,6 +984,7 @@
     "URL": "https://www.congress.gov/member/james-clyburn/C000537",
     "ID": "C000537",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -905,6 +995,7 @@
     "URL": "https://www.congress.gov/member/thad-cochran/C000567",
     "ID": "C000567",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1979-2018 | House: 1973-1979"
@@ -915,6 +1006,7 @@
     "URL": "https://www.congress.gov/member/mike-coffman/C001077",
     "ID": "C001077",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -925,6 +1017,7 @@
     "URL": "https://www.congress.gov/member/steve-cohen/C001068",
     "ID": "C001068",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -935,6 +1028,7 @@
     "URL": "https://www.congress.gov/member/tom-cole/C001053",
     "ID": "C001053",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -945,6 +1039,7 @@
     "URL": "https://www.congress.gov/member/chris-collins/C001092",
     "ID": "C001092",
     "State": "New York",
+    "Abbr": "NY",
     "District": 27,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -955,6 +1050,7 @@
     "URL": "https://www.congress.gov/member/doug-collins/C001093",
     "ID": "C001093",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 9,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -965,6 +1061,7 @@
     "URL": "https://www.congress.gov/member/susan-collins/C001035",
     "ID": "C001035",
     "State": "Maine",
+    "Abbr": "ME",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1997-Present"
@@ -975,6 +1072,7 @@
     "URL": "https://www.congress.gov/member/james-comer/C001108",
     "ID": "C001108",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2016-Present"
@@ -985,6 +1083,7 @@
     "URL": "https://www.congress.gov/member/barbara-comstock/C001105",
     "ID": "C001105",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -995,6 +1094,7 @@
     "URL": "https://www.congress.gov/member/k-conaway/C001062",
     "ID": "C001062",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -1005,6 +1105,7 @@
     "URL": "https://www.congress.gov/member/gerald-connolly/C001078",
     "ID": "C001078",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 11,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -1015,6 +1116,7 @@
     "URL": "https://www.congress.gov/member/john-conyers/C000714",
     "ID": "C000714",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 1965-2017"
@@ -1025,6 +1127,7 @@
     "URL": "https://www.congress.gov/member/paul-cook/C001094",
     "ID": "C001094",
     "State": "California",
+    "Abbr": "CA",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -1035,6 +1138,7 @@
     "URL": "https://www.congress.gov/member/christopher-coons/C001088",
     "ID": "C001088",
     "State": "Delaware",
+    "Abbr": "DE",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2010-Present"
@@ -1045,6 +1149,7 @@
     "URL": "https://www.congress.gov/member/james-cooper/C000754",
     "ID": "C000754",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 1983-1995, 2003-Present"
@@ -1055,6 +1160,7 @@
     "URL": "https://www.congress.gov/member/bob-corker/C001071",
     "ID": "C001071",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2007-Present"
@@ -1065,6 +1171,7 @@
     "URL": "https://www.congress.gov/member/john-cornyn/C001056",
     "ID": "C001056",
     "State": "Texas",
+    "Abbr": "TX",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2002-Present"
@@ -1075,6 +1182,7 @@
     "URL": "https://www.congress.gov/member/j-correa/C001110",
     "ID": "C001110",
     "State": "California",
+    "Abbr": "CA",
     "District": 46,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1085,6 +1193,7 @@
     "URL": "https://www.congress.gov/member/catherine-cortez-masto/C001113",
     "ID": "C001113",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2017-Present"
@@ -1095,6 +1204,7 @@
     "URL": "https://www.congress.gov/member/jim-costa/C001059",
     "ID": "C001059",
     "State": "California",
+    "Abbr": "CA",
     "District": 16,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -1105,6 +1215,7 @@
     "URL": "https://www.congress.gov/member/ryan-costello/C001106",
     "ID": "C001106",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -1115,6 +1226,7 @@
     "URL": "https://www.congress.gov/member/tom-cotton/C001095",
     "ID": "C001095",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2013-2015"
@@ -1125,6 +1237,7 @@
     "URL": "https://www.congress.gov/member/joe-courtney/C001069",
     "ID": "C001069",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -1135,6 +1248,7 @@
     "URL": "https://www.congress.gov/member/kevin-cramer/C001096",
     "ID": "C001096",
     "State": "North Dakota",
+    "Abbr": "ND",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -1145,6 +1259,7 @@
     "URL": "https://www.congress.gov/member/michael-crapo/C000880",
     "ID": "C000880",
     "State": "Idaho",
+    "Abbr": "ID",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1999-Present | House: 1993-1999"
@@ -1155,6 +1270,7 @@
     "URL": "https://www.congress.gov/member/eric-crawford/C001087",
     "ID": "C001087",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1165,6 +1281,7 @@
     "URL": "https://www.congress.gov/member/charlie-crist/C001111",
     "ID": "C001111",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1175,6 +1292,7 @@
     "URL": "https://www.congress.gov/member/joseph-crowley/C001038",
     "ID": "C001038",
     "State": "New York",
+    "Abbr": "NY",
     "District": 14,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -1185,6 +1303,7 @@
     "URL": "https://www.congress.gov/member/ted-cruz/C001098",
     "ID": "C001098",
     "State": "Texas",
+    "Abbr": "TX",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2013-Present"
@@ -1195,6 +1314,7 @@
     "URL": "https://www.congress.gov/member/henry-cuellar/C001063",
     "ID": "C001063",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 28,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -1205,6 +1325,7 @@
     "URL": "https://www.congress.gov/member/john-culberson/C001048",
     "ID": "C001048",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2001-Present"
@@ -1215,6 +1336,7 @@
     "URL": "https://www.congress.gov/member/elijah-cummings/C000984",
     "ID": "C000984",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -1225,6 +1347,7 @@
     "URL": "https://www.congress.gov/member/carlos-curbelo/C001107",
     "ID": "C001107",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 26,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -1235,6 +1358,7 @@
     "URL": "https://www.congress.gov/member/john-curtis/C001114",
     "ID": "C001114",
     "State": "Utah",
+    "Abbr": "UT",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1245,6 +1369,7 @@
     "URL": "https://www.congress.gov/member/steve-daines/D000618",
     "ID": "D000618",
     "State": "Montana",
+    "Abbr": "MT",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2013-2015"
@@ -1255,6 +1380,7 @@
     "URL": "https://www.congress.gov/member/warren-davidson/D000626",
     "ID": "D000626",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2016-Present"
@@ -1265,6 +1391,7 @@
     "URL": "https://www.congress.gov/member/danny-davis/D000096",
     "ID": "D000096",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -1275,6 +1402,7 @@
     "URL": "https://www.congress.gov/member/rodney-davis/D000619",
     "ID": "D000619",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 13,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -1285,6 +1413,7 @@
     "URL": "https://www.congress.gov/member/susan-davis/D000598",
     "ID": "D000598",
     "State": "California",
+    "Abbr": "CA",
     "District": 53,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -1295,6 +1424,7 @@
     "URL": "https://www.congress.gov/member/peter-defazio/D000191",
     "ID": "D000191",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 1987-Present"
@@ -1305,6 +1435,7 @@
     "URL": "https://www.congress.gov/member/diana-degette/D000197",
     "ID": "D000197",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -1315,6 +1446,7 @@
     "URL": "https://www.congress.gov/member/john-delaney/D000620",
     "ID": "D000620",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -1325,6 +1457,7 @@
     "URL": "https://www.congress.gov/member/rosa-delauro/D000216",
     "ID": "D000216",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 1991-Present"
@@ -1335,6 +1468,7 @@
     "URL": "https://www.congress.gov/member/suzan-delbene/D000617",
     "ID": "D000617",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2012-Present"
@@ -1345,6 +1479,7 @@
     "URL": "https://www.congress.gov/member/val-demings/D000627",
     "ID": "D000627",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 10,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1355,6 +1490,7 @@
     "URL": "https://www.congress.gov/member/jeff-denham/D000612",
     "ID": "D000612",
     "State": "California",
+    "Abbr": "CA",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1365,6 +1501,7 @@
     "URL": "https://www.congress.gov/member/charles-dent/D000604",
     "ID": "D000604",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 15,
     "Party": "Republican",
     "Terms": "House: 2005-2018"
@@ -1375,6 +1512,7 @@
     "URL": "https://www.congress.gov/member/ron-desantis/D000621",
     "ID": "D000621",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -1385,6 +1523,7 @@
     "URL": "https://www.congress.gov/member/mark-desaulnier/D000623",
     "ID": "D000623",
     "State": "California",
+    "Abbr": "CA",
     "District": 11,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -1395,6 +1534,7 @@
     "URL": "https://www.congress.gov/member/scott-desjarlais/D000616",
     "ID": "D000616",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1405,6 +1545,7 @@
     "URL": "https://www.congress.gov/member/theodore-deutch/D000610",
     "ID": "D000610",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 22,
     "Party": "Democratic",
     "Terms": "House: 2010-Present"
@@ -1415,6 +1556,7 @@
     "URL": "https://www.congress.gov/member/mario-diaz-balart/D000600",
     "ID": "D000600",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 25,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -1425,6 +1567,7 @@
     "URL": "https://www.congress.gov/member/debbie-dingell/D000624",
     "ID": "D000624",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 12,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -1435,6 +1578,7 @@
     "URL": "https://www.congress.gov/member/lloyd-doggett/D000399",
     "ID": "D000399",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 35,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -1445,6 +1589,7 @@
     "URL": "https://www.congress.gov/member/joe-donnelly/D000607",
     "ID": "D000607",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 2007-2013"
@@ -1455,6 +1600,7 @@
     "URL": "https://www.congress.gov/member/daniel-donovan/D000625",
     "ID": "D000625",
     "State": "New York",
+    "Abbr": "NY",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -1465,6 +1611,7 @@
     "URL": "https://www.congress.gov/member/mike-doyle/D000482",
     "ID": "D000482",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 14,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -1475,6 +1622,7 @@
     "URL": "https://www.congress.gov/member/tammy-duckworth/D000622",
     "ID": "D000622",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2017-Present | House: 2013-2017"
@@ -1485,6 +1633,7 @@
     "URL": "https://www.congress.gov/member/sean-duffy/D000614",
     "ID": "D000614",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1495,6 +1644,7 @@
     "URL": "https://www.congress.gov/member/jeff-duncan/D000615",
     "ID": "D000615",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1505,6 +1655,7 @@
     "URL": "https://www.congress.gov/member/john-duncan/D000533",
     "ID": "D000533",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 1987-Present"
@@ -1515,6 +1666,7 @@
     "URL": "https://www.congress.gov/member/neal-dunn/D000628",
     "ID": "D000628",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1525,6 +1677,7 @@
     "URL": "https://www.congress.gov/member/richard-durbin/D000563",
     "ID": "D000563",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1997-Present | House: 1983-1997"
@@ -1535,6 +1688,7 @@
     "URL": "https://www.congress.gov/member/keith-ellison/E000288",
     "ID": "E000288",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -1545,6 +1699,7 @@
     "URL": "https://www.congress.gov/member/tom-emmer/E000294",
     "ID": "E000294",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -1555,6 +1710,7 @@
     "URL": "https://www.congress.gov/member/eliot-engel/E000179",
     "ID": "E000179",
     "State": "New York",
+    "Abbr": "NY",
     "District": 16,
     "Party": "Democratic",
     "Terms": "House: 1989-Present"
@@ -1565,6 +1721,7 @@
     "URL": "https://www.congress.gov/member/michael-enzi/E000285",
     "ID": "E000285",
     "State": "Wyoming",
+    "Abbr": "WY",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1997-Present"
@@ -1575,6 +1732,7 @@
     "URL": "https://www.congress.gov/member/joni-ernst/E000295",
     "ID": "E000295",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -1585,6 +1743,7 @@
     "URL": "https://www.congress.gov/member/anna-eshoo/E000215",
     "ID": "E000215",
     "State": "California",
+    "Abbr": "CA",
     "District": 18,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -1595,6 +1754,7 @@
     "URL": "https://www.congress.gov/member/adriano-espaillat/E000297",
     "ID": "E000297",
     "State": "New York",
+    "Abbr": "NY",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1605,6 +1765,7 @@
     "URL": "https://www.congress.gov/member/ron-estes/E000298",
     "ID": "E000298",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1615,6 +1776,7 @@
     "URL": "https://www.congress.gov/member/elizabeth-esty/E000293",
     "ID": "E000293",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -1625,6 +1787,7 @@
     "URL": "https://www.congress.gov/member/dwight-evans/E000296",
     "ID": "E000296",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2016-Present"
@@ -1635,6 +1798,7 @@
     "URL": "https://www.congress.gov/member/blake-farenthold/F000460",
     "ID": "F000460",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 27,
     "Party": "Republican",
     "Terms": "House: 2011-2018"
@@ -1645,6 +1809,7 @@
     "URL": "https://www.congress.gov/member/john-faso/F000464",
     "ID": "F000464",
     "State": "New York",
+    "Abbr": "NY",
     "District": 19,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1655,6 +1820,7 @@
     "URL": "https://www.congress.gov/member/dianne-feinstein/F000062",
     "ID": "F000062",
     "State": "California",
+    "Abbr": "CA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1992-Present"
@@ -1665,6 +1831,7 @@
     "URL": "https://www.congress.gov/member/a-ferguson/F000465",
     "ID": "F000465",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1675,6 +1842,7 @@
     "URL": "https://www.congress.gov/member/deb-fischer/F000463",
     "ID": "F000463",
     "State": "Nebraska",
+    "Abbr": "NE",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2013-Present"
@@ -1685,6 +1853,7 @@
     "URL": "https://www.congress.gov/member/brian-fitzpatrick/F000466",
     "ID": "F000466",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1695,6 +1864,7 @@
     "URL": "https://www.congress.gov/member/jeff-flake/F000444",
     "ID": "F000444",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2013-Present | House: 2001-2013"
@@ -1705,6 +1875,7 @@
     "URL": "https://www.congress.gov/member/charles-fleischmann/F000459",
     "ID": "F000459",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1715,6 +1886,7 @@
     "URL": "https://www.congress.gov/member/bill-flores/F000461",
     "ID": "F000461",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 17,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1725,6 +1897,7 @@
     "URL": "https://www.congress.gov/member/jeff-fortenberry/F000449",
     "ID": "F000449",
     "State": "Nebraska",
+    "Abbr": "NE",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -1735,6 +1908,7 @@
     "URL": "https://www.congress.gov/member/bill-foster/F000454",
     "ID": "F000454",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 11,
     "Party": "Democratic",
     "Terms": "House: 2008-2011, 2013-Present"
@@ -1745,6 +1919,7 @@
     "URL": "https://www.congress.gov/member/virginia-foxx/F000450",
     "ID": "F000450",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -1755,6 +1930,7 @@
     "URL": "https://www.congress.gov/member/lois-frankel/F000462",
     "ID": "F000462",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 21,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -1765,6 +1941,7 @@
     "URL": "https://www.congress.gov/member/al-franken/F000457",
     "ID": "F000457",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-2018"
@@ -1775,6 +1952,7 @@
     "URL": "https://www.congress.gov/member/trent-franks/F000448",
     "ID": "F000448",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2003-2017"
@@ -1785,6 +1963,7 @@
     "URL": "https://www.congress.gov/member/rodney-frelinghuysen/F000372",
     "ID": "F000372",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 1995-Present"
@@ -1795,6 +1974,7 @@
     "URL": "https://www.congress.gov/member/marcia-fudge/F000455",
     "ID": "F000455",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 11,
     "Party": "Democratic",
     "Terms": "House: 2008-Present"
@@ -1805,6 +1985,7 @@
     "URL": "https://www.congress.gov/member/tulsi-gabbard/G000571",
     "ID": "G000571",
     "State": "Hawaii",
+    "Abbr": "HI",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -1815,6 +1996,7 @@
     "URL": "https://www.congress.gov/member/matt-gaetz/G000578",
     "ID": "G000578",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1825,6 +2007,7 @@
     "URL": "https://www.congress.gov/member/mike-gallagher/G000579",
     "ID": "G000579",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1835,6 +2018,7 @@
     "URL": "https://www.congress.gov/member/ruben-gallego/G000574",
     "ID": "G000574",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -1845,6 +2029,7 @@
     "URL": "https://www.congress.gov/member/john-garamendi/G000559",
     "ID": "G000559",
     "State": "California",
+    "Abbr": "CA",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -1855,6 +2040,7 @@
     "URL": "https://www.congress.gov/member/cory-gardner/G000562",
     "ID": "G000562",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2011-2015"
@@ -1865,6 +2051,7 @@
     "URL": "https://www.congress.gov/member/thomas-garrett/G000580",
     "ID": "G000580",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1875,6 +2062,7 @@
     "URL": "https://www.congress.gov/member/greg-gianforte/G000584",
     "ID": "G000584",
     "State": "Montana",
+    "Abbr": "MT",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1885,6 +2073,7 @@
     "URL": "https://www.congress.gov/member/bob-gibbs/G000563",
     "ID": "G000563",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1895,6 +2084,7 @@
     "URL": "https://www.congress.gov/member/kirsten-gillibrand/G000555",
     "ID": "G000555",
     "State": "New York",
+    "Abbr": "NY",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present | House: 2007-2009"
@@ -1905,6 +2095,7 @@
     "URL": "https://www.congress.gov/member/louie-gohmert/G000552",
     "ID": "G000552",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -1915,6 +2106,7 @@
     "URL": "https://www.congress.gov/member/jimmy-gomez/G000585",
     "ID": "G000585",
     "State": "California",
+    "Abbr": "CA",
     "District": 34,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1925,6 +2117,7 @@
     "URL": "https://www.congress.gov/member/vicente-gonzalez/G000581",
     "ID": "G000581",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 15,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1935,6 +2128,7 @@
     "URL": "https://www.congress.gov/member/jenniffer-gonzalez-colon/G000582",
     "ID": "G000582",
     "State": "Puerto Rico",
+    "Abbr": "PR",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -1945,6 +2139,7 @@
     "URL": "https://www.congress.gov/member/robert-goodlatte/G000289",
     "ID": "G000289",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 1993-Present"
@@ -1955,6 +2150,7 @@
     "URL": "https://www.congress.gov/member/paul-gosar/G000565",
     "ID": "G000565",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1965,6 +2161,7 @@
     "URL": "https://www.congress.gov/member/josh-gottheimer/G000583",
     "ID": "G000583",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -1975,6 +2172,7 @@
     "URL": "https://www.congress.gov/member/trey-gowdy/G000566",
     "ID": "G000566",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -1985,6 +2183,7 @@
     "URL": "https://www.congress.gov/member/lindsey-graham/G000359",
     "ID": "G000359",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2003-Present | House: 1995-2003"
@@ -1995,6 +2194,7 @@
     "URL": "https://www.congress.gov/member/kay-granger/G000377",
     "ID": "G000377",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 1997-Present"
@@ -2005,6 +2205,7 @@
     "URL": "https://www.congress.gov/member/charles-grassley/G000386",
     "ID": "G000386",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1981-Present | House: 1975-1981"
@@ -2015,6 +2216,7 @@
     "URL": "https://www.congress.gov/member/garret-graves/G000577",
     "ID": "G000577",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2025,6 +2227,7 @@
     "URL": "https://www.congress.gov/member/sam-graves/G000546",
     "ID": "G000546",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2001-Present"
@@ -2035,6 +2238,7 @@
     "URL": "https://www.congress.gov/member/tom-graves/G000560",
     "ID": "G000560",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 14,
     "Party": "Republican",
     "Terms": "House: 2010-Present"
@@ -2045,6 +2249,7 @@
     "URL": "https://www.congress.gov/member/al-green/G000553",
     "ID": "G000553",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -2055,6 +2260,7 @@
     "URL": "https://www.congress.gov/member/gene-green/G000410",
     "ID": "G000410",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 29,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -2065,6 +2271,7 @@
     "URL": "https://www.congress.gov/member/h-griffith/G000568",
     "ID": "G000568",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 9,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2075,6 +2282,7 @@
     "URL": "https://www.congress.gov/member/raul-grijalva/G000551",
     "ID": "G000551",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -2085,6 +2293,7 @@
     "URL": "https://www.congress.gov/member/glenn-grothman/G000576",
     "ID": "G000576",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2095,6 +2304,7 @@
     "URL": "https://www.congress.gov/member/brett-guthrie/G000558",
     "ID": "G000558",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -2105,6 +2315,7 @@
     "URL": "https://www.congress.gov/member/luis-gutierrez/G000535",
     "ID": "G000535",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -2115,6 +2326,7 @@
     "URL": "https://www.congress.gov/member/colleen-hanabusa/H001050",
     "ID": "H001050",
     "State": "Hawaii",
+    "Abbr": "HI",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -2125,6 +2337,7 @@
     "URL": "https://www.congress.gov/member/karen-handel/H001078",
     "ID": "H001078",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -2135,6 +2348,7 @@
     "URL": "https://www.congress.gov/member/gregg-harper/H001045",
     "ID": "H001045",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -2145,6 +2359,7 @@
     "URL": "https://www.congress.gov/member/andy-harris/H001052",
     "ID": "H001052",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2155,6 +2370,7 @@
     "URL": "https://www.congress.gov/member/kamala-harris/H001075",
     "ID": "H001075",
     "State": "California",
+    "Abbr": "CA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2017-Present"
@@ -2165,6 +2381,7 @@
     "URL": "https://www.congress.gov/member/vicky-hartzler/H001053",
     "ID": "H001053",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2175,6 +2392,7 @@
     "URL": "https://www.congress.gov/member/margaret-hassan/H001076",
     "ID": "H001076",
     "State": "New Hampshire",
+    "Abbr": "NH",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2017-Present"
@@ -2185,6 +2403,7 @@
     "URL": "https://www.congress.gov/member/alcee-hastings/H000324",
     "ID": "H000324",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 20,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -2195,6 +2414,7 @@
     "URL": "https://www.congress.gov/member/orrin-hatch/H000338",
     "ID": "H000338",
     "State": "Utah",
+    "Abbr": "UT",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1977-Present"
@@ -2205,6 +2425,7 @@
     "URL": "https://www.congress.gov/member/denny-heck/H001064",
     "ID": "H001064",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 10,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2215,6 +2436,7 @@
     "URL": "https://www.congress.gov/member/martin-heinrich/H001046",
     "ID": "H001046",
     "State": "New Mexico",
+    "Abbr": "NM",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 2009-2013"
@@ -2225,6 +2447,7 @@
     "URL": "https://www.congress.gov/member/heidi-heitkamp/H001069",
     "ID": "H001069",
     "State": "North Dakota",
+    "Abbr": "ND",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present"
@@ -2235,6 +2458,7 @@
     "URL": "https://www.congress.gov/member/dean-heller/H001041",
     "ID": "H001041",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 2007-2011"
@@ -2245,6 +2469,7 @@
     "URL": "https://www.congress.gov/member/jeb-hensarling/H001036",
     "ID": "H001036",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -2255,6 +2480,7 @@
     "URL": "https://www.congress.gov/member/jaime-herrera-beutler/H001056",
     "ID": "H001056",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2265,6 +2491,7 @@
     "URL": "https://www.congress.gov/member/jody-hice/H001071",
     "ID": "H001071",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2275,6 +2502,7 @@
     "URL": "https://www.congress.gov/member/brian-higgins/H001038",
     "ID": "H001038",
     "State": "New York",
+    "Abbr": "NY",
     "District": 26,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -2285,6 +2513,7 @@
     "URL": "https://www.congress.gov/member/clay-higgins/H001077",
     "ID": "H001077",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -2295,6 +2524,7 @@
     "URL": "https://www.congress.gov/member/j-hill/H001072",
     "ID": "H001072",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2305,6 +2535,7 @@
     "URL": "https://www.congress.gov/member/james-himes/H001047",
     "ID": "H001047",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -2315,6 +2546,7 @@
     "URL": "https://www.congress.gov/member/mazie-hirono/H001042",
     "ID": "H001042",
     "State": "Hawaii",
+    "Abbr": "HI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 2007-2013"
@@ -2325,6 +2557,7 @@
     "URL": "https://www.congress.gov/member/john-hoeven/H001061",
     "ID": "H001061",
     "State": "North Dakota",
+    "Abbr": "ND",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present"
@@ -2335,6 +2568,7 @@
     "URL": "https://www.congress.gov/member/george-holding/H001065",
     "ID": "H001065",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -2345,6 +2579,7 @@
     "URL": "https://www.congress.gov/member/trey-hollingsworth/H001074",
     "ID": "H001074",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 9,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -2355,6 +2590,7 @@
     "URL": "https://www.congress.gov/member/steny-hoyer/H000874",
     "ID": "H000874",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 1981-Present"
@@ -2365,6 +2601,7 @@
     "URL": "https://www.congress.gov/member/richard-hudson/H001067",
     "ID": "H001067",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -2375,6 +2612,7 @@
     "URL": "https://www.congress.gov/member/jared-huffman/H001068",
     "ID": "H001068",
     "State": "California",
+    "Abbr": "CA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2385,6 +2623,7 @@
     "URL": "https://www.congress.gov/member/bill-huizenga/H001058",
     "ID": "H001058",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2395,6 +2634,7 @@
     "URL": "https://www.congress.gov/member/randy-hultgren/H001059",
     "ID": "H001059",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 14,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2405,6 +2645,7 @@
     "URL": "https://www.congress.gov/member/duncan-hunter/H001048",
     "ID": "H001048",
     "State": "California",
+    "Abbr": "CA",
     "District": 50,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -2415,6 +2656,7 @@
     "URL": "https://www.congress.gov/member/will-hurd/H001073",
     "ID": "H001073",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 23,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2425,6 +2667,7 @@
     "URL": "https://www.congress.gov/member/cindy-hyde-smith/H001079",
     "ID": "H001079",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2018-Present"
@@ -2435,6 +2678,7 @@
     "URL": "https://www.congress.gov/member/jim-inhofe/I000024",
     "ID": "I000024",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1994-Present | House: 1987-1995"
@@ -2445,6 +2689,7 @@
     "URL": "https://www.congress.gov/member/johnny-isakson/I000055",
     "ID": "I000055",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2005-Present | House: 1999-2005"
@@ -2455,6 +2700,7 @@
     "URL": "https://www.congress.gov/member/darrell-issa/I000056",
     "ID": "I000056",
     "State": "California",
+    "Abbr": "CA",
     "District": 49,
     "Party": "Republican",
     "Terms": "House: 2001-Present"
@@ -2465,6 +2711,7 @@
     "URL": "https://www.congress.gov/member/sheila-jackson-lee/J000032",
     "ID": "J000032",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 18,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -2475,6 +2722,7 @@
     "URL": "https://www.congress.gov/member/pramila-jayapal/J000298",
     "ID": "J000298",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -2485,6 +2733,7 @@
     "URL": "https://www.congress.gov/member/hakeem-jeffries/J000294",
     "ID": "J000294",
     "State": "New York",
+    "Abbr": "NY",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2495,6 +2744,7 @@
     "URL": "https://www.congress.gov/member/evan-jenkins/J000297",
     "ID": "J000297",
     "State": "West Virginia",
+    "Abbr": "WV",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2505,6 +2755,7 @@
     "URL": "https://www.congress.gov/member/lynn-jenkins/J000290",
     "ID": "J000290",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -2515,6 +2766,7 @@
     "URL": "https://www.congress.gov/member/bill-johnson/J000292",
     "ID": "J000292",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2525,6 +2777,7 @@
     "URL": "https://www.congress.gov/member/eddie-johnson/J000126",
     "ID": "J000126",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 30,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -2535,6 +2788,7 @@
     "URL": "https://www.congress.gov/member/henry-johnson/J000288",
     "ID": "J000288",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -2545,6 +2799,7 @@
     "URL": "https://www.congress.gov/member/mike-johnson/J000299",
     "ID": "J000299",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -2555,6 +2810,7 @@
     "URL": "https://www.congress.gov/member/ron-johnson/J000293",
     "ID": "J000293",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present"
@@ -2565,6 +2821,7 @@
     "URL": "https://www.congress.gov/member/sam-johnson/J000174",
     "ID": "J000174",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 1991-Present"
@@ -2575,6 +2832,7 @@
     "URL": "https://www.congress.gov/member/doug-jones/J000300",
     "ID": "J000300",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2018-Present"
@@ -2585,6 +2843,7 @@
     "URL": "https://www.congress.gov/member/walter-jones/J000255",
     "ID": "J000255",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 1995-Present"
@@ -2595,6 +2854,7 @@
     "URL": "https://www.congress.gov/member/jim-jordan/J000289",
     "ID": "J000289",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -2605,6 +2865,7 @@
     "URL": "https://www.congress.gov/member/david-joyce/J000295",
     "ID": "J000295",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 14,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -2615,6 +2876,7 @@
     "URL": "https://www.congress.gov/member/timothy-kaine/K000384",
     "ID": "K000384",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present"
@@ -2625,6 +2887,7 @@
     "URL": "https://www.congress.gov/member/marcy-kaptur/K000009",
     "ID": "K000009",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 1983-Present"
@@ -2635,6 +2898,7 @@
     "URL": "https://www.congress.gov/member/john-katko/K000386",
     "ID": "K000386",
     "State": "New York",
+    "Abbr": "NY",
     "District": 24,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2645,6 +2909,7 @@
     "URL": "https://www.congress.gov/member/william-keating/K000375",
     "ID": "K000375",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -2655,6 +2920,7 @@
     "URL": "https://www.congress.gov/member/mike-kelly/K000376",
     "ID": "K000376",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2665,6 +2931,7 @@
     "URL": "https://www.congress.gov/member/robin-kelly/K000385",
     "ID": "K000385",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2675,6 +2942,7 @@
     "URL": "https://www.congress.gov/member/trent-kelly/K000388",
     "ID": "K000388",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2685,6 +2953,7 @@
     "URL": "https://www.congress.gov/member/john-kennedy/K000393",
     "ID": "K000393",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2017-Present"
@@ -2695,6 +2964,7 @@
     "URL": "https://www.congress.gov/member/joseph-kennedy/K000379",
     "ID": "K000379",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2705,6 +2975,7 @@
     "URL": "https://www.congress.gov/member/ro-khanna/K000389",
     "ID": "K000389",
     "State": "California",
+    "Abbr": "CA",
     "District": 17,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -2715,6 +2986,7 @@
     "URL": "https://www.congress.gov/member/ruben-kihuen/K000390",
     "ID": "K000390",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -2725,6 +2997,7 @@
     "URL": "https://www.congress.gov/member/daniel-kildee/K000380",
     "ID": "K000380",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2735,6 +3008,7 @@
     "URL": "https://www.congress.gov/member/derek-kilmer/K000381",
     "ID": "K000381",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2745,6 +3019,7 @@
     "URL": "https://www.congress.gov/member/ron-kind/K000188",
     "ID": "K000188",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -2755,6 +3030,7 @@
     "URL": "https://www.congress.gov/member/angus-king/K000383",
     "ID": "K000383",
     "State": "Maine",
+    "Abbr": "ME",
     "District": "",
     "Party": "Independent",
     "Terms": "Senate: 2013-Present"
@@ -2765,6 +3041,7 @@
     "URL": "https://www.congress.gov/member/peter-king/K000210",
     "ID": "K000210",
     "State": "New York",
+    "Abbr": "NY",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 1993-Present"
@@ -2775,6 +3052,7 @@
     "URL": "https://www.congress.gov/member/steve-king/K000362",
     "ID": "K000362",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -2785,6 +3063,7 @@
     "URL": "https://www.congress.gov/member/adam-kinzinger/K000378",
     "ID": "K000378",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 16,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2795,6 +3074,7 @@
     "URL": "https://www.congress.gov/member/amy-klobuchar/K000367",
     "ID": "K000367",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present"
@@ -2805,6 +3085,7 @@
     "URL": "https://www.congress.gov/member/stephen-knight/K000387",
     "ID": "K000387",
     "State": "California",
+    "Abbr": "CA",
     "District": 25,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2815,6 +3096,7 @@
     "URL": "https://www.congress.gov/member/raja-krishnamoorthi/K000391",
     "ID": "K000391",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -2825,6 +3107,7 @@
     "URL": "https://www.congress.gov/member/ann-kuster/K000382",
     "ID": "K000382",
     "State": "New Hampshire",
+    "Abbr": "NH",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -2835,6 +3118,7 @@
     "URL": "https://www.congress.gov/member/david-kustoff/K000392",
     "ID": "K000392",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -2845,6 +3129,7 @@
     "URL": "https://www.congress.gov/member/jon-kyl/K000352",
     "ID": "K000352",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1995-2013, 2018-Present | House: 1987-1995"
@@ -2855,6 +3140,7 @@
     "URL": "https://www.congress.gov/member/raul-labrador/L000573",
     "ID": "L000573",
     "State": "Idaho",
+    "Abbr": "ID",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -2865,6 +3151,7 @@
     "URL": "https://www.congress.gov/member/darin-lahood/L000585",
     "ID": "L000585",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 18,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -2875,6 +3162,7 @@
     "URL": "https://www.congress.gov/member/doug-lamalfa/L000578",
     "ID": "L000578",
     "State": "California",
+    "Abbr": "CA",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -2885,6 +3173,7 @@
     "URL": "https://www.congress.gov/member/conor-lamb/L000588",
     "ID": "L000588",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 18,
     "Party": "Democratic",
     "Terms": "House: 2018-Present"
@@ -2895,6 +3184,7 @@
     "URL": "https://www.congress.gov/member/doug-lamborn/L000564",
     "ID": "L000564",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -2905,6 +3195,7 @@
     "URL": "https://www.congress.gov/member/leonard-lance/L000567",
     "ID": "L000567",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -2915,6 +3206,7 @@
     "URL": "https://www.congress.gov/member/james-langevin/L000559",
     "ID": "L000559",
     "State": "Rhode Island",
+    "Abbr": "RI",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -2925,6 +3217,7 @@
     "URL": "https://www.congress.gov/member/james-lankford/L000575",
     "ID": "L000575",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present | House: 2011-2015"
@@ -2935,6 +3228,7 @@
     "URL": "https://www.congress.gov/member/rick-larsen/L000560",
     "ID": "L000560",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -2945,6 +3239,7 @@
     "URL": "https://www.congress.gov/member/john-larson/L000557",
     "ID": "L000557",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -2955,6 +3250,7 @@
     "URL": "https://www.congress.gov/member/robert-latta/L000566",
     "ID": "L000566",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -2965,6 +3261,7 @@
     "URL": "https://www.congress.gov/member/brenda-lawrence/L000581",
     "ID": "L000581",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 14,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -2975,6 +3272,7 @@
     "URL": "https://www.congress.gov/member/al-lawson/L000586",
     "ID": "L000586",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -2985,6 +3283,7 @@
     "URL": "https://www.congress.gov/member/patrick-leahy/L000174",
     "ID": "L000174",
     "State": "Vermont",
+    "Abbr": "VT",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1975-Present"
@@ -2995,6 +3294,7 @@
     "URL": "https://www.congress.gov/member/barbara-lee/L000551",
     "ID": "L000551",
     "State": "California",
+    "Abbr": "CA",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -3005,6 +3305,7 @@
     "URL": "https://www.congress.gov/member/mike-lee/L000577",
     "ID": "L000577",
     "State": "Utah",
+    "Abbr": "UT",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present"
@@ -3015,6 +3316,7 @@
     "URL": "https://www.congress.gov/member/debbie-lesko/L000589",
     "ID": "L000589",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2018-Present"
@@ -3025,6 +3327,7 @@
     "URL": "https://www.congress.gov/member/sander-levin/L000263",
     "ID": "L000263",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 1983-Present"
@@ -3035,6 +3338,7 @@
     "URL": "https://www.congress.gov/member/jason-lewis/L000587",
     "ID": "L000587",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -3045,6 +3349,7 @@
     "URL": "https://www.congress.gov/member/john-lewis/L000287",
     "ID": "L000287",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 1987-Present"
@@ -3055,6 +3360,7 @@
     "URL": "https://www.congress.gov/member/ted-lieu/L000582",
     "ID": "L000582",
     "State": "California",
+    "Abbr": "CA",
     "District": 33,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -3065,6 +3371,7 @@
     "URL": "https://www.congress.gov/member/daniel-lipinski/L000563",
     "ID": "L000563",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -3075,6 +3382,7 @@
     "URL": "https://www.congress.gov/member/frank-lobiondo/L000554",
     "ID": "L000554",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 1995-Present"
@@ -3085,6 +3393,7 @@
     "URL": "https://www.congress.gov/member/david-loebsack/L000565",
     "ID": "L000565",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -3095,6 +3404,7 @@
     "URL": "https://www.congress.gov/member/zoe-lofgren/L000397",
     "ID": "L000397",
     "State": "California",
+    "Abbr": "CA",
     "District": 19,
     "Party": "Democratic",
     "Terms": "House: 1995-Present"
@@ -3105,6 +3415,7 @@
     "URL": "https://www.congress.gov/member/billy-long/L000576",
     "ID": "L000576",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -3115,6 +3426,7 @@
     "URL": "https://www.congress.gov/member/barry-loudermilk/L000583",
     "ID": "L000583",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3125,6 +3437,7 @@
     "URL": "https://www.congress.gov/member/mia-love/L000584",
     "ID": "L000584",
     "State": "Utah",
+    "Abbr": "UT",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3135,6 +3448,7 @@
     "URL": "https://www.congress.gov/member/alan-lowenthal/L000579",
     "ID": "L000579",
     "State": "California",
+    "Abbr": "CA",
     "District": 47,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3145,6 +3459,7 @@
     "URL": "https://www.congress.gov/member/nita-lowey/L000480",
     "ID": "L000480",
     "State": "New York",
+    "Abbr": "NY",
     "District": 17,
     "Party": "Democratic",
     "Terms": "House: 1989-Present"
@@ -3155,6 +3470,7 @@
     "URL": "https://www.congress.gov/member/frank-lucas/L000491",
     "ID": "L000491",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 1993-Present"
@@ -3165,6 +3481,7 @@
     "URL": "https://www.congress.gov/member/blaine-luetkemeyer/L000569",
     "ID": "L000569",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -3175,6 +3492,7 @@
     "URL": "https://www.congress.gov/member/michelle-lujan-grisham/L000580",
     "ID": "L000580",
     "State": "New Mexico",
+    "Abbr": "NM",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3185,6 +3503,7 @@
     "URL": "https://www.congress.gov/member/ben-lujan/L000570",
     "ID": "L000570",
     "State": "New Mexico",
+    "Abbr": "NM",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -3195,6 +3514,7 @@
     "URL": "https://www.congress.gov/member/stephen-lynch/L000562",
     "ID": "L000562",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -3205,6 +3525,7 @@
     "URL": "https://www.congress.gov/member/thomas-macarthur/M001193",
     "ID": "M001193",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3215,6 +3536,7 @@
     "URL": "https://www.congress.gov/member/carolyn-maloney/M000087",
     "ID": "M000087",
     "State": "New York",
+    "Abbr": "NY",
     "District": 12,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -3225,6 +3547,7 @@
     "URL": "https://www.congress.gov/member/sean-maloney/M001185",
     "ID": "M001185",
     "State": "New York",
+    "Abbr": "NY",
     "District": 18,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3235,6 +3558,7 @@
     "URL": "https://www.congress.gov/member/joe-manchin/M001183",
     "ID": "M001183",
     "State": "West Virginia",
+    "Abbr": "WV",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2010-Present"
@@ -3245,6 +3569,7 @@
     "URL": "https://www.congress.gov/member/kenny-marchant/M001158",
     "ID": "M001158",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 24,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -3255,6 +3580,7 @@
     "URL": "https://www.congress.gov/member/tom-marino/M001179",
     "ID": "M001179",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -3265,6 +3591,7 @@
     "URL": "https://www.congress.gov/member/edward-markey/M000133",
     "ID": "M000133",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 1977-2013"
@@ -3275,6 +3602,7 @@
     "URL": "https://www.congress.gov/member/roger-marshall/M001198",
     "ID": "M001198",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -3285,6 +3613,7 @@
     "URL": "https://www.congress.gov/member/thomas-massie/M001184",
     "ID": "M001184",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2012-Present"
@@ -3295,6 +3624,7 @@
     "URL": "https://www.congress.gov/member/brian-mast/M001199",
     "ID": "M001199",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 18,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -3305,6 +3635,7 @@
     "URL": "https://www.congress.gov/member/doris-matsui/M001163",
     "ID": "M001163",
     "State": "California",
+    "Abbr": "CA",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -3315,6 +3646,7 @@
     "URL": "https://www.congress.gov/member/john-mccain/M000303",
     "ID": "M000303",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1987-2018 | House: 1983-1987"
@@ -3325,6 +3657,7 @@
     "URL": "https://www.congress.gov/member/kevin-mccarthy/M001165",
     "ID": "M001165",
     "State": "California",
+    "Abbr": "CA",
     "District": 23,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -3335,6 +3668,7 @@
     "URL": "https://www.congress.gov/member/claire-mccaskill/M001170",
     "ID": "M001170",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present"
@@ -3345,6 +3679,7 @@
     "URL": "https://www.congress.gov/member/michael-mccaul/M001157",
     "ID": "M001157",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -3355,6 +3690,7 @@
     "URL": "https://www.congress.gov/member/tom-mcclintock/M001177",
     "ID": "M001177",
     "State": "California",
+    "Abbr": "CA",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -3365,6 +3701,7 @@
     "URL": "https://www.congress.gov/member/betty-mccollum/M001143",
     "ID": "M001143",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -3375,6 +3712,7 @@
     "URL": "https://www.congress.gov/member/mitch-mcconnell/M000355",
     "ID": "M000355",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1985-Present"
@@ -3385,6 +3723,7 @@
     "URL": "https://www.congress.gov/member/a-mceachin/M001200",
     "ID": "M001200",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -3395,6 +3734,7 @@
     "URL": "https://www.congress.gov/member/james-mcgovern/M000312",
     "ID": "M000312",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -3405,6 +3745,7 @@
     "URL": "https://www.congress.gov/member/patrick-mchenry/M001156",
     "ID": "M001156",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -3415,6 +3756,7 @@
     "URL": "https://www.congress.gov/member/david-mckinley/M001180",
     "ID": "M001180",
     "State": "West Virginia",
+    "Abbr": "WV",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -3425,6 +3767,7 @@
     "URL": "https://www.congress.gov/member/cathy-mcmorris-rodgers/M001159",
     "ID": "M001159",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -3435,6 +3778,7 @@
     "URL": "https://www.congress.gov/member/jerry-mcnerney/M001166",
     "ID": "M001166",
     "State": "California",
+    "Abbr": "CA",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -3445,6 +3789,7 @@
     "URL": "https://www.congress.gov/member/martha-mcsally/M001197",
     "ID": "M001197",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3455,6 +3800,7 @@
     "URL": "https://www.congress.gov/member/mark-meadows/M001187",
     "ID": "M001187",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -3465,6 +3811,7 @@
     "URL": "https://www.congress.gov/member/patrick-meehan/M001181",
     "ID": "M001181",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2011-2018"
@@ -3475,6 +3822,7 @@
     "URL": "https://www.congress.gov/member/gregory-meeks/M001137",
     "ID": "M001137",
     "State": "New York",
+    "Abbr": "NY",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -3485,6 +3833,7 @@
     "URL": "https://www.congress.gov/member/robert-menendez/M000639",
     "ID": "M000639",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2006-Present | House: 1993-2006"
@@ -3495,6 +3844,7 @@
     "URL": "https://www.congress.gov/member/grace-meng/M001188",
     "ID": "M001188",
     "State": "New York",
+    "Abbr": "NY",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3505,6 +3855,7 @@
     "URL": "https://www.congress.gov/member/jeff-merkley/M001176",
     "ID": "M001176",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present"
@@ -3515,6 +3866,7 @@
     "URL": "https://www.congress.gov/member/luke-messer/M001189",
     "ID": "M001189",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -3525,6 +3877,7 @@
     "URL": "https://www.congress.gov/member/paul-mitchell/M001201",
     "ID": "M001201",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -3535,6 +3888,7 @@
     "URL": "https://www.congress.gov/member/john-moolenaar/M001194",
     "ID": "M001194",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3545,6 +3899,7 @@
     "URL": "https://www.congress.gov/member/alexander-mooney/M001195",
     "ID": "M001195",
     "State": "West Virginia",
+    "Abbr": "WV",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3555,6 +3910,7 @@
     "URL": "https://www.congress.gov/member/gwen-moore/M001160",
     "ID": "M001160",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -3565,6 +3921,7 @@
     "URL": "https://www.congress.gov/member/jerry-moran/M000934",
     "ID": "M000934",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 1997-2011"
@@ -3575,6 +3932,7 @@
     "URL": "https://www.congress.gov/member/seth-moulton/M001196",
     "ID": "M001196",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -3585,6 +3943,7 @@
     "URL": "https://www.congress.gov/member/markwayne-mullin/M001190",
     "ID": "M001190",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -3595,6 +3954,7 @@
     "URL": "https://www.congress.gov/member/mick-mulvaney/M001182",
     "ID": "M001182",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2011-2017"
@@ -3605,6 +3965,7 @@
     "URL": "https://www.congress.gov/member/lisa-murkowski/M001153",
     "ID": "M001153",
     "State": "Alaska",
+    "Abbr": "AK",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2003-Present"
@@ -3615,6 +3976,7 @@
     "URL": "https://www.congress.gov/member/christopher-murphy/M001169",
     "ID": "M001169",
     "State": "Connecticut",
+    "Abbr": "CT",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present | House: 2007-2013"
@@ -3625,6 +3987,7 @@
     "URL": "https://www.congress.gov/member/stephanie-murphy/M001202",
     "ID": "M001202",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -3635,6 +3998,7 @@
     "URL": "https://www.congress.gov/member/tim-murphy/M001151",
     "ID": "M001151",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 18,
     "Party": "Republican",
     "Terms": "House: 2003-2017"
@@ -3645,6 +4009,7 @@
     "URL": "https://www.congress.gov/member/patty-murray/M001111",
     "ID": "M001111",
     "State": "Washington",
+    "Abbr": "WA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1993-Present"
@@ -3655,6 +4020,7 @@
     "URL": "https://www.congress.gov/member/jerrold-nadler/N000002",
     "ID": "N000002",
     "State": "New York",
+    "Abbr": "NY",
     "District": 10,
     "Party": "Democratic",
     "Terms": "House: 1991-Present"
@@ -3665,6 +4031,7 @@
     "URL": "https://www.congress.gov/member/grace-napolitano/N000179",
     "ID": "N000179",
     "State": "California",
+    "Abbr": "CA",
     "District": 32,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -3675,6 +4042,7 @@
     "URL": "https://www.congress.gov/member/richard-neal/N000015",
     "ID": "N000015",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1989-Present"
@@ -3685,6 +4053,7 @@
     "URL": "https://www.congress.gov/member/clarence-nelson/N000032",
     "ID": "N000032",
     "State": "Florida",
+    "Abbr": "FL",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2001-Present | House: 1979-1991"
@@ -3695,6 +4064,7 @@
     "URL": "https://www.congress.gov/member/dan-newhouse/N000189",
     "ID": "N000189",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3705,6 +4075,7 @@
     "URL": "https://www.congress.gov/member/kristi-noem/N000184",
     "ID": "N000184",
     "State": "South Dakota",
+    "Abbr": "SD",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -3715,6 +4086,7 @@
     "URL": "https://www.congress.gov/member/richard-nolan/N000127",
     "ID": "N000127",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 1975-1981, 2013-Present"
@@ -3725,6 +4097,7 @@
     "URL": "https://www.congress.gov/member/donald-norcross/N000188",
     "ID": "N000188",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2014-Present"
@@ -3735,6 +4108,7 @@
     "URL": "https://www.congress.gov/member/ralph-norman/N000190",
     "ID": "N000190",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -3745,6 +4119,7 @@
     "URL": "https://www.congress.gov/member/eleanor-norton/N000147",
     "ID": "N000147",
     "State": "District of Columbia",
+    "Abbr": "DC",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 1991-Present"
@@ -3755,6 +4130,7 @@
     "URL": "https://www.congress.gov/member/devin-nunes/N000181",
     "ID": "N000181",
     "State": "California",
+    "Abbr": "CA",
     "District": 22,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -3765,6 +4141,7 @@
     "URL": "https://www.congress.gov/member/tom-o-halleran/O000171",
     "ID": "O000171",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -3775,6 +4152,7 @@
     "URL": "https://www.congress.gov/member/beto-o-rourke/O000170",
     "ID": "O000170",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 16,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3785,6 +4163,7 @@
     "URL": "https://www.congress.gov/member/pete-olson/O000168",
     "ID": "O000168",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 22,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -3795,6 +4174,7 @@
     "URL": "https://www.congress.gov/member/steven-palazzo/P000601",
     "ID": "P000601",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -3805,6 +4185,7 @@
     "URL": "https://www.congress.gov/member/frank-pallone/P000034",
     "ID": "P000034",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 6,
     "Party": "Democratic",
     "Terms": "House: 1987-Present"
@@ -3815,6 +4196,7 @@
     "URL": "https://www.congress.gov/member/gary-palmer/P000609",
     "ID": "P000609",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -3825,6 +4207,7 @@
     "URL": "https://www.congress.gov/member/jimmy-panetta/P000613",
     "ID": "P000613",
     "State": "California",
+    "Abbr": "CA",
     "District": 20,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -3835,6 +4218,7 @@
     "URL": "https://www.congress.gov/member/william-pascrell/P000096",
     "ID": "P000096",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -3845,6 +4229,7 @@
     "URL": "https://www.congress.gov/member/rand-paul/P000603",
     "ID": "P000603",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present"
@@ -3855,6 +4240,7 @@
     "URL": "https://www.congress.gov/member/erik-paulsen/P000594",
     "ID": "P000594",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -3865,6 +4251,7 @@
     "URL": "https://www.congress.gov/member/donald-payne/P000604",
     "ID": "P000604",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 10,
     "Party": "Democratic",
     "Terms": "House: 2012-Present"
@@ -3875,6 +4262,7 @@
     "URL": "https://www.congress.gov/member/stevan-pearce/P000588",
     "ID": "P000588",
     "State": "New Mexico",
+    "Abbr": "NM",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2003-2009, 2011-Present"
@@ -3885,6 +4273,7 @@
     "URL": "https://www.congress.gov/member/nancy-pelosi/P000197",
     "ID": "P000197",
     "State": "California",
+    "Abbr": "CA",
     "District": 12,
     "Party": "Democratic",
     "Terms": "House: 1987-Present"
@@ -3895,6 +4284,7 @@
     "URL": "https://www.congress.gov/member/david-perdue/P000612",
     "ID": "P000612",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -3905,6 +4295,7 @@
     "URL": "https://www.congress.gov/member/ed-perlmutter/P000593",
     "ID": "P000593",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -3915,6 +4306,7 @@
     "URL": "https://www.congress.gov/member/scott-perry/P000605",
     "ID": "P000605",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -3925,6 +4317,7 @@
     "URL": "https://www.congress.gov/member/gary-peters/P000595",
     "ID": "P000595",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2015-Present | House: 2009-2015"
@@ -3935,6 +4328,7 @@
     "URL": "https://www.congress.gov/member/scott-peters/P000608",
     "ID": "P000608",
     "State": "California",
+    "Abbr": "CA",
     "District": 52,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3945,6 +4339,7 @@
     "URL": "https://www.congress.gov/member/collin-peterson/P000258",
     "ID": "P000258",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 1991-Present"
@@ -3955,6 +4350,7 @@
     "URL": "https://www.congress.gov/member/chellie-pingree/P000597",
     "ID": "P000597",
     "State": "Maine",
+    "Abbr": "ME",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -3965,6 +4361,7 @@
     "URL": "https://www.congress.gov/member/robert-pittenger/P000606",
     "ID": "P000606",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 9,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -3975,6 +4372,7 @@
     "URL": "https://www.congress.gov/member/stacey-plaskett/P000610",
     "ID": "P000610",
     "State": "Virgin Islands",
+    "Abbr": "VI",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -3985,6 +4383,7 @@
     "URL": "https://www.congress.gov/member/mark-pocan/P000607",
     "ID": "P000607",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -3995,6 +4394,7 @@
     "URL": "https://www.congress.gov/member/ted-poe/P000592",
     "ID": "P000592",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -4005,6 +4405,7 @@
     "URL": "https://www.congress.gov/member/bruce-poliquin/P000611",
     "ID": "P000611",
     "State": "Maine",
+    "Abbr": "ME",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4015,6 +4416,7 @@
     "URL": "https://www.congress.gov/member/jared-polis/P000598",
     "ID": "P000598",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -4025,6 +4427,7 @@
     "URL": "https://www.congress.gov/member/mike-pompeo/P000602",
     "ID": "P000602",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-2017"
@@ -4035,6 +4438,7 @@
     "URL": "https://www.congress.gov/member/rob-portman/P000449",
     "ID": "P000449",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 1993-2007"
@@ -4045,6 +4449,7 @@
     "URL": "https://www.congress.gov/member/bill-posey/P000599",
     "ID": "P000599",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -4055,6 +4460,7 @@
     "URL": "https://www.congress.gov/member/david-price/P000523",
     "ID": "P000523",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 1987-1995, 1997-Present"
@@ -4065,6 +4471,7 @@
     "URL": "https://www.congress.gov/member/tom-price/P000591",
     "ID": "P000591",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2005-2017"
@@ -4075,6 +4482,7 @@
     "URL": "https://www.congress.gov/member/mike-quigley/Q000023",
     "ID": "Q000023",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -4085,6 +4493,7 @@
     "URL": "https://www.congress.gov/member/aumua-amata-radewagen/R000600",
     "ID": "R000600",
     "State": "American Samoa",
+    "Abbr": "AS",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4095,6 +4504,7 @@
     "URL": "https://www.congress.gov/member/jamie-raskin/R000606",
     "ID": "R000606",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -4105,6 +4515,7 @@
     "URL": "https://www.congress.gov/member/john-ratcliffe/R000601",
     "ID": "R000601",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4115,6 +4526,7 @@
     "URL": "https://www.congress.gov/member/john-reed/R000122",
     "ID": "R000122",
     "State": "Rhode Island",
+    "Abbr": "RI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1997-Present | House: 1991-1997"
@@ -4125,6 +4537,7 @@
     "URL": "https://www.congress.gov/member/tom-reed/R000585",
     "ID": "R000585",
     "State": "New York",
+    "Abbr": "NY",
     "District": 23,
     "Party": "Republican",
     "Terms": "House: 2010-Present"
@@ -4135,6 +4548,7 @@
     "URL": "https://www.congress.gov/member/david-reichert/R000578",
     "ID": "R000578",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2005-Present"
@@ -4145,6 +4559,7 @@
     "URL": "https://www.congress.gov/member/james-renacci/R000586",
     "ID": "R000586",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 16,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4155,6 +4570,7 @@
     "URL": "https://www.congress.gov/member/kathleen-rice/R000602",
     "ID": "R000602",
     "State": "New York",
+    "Abbr": "NY",
     "District": 4,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -4165,6 +4581,7 @@
     "URL": "https://www.congress.gov/member/tom-rice/R000597",
     "ID": "R000597",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -4175,6 +4592,7 @@
     "URL": "https://www.congress.gov/member/cedric-richmond/R000588",
     "ID": "R000588",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -4185,6 +4603,7 @@
     "URL": "https://www.congress.gov/member/james-risch/R000584",
     "ID": "R000584",
     "State": "Idaho",
+    "Abbr": "ID",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2009-Present"
@@ -4195,6 +4614,7 @@
     "URL": "https://www.congress.gov/member/pat-roberts/R000307",
     "ID": "R000307",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1997-Present | House: 1981-1997"
@@ -4205,6 +4625,7 @@
     "URL": "https://www.congress.gov/member/martha-roby/R000591",
     "ID": "R000591",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4215,6 +4636,7 @@
     "URL": "https://www.congress.gov/member/david-roe/R000582",
     "ID": "R000582",
     "State": "Tennessee",
+    "Abbr": "TN",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -4225,6 +4647,7 @@
     "URL": "https://www.congress.gov/member/harold-rogers/R000395",
     "ID": "R000395",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 1981-Present"
@@ -4235,6 +4658,7 @@
     "URL": "https://www.congress.gov/member/mike-rogers/R000575",
     "ID": "R000575",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -4245,6 +4669,7 @@
     "URL": "https://www.congress.gov/member/dana-rohrabacher/R000409",
     "ID": "R000409",
     "State": "California",
+    "Abbr": "CA",
     "District": 48,
     "Party": "Republican",
     "Terms": "House: 1989-Present"
@@ -4255,6 +4680,7 @@
     "URL": "https://www.congress.gov/member/todd-rokita/R000592",
     "ID": "R000592",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4265,6 +4691,7 @@
     "URL": "https://www.congress.gov/member/francis-rooney/R000607",
     "ID": "R000607",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 19,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -4275,6 +4702,7 @@
     "URL": "https://www.congress.gov/member/thomas-rooney/R000583",
     "ID": "R000583",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 17,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -4285,6 +4713,7 @@
     "URL": "https://www.congress.gov/member/ileana-ros-lehtinen/R000435",
     "ID": "R000435",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 27,
     "Party": "Republican",
     "Terms": "House: 1989-Present"
@@ -4295,6 +4724,7 @@
     "URL": "https://www.congress.gov/member/jacky-rosen/R000608",
     "ID": "R000608",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -4305,6 +4735,7 @@
     "URL": "https://www.congress.gov/member/peter-roskam/R000580",
     "ID": "R000580",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -4315,6 +4746,7 @@
     "URL": "https://www.congress.gov/member/dennis-ross/R000593",
     "ID": "R000593",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 15,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4325,6 +4757,7 @@
     "URL": "https://www.congress.gov/member/keith-rothfus/R000598",
     "ID": "R000598",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -4335,6 +4768,7 @@
     "URL": "https://www.congress.gov/member/mike-rounds/R000605",
     "ID": "R000605",
     "State": "South Dakota",
+    "Abbr": "SD",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -4345,6 +4779,7 @@
     "URL": "https://www.congress.gov/member/david-rouzer/R000603",
     "ID": "R000603",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4355,6 +4790,7 @@
     "URL": "https://www.congress.gov/member/lucille-roybal-allard/R000486",
     "ID": "R000486",
     "State": "California",
+    "Abbr": "CA",
     "District": 40,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -4365,6 +4801,7 @@
     "URL": "https://www.congress.gov/member/ed-royce/R000487",
     "ID": "R000487",
     "State": "California",
+    "Abbr": "CA",
     "District": 39,
     "Party": "Republican",
     "Terms": "House: 1993-Present"
@@ -4375,6 +4812,7 @@
     "URL": "https://www.congress.gov/member/marco-rubio/R000595",
     "ID": "R000595",
     "State": "Florida",
+    "Abbr": "FL",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present"
@@ -4385,6 +4823,7 @@
     "URL": "https://www.congress.gov/member/raul-ruiz/R000599",
     "ID": "R000599",
     "State": "California",
+    "Abbr": "CA",
     "District": 36,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -4395,6 +4834,7 @@
     "URL": "https://www.congress.gov/member/c-a-ruppersberger/R000576",
     "ID": "R000576",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -4405,6 +4845,7 @@
     "URL": "https://www.congress.gov/member/bobby-rush/R000515",
     "ID": "R000515",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -4415,6 +4856,7 @@
     "URL": "https://www.congress.gov/member/steve-russell/R000604",
     "ID": "R000604",
     "State": "Oklahoma",
+    "Abbr": "OK",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4425,6 +4867,7 @@
     "URL": "https://www.congress.gov/member/john-rutherford/R000609",
     "ID": "R000609",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -4435,6 +4878,7 @@
     "URL": "https://www.congress.gov/member/paul-ryan/R000570",
     "ID": "R000570",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 1999-Present"
@@ -4445,6 +4889,7 @@
     "URL": "https://www.congress.gov/member/tim-ryan/R000577",
     "ID": "R000577",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -4455,6 +4900,7 @@
     "URL": "https://www.congress.gov/member/gregorio-sablan/S001177",
     "ID": "S001177",
     "State": "Northern Mariana Islands",
+    "Abbr": "MP",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -4465,6 +4911,7 @@
     "URL": "https://www.congress.gov/member/linda-sanchez/S001156",
     "ID": "S001156",
     "State": "California",
+    "Abbr": "CA",
     "District": 38,
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -4475,6 +4922,7 @@
     "URL": "https://www.congress.gov/member/bernard-sanders/S000033",
     "ID": "S000033",
     "State": "Vermont",
+    "Abbr": "VT",
     "District": "",
     "Party": "Independent",
     "Terms": "Senate: 2007-Present | House: 1991-2007"
@@ -4485,6 +4933,7 @@
     "URL": "https://www.congress.gov/member/mark-sanford/S000051",
     "ID": "S000051",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 1995-2001, 2013-Present"
@@ -4495,6 +4944,7 @@
     "URL": "https://www.congress.gov/member/john-sarbanes/S001168",
     "ID": "S001168",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -4505,6 +4955,7 @@
     "URL": "https://www.congress.gov/member/ben-sasse/S001197",
     "ID": "S001197",
     "State": "Nebraska",
+    "Abbr": "NE",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -4515,6 +4966,7 @@
     "URL": "https://www.congress.gov/member/steve-scalise/S001176",
     "ID": "S001176",
     "State": "Louisiana",
+    "Abbr": "LA",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2008-Present"
@@ -4525,6 +4977,7 @@
     "URL": "https://www.congress.gov/member/janice-schakowsky/S001145",
     "ID": "S001145",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -4535,6 +4988,7 @@
     "URL": "https://www.congress.gov/member/brian-schatz/S001194",
     "ID": "S001194",
     "State": "Hawaii",
+    "Abbr": "HI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2012-Present"
@@ -4545,6 +4999,7 @@
     "URL": "https://www.congress.gov/member/adam-schiff/S001150",
     "ID": "S001150",
     "State": "California",
+    "Abbr": "CA",
     "District": 28,
     "Party": "Democratic",
     "Terms": "House: 2001-Present"
@@ -4555,6 +5010,7 @@
     "URL": "https://www.congress.gov/member/bradley-schneider/S001190",
     "ID": "S001190",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 10,
     "Party": "Democratic",
     "Terms": "House: 2013-2015, 2017-Present"
@@ -4565,6 +5021,7 @@
     "URL": "https://www.congress.gov/member/kurt-schrader/S001180",
     "ID": "S001180",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -4575,6 +5032,7 @@
     "URL": "https://www.congress.gov/member/charles-schumer/S000148",
     "ID": "S000148",
     "State": "New York",
+    "Abbr": "NY",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1999-Present | House: 1981-1999"
@@ -4585,6 +5043,7 @@
     "URL": "https://www.congress.gov/member/david-schweikert/S001183",
     "ID": "S001183",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4595,6 +5054,7 @@
     "URL": "https://www.congress.gov/member/austin-scott/S001189",
     "ID": "S001189",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4605,6 +5065,7 @@
     "URL": "https://www.congress.gov/member/david-scott/S001157",
     "ID": "S001157",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 13,
     "Party": "Democratic",
     "Terms": "House: 2003-Present"
@@ -4615,6 +5076,7 @@
     "URL": "https://www.congress.gov/member/robert-scott/S000185",
     "ID": "S000185",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -4625,6 +5087,7 @@
     "URL": "https://www.congress.gov/member/tim-scott/S001184",
     "ID": "S001184",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2013-Present | House: 2011-2013"
@@ -4635,6 +5098,7 @@
     "URL": "https://www.congress.gov/member/f-sensenbrenner/S000244",
     "ID": "S000244",
     "State": "Wisconsin",
+    "Abbr": "WI",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 1979-Present"
@@ -4645,6 +5109,7 @@
     "URL": "https://www.congress.gov/member/jose-serrano/S000248",
     "ID": "S000248",
     "State": "New York",
+    "Abbr": "NY",
     "District": 15,
     "Party": "Democratic",
     "Terms": "House: 1989-Present"
@@ -4655,6 +5120,7 @@
     "URL": "https://www.congress.gov/member/jeff-sessions/S001141",
     "ID": "S001141",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1997-2017"
@@ -4665,6 +5131,7 @@
     "URL": "https://www.congress.gov/member/pete-sessions/S000250",
     "ID": "S000250",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 32,
     "Party": "Republican",
     "Terms": "House: 1997-Present"
@@ -4675,6 +5142,7 @@
     "URL": "https://www.congress.gov/member/terri-sewell/S001185",
     "ID": "S001185",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -4685,6 +5153,7 @@
     "URL": "https://www.congress.gov/member/jeanne-shaheen/S001181",
     "ID": "S001181",
     "State": "New Hampshire",
+    "Abbr": "NH",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present"
@@ -4695,6 +5164,7 @@
     "URL": "https://www.congress.gov/member/carol-shea-porter/S001170",
     "ID": "S001170",
     "State": "New Hampshire",
+    "Abbr": "NH",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2007-2011, 2013-2015, 2017-Present"
@@ -4705,6 +5175,7 @@
     "URL": "https://www.congress.gov/member/richard-shelby/S000320",
     "ID": "S000320",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 1987-Present | House: 1979-1987"
@@ -4715,6 +5186,7 @@
     "URL": "https://www.congress.gov/member/brad-sherman/S000344",
     "ID": "S000344",
     "State": "California",
+    "Abbr": "CA",
     "District": 30,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -4725,6 +5197,7 @@
     "URL": "https://www.congress.gov/member/john-shimkus/S000364",
     "ID": "S000364",
     "State": "Illinois",
+    "Abbr": "IL",
     "District": 15,
     "Party": "Republican",
     "Terms": "House: 1997-Present"
@@ -4735,6 +5208,7 @@
     "URL": "https://www.congress.gov/member/bill-shuster/S001154",
     "ID": "S001154",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 9,
     "Party": "Republican",
     "Terms": "House: 2001-Present"
@@ -4745,6 +5219,7 @@
     "URL": "https://www.congress.gov/member/michael-simpson/S001148",
     "ID": "S001148",
     "State": "Idaho",
+    "Abbr": "ID",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 1999-Present"
@@ -4755,6 +5230,7 @@
     "URL": "https://www.congress.gov/member/kyrsten-sinema/S001191",
     "ID": "S001191",
     "State": "Arizona",
+    "Abbr": "AZ",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -4765,6 +5241,7 @@
     "URL": "https://www.congress.gov/member/albio-sires/S001165",
     "ID": "S001165",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 8,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -4775,6 +5252,7 @@
     "URL": "https://www.congress.gov/member/louise-slaughter/S000480",
     "ID": "S000480",
     "State": "New York",
+    "Abbr": "NY",
     "District": 25,
     "Party": "Democratic",
     "Terms": "House: 1987-2018"
@@ -4785,6 +5263,7 @@
     "URL": "https://www.congress.gov/member/adam-smith/S000510",
     "ID": "S000510",
     "State": "Washington",
+    "Abbr": "WA",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 1997-Present"
@@ -4795,6 +5274,7 @@
     "URL": "https://www.congress.gov/member/adrian-smith/S001172",
     "ID": "S001172",
     "State": "Nebraska",
+    "Abbr": "NE",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -4805,6 +5285,7 @@
     "URL": "https://www.congress.gov/member/christopher-smith/S000522",
     "ID": "S000522",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 1981-Present"
@@ -4815,6 +5296,7 @@
     "URL": "https://www.congress.gov/member/jason-smith/S001195",
     "ID": "S001195",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 8,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -4825,6 +5307,7 @@
     "URL": "https://www.congress.gov/member/lamar-smith/S000583",
     "ID": "S000583",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 21,
     "Party": "Republican",
     "Terms": "House: 1987-Present"
@@ -4835,6 +5318,7 @@
     "URL": "https://www.congress.gov/member/tina-smith/S001203",
     "ID": "S001203",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2018-Present"
@@ -4845,6 +5329,7 @@
     "URL": "https://www.congress.gov/member/lloyd-smucker/S001199",
     "ID": "S001199",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 16,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -4855,6 +5340,7 @@
     "URL": "https://www.congress.gov/member/darren-soto/S001200",
     "ID": "S001200",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 9,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -4865,6 +5351,7 @@
     "URL": "https://www.congress.gov/member/jackie-speier/S001175",
     "ID": "S001175",
     "State": "California",
+    "Abbr": "CA",
     "District": 14,
     "Party": "Democratic",
     "Terms": "House: 2008-Present"
@@ -4875,6 +5362,7 @@
     "URL": "https://www.congress.gov/member/deborah-stabenow/S000770",
     "ID": "S000770",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2001-Present | House: 1997-2001"
@@ -4885,6 +5373,7 @@
     "URL": "https://www.congress.gov/member/elise-stefanik/S001196",
     "ID": "S001196",
     "State": "New York",
+    "Abbr": "NY",
     "District": 21,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -4895,6 +5384,7 @@
     "URL": "https://www.congress.gov/member/chris-stewart/S001192",
     "ID": "S001192",
     "State": "Utah",
+    "Abbr": "UT",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -4905,6 +5395,7 @@
     "URL": "https://www.congress.gov/member/steve-stivers/S001187",
     "ID": "S001187",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 15,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -4915,6 +5406,7 @@
     "URL": "https://www.congress.gov/member/luther-strange/S001202",
     "ID": "S001202",
     "State": "Alabama",
+    "Abbr": "AL",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2017-2018"
@@ -4925,6 +5417,7 @@
     "URL": "https://www.congress.gov/member/dan-sullivan/S001198",
     "ID": "S001198",
     "State": "Alaska",
+    "Abbr": "AK",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -4935,6 +5428,7 @@
     "URL": "https://www.congress.gov/member/thomas-suozzi/S001201",
     "ID": "S001201",
     "State": "New York",
+    "Abbr": "NY",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2017-Present"
@@ -4945,6 +5439,7 @@
     "URL": "https://www.congress.gov/member/eric-swalwell/S001193",
     "ID": "S001193",
     "State": "California",
+    "Abbr": "CA",
     "District": 15,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -4955,6 +5450,7 @@
     "URL": "https://www.congress.gov/member/mark-takano/T000472",
     "ID": "T000472",
     "State": "California",
+    "Abbr": "CA",
     "District": 41,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -4965,6 +5461,7 @@
     "URL": "https://www.congress.gov/member/scott-taylor/T000477",
     "ID": "T000477",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -4975,6 +5472,7 @@
     "URL": "https://www.congress.gov/member/claudia-tenney/T000478",
     "ID": "T000478",
     "State": "New York",
+    "Abbr": "NY",
     "District": 22,
     "Party": "Republican",
     "Terms": "House: 2017-Present"
@@ -4985,6 +5483,7 @@
     "URL": "https://www.congress.gov/member/jon-tester/T000464",
     "ID": "T000464",
     "State": "Montana",
+    "Abbr": "MT",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present"
@@ -4995,6 +5494,7 @@
     "URL": "https://www.congress.gov/member/bennie-thompson/T000193",
     "ID": "T000193",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": 2,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -5005,6 +5505,7 @@
     "URL": "https://www.congress.gov/member/glenn-thompson/T000467",
     "ID": "T000467",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": 5,
     "Party": "Republican",
     "Terms": "House: 2009-Present"
@@ -5015,6 +5516,7 @@
     "URL": "https://www.congress.gov/member/mike-thompson/T000460",
     "ID": "T000460",
     "State": "California",
+    "Abbr": "CA",
     "District": 5,
     "Party": "Democratic",
     "Terms": "House: 1999-Present"
@@ -5025,6 +5527,7 @@
     "URL": "https://www.congress.gov/member/william-thornberry/T000238",
     "ID": "T000238",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 13,
     "Party": "Republican",
     "Terms": "House: 1995-Present"
@@ -5035,6 +5538,7 @@
     "URL": "https://www.congress.gov/member/john-thune/T000250",
     "ID": "T000250",
     "State": "South Dakota",
+    "Abbr": "SD",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2005-Present | House: 1997-2003"
@@ -5045,6 +5549,7 @@
     "URL": "https://www.congress.gov/member/patrick-tiberi/T000462",
     "ID": "T000462",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 12,
     "Party": "Republican",
     "Terms": "House: 2001-2018"
@@ -5055,6 +5560,7 @@
     "URL": "https://www.congress.gov/member/thomas-tillis/T000476",
     "ID": "T000476",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2015-Present"
@@ -5065,6 +5571,7 @@
     "URL": "https://www.congress.gov/member/scott-tipton/T000470",
     "ID": "T000470",
     "State": "Colorado",
+    "Abbr": "CO",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -5075,6 +5582,7 @@
     "URL": "https://www.congress.gov/member/dina-titus/T000468",
     "ID": "T000468",
     "State": "Nevada",
+    "Abbr": "NV",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2009-2011, 2013-Present"
@@ -5085,6 +5593,7 @@
     "URL": "https://www.congress.gov/member/paul-tonko/T000469",
     "ID": "T000469",
     "State": "New York",
+    "Abbr": "NY",
     "District": 20,
     "Party": "Democratic",
     "Terms": "House: 2009-Present"
@@ -5095,6 +5604,7 @@
     "URL": "https://www.congress.gov/member/pat-toomey/T000461",
     "ID": "T000461",
     "State": "Pennsylvania",
+    "Abbr": "PA",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2011-Present | House: 1999-2005"
@@ -5105,6 +5615,7 @@
     "URL": "https://www.congress.gov/member/norma-torres/T000474",
     "ID": "T000474",
     "State": "California",
+    "Abbr": "CA",
     "District": 35,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -5115,6 +5626,7 @@
     "URL": "https://www.congress.gov/member/david-trott/T000475",
     "ID": "T000475",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5125,6 +5637,7 @@
     "URL": "https://www.congress.gov/member/niki-tsongas/T000465",
     "ID": "T000465",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -5135,6 +5648,7 @@
     "URL": "https://www.congress.gov/member/michael-turner/T000463",
     "ID": "T000463",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 10,
     "Party": "Republican",
     "Terms": "House: 2003-Present"
@@ -5145,6 +5659,7 @@
     "URL": "https://www.congress.gov/member/tom-udall/U000039",
     "ID": "U000039",
     "State": "New Mexico",
+    "Abbr": "NM",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present | House: 1999-2009"
@@ -5155,6 +5670,7 @@
     "URL": "https://www.congress.gov/member/fred-upton/U000031",
     "ID": "U000031",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 1987-Present"
@@ -5165,6 +5681,7 @@
     "URL": "https://www.congress.gov/member/david-valadao/V000129",
     "ID": "V000129",
     "State": "California",
+    "Abbr": "CA",
     "District": 21,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5175,6 +5692,7 @@
     "URL": "https://www.congress.gov/member/chris-van-hollen/V000128",
     "ID": "V000128",
     "State": "Maryland",
+    "Abbr": "MD",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2017-Present | House: 2003-2017"
@@ -5185,6 +5703,7 @@
     "URL": "https://www.congress.gov/member/juan-vargas/V000130",
     "ID": "V000130",
     "State": "California",
+    "Abbr": "CA",
     "District": 51,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -5195,6 +5714,7 @@
     "URL": "https://www.congress.gov/member/marc-veasey/V000131",
     "ID": "V000131",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 33,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -5205,6 +5725,7 @@
     "URL": "https://www.congress.gov/member/filemon-vela/V000132",
     "ID": "V000132",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 34,
     "Party": "Democratic",
     "Terms": "House: 2013-Present"
@@ -5215,6 +5736,7 @@
     "URL": "https://www.congress.gov/member/nydia-velazquez/V000081",
     "ID": "V000081",
     "State": "New York",
+    "Abbr": "NY",
     "District": 7,
     "Party": "Democratic",
     "Terms": "House: 1993-Present"
@@ -5225,6 +5747,7 @@
     "URL": "https://www.congress.gov/member/peter-visclosky/V000108",
     "ID": "V000108",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 1985-Present"
@@ -5235,6 +5758,7 @@
     "URL": "https://www.congress.gov/member/ann-wagner/W000812",
     "ID": "W000812",
     "State": "Missouri",
+    "Abbr": "MO",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5245,6 +5769,7 @@
     "URL": "https://www.congress.gov/member/tim-walberg/W000798",
     "ID": "W000798",
     "State": "Michigan",
+    "Abbr": "MI",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2007-2009, 2011-Present"
@@ -5255,6 +5780,7 @@
     "URL": "https://www.congress.gov/member/greg-walden/W000791",
     "ID": "W000791",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 1999-Present"
@@ -5265,6 +5791,7 @@
     "URL": "https://www.congress.gov/member/mark-walker/W000819",
     "ID": "W000819",
     "State": "North Carolina",
+    "Abbr": "NC",
     "District": 6,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5275,6 +5802,7 @@
     "URL": "https://www.congress.gov/member/jackie-walorski/W000813",
     "ID": "W000813",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5285,6 +5813,7 @@
     "URL": "https://www.congress.gov/member/mimi-walters/W000820",
     "ID": "W000820",
     "State": "California",
+    "Abbr": "CA",
     "District": 45,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5295,6 +5824,7 @@
     "URL": "https://www.congress.gov/member/timothy-walz/W000799",
     "ID": "W000799",
     "State": "Minnesota",
+    "Abbr": "MN",
     "District": 1,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -5305,6 +5835,7 @@
     "URL": "https://www.congress.gov/member/mark-warner/W000805",
     "ID": "W000805",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2009-Present"
@@ -5315,6 +5846,7 @@
     "URL": "https://www.congress.gov/member/elizabeth-warren/W000817",
     "ID": "W000817",
     "State": "Massachusetts",
+    "Abbr": "MA",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2013-Present"
@@ -5325,6 +5857,7 @@
     "URL": "https://www.congress.gov/member/debbie-wasserman-schultz/W000797",
     "ID": "W000797",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 23,
     "Party": "Democratic",
     "Terms": "House: 2005-Present"
@@ -5335,6 +5868,7 @@
     "URL": "https://www.congress.gov/member/maxine-waters/W000187",
     "ID": "W000187",
     "State": "California",
+    "Abbr": "CA",
     "District": 43,
     "Party": "Democratic",
     "Terms": "House: 1991-Present"
@@ -5345,6 +5879,7 @@
     "URL": "https://www.congress.gov/member/bonnie-watson-coleman/W000822",
     "ID": "W000822",
     "State": "New Jersey",
+    "Abbr": "NJ",
     "District": 12,
     "Party": "Democratic",
     "Terms": "House: 2015-Present"
@@ -5355,6 +5890,7 @@
     "URL": "https://www.congress.gov/member/randy-weber/W000814",
     "ID": "W000814",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 14,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5365,6 +5901,7 @@
     "URL": "https://www.congress.gov/member/daniel-webster/W000806",
     "ID": "W000806",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 11,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -5375,6 +5912,7 @@
     "URL": "https://www.congress.gov/member/peter-welch/W000800",
     "ID": "W000800",
     "State": "Vermont",
+    "Abbr": "VT",
     "District": "",
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -5385,6 +5923,7 @@
     "URL": "https://www.congress.gov/member/brad-wenstrup/W000815",
     "ID": "W000815",
     "State": "Ohio",
+    "Abbr": "OH",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5395,6 +5934,7 @@
     "URL": "https://www.congress.gov/member/bruce-westerman/W000821",
     "ID": "W000821",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": 4,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5405,6 +5945,7 @@
     "URL": "https://www.congress.gov/member/sheldon-whitehouse/W000802",
     "ID": "W000802",
     "State": "Rhode Island",
+    "Abbr": "RI",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 2007-Present"
@@ -5415,6 +5956,7 @@
     "URL": "https://www.congress.gov/member/roger-wicker/W000437",
     "ID": "W000437",
     "State": "Mississippi",
+    "Abbr": "MS",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2007-Present | House: 1995-2007"
@@ -5425,6 +5967,7 @@
     "URL": "https://www.congress.gov/member/roger-williams/W000816",
     "ID": "W000816",
     "State": "Texas",
+    "Abbr": "TX",
     "District": 25,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5435,6 +5978,7 @@
     "URL": "https://www.congress.gov/member/frederica-wilson/W000808",
     "ID": "W000808",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 24,
     "Party": "Democratic",
     "Terms": "House: 2011-Present"
@@ -5445,6 +5989,7 @@
     "URL": "https://www.congress.gov/member/joe-wilson/W000795",
     "ID": "W000795",
     "State": "South Carolina",
+    "Abbr": "SC",
     "District": 2,
     "Party": "Republican",
     "Terms": "House: 2001-Present"
@@ -5455,6 +6000,7 @@
     "URL": "https://www.congress.gov/member/robert-wittman/W000804",
     "ID": "W000804",
     "State": "Virginia",
+    "Abbr": "VA",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2007-Present"
@@ -5465,6 +6011,7 @@
     "URL": "https://www.congress.gov/member/steve-womack/W000809",
     "ID": "W000809",
     "State": "Arkansas",
+    "Abbr": "AR",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -5475,6 +6022,7 @@
     "URL": "https://www.congress.gov/member/rob-woodall/W000810",
     "ID": "W000810",
     "State": "Georgia",
+    "Abbr": "GA",
     "District": 7,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -5485,6 +6033,7 @@
     "URL": "https://www.congress.gov/member/ron-wyden/W000779",
     "ID": "W000779",
     "State": "Oregon",
+    "Abbr": "OR",
     "District": "",
     "Party": "Democratic",
     "Terms": "Senate: 1996-Present | House: 1981-1996"
@@ -5495,6 +6044,7 @@
     "URL": "https://www.congress.gov/member/john-yarmuth/Y000062",
     "ID": "Y000062",
     "State": "Kentucky",
+    "Abbr": "KY",
     "District": 3,
     "Party": "Democratic",
     "Terms": "House: 2007-Present"
@@ -5505,6 +6055,7 @@
     "URL": "https://www.congress.gov/member/kevin-yoder/Y000063",
     "ID": "Y000063",
     "State": "Kansas",
+    "Abbr": "KS",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2011-Present"
@@ -5515,6 +6066,7 @@
     "URL": "https://www.congress.gov/member/ted-yoho/Y000065",
     "ID": "Y000065",
     "State": "Florida",
+    "Abbr": "FL",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2013-Present"
@@ -5525,6 +6077,7 @@
     "URL": "https://www.congress.gov/member/david-young/Y000066",
     "ID": "Y000066",
     "State": "Iowa",
+    "Abbr": "IA",
     "District": 3,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5535,6 +6088,7 @@
     "URL": "https://www.congress.gov/member/don-young/Y000033",
     "ID": "Y000033",
     "State": "Alaska",
+    "Abbr": "AK",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 1973-Present"
@@ -5545,6 +6099,7 @@
     "URL": "https://www.congress.gov/member/todd-young/Y000064",
     "ID": "Y000064",
     "State": "Indiana",
+    "Abbr": "IN",
     "District": "",
     "Party": "Republican",
     "Terms": "Senate: 2017-Present | House: 2011-2017"
@@ -5555,6 +6110,7 @@
     "URL": "https://www.congress.gov/member/lee-zeldin/Z000017",
     "ID": "Z000017",
     "State": "New York",
+    "Abbr": "NY",
     "District": 1,
     "Party": "Republican",
     "Terms": "House: 2015-Present"
@@ -5565,6 +6121,7 @@
     "URL": "https://www.congress.gov/member/ryan-zinke/Z000018",
     "ID": "Z000018",
     "State": "Montana",
+    "Abbr": "MT",
     "District": "",
     "Party": "Republican",
     "Terms": "House: 2015-2017"

@@ -21,7 +21,7 @@ export default class App extends React.Component {
         console.log("Now TS: "+ this.state.NowTS);
 
         Promise.all([
-            axios.get('https://raw.githubusercontent.com/alexanderjacks/congress115/master/115congress.json')
+            axios.get('https://raw.githubusercontent.com/alexanderjacks/congress115/states_svgs/115congress.json')
             ])
             .then(([ response ]) => {
                 this.setState({ congresspersons: response.data });
@@ -127,9 +127,11 @@ export default class App extends React.Component {
                                     <h3>{congressperson.Name} </h3>
                                     <h4>{congressperson.Party} {congressperson.Office} </h4>
                                     <h4>{congressperson.State}</h4>
+                                    <h4>{congressperson.Abbr}</h4>
                                 </div>
                                 <div className={"pic-frame p-2"}>
                                     <div className="biopic" id={"biopic-" + congressperson.ID}></div>
+                                    <div className={"" + congressperson.State + "-img staterritory d-block"}></div>
                                 </div>
                             </div>
                         

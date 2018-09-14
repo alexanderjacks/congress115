@@ -2527,9 +2527,187 @@ a {
   height: 240px;
   background-size: cover; }
 
-.card-frame:hover {
+.staterritory:hover {
   -webkit-animation: pulsate 3 1.5s 0s none;
   animation: pulsate 3 1.5s 0s none; }
+
+.biopic:hover {
+  -webkit-animation: pulsate 3 1.5s 0s none;
+  animation: pulsate 3 1.5s 0s none; }
+
+.staterritory {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-color: black; }
+
+.Alabama-img {
+  background-image: url("./images/states/Alabama.svg"); }
+
+.Alaska-img {
+  background-image: url("./images/states/Alaska.svg"); }
+
+.Arizona-img {
+  background-image: url("./images/states/Arizona.svg"); }
+
+.Arkansas-img {
+  background-image: url("./images/states/Arkansas.svg"); }
+
+.California-img {
+  background-image: url("./images/states/California.svg"); }
+
+.Colorado-img {
+  background-image: url("./images/states/Colorado.svg"); }
+
+.Connecticut-img {
+  background-image: url("./images/states/Connecticut.svg"); }
+
+.Delaware-img {
+  background-image: url("./images/states/Delaware.svg"); }
+
+.Florida-img {
+  background-image: url("./images/states/Florida.svg"); }
+
+.Georgia-img {
+  background-image: url("./images/states/Georgia.svg"); }
+
+.Hawaii-img {
+  background-image: url("./images/states/Hawaii.svg"); }
+
+.Idaho-img {
+  background-image: url("./images/states/Idaho.svg"); }
+
+.Illinois-img {
+  background-image: url("./images/states/Illinois.svg"); }
+
+.Indiana-img {
+  background-image: url("./images/states/Indiana.svg"); }
+
+.Iowa-img {
+  background-image: url("./images/states/Iowa.svg"); }
+
+.Kansas-img {
+  background-image: url("./images/states/Kansas.svg"); }
+
+.Kentucky-img {
+  background-image: url("./images/states/Kentucky.svg"); }
+
+.Louisiana-img {
+  background-image: url("./images/states/Louisiana.svg"); }
+
+.Maine-img {
+  background-image: url("./images/states/Maine.svg"); }
+
+.Maryland-img {
+  background-image: url("./images/states/Maryland.svg"); }
+
+.Massachusetts-img {
+  background-image: url("./images/states/Massachusetts.svg"); }
+
+.Michigan-img {
+  background-image: url("./images/states/Michigan.svg"); }
+
+.Minnesota-img {
+  background-image: url("./images/states/Minnesota.svg"); }
+
+.Mississippi-img {
+  background-image: url("./images/states/Mississippi.svg"); }
+
+.Missouri-img {
+  background-image: url("./images/states/Missouri.svg"); }
+
+.Montana-img {
+  background-image: url("./images/states/Montana.svg"); }
+
+.Nebraska-img {
+  background-image: url("./images/states/Nebraska.svg"); }
+
+.Nevada-img {
+  background-image: url("./images/states/Nevada.svg"); }
+
+.New.Hampshire-img {
+  background-image: url("./images/states/New Hampshire.svg"); }
+
+.New.Jersey-img {
+  background-image: url("./images/states/New Jersey.svg"); }
+
+.New.Mexico-img {
+  background-image: url("./images/states/New Mexico.svg"); }
+
+.New.York-img {
+  background-image: url("./images/states/New York.svg"); }
+
+.North.Carolina-img {
+  background-image: url("./images/states/North Carolina.svg"); }
+
+.North.Dakota-img {
+  background-image: url("./images/states/North Dakota.svg"); }
+
+.Ohio-img {
+  background-image: url("./images/states/Ohio.svg"); }
+
+.Oklahoma-img {
+  background-image: url("./images/states/Oklahoma.svg"); }
+
+.Oregon-img {
+  background-image: url("./images/states/Oregon.svg"); }
+
+.Pennsylvania-img {
+  background-image: url("./images/states/Pennsylvania.svg"); }
+
+.Rhode.Island-img {
+  background-image: url("./images/states/Rhode Island.svg"); }
+
+.South.Carolina-img {
+  background-image: url("./images/states/South Carolina.svg"); }
+
+.South.Dakota-img {
+  background-image: url("./images/states/South Dakota.svg"); }
+
+.Tennessee-img {
+  background-image: url("./images/states/Tennessee.svg"); }
+
+.Texas-img {
+  background-image: url("./images/states/Texas.svg"); }
+
+.Utah-img {
+  background-image: url("./images/states/Utah.svg"); }
+
+.Vermont-img {
+  background-image: url("./images/states/Vermont.svg"); }
+
+.Virginia-img {
+  background-image: url("./images/states/Virginia.svg"); }
+
+.Washington-img {
+  background-image: url("./images/states/Washington.svg"); }
+
+.West.Virginia-img {
+  background-image: url("./images/states/West Virginia.svg"); }
+
+.Wisconsin-img {
+  background-image: url("./images/states/Wisconsin.svg"); }
+
+.Wyoming-img {
+  background-image: url("./images/states/Wyoming.svg"); }
+
+.District.of.Columbia-img {
+  background-image: url("./images/states/District of Columbia.svg"); }
+
+.American.Samoa-img {
+  background-image: url("./images/states/American Samoa.svg"); }
+
+.Guam-img {
+  background-image: url("./images/states/Guam.svg"); }
+
+.Northern.Mariana.Islands-img {
+  background-image: url("./images/states/Northern Mariana Islands.svg"); }
+
+.Puerto.Rico-img {
+  background-image: url("./images/states/Puerto Rico.svg"); }
+
+.Virgin.Islands-img {
+  background-image: url("./images/states/Virgin Islands.svg"); }
 
 #biopic-A000374 {
   background-image: url("./images/congress/A000374.jpg"); }
