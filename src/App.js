@@ -21,7 +21,7 @@ export default class App extends React.Component {
         console.log("Now TS: "+ this.state.NowTS);
 
         Promise.all([
-            axios.get('https://raw.githubusercontent.com/alexanderjacks/congress115/states_svgs/115congress.json')
+            axios.get('https://raw.githubusercontent.com/alexanderjacks/congress115/master/115congress.json')
             ])
             .then(([ response ]) => {
                 this.setState({ congresspersons: response.data });
