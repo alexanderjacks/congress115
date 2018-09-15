@@ -126,8 +126,10 @@ export default class App extends React.Component {
                                 <div className="align-items-center justify-content-around pl-2">
                                     <h3>{congressperson.Name} </h3>
                                     <h4>{congressperson.Party} {congressperson.Office} </h4>
-                                    <h4>{congressperson.State}</h4>
-                                    <h4>{congressperson.Abbr}</h4>
+                                    <h4>{congressperson.State} ({congressperson.Abbr})</h4>
+
+                                    <svg width="100px" height="100px"
+                                    className={congressperson.Abbr + "-img StaTerritory"} />
                                 </div>
                                 <div className={"pic-frame p-2"}>
                                     <div className="biopic" id={"biopic-" + congressperson.ID}></div>

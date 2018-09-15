@@ -1,6 +1,6 @@
 # US Congress, 115th 🐍🇺🇸🤓
 ## progressive web app in React, CSS3
-### data courtesy of [congress.gov](https://www.congress.gov)
+### most data courtesy of [congress.gov](https://www.congress.gov)
 
 ![screenshot](/public/images/sshot2018Feb.png)
 
@@ -36,6 +36,10 @@ You now have the Sass compiler running, and Bootstrap, Bourbon and Saffron all s
 - [View your trendy app project live at https://my_trendy_app_name.firebaseapp.com](https://my_trendy_app_name.firebaseapp.com)
 
 
-#### [Alexander Jacks SVC](https://alexanderjacks.info)
+### [Alexander Jacks SVC](https://alexanderjacks.info)
+#### Resources
+- [congress.gov](https://www.congress.gov)
+- [state-svg-defs](https://github.com/coryetzkorn/state-svg-defs)
+- [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Guam_topographic_map.svg)
 
 _MIT License 2018_

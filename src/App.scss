@@ -172,9 +172,74 @@ a {
 }
 
 // emphasis
-.card-frame:hover {
+.staterritory:hover {
     @include pulsate();
 }
+
+// state & territory images
+.StaTerritory {
+    background-repeat: no-repeat;
+    // width: 100px;
+    // height: 100px;
+}
+
+
+.AL-img {background-image: url("./images/staterritories/AL.svg");}
+.AK-img {background-image: url("./images/staterritories/AK.svg");}
+.AZ-img {background-image: url("./images/staterritories/AZ.svg");}
+.AR-img {background-image: url("./images/staterritories/AR.svg");}
+.CA-img {background-image: url("./images/staterritories/CA.svg");}
+.CO-img {background-image: url("./images/staterritories/CO.svg");}
+.CT-img {background-image: url("./images/staterritories/CT.svg");}
+.DE-img {background-image: url("./images/staterritories/DE.svg");}
+.FL-img {background-image: url("./images/staterritories/FL.svg");}
+.GA-img {background-image: url("./images/staterritories/GA.svg");}
+.HI-img {background-image: url("./images/staterritories/HI.svg");}
+.ID-img {background-image: url("./images/staterritories/ID.svg");}
+.IL-img {background-image: url("./images/staterritories/IL.svg");}
+.IN-img {background-image: url("./images/staterritories/IN.svg");}
+.IA-img {background-image: url("./images/staterritories/IA.svg");}
+.KS-img {background-image: url("./images/staterritories/KS.svg");}
+.KY-img {background-image: url("./images/staterritories/KY.svg");}
+.LA-img {background-image: url("./images/staterritories/LA.svg");}
+.ME-img {background-image: url("./images/staterritories/ME.svg");}
+.MD-img {background-image: url("./images/staterritories/MD.svg");}
+.MA-img {background-image: url("./images/staterritories/MA.svg");}
+.MI-img {background-image: url("./images/staterritories/MI.svg");}
+.MN-img {background-image: url("./images/staterritories/MN.svg");}
+.MS-img {background-image: url("./images/staterritories/MS.svg");}
+.MO-img {background-image: url("./images/staterritories/MO.svg");}
+.MT-img {background-image: url("./images/staterritories/MT.svg");}
+.NE-img {background-image: url("./images/staterritories/NE.svg");}
+.NV-img {background-image: url("./images/staterritories/NV.svg");}
+.NH-img {background-image: url("./images/staterritories/NH.svg");}
+.NJ-img {background-image: url("./images/staterritories/NJ.svg");}
+.NM-img {background-image: url("./images/staterritories/NM.svg");}
+.NY-img {background-image: url("./images/staterritories/NY.svg");}
+.NC-img {background-image: url("./images/staterritories/NC.svg");}
+.ND-img {background-image: url("./images/staterritories/ND.svg");}
+.OH-img {background-image: url("./images/staterritories/OH.svg");}
+.OK-img {background-image: url("./images/staterritories/OK.svg");}
+.OR-img {background-image: url("./images/staterritories/OR.svg");}
+.PA-img {background-image: url("./images/staterritories/PA.svg");}
+.RI-img {background-image: url("./images/staterritories/RI.svg");}
+.SC-img {background-image: url("./images/staterritories/SC.svg");}
+.SD-img {background-image: url("./images/staterritories/SD.svg");}
+.TN-img {background-image: url("./images/staterritories/TN.svg");}
+.TX-img {background-image: url("./images/staterritories/TX.svg");}
+.UT-img {background-image: url("./images/staterritories/UT.svg");}
+.VT-img {background-image: url("./images/staterritories/VT.svg");}
+.VA-img {background-image: url("./images/staterritories/VA.svg");}
+.WA-img {background-image: url("./images/staterritories/WA.svg");}
+.WV-img {background-image: url("./images/staterritories/WV.svg");}
+.WI-img {background-image: url("./images/staterritories/WI.svg");}
+.WY-img {background-image: url("./images/staterritories/WY.svg");}
+.DC-img {background-image: url("./images/staterritories/DC.svg");}
+.AS-img {background-image: url("./images/staterritories/AS.svg");}
+.GU-img {background-image: url("./images/staterritories/GU.svg");}
+.MP-img {background-image: url("./images/staterritories/MP.svg");}
+.PR-img {background-image: url("./images/staterritories/PR.svg");}
+.VI-img {background-image: url("./images/staterritories/VI.svg");}
 
 // biographical pictures of congresspersons
 #biopic-A000374 {background-image: url("./images/congress/A000374.jpg");}
