@@ -12,8 +12,8 @@ export default class App extends React.Component {
             congresspersons: [],
             NowTS: Date.now()
         }
-        this.sortByRankDesc = this.sortByRankDesc.bind(this);
-        this.sortByPriceAsc = this.sortByPriceAsc.bind(this);
+        this.sortByID = this.sortByID.bind(this);
+        this.sortByPlace = this.sortByPlace.bind(this);
     }
 
     componentDidMount() {
@@ -30,17 +30,17 @@ export default class App extends React.Component {
             });
     }
 
-    sortByRankDesc() {
+    sortByID() {
         this.setState(prevState => {
-            this.state.congresspersons.sort((a,b) => (a.rank - b.rank))
+            this.state.congresspersons.sort((a,b) => (a.ID - b.ID))
         });
         console.log("Sort Rank Desc");
     }
-    sortByPriceAsc() {
+    sortByPlace() {
         this.setState(prevState => {
-            this.state.congresspersons.sort((a,b) => (a.price_usd - b.price_usd))
+            this.state.congresspersons.sort((a,b) => (a.State - b.State))
         });
-        console.log("Sort USD Asc");
+        console.log("Sort by States, descending");
     }
 
     render() {
@@ -55,9 +55,9 @@ export default class App extends React.Component {
                 <h6>
                     Created for educational purposes only by <a href="https://github.com/alexanderjacks">Alexander Jacks</a>.
                 </h6>
-                <h6>
+                <h2>
                     Remember to <strong>V O T E</strong>
-                </h6>
+                </h2>
                 
                 <h6 className="donate">    
                     <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xb93310db3ad5900494438cc1a5ae5300e86f7023</span>
@@ -77,19 +77,20 @@ export default class App extends React.Component {
                     </button>
 
                     <div className="btn-group" role="group">
-                        <button id="btnGroupDropdown" type="button" className="btn-lg btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button id="btnGroupDropdown" type="button" className="btn-lg btn-secondary dropdown-toggle" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Filters
                         </button>
                         <div className="dropdown-menu" aria-labelledby="btnGroupDropdown">
-                            <a href="#Market_Cap_Descending" className="dropdown-item" onClick={this.sortByRankDesc}>
+                            <a href="#Market_Cap_Descending" className="dropdown-item" onClick={this.sortByID}>
                                 <i className="fas fa-sort-amount-up"></i>
                                 <i className="fas fa-sync"></i>
-                                <span> Market Cap</span>
+                                <span> Bioguide IDs</span>
                             </a>
-                            <a href="#Price_Ascending" className="dropdown-item" onClick={this.sortByPriceAsc}>
+                            <a href="#Price_Ascending" className="dropdown-item" onClick={this.sortByPlace}>
                                 <i className="fas fa-sort-amount-down fa-flip-vertical flip-vertical-fix"></i>
                                 <i className="fas fa-dollar-sign"></i>
-                                <span> Lowest Price</span>
+                                <span> States</span>
                             </a>
                         </div>
                     </div>
@@ -103,12 +104,7 @@ export default class App extends React.Component {
 
                 </div>
 
-
-
-
-
             </div>
-
 
 
 {/* iterate thru the array list gathered from the API, create item for each array member*/}
@@ -121,18 +117,18 @@ export default class App extends React.Component {
                         <div className="d-flex row semi-opaque justify-content-around align-items-center">
                             
                         {/* extra layout column, reactive UI for mobile  */}
-                            <div className="col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center">
-                                <div className={"sm-icon office-icon-" + congressperson.Office}></div>
-                                <div className="align-items-center justify-content-around pl-2">
-                                    <h3>{congressperson.Name} </h3>
-                                    <h4>{congressperson.Party} {congressperson.Office} </h4>
+                            <div className={"card col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center office-icon-" + congressperson.Office}>
+                                <div className={"card my-5 mx-1 align-items-center justify-content-around pl-2 colors-" + congressperson.Party}>
+                                    <h3 className="mt-5">{congressperson.Name}</h3>
+                                    <h4>{congressperson.Party} {congressperson.Office}</h4>
                                     <h4>{congressperson.State} ({congressperson.Abbr})</h4>
-
-                                    <svg width="100px" height="100px"
-                                    className={congressperson.Abbr + "-img StaTerritory"} />
+                                    <svg className={congressperson.Abbr + "-img StaTerritory"}></svg>
                                 </div>
-                                <div className={"pic-frame p-2"}>
+                                <div className={"pic-frame card p-2"}>
                                     <div className="biopic" id={"biopic-" + congressperson.ID}></div>
+                                    <a href={congressperson.URL}>
+                                        <h6 className="mt-2">Visit homepage of Congress member #{congressperson.ID}</h6>
+                                    </a>
                                 </div>
                             </div>
                         

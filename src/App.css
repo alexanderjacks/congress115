@@ -2445,11 +2445,11 @@ a {
   text-shadow: 2px 2px 4px black, -2px -2px 4px black, -2px 2px 4px black, 2px -2px 4px black; }
 
 .top-btn {
-  color: #e770e9;
+  color: aqua;
   text-decoration: none; }
 
 .bottom-btn {
-  color: #67edea;
+  color: firebrick;
   text-decoration: none; }
 
 .flip-vertical-fix {
@@ -2466,11 +2466,6 @@ a {
 
 .semi-opaque {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)); }
-
-.card-header {
-  color: black;
-  background-color: snow;
-  border: 1px solid black; }
 
 .sm-icon {
   max-width: 64px;
@@ -2507,8 +2502,8 @@ a {
   font-size: 0.8rem; }
 
 .sm-icon {
-  min-width: 104px;
-  min-height: 40px;
+  max-width: 108px;
+  max-height: 40px;
   display: inline-block;
   background-repeat: no-repeat; }
 
@@ -2516,20 +2511,25 @@ a {
   background-image: url("./images/senate_logo.png"); }
 
 .office-icon-Representative {
-  background-image: url("./images/house_logo.png");
-  width: 50%; }
+  background-image: url("./images/house_logo.png"); }
 
 .pic-frame {
-  border: black dotted 2px; }
+  border: firebrick dotted 2px; }
 
 .biopic {
-  width: 180px;
-  height: 240px;
+  width: 175px;
+  height: 210px;
   background-size: cover; }
 
-.staterritory:hover {
+.biopic:hover {
   -webkit-animation: pulsate 3 1.5s 0s none;
   animation: pulsate 3 1.5s 0s none; }
+
+.colors-Republican {
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.9)); }
+
+.colors-Democratic {
+  background-image: linear-gradient(to top, rgba(0, 128, 255, 0.3), rgba(0, 128, 255, 0.7), rgba(0, 128, 255, 0.9)); }
 
 .StaTerritory {
   background-repeat: no-repeat; }
