@@ -2417,7 +2417,8 @@ a {
 
 .header-shading {
   color: snow;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)); }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+  width: 100vw; }
 
 .nav-link {
   font-family: serif;
@@ -2514,11 +2515,12 @@ a {
   background-image: url("./images/house_logo.png"); }
 
 .pic-frame {
-  border: firebrick dotted 2px; }
+  border: firebrick dotted 2px;
+  max-width: 30vw; }
 
 .biopic {
-  width: 175px;
-  height: 210px;
+  width: 140px;
+  height: 180px;
   background-size: cover; }
 
 .biopic:hover {
@@ -2526,10 +2528,12 @@ a {
   animation: pulsate 3 1.5s 0s none; }
 
 .colors-Republican {
-  background-image: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.9)); }
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.9));
+  max-width: 42vw; }
 
 .colors-Democratic {
-  background-image: linear-gradient(to top, rgba(0, 128, 255, 0.3), rgba(0, 128, 255, 0.7), rgba(0, 128, 255, 0.9)); }
+  background-image: linear-gradient(to top, rgba(0, 128, 255, 0.3), rgba(0, 128, 255, 0.7), rgba(0, 128, 255, 0.9));
+  max-width: 42vw; }
 
 .StaTerritory {
   background-repeat: no-repeat; }

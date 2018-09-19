@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import axios from 'axios';
+
+// import CheckboxContainer from './CheckboxContainer';
 
 import './App.css';
 
@@ -46,19 +47,14 @@ export default class App extends React.Component {
     render() {
         const { congresspersons } = this.state
         return (
-        <div className="">
-            <div className="header-shading p-3 text-left" id="top">
-
-                <h1 className="pt-5">115th US Congress</h1>
-
-                <h3 className="">From this public resource: <a href="https://www.congress.gov/">congress.gov</a></h3>
-                <h6>
-                    Created for educational purposes only by <a href="https://github.com/alexanderjacks">Alexander Jacks</a>.
-                </h6>
-                <h2>
-                    Remember to <strong>V O T E</strong>
-                </h2>
+        <div className="container-fluid m-0 p-0">
+            <div className="row header-shading pt-4 pl-4" id="top">
+                <h1 className="mx-auto">Remember to <strong>V O T E</strong> Nov. 6th</h1>
                 
+                <h2 className="">🇺🇸115th US Congress🇺🇸</h2>
+                <h3 className="">From this public resource: <a href="https://www.congress.gov/">congress.gov</a></h3>
+                <h6>Created for educational purposes only by <a href="https://github.com/alexanderjacks">Alexander Jacks</a>.</h6>
+                {/* <CheckboxContainer /> */}
                 <h6 className="donate">    
                     <span> Donate ETH <i className="fab fa-ethereum"></i>: 0xb93310db3ad5900494438cc1a5ae5300e86f7023</span>
                 </h6>
@@ -67,6 +63,7 @@ export default class App extends React.Component {
                 </h6>
 
 
+{/*
                 <div className="btn-group fixed-top justify-content-center" role="group" aria-label="Navigation button group with dropdown">
 
                     <button type="button" className="btn-lg">
@@ -75,12 +72,12 @@ export default class App extends React.Component {
                         <span> Top</span>
                     </a>
                     </button>
-
                     <div className="btn-group" role="group">
                         <button id="btnGroupDropdown" type="button" className="btn-lg btn-secondary dropdown-toggle" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Filters
                         </button>
+
                         <div className="dropdown-menu" aria-labelledby="btnGroupDropdown">
                             <a href="#Market_Cap_Descending" className="dropdown-item" onClick={this.sortByID}>
                                 <i className="fas fa-sort-amount-up"></i>
@@ -93,17 +90,16 @@ export default class App extends React.Component {
                                 <span> States</span>
                             </a>
                         </div>
+
+                        <button type="button" className="btn-lg">
+                        <a href="#bottom" className="bottom-btn arrow-btn">
+                            <i className="fas fa-arrow-down"></i>
+                            <span> Bottom</span>
+                        </a>
+                        </button>
                     </div>
-
-                    <button type="button" className="btn-lg">
-                    <a href="#bottom" className="bottom-btn arrow-btn">
-                        <i className="fas fa-arrow-down"></i>
-                        <span> Bottom</span>
-                    </a>
-                    </button>
-
                 </div>
-
+*/}
             </div>
 
 
@@ -112,23 +108,29 @@ export default class App extends React.Component {
 
                 { congresspersons.map(congressperson =>
                     
-                    <div className={"container-fluid my-0 justify-content-between"}>
+                    <div className={"my-0 semi-opaque"}>
 
-                        <div className="d-flex row semi-opaque justify-content-around align-items-center">
-                            
+                        <div className="row justify-content-around align-items-center">
+
+{/*
+<img class="card-img"src="/images/pathToYourImage.png"alt="Card image">
+<div class="card-img-overlay">
+<p class="card-title">I'm text that has a background image!</p></div>
+<p class="card-subtitle">I'm text that has a background image!</p></div>
+<p class="card-text">I'm text that has a background image!</p></div>
+*/}
+
                         {/* extra layout column, reactive UI for mobile  */}
-                            <div className={"card col-12 col-sm-6 d-flex flex-row justify-content-between align-items-center office-icon-" + congressperson.Office}>
-                                <div className={"card my-5 mx-1 align-items-center justify-content-around pl-2 colors-" + congressperson.Party}>
-                                    <h3 className="mt-5">{congressperson.Name}</h3>
-                                    <h4>{congressperson.Party} {congressperson.Office}</h4>
-                                    <h4>{congressperson.State} ({congressperson.Abbr})</h4>
-                                    <svg className={congressperson.Abbr + "-img StaTerritory"}></svg>
-                                </div>
-                                <div className={"pic-frame card p-2"}>
+                            <div className={"card colors-" + congressperson.Party}>
+                                <div className="col-4">
                                     <div className="biopic" id={"biopic-" + congressperson.ID}></div>
-                                    <a href={congressperson.URL}>
-                                        <h6 className="mt-2">Visit homepage of Congress member #{congressperson.ID}</h6>
-                                    </a>
+                                </div>
+                                <div className="col-7">
+                                    <p className="card-title">{congressperson.Name}</p>
+                                    <p className="card-subtitle">{congressperson.Party} {congressperson.Office}</p>
+                                    <p className="card-text">{congressperson.State} ({congressperson.Abbr})</p>
+                                    <a href={congressperson.URL}><p className="mt-2">Official Homepage</p></a>
+                                    <svg className={congressperson.Abbr + "-img StaTerritory"}></svg>
                                 </div>
                             </div>
                         

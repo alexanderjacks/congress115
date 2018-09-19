@@ -1,10 +1,10 @@
 # US Congress, 115th 🐍🇺🇸🤓
 ## progressive web app in React, CSS3
-### most data courtesy of [congress.gov](https://www.congress.gov)
-
-![screenshot](/public/images/sshot2018Feb.png)
 
 ## [View project live at us-congress.firebaseapp.com/](https://us-congress.firebaseapp.com//)
+### most data courtesy of [congress.gov](https://www.congress.gov)
+
+![screenshot](/public/images/sshot2018Sept.png)
 
 #### :construction: Reconstitute this, to develop it in a new direction:
 - [Fork this project](https://help.github.com/articles/fork-a-repo/)
