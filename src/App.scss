@@ -6,49 +6,19 @@
     font-family: serif, arial;
 }
 
-// responsive build pill
-
-
-%media-shift {
-    @media screen and (max-width: 400px) and (min-width: 10px) {
-        max-width: 90vw;
-        border-radius: 8vw;
-    }
-    @media screen and (max-width: 1280px) and (min-width: 401px) {
-        max-width: 42vw;
-        border-radius: 6vw;
-    }
-    @media screen and (max-width: 2000px) and (min-width: 1281px) {
-        max-width: 30vw;
-        border-radius: 2vw;
-    }
-    @media screen and (max-width: 4096px) and (min-width: 2001px) {
-        max-width: 20vw;
-        border-radius: 1vw;
-    }
-}
-
-%pill-padding {
-    padding: 10px;
-    margin: 0.5em;
-}
 
 // link styling
 a {
     color: blue;
-    &:hover { color: deepskyblue; } 
+    &:hover { color: black; } 
 }
-
 
 // layout
-.btn-group {
-
-}
+.btn-group {}
 
 .header-shading {
     color: snow;
     background-image:  linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0.9));
-    width: 100vw;
 }
 
 .nav-link {
@@ -95,6 +65,23 @@ a {
 
 .card {
     border: black 1px solid;
+// responsive card sizing
+    @media screen and (max-width: 400px) and (min-width: 10px) {
+        min-width: 80vw;
+        max-width: 90vw;
+    }
+    @media screen and (max-width: 1280px) and (min-width: 401px) {
+        min-width: 40vw;
+        max-width: 42vw;
+    }
+    @media screen and (max-width: 2000px) and (min-width: 1281px) {
+        min-width: 25vw;
+        max-width: 30vw;
+    }
+    @media screen and (max-width: 4096px) and (min-width: 2001px) {
+        min-width: 15vw;
+        max-width: 20vw;
+    }
 }
 
 .card-shadow {
@@ -171,9 +158,9 @@ a {
 }
 
 // emphasis
-.biopic:hover {
-    @include pulsate();
-}
+// .biopic:hover {
+//     @include pulsate();
+// }
 
 .colors-Republican {
     background-image: linear-gradient(to top,rgba(255,0,0,0.3), rgba(255,0,0,0.7),rgba(255,0,0,0.9));
@@ -187,6 +174,8 @@ a {
 // state & territory images
 .StaTerritory {
     background-repeat: no-repeat;
+    max-width: 110px;
+    max-height: 105px;
 }
 
 .AL-img {background-image: url("./images/staterritories/AL.svg");}
